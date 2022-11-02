@@ -2,9 +2,21 @@
 Experiments and Tools for the OM Project 
 
 
+## Customer-Order Object Model Trademaker
+
+### Generating Object Model Abstract 
+Resource Folder: customer_order_OM_Abstract_Resource 
+
+Files: customer-order-om-abstract.exe, customer-order-om-abstract.py and input file. 
+
+exe file would take .als input and generate abstract instantly 
+Output will be generated at Customer_Order_OM_Abstract_only.txt file. 
+
 
 
 ### Mapping Extraction 
+
+Resource Folder: customer_order_OM_solution_mapping_extraction_resources
 
 1. It contains the program om_sol_extract.exe file. 
 2. It contains the solution files. 
