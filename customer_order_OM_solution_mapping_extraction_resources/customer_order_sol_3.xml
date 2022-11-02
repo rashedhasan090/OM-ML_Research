@@ -1,0 +1,374 @@
+ < a l l o y   b u i l d d a t e = " 2 0 0 8 / 1 0 / 2 7   2 3 : 4 5   E D T " > 
+  
+  < i n s t a n c e   b i t w i d t h = " 4 "   m a x s e q = " 7 "   c o m m a n d = " R u n   m a p p i n g _ r u n _ c u s t o m e r O r d e r O b j e c t M o d e l   f o r   1 1 "   f i l e n a m e = " " > 
+  
+  < s i g   l a b e l = " u n i v "   I D = " 0 "   b u i l t i n = " y e s " > 
+        < a t o m   l a b e l = " a s s e r t i o n s / r e l a t i o n a l M o d e l / T a b l e $ 0 " / > 
+        < a t o m   l a b e l = " a s s e r t i o n s / r e l a t i o n a l M o d e l / T a b l e $ 1 " / > 
+        < a t o m   l a b e l = " a s s e r t i o n s / r e l a t i o n a l M o d e l / T a b l e $ 2 " / > 
+        < a t o m   l a b e l = " a s s e r t i o n s / r e l a t i o n a l M o d e l / F i e l d $ 0 " / > 
+        < a t o m   l a b e l = " a s s e r t i o n s / r e l a t i o n a l M o d e l / F i e l d $ 1 " / > 
+        < a t o m   l a b e l = " a s s e r t i o n s / r e l a t i o n a l M o d e l / F i e l d $ 2 " / > 
+        < a t o m   l a b e l = " a s s e r t i o n s / r e l a t i o n a l M o d e l / F i e l d $ 3 " / > 
+        < a t o m   l a b e l = " a s s e r t i o n s / r e l a t i o n a l M o d e l / F i e l d $ 4 " / > 
+        < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / C u s t o m e r " / > 
+        < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / O r d e r " / > 
+        < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / P r e f e r r e d C u s t o m e r " / > 
+        < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / c u s t o m e r I D " / > 
+        < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / o r d e r I D " / > 
+        < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / d i s c o u n t " / > 
+        < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / o r d e r V a l u e " / > 
+        < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / c u s t o m e r N a m e " / > 
+        < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / C u s t o m e r O r d e r A s s o c i a t i o n " / > 
+        < a t o m   l a b e l = " A s s o c i a t i o n M a p p i n g s / D e c l a r a t i o n / N o $ 0 " / > 
+        < a t o m   l a b e l = " A s s o c i a t i o n M a p p i n g s / D e c l a r a t i o n / O N E " / > 
+        < a t o m   l a b e l = " A s s o c i a t i o n M a p p i n g s / D e c l a r a t i o n / M A N Y " / > 
+        < a t o m   l a b e l = " O R M S t r a t e g i e s / U n i o n S u b c l a s s S t r a t e g y " / > 
+        < a t o m   l a b e l = " O R M S t r a t e g i e s / J o i n e d S u b c l a s s S t r a t e g y " / > 
+        < a t o m   l a b e l = " O R M S t r a t e g i e s / U n i o n S u p e r c l a s s S t r a t e g y " / > 
+        < a t o m   l a b e l = " A s s o c i a t i o n M a p p i n g s / F o r e i g n K e y E m b e d d i n g S t r a t e g y " / > 
+        < a t o m   l a b e l = " A s s o c i a t i o n M a p p i n g s / O w n A s s o c i a t i o n T a b l e S t r a t e g y " / > 
+        < a t o m   l a b e l = " A s s o c i a t i o n M a p p i n g s / M e r g i n g O n e T a b l e S t r a t e g y " / > 
+        < a t o m   l a b e l = " A s s o c i a t i o n M a p p i n g s / A s s o c i a t i o n M a p p i n g S t r a t e g i e s " / > 
+        < a t o m   l a b e l = " - 8 " / > 
+        < a t o m   l a b e l = " - 7 " / > 
+        < a t o m   l a b e l = " - 6 " / > 
+        < a t o m   l a b e l = " - 5 " / > 
+        < a t o m   l a b e l = " - 4 " / > 
+        < a t o m   l a b e l = " - 3 " / > 
+        < a t o m   l a b e l = " - 2 " / > 
+        < a t o m   l a b e l = " - 1 " / > 
+        < a t o m   l a b e l = " 0 " / > 
+        < a t o m   l a b e l = " 1 " / > 
+        < a t o m   l a b e l = " 2 " / > 
+        < a t o m   l a b e l = " 3 " / > 
+        < a t o m   l a b e l = " 4 " / > 
+        < a t o m   l a b e l = " 5 " / > 
+        < a t o m   l a b e l = " 6 " / > 
+        < a t o m   l a b e l = " 7 " / > 
+  < / s i g > 
+  
+  < s i g   l a b e l = " I n t "   I D = " 1 "   p a r e n t I D = " 0 "   b u i l t i n = " y e s " > 
+        < a t o m   l a b e l = " - 8 " / > 
+        < a t o m   l a b e l = " - 7 " / > 
+        < a t o m   l a b e l = " - 6 " / > 
+        < a t o m   l a b e l = " - 5 " / > 
+        < a t o m   l a b e l = " - 4 " / > 
+        < a t o m   l a b e l = " - 3 " / > 
+        < a t o m   l a b e l = " - 2 " / > 
+        < a t o m   l a b e l = " - 1 " / > 
+        < a t o m   l a b e l = " 0 " / > 
+        < a t o m   l a b e l = " 1 " / > 
+        < a t o m   l a b e l = " 2 " / > 
+        < a t o m   l a b e l = " 3 " / > 
+        < a t o m   l a b e l = " 4 " / > 
+        < a t o m   l a b e l = " 5 " / > 
+        < a t o m   l a b e l = " 6 " / > 
+        < a t o m   l a b e l = " 7 " / > 
+  < / s i g > 
+  
+  < s i g   l a b e l = " s e q / I n t "   I D = " 2 "   p a r e n t I D = " 1 "   b u i l t i n = " y e s " > 
+        < a t o m   l a b e l = " 0 " / > 
+        < a t o m   l a b e l = " 1 " / > 
+        < a t o m   l a b e l = " 2 " / > 
+        < a t o m   l a b e l = " 3 " / > 
+        < a t o m   l a b e l = " 4 " / > 
+        < a t o m   l a b e l = " 5 " / > 
+        < a t o m   l a b e l = " 6 " / > 
+  < / s i g > 
+  
+  < s i g   l a b e l = " f u n / S t r i n g "   I D = " 3 "   p a r e n t I D = " 0 "   b u i l t i n = " y e s " > 
+  < / s i g > 
+  
+  < s i g   l a b e l = " a s s e r t i o n s / r e l a t i o n a l M o d e l / T a b l e "   I D = " 4 "   p a r e n t I D = " 0 " > 
+        < a t o m   l a b e l = " a s s e r t i o n s / r e l a t i o n a l M o d e l / T a b l e $ 0 " / > 
+        < a t o m   l a b e l = " a s s e r t i o n s / r e l a t i o n a l M o d e l / T a b l e $ 1 " / > 
+        < a t o m   l a b e l = " a s s e r t i o n s / r e l a t i o n a l M o d e l / T a b l e $ 2 " / > 
+  < / s i g > 
+  
+  < f i e l d   l a b e l = " f i e l d s "   I D = " 5 "   p a r e n t I D = " 4 " > 
+        < t u p l e >   < a t o m   l a b e l = " a s s e r t i o n s / r e l a t i o n a l M o d e l / T a b l e $ 0 " / >   < a t o m   l a b e l = " a s s e r t i o n s / r e l a t i o n a l M o d e l / F i e l d $ 1 " / >   < / t u p l e > 
+        < t u p l e >   < a t o m   l a b e l = " a s s e r t i o n s / r e l a t i o n a l M o d e l / T a b l e $ 0 " / >   < a t o m   l a b e l = " a s s e r t i o n s / r e l a t i o n a l M o d e l / F i e l d $ 3 " / >   < / t u p l e > 
+        < t u p l e >   < a t o m   l a b e l = " a s s e r t i o n s / r e l a t i o n a l M o d e l / T a b l e $ 0 " / >   < a t o m   l a b e l = " a s s e r t i o n s / r e l a t i o n a l M o d e l / F i e l d $ 4 " / >   < / t u p l e > 
+        < t u p l e >   < a t o m   l a b e l = " a s s e r t i o n s / r e l a t i o n a l M o d e l / T a b l e $ 1 " / >   < a t o m   l a b e l = " a s s e r t i o n s / r e l a t i o n a l M o d e l / F i e l d $ 0 " / >   < / t u p l e > 
+        < t u p l e >   < a t o m   l a b e l = " a s s e r t i o n s / r e l a t i o n a l M o d e l / T a b l e $ 1 " / >   < a t o m   l a b e l = " a s s e r t i o n s / r e l a t i o n a l M o d e l / F i e l d $ 4 " / >   < / t u p l e > 
+        < t u p l e >   < a t o m   l a b e l = " a s s e r t i o n s / r e l a t i o n a l M o d e l / T a b l e $ 2 " / >   < a t o m   l a b e l = " a s s e r t i o n s / r e l a t i o n a l M o d e l / F i e l d $ 0 " / >   < / t u p l e > 
+        < t u p l e >   < a t o m   l a b e l = " a s s e r t i o n s / r e l a t i o n a l M o d e l / T a b l e $ 2 " / >   < a t o m   l a b e l = " a s s e r t i o n s / r e l a t i o n a l M o d e l / F i e l d $ 2 " / >   < / t u p l e > 
+        < t u p l e >   < a t o m   l a b e l = " a s s e r t i o n s / r e l a t i o n a l M o d e l / T a b l e $ 2 " / >   < a t o m   l a b e l = " a s s e r t i o n s / r e l a t i o n a l M o d e l / F i e l d $ 4 " / >   < / t u p l e > 
+        < t y p e s >   < t y p e   I D = " 4 " / >   < t y p e   I D = " 6 " / >   < / t y p e s > 
+  < / f i e l d > 
+  
+  < f i e l d   l a b e l = " p r i m a r y K e y "   I D = " 7 "   p a r e n t I D = " 4 " > 
+        < t u p l e >   < a t o m   l a b e l = " a s s e r t i o n s / r e l a t i o n a l M o d e l / T a b l e $ 0 " / >   < a t o m   l a b e l = " a s s e r t i o n s / r e l a t i o n a l M o d e l / F i e l d $ 3 " / >   < / t u p l e > 
+        < t u p l e >   < a t o m   l a b e l = " a s s e r t i o n s / r e l a t i o n a l M o d e l / T a b l e $ 1 " / >   < a t o m   l a b e l = " a s s e r t i o n s / r e l a t i o n a l M o d e l / F i e l d $ 4 " / >   < / t u p l e > 
+        < t u p l e >   < a t o m   l a b e l = " a s s e r t i o n s / r e l a t i o n a l M o d e l / T a b l e $ 2 " / >   < a t o m   l a b e l = " a s s e r t i o n s / r e l a t i o n a l M o d e l / F i e l d $ 4 " / >   < / t u p l e > 
+        < t y p e s >   < t y p e   I D = " 4 " / >   < t y p e   I D = " 6 " / >   < / t y p e s > 
+  < / f i e l d > 
+  
+  < f i e l d   l a b e l = " f o r e i g n K e y "   I D = " 8 "   p a r e n t I D = " 4 " > 
+        < t u p l e >   < a t o m   l a b e l = " a s s e r t i o n s / r e l a t i o n a l M o d e l / T a b l e $ 0 " / >   < a t o m   l a b e l = " a s s e r t i o n s / r e l a t i o n a l M o d e l / F i e l d $ 4 " / >   < / t u p l e > 
+        < t y p e s >   < t y p e   I D = " 4 " / >   < t y p e   I D = " 6 " / >   < / t y p e s > 
+  < / f i e l d > 
+  
+  < f i e l d   l a b e l = " t A s s o c i a t e "   I D = " 9 "   p a r e n t I D = " 4 " > 
+        < t u p l e >   < a t o m   l a b e l = " a s s e r t i o n s / r e l a t i o n a l M o d e l / T a b l e $ 0 " / >   < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / O r d e r " / >   < / t u p l e > 
+        < t u p l e >   < a t o m   l a b e l = " a s s e r t i o n s / r e l a t i o n a l M o d e l / T a b l e $ 1 " / >   < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / C u s t o m e r " / >   < / t u p l e > 
+        < t u p l e >   < a t o m   l a b e l = " a s s e r t i o n s / r e l a t i o n a l M o d e l / T a b l e $ 2 " / >   < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / P r e f e r r e d C u s t o m e r " / >   < / t u p l e > 
+        < t y p e s >   < t y p e   I D = " 4 " / >   < t y p e   I D = " 1 0 " / >   < / t y p e s > 
+        < t y p e s >   < t y p e   I D = " 4 " / >   < t y p e   I D = " 1 1 " / >   < / t y p e s > 
+  < / f i e l d > 
+  
+  < s i g   l a b e l = " a s s e r t i o n s / r e l a t i o n a l M o d e l / F i e l d "   I D = " 6 "   p a r e n t I D = " 0 " > 
+        < a t o m   l a b e l = " a s s e r t i o n s / r e l a t i o n a l M o d e l / F i e l d $ 0 " / > 
+        < a t o m   l a b e l = " a s s e r t i o n s / r e l a t i o n a l M o d e l / F i e l d $ 1 " / > 
+        < a t o m   l a b e l = " a s s e r t i o n s / r e l a t i o n a l M o d e l / F i e l d $ 2 " / > 
+        < a t o m   l a b e l = " a s s e r t i o n s / r e l a t i o n a l M o d e l / F i e l d $ 3 " / > 
+        < a t o m   l a b e l = " a s s e r t i o n s / r e l a t i o n a l M o d e l / F i e l d $ 4 " / > 
+  < / s i g > 
+  
+  < f i e l d   l a b e l = " f A s s o c i a t e "   I D = " 1 2 "   p a r e n t I D = " 6 " > 
+        < t u p l e >   < a t o m   l a b e l = " a s s e r t i o n s / r e l a t i o n a l M o d e l / F i e l d $ 0 " / >   < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / c u s t o m e r N a m e " / >   < / t u p l e > 
+        < t u p l e >   < a t o m   l a b e l = " a s s e r t i o n s / r e l a t i o n a l M o d e l / F i e l d $ 1 " / >   < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / o r d e r V a l u e " / >   < / t u p l e > 
+        < t u p l e >   < a t o m   l a b e l = " a s s e r t i o n s / r e l a t i o n a l M o d e l / F i e l d $ 2 " / >   < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / d i s c o u n t " / >   < / t u p l e > 
+        < t u p l e >   < a t o m   l a b e l = " a s s e r t i o n s / r e l a t i o n a l M o d e l / F i e l d $ 3 " / >   < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / o r d e r I D " / >   < / t u p l e > 
+        < t u p l e >   < a t o m   l a b e l = " a s s e r t i o n s / r e l a t i o n a l M o d e l / F i e l d $ 4 " / >   < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / c u s t o m e r I D " / >   < / t u p l e > 
+        < t y p e s >   < t y p e   I D = " 6 " / >   < t y p e   I D = " 1 3 " / >   < / t y p e s > 
+  < / f i e l d > 
+  
+  < s i g   l a b e l = " A s s o c i a t i o n M a p p i n g s / D e c l a r a t i o n / n e e d H a n d l e "   I D = " 1 3 "   p a r e n t I D = " 0 "   a b s t r a c t = " y e s " > 
+        < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / C u s t o m e r " / > 
+        < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / O r d e r " / > 
+        < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / P r e f e r r e d C u s t o m e r " / > 
+        < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / c u s t o m e r I D " / > 
+        < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / o r d e r I D " / > 
+        < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / d i s c o u n t " / > 
+        < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / o r d e r V a l u e " / > 
+        < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / c u s t o m e r N a m e " / > 
+        < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / C u s t o m e r O r d e r A s s o c i a t i o n " / > 
+        < a t o m   l a b e l = " A s s o c i a t i o n M a p p i n g s / D e c l a r a t i o n / N o $ 0 " / > 
+  < / s i g > 
+  
+  < s i g   l a b e l = " A s s o c i a t i o n M a p p i n g s / D e c l a r a t i o n / A t t r i b u t e "   I D = " 1 4 "   p a r e n t I D = " 1 3 "   a b s t r a c t = " y e s " > 
+        < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / C u s t o m e r " / > 
+        < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / O r d e r " / > 
+        < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / P r e f e r r e d C u s t o m e r " / > 
+        < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / c u s t o m e r I D " / > 
+        < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / o r d e r I D " / > 
+        < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / d i s c o u n t " / > 
+        < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / o r d e r V a l u e " / > 
+        < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / c u s t o m e r N a m e " / > 
+        < a t o m   l a b e l = " A s s o c i a t i o n M a p p i n g s / D e c l a r a t i o n / N o $ 0 " / > 
+  < / s i g > 
+  
+  < s i g   l a b e l = " A s s o c i a t i o n M a p p i n g s / D e c l a r a t i o n / C l a s s "   I D = " 1 0 "   p a r e n t I D = " 1 4 "   a b s t r a c t = " y e s " > 
+        < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / C u s t o m e r " / > 
+        < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / O r d e r " / > 
+        < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / P r e f e r r e d C u s t o m e r " / > 
+  < / s i g > 
+  
+  < f i e l d   l a b e l = " a t t r S e t "   I D = " 1 5 "   p a r e n t I D = " 1 0 " > 
+        < t u p l e >   < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / C u s t o m e r " / >   < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / c u s t o m e r I D " / >   < / t u p l e > 
+        < t u p l e >   < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / C u s t o m e r " / >   < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / c u s t o m e r N a m e " / >   < / t u p l e > 
+        < t u p l e >   < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / O r d e r " / >   < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / o r d e r I D " / >   < / t u p l e > 
+        < t u p l e >   < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / O r d e r " / >   < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / o r d e r V a l u e " / >   < / t u p l e > 
+        < t u p l e >   < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / P r e f e r r e d C u s t o m e r " / >   < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / d i s c o u n t " / >   < / t u p l e > 
+        < t y p e s >   < t y p e   I D = " 1 0 " / >   < t y p e   I D = " 1 4 " / >   < / t y p e s > 
+  < / f i e l d > 
+  
+  < f i e l d   l a b e l = " i d "   I D = " 1 6 "   p a r e n t I D = " 1 0 " > 
+        < t u p l e >   < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / C u s t o m e r " / >   < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / c u s t o m e r I D " / >   < / t u p l e > 
+        < t u p l e >   < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / O r d e r " / >   < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / o r d e r I D " / >   < / t u p l e > 
+        < t u p l e >   < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / P r e f e r r e d C u s t o m e r " / >   < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / c u s t o m e r I D " / >   < / t u p l e > 
+        < t y p e s >   < t y p e   I D = " 1 0 " / >   < t y p e   I D = " 1 4 " / >   < / t y p e s > 
+  < / f i e l d > 
+  
+  < f i e l d   l a b e l = " p a r e n t "   I D = " 1 7 "   p a r e n t I D = " 1 0 " > 
+        < t u p l e >   < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / P r e f e r r e d C u s t o m e r " / >   < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / C u s t o m e r " / >   < / t u p l e > 
+        < t y p e s >   < t y p e   I D = " 1 0 " / >   < t y p e   I D = " 1 0 " / >   < / t y p e s > 
+  < / f i e l d > 
+  
+  < f i e l d   l a b e l = " i s A b s t r a c t "   I D = " 1 8 "   p a r e n t I D = " 1 0 " > 
+        < t u p l e >   < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / C u s t o m e r " / >   < a t o m   l a b e l = " A s s o c i a t i o n M a p p i n g s / D e c l a r a t i o n / N o $ 0 " / >   < / t u p l e > 
+        < t u p l e >   < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / O r d e r " / >   < a t o m   l a b e l = " A s s o c i a t i o n M a p p i n g s / D e c l a r a t i o n / N o $ 0 " / >   < / t u p l e > 
+        < t u p l e >   < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / P r e f e r r e d C u s t o m e r " / >   < a t o m   l a b e l = " A s s o c i a t i o n M a p p i n g s / D e c l a r a t i o n / N o $ 0 " / >   < / t u p l e > 
+        < t y p e s >   < t y p e   I D = " 1 0 " / >   < t y p e   I D = " 1 9 " / >   < / t y p e s > 
+  < / f i e l d > 
+  
+  < s i g   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / C u s t o m e r "   I D = " 2 0 "   p a r e n t I D = " 1 0 "   o n e = " y e s " > 
+        < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / C u s t o m e r " / > 
+  < / s i g > 
+  
+  < s i g   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / O r d e r "   I D = " 2 1 "   p a r e n t I D = " 1 0 "   o n e = " y e s " > 
+        < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / O r d e r " / > 
+  < / s i g > 
+  
+  < s i g   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / P r e f e r r e d C u s t o m e r "   I D = " 2 2 "   p a r e n t I D = " 1 0 "   o n e = " y e s " > 
+        < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / P r e f e r r e d C u s t o m e r " / > 
+  < / s i g > 
+  
+  < s i g   l a b e l = " A s s o c i a t i o n M a p p i n g s / D e c l a r a t i o n / T y p e "   I D = " 2 3 "   p a r e n t I D = " 1 4 "   a b s t r a c t = " y e s " > 
+        < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / c u s t o m e r I D " / > 
+        < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / o r d e r I D " / > 
+        < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / d i s c o u n t " / > 
+        < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / o r d e r V a l u e " / > 
+        < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / c u s t o m e r N a m e " / > 
+        < a t o m   l a b e l = " A s s o c i a t i o n M a p p i n g s / D e c l a r a t i o n / N o $ 0 " / > 
+  < / s i g > 
+  
+  < s i g   l a b e l = " A s s o c i a t i o n M a p p i n g s / D e c l a r a t i o n / I n t e g e r "   I D = " 2 4 "   p a r e n t I D = " 2 3 " > 
+        < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / c u s t o m e r I D " / > 
+        < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / o r d e r I D " / > 
+        < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / d i s c o u n t " / > 
+  < / s i g > 
+  
+  < s i g   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / c u s t o m e r I D "   I D = " 2 5 "   p a r e n t I D = " 2 4 "   o n e = " y e s " > 
+        < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / c u s t o m e r I D " / > 
+  < / s i g > 
+  
+  < s i g   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / o r d e r I D "   I D = " 2 6 "   p a r e n t I D = " 2 4 "   o n e = " y e s " > 
+        < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / o r d e r I D " / > 
+  < / s i g > 
+  
+  < s i g   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / d i s c o u n t "   I D = " 2 7 "   p a r e n t I D = " 2 4 "   o n e = " y e s " > 
+        < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / d i s c o u n t " / > 
+  < / s i g > 
+  
+  < s i g   l a b e l = " A s s o c i a t i o n M a p p i n g s / D e c l a r a t i o n / R e a l "   I D = " 2 8 "   p a r e n t I D = " 2 3 " > 
+        < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / o r d e r V a l u e " / > 
+  < / s i g > 
+  
+  < s i g   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / o r d e r V a l u e "   I D = " 2 9 "   p a r e n t I D = " 2 8 "   o n e = " y e s " > 
+        < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / o r d e r V a l u e " / > 
+  < / s i g > 
+  
+  < s i g   l a b e l = " A s s o c i a t i o n M a p p i n g s / D e c l a r a t i o n / s t r i n g "   I D = " 3 0 "   p a r e n t I D = " 2 3 " > 
+        < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / c u s t o m e r N a m e " / > 
+  < / s i g > 
+  
+  < s i g   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / c u s t o m e r N a m e "   I D = " 3 1 "   p a r e n t I D = " 3 0 "   o n e = " y e s " > 
+        < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / c u s t o m e r N a m e " / > 
+  < / s i g > 
+  
+  < s i g   l a b e l = " A s s o c i a t i o n M a p p i n g s / D e c l a r a t i o n / B o o l "   I D = " 1 9 "   p a r e n t I D = " 2 3 " > 
+        < a t o m   l a b e l = " A s s o c i a t i o n M a p p i n g s / D e c l a r a t i o n / N o $ 0 " / > 
+  < / s i g > 
+  
+  < s i g   l a b e l = " A s s o c i a t i o n M a p p i n g s / D e c l a r a t i o n / Y e s "   I D = " 3 2 "   p a r e n t I D = " 1 9 " > 
+  < / s i g > 
+  
+  < s i g   l a b e l = " A s s o c i a t i o n M a p p i n g s / D e c l a r a t i o n / N o "   I D = " 3 3 "   p a r e n t I D = " 1 9 " > 
+        < a t o m   l a b e l = " A s s o c i a t i o n M a p p i n g s / D e c l a r a t i o n / N o $ 0 " / > 
+  < / s i g > 
+  
+  < s i g   l a b e l = " A s s o c i a t i o n M a p p i n g s / D e c l a r a t i o n / D T y p e "   I D = " 3 4 "   p a r e n t I D = " 2 3 " > 
+  < / s i g > 
+  
+  < s i g   l a b e l = " A s s o c i a t i o n M a p p i n g s / D e c l a r a t i o n / L o n g b l o b "   I D = " 3 5 "   p a r e n t I D = " 2 3 " > 
+  < / s i g > 
+  
+  < s i g   l a b e l = " A s s o c i a t i o n M a p p i n g s / D e c l a r a t i o n / T i m e "   I D = " 3 6 "   p a r e n t I D = " 2 3 " > 
+  < / s i g > 
+  
+  < s i g   l a b e l = " A s s o c i a t i o n M a p p i n g s / D e c l a r a t i o n / A s s o c i a t i o n "   I D = " 1 1 "   p a r e n t I D = " 1 3 "   a b s t r a c t = " y e s " > 
+        < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / C u s t o m e r O r d e r A s s o c i a t i o n " / > 
+  < / s i g > 
+  
+  < f i e l d   l a b e l = " s r c "   I D = " 3 7 "   p a r e n t I D = " 1 1 " > 
+        < t u p l e >   < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / C u s t o m e r O r d e r A s s o c i a t i o n " / >   < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / C u s t o m e r " / >   < / t u p l e > 
+        < t y p e s >   < t y p e   I D = " 1 1 " / >   < t y p e   I D = " 1 0 " / >   < / t y p e s > 
+  < / f i e l d > 
+  
+  < f i e l d   l a b e l = " d s t "   I D = " 3 8 "   p a r e n t I D = " 1 1 " > 
+        < t u p l e >   < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / C u s t o m e r O r d e r A s s o c i a t i o n " / >   < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / O r d e r " / >   < / t u p l e > 
+        < t y p e s >   < t y p e   I D = " 1 1 " / >   < t y p e   I D = " 1 0 " / >   < / t y p e s > 
+  < / f i e l d > 
+  
+  < f i e l d   l a b e l = " s r c _ m u l t i p l i c i t y "   I D = " 3 9 "   p a r e n t I D = " 1 1 " > 
+        < t u p l e >   < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / C u s t o m e r O r d e r A s s o c i a t i o n " / >   < a t o m   l a b e l = " A s s o c i a t i o n M a p p i n g s / D e c l a r a t i o n / O N E " / >   < / t u p l e > 
+        < t y p e s >   < t y p e   I D = " 1 1 " / >   < t y p e   I D = " 4 0 " / >   < / t y p e s > 
+  < / f i e l d > 
+  
+  < f i e l d   l a b e l = " d s t _ m u l t i p l i c i t y "   I D = " 4 1 "   p a r e n t I D = " 1 1 " > 
+        < t u p l e >   < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / C u s t o m e r O r d e r A s s o c i a t i o n " / >   < a t o m   l a b e l = " A s s o c i a t i o n M a p p i n g s / D e c l a r a t i o n / M A N Y " / >   < / t u p l e > 
+        < t y p e s >   < t y p e   I D = " 1 1 " / >   < t y p e   I D = " 4 0 " / >   < / t y p e s > 
+  < / f i e l d > 
+  
+  < s i g   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / C u s t o m e r O r d e r A s s o c i a t i o n "   I D = " 4 2 "   p a r e n t I D = " 1 1 "   o n e = " y e s " > 
+        < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / C u s t o m e r O r d e r A s s o c i a t i o n " / > 
+  < / s i g > 
+  
+  < s i g   l a b e l = " A s s o c i a t i o n M a p p i n g s / D e c l a r a t i o n / M u l t i p l i c i t y _ S t a t e "   I D = " 4 0 "   p a r e n t I D = " 0 "   a b s t r a c t = " y e s " > 
+        < a t o m   l a b e l = " A s s o c i a t i o n M a p p i n g s / D e c l a r a t i o n / O N E " / > 
+        < a t o m   l a b e l = " A s s o c i a t i o n M a p p i n g s / D e c l a r a t i o n / M A N Y " / > 
+  < / s i g > 
+  
+  < s i g   l a b e l = " A s s o c i a t i o n M a p p i n g s / D e c l a r a t i o n / O N E "   I D = " 4 3 "   p a r e n t I D = " 4 0 "   o n e = " y e s " > 
+        < a t o m   l a b e l = " A s s o c i a t i o n M a p p i n g s / D e c l a r a t i o n / O N E " / > 
+  < / s i g > 
+  
+  < s i g   l a b e l = " A s s o c i a t i o n M a p p i n g s / D e c l a r a t i o n / M A N Y "   I D = " 4 4 "   p a r e n t I D = " 4 0 "   o n e = " y e s " > 
+        < a t o m   l a b e l = " A s s o c i a t i o n M a p p i n g s / D e c l a r a t i o n / M A N Y " / > 
+  < / s i g > 
+  
+  < s i g   l a b e l = " A s s o c i a t i o n M a p p i n g s / D e c l a r a t i o n / S t r a t e g y "   I D = " 4 5 "   p a r e n t I D = " 0 "   a b s t r a c t = " y e s " > 
+        < a t o m   l a b e l = " O R M S t r a t e g i e s / U n i o n S u b c l a s s S t r a t e g y " / > 
+        < a t o m   l a b e l = " O R M S t r a t e g i e s / J o i n e d S u b c l a s s S t r a t e g y " / > 
+        < a t o m   l a b e l = " O R M S t r a t e g i e s / U n i o n S u p e r c l a s s S t r a t e g y " / > 
+        < a t o m   l a b e l = " A s s o c i a t i o n M a p p i n g s / F o r e i g n K e y E m b e d d i n g S t r a t e g y " / > 
+        < a t o m   l a b e l = " A s s o c i a t i o n M a p p i n g s / O w n A s s o c i a t i o n T a b l e S t r a t e g y " / > 
+        < a t o m   l a b e l = " A s s o c i a t i o n M a p p i n g s / M e r g i n g O n e T a b l e S t r a t e g y " / > 
+  < / s i g > 
+  
+  < f i e l d   l a b e l = " a s s i g n e e s "   I D = " 4 6 "   p a r e n t I D = " 4 5 " > 
+        < t u p l e >   < a t o m   l a b e l = O R M S t r a t e g i e s / U n i o n S u b c l a s s S t r a t e g y / >   < a t o m   l a b e l = c u s t o m e r O r d e r O b j e c t M o d e l / C u s t o m e r / >   < / t u p l e > 
+        < t u p l e >   < a t o m   l a b e l = " O R M S t r a t e g i e s / U n i o n S u b c l a s s S t r a t e g y " / >   < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / P r e f e r r e d C u s t o m e r " / >   < / t u p l e > 
+        < t u p l e >   < a t o m   l a b e l = " A s s o c i a t i o n M a p p i n g s / F o r e i g n K e y E m b e d d i n g S t r a t e g y " / >   < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / C u s t o m e r O r d e r A s s o c i a t i o n " / >   < / t u p l e > 
+        < t y p e s >   < t y p e   I D = " 4 5 " / >   < t y p e   I D = " 1 0 " / >   < / t y p e s > 
+        < t y p e s >   < t y p e   I D = " 4 5 " / >   < t y p e   I D = " 1 1 " / >   < / t y p e s > 
+  < / f i e l d > 
+  
+  < s i g   l a b e l = " O R M S t r a t e g i e s / U n i o n S u b c l a s s S t r a t e g y "   I D = " 4 7 "   p a r e n t I D = " 4 5 "   o n e = " y e s " > 
+        < a t o m   l a b e l = " O R M S t r a t e g i e s / U n i o n S u b c l a s s S t r a t e g y " / > 
+  < / s i g > 
+  
+  < s i g   l a b e l = " O R M S t r a t e g i e s / J o i n e d S u b c l a s s S t r a t e g y "   I D = " 4 8 "   p a r e n t I D = " 4 5 "   o n e = " y e s " > 
+        < a t o m   l a b e l = " O R M S t r a t e g i e s / J o i n e d S u b c l a s s S t r a t e g y " / > 
+  < / s i g > 
+  
+  < s i g   l a b e l = " O R M S t r a t e g i e s / U n i o n S u p e r c l a s s S t r a t e g y "   I D = " 4 9 "   p a r e n t I D = " 4 5 "   o n e = " y e s " > 
+        < a t o m   l a b e l = " O R M S t r a t e g i e s / U n i o n S u p e r c l a s s S t r a t e g y " / > 
+  < / s i g > 
+  
+  < s i g   l a b e l = " A s s o c i a t i o n M a p p i n g s / F o r e i g n K e y E m b e d d i n g S t r a t e g y "   I D = " 5 0 "   p a r e n t I D = " 4 5 "   o n e = " y e s " > 
+        < a t o m   l a b e l = " A s s o c i a t i o n M a p p i n g s / F o r e i g n K e y E m b e d d i n g S t r a t e g y " / > 
+  < / s i g > 
+  
+  < s i g   l a b e l = " A s s o c i a t i o n M a p p i n g s / O w n A s s o c i a t i o n T a b l e S t r a t e g y "   I D = " 5 1 "   p a r e n t I D = " 4 5 "   o n e = " y e s " > 
+        < a t o m   l a b e l = " A s s o c i a t i o n M a p p i n g s / O w n A s s o c i a t i o n T a b l e S t r a t e g y " / > 
+  < / s i g > 
+  
+  < s i g   l a b e l = " A s s o c i a t i o n M a p p i n g s / M e r g i n g O n e T a b l e S t r a t e g y "   I D = " 5 2 "   p a r e n t I D = " 4 5 "   o n e = " y e s " > 
+        < a t o m   l a b e l = " A s s o c i a t i o n M a p p i n g s / M e r g i n g O n e T a b l e S t r a t e g y " / > 
+  < / s i g > 
+  
+  < s i g   l a b e l = " A s s o c i a t i o n M a p p i n g s / A s s o c i a t i o n M a p p i n g S t r a t e g i e s "   I D = " 5 3 "   p a r e n t I D = " 0 "   o n e = " y e s " > 
+        < a t o m   l a b e l = " A s s o c i a t i o n M a p p i n g s / A s s o c i a t i o n M a p p i n g S t r a t e g i e s " / > 
+  < / s i g > 
+  
+  < f i e l d   l a b e l = " F K E "   I D = " 5 4 "   p a r e n t I D = " 5 3 " > 
+        < t u p l e >   < a t o m   l a b e l = " A s s o c i a t i o n M a p p i n g s / A s s o c i a t i o n M a p p i n g S t r a t e g i e s " / >   < a t o m   l a b e l = " c u s t o m e r O r d e r O b j e c t M o d e l / C u s t o m e r O r d e r A s s o c i a t i o n " / >   < / t u p l e > 
+        < t y p e s >   < t y p e   I D = " 5 3 " / >   < t y p e   I D = " 1 1 " / >   < / t y p e s > 
+  < / f i e l d > 
+  
+  < f i e l d   l a b e l = " O A T "   I D = " 5 5 "   p a r e n t I D = " 5 3 " > 
+        < t y p e s >   < t y p e   I D = " 5 3 " / >   < t y p e   I D = " 1 1 " / >   < / t y p e s > 
+  < / f i e l d > 
+  
+  < f i e l d   l a b e l = " M O T "   I D = " 5 6 "   p a r e n t I D = " 5 3 " > 
+        < t y p e s >   < t y p e   I D = " 5 3 " / >   < t y p e   I D = " 1 1 " / >   < / t y p e s > 
+  < / f i e l d > 
+  
+  < / i n s t a n c e > 
+  
+  < / a l l o y > 
+ 
