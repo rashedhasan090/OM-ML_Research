@@ -15,5 +15,5 @@ Experiments and Tools for the OM Project
 7. The program would compute the mapping and immediately ask for next file to generate abstracts. 
 8. The input should be given as OM_Mapping_strategy_1.txt and it would generate the abstract format immediately 
 9. Which should be saved at OM_Mapping_strategy_abstract_1.txt file. 
-10. The original python source file is also included in the folder.
+10. The original python source file (om_sol_extract.py) is also included in the folder.
 
