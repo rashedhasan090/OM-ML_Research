@@ -12,6 +12,13 @@ Files: customer-order-om-abstract.exe, customer-order-om-abstract.py and input f
 exe file would take .als input and generate abstract instantly 
 Output will be generated at Customer_Order_OM_Abstract_only.txt file. 
 
+### Generating Solution Schema Abstract 
+Resource Folder: Customer-Order-OM_Schema_Abstract_Resource 
+
+Files: customer-order-solutions-abstract-generator.exe, customer-order-solutions-abstract-generator.py and input files. 
+
+exe file would take .sql input and generate abstract instantly 
+Output will be generated at Customer_Order_OM_Abstract_only.txt file. 
 
 
 ### Mapping Extraction 
