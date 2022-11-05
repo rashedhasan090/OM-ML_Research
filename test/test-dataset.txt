@@ -1,0 +1,72 @@
+OM+ Sol 1 Map str + sol 1 Schema                                                              OM+ Sol 1 Map str + sol 1 Schema {P}
+OM+ Sol 3 Map str + sol 1 Schema                                                            OM+ Sol 3 Map str + sol 1 Schema {P}
+OM+ Sol 5 Map str + sol 1 Schema                                                            OM+ Sol 5 Map str + sol 1 Schema {P}
+OM+ Sol 7 Map str + sol 1 Schema                                                             OM+ Sol 7 Map str + sol 1 Schema {P}
+OM+ Sol 9 Map str + sol 1 Schema                                                            OM+ Sol 9 Map str + sol 1 Schema {P}
+OM+ Sol 10 Map str + sol 1 Schema                                                        OM+ Sol 10 Map str + sol 1 Schema {P}
+OM+ Sol 11 Map str + sol 1 Schema                                                         OM+ Sol 11 Map str + sol 1 Schema {P}
+OM+ Sol 12 Map str + sol 1 Schema                                                        OM+ Sol 12 Map str + sol 1 Schema {P}
+OM+ Sol 1 Map str + sol 3 Schema                                                             OM+ Sol 1 Map str + sol 3 Schema{P}
+OM+ Sol 3 Map str + sol 3 Schema                                                          OM+ Sol 3 Map str + sol 3 Schema {P}
+OM+ Sol 5 Map str + sol 3 Schema                                                         OM+ Sol 5 Map str + sol 3 Schema {P}
+OM+ Sol 7 Map str + sol 3 Schema                                                         OM+ Sol 7 Map str + sol 3 Schema {P}
+OM+ Sol 9 Map str + sol 3 Schema                                                        OM+ Sol 9 Map str + sol 3 Schema {P}
+OM+ Sol 10 Map str + sol 3 Schema                                                    OM+ Sol 10 Map str + sol 3 Schema {P}
+OM+ Sol 11 Map str + sol 3 Schema                                                     OM+ Sol 11 Map str + sol 3 Schema {P}
+OM+ Sol 12 Map str + sol 3 Schema                                                      OM+ Sol 12 Map str + sol 3 Schema {P}
+
+OM+ Sol 1 Map str + sol 5 Schema                                                           OM+ Sol 1 Map str + sol 5 Schema {P}
+OM+ Sol 3 Map str + sol 5 Schema                                                          OM+ Sol 3 Map str + sol 5 Schema {P}
+OM+ Sol 5 Map str + sol 5 Schema                                                          OM+ Sol 5 Map str + sol 5 Schema {P}
+OM+ Sol 7 Map str + sol 5 Schema                                                           OM+ Sol 7 Map str + sol 5 Schema {P}
+OM+ Sol 9 Map str + sol 5 Schema                                                          OM+ Sol 9 Map str + sol 5 Schema {P}
+OM+ Sol 10 Map str + sol 5 Schema                                                     OM+ Sol 10 Map str + sol 5 Schema {P}
+OM+ Sol 11 Map str + sol 5 Schema                                                       OM+ Sol 11 Map str + sol 5 Schema {P}
+OM+ Sol 12 Map str + sol 5 Schema                                                      OM+ Sol 12 Map str + sol 5 Schema {P}
+
+OM+ Sol 1 Map str + sol 7 Schema                                                            OM+ Sol 1 Map str + sol 7 Schema {P}
+OM+ Sol 3 Map str + sol 7 Schema                                                           OM+ Sol 3 Map str + sol 7 Schema {P}
+OM+ Sol 5 Map str + sol 7 Schema                                                           OM+ Sol 5 Map str + sol 7 Schema {P}
+OM+ Sol 7 Map str + sol 7 Schema                                                            OM+ Sol 7 Map str + sol 7 Schema {P}
+OM+ Sol 9 Map str + sol 7 Schema                                                           OM+ Sol 9 Map str + sol 7 Schema {P}
+OM+ Sol 10 Map str + sol 7 Schema                                                       OM+ Sol 10 Map str + sol 7 Schema {P}
+OM+ Sol 11 Map str + sol 7 Schema                                                        OM+ Sol 11 Map str + sol 7 Schema {P}
+OM+ Sol 12 Map str + sol 7 Schema                                                       OM+ Sol 12 Map str + sol 7 Schema {P}
+
+OM+ Sol 1 Map str + sol 9 Schema                                                        OM+ Sol 1 Map str + sol 9 Schema {NP}
+OM+ Sol 3 Map str + sol 9 Schema                                                       OM+ Sol 3 Map str + sol 9 Schema {NP}
+OM+ Sol 5 Map str + sol 9 Schema                                                       OM+ Sol 5 Map str + sol 9 Schema {NP}
+OM+ Sol 7 Map str + sol 9 Schema                                                       OM+ Sol 7 Map str + sol 9 Schema {NP}
+OM+ Sol 9 Map str + sol 9 Schema                                                      OM+ Sol 9 Map str + sol 9 Schema {NP}
+OM+ Sol 10 Map str + sol 9 Schema                                                  OM+ Sol 10 Map str + sol 9 Schema {NP}
+OM+ Sol 11 Map str + sol 9 Schema                                                    OM+ Sol 11 Map str + sol 9 Schema {NP}
+OM+ Sol 12 Map str + sol 9 Schema                                                   OM+ Sol 12 Map str + sol 9 Schema {NP}
+
+
+OM+ Sol 1 Map str + sol 10 Schema                                                    OM+ Sol 1 Map str + sol 10 Schema {NP}
+OM+ Sol 3 Map str + sol 10 Schema                                                  OM+ Sol 3 Map str + sol 10 Schema {NP}
+OM+ Sol 5 Map str + sol 10 Schema                                                  OM+ Sol 5 Map str + sol 10 Schema {NP}
+OM+ Sol 7 Map str + sol 10 Schema                                                   OM+ Sol 7 Map str + sol 10 Schema {NP}
+OM+ Sol 9 Map str + sol 10 Schema                                                  OM+ Sol 9 Map str + sol 10 Schema {NP}
+OM+ Sol 10 Map str + sol 10 Schema                                              OM+ Sol 10 Map str + sol 10 Schema {NP}
+OM+ Sol 11 Map str + sol 10 Schema                                               OM+ Sol 11 Map str + sol 10 Schema {NP}
+OM+ Sol 12 Map str + sol 10 Schema                                              OM+ Sol 12 Map str + sol 10 Schema {NP}
+
+
+OM+ Sol 1 Map str + sol 11 Schema                                                      OM+ Sol 1 Map str + sol 11 Schema {NP}
+OM+ Sol 3 Map str + sol 11 Schema                                                    OM+ Sol 3 Map str + sol 11 Schema {NP}
+OM+ Sol 5 Map str + sol 11 Schema                                                    OM+ Sol 5 Map str + sol 11 Schema {NP}
+OM+ Sol 7 Map str + sol 11 Schema                                                   OM+ Sol 7 Map str + sol 11 Schema {NP}
+OM+ Sol 9 Map str + sol 11 Schema                                                  OM+ Sol 9 Map str + sol 11 Schema {NP}
+OM+ Sol 10 Map str + sol 11 Schema                                               OM+ Sol 10 Map str + sol 11 Schema {NP}
+OM+ Sol 11 Map str + sol 11 Schema                                                OM+ Sol 11 Map str + sol 11 Schema {NP}
+OM+ Sol 12 Map str + sol 11 Schema                                               OM+ Sol 12 Map str + sol 11 Schema {NP}
+
+OM+ Sol 1 Map str + sol 12 Schema                                                    OM+ Sol 1 Map str + sol 12 Schema {NP}
+OM+ Sol 3 Map str + sol 12 Schema                                                  OM+ Sol 3 Map str + sol 12 Schema {NP}
+OM+ Sol 5 Map str + sol 12 Schema                                                  OM+ Sol 5 Map str + sol 12 Schema {NP}
+OM+ Sol 7 Map str + sol 12 Schema                                                    OM+ Sol 7 Map str + sol 12 Schema {NP}
+OM+ Sol 9 Map str + sol 12 Schema                                                   OM+ Sol 9 Map str + sol 12 Schema {NP}
+OM+ Sol 10 Map str + sol 12 Schema                                               OM+ Sol 10 Map str + sol 12 Schema {NP}
+OM+ Sol 11 Map str + sol 12 Schema                                                OM+ Sol 11 Map str + sol 12 Schema {NP}
+OM+ Sol 12 Map str + sol 12 Schema                                              OM+ Sol 12 Map str + sol 12 Schema {NP}
