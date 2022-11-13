@@ -1,0 +1,85 @@
+OnlineStore_Solution : 0
+
+Table Name: Admin Attribute AdminId: Integer
+ Primary Key
+
+Table Name: Admin Attribute AdminName: string
+
+Table Name: Customer Attribute CustomerId: Integer
+ Primary Key
+
+Table Name: Customer Attribute CustomerName: string
+
+Table Name: Customer Attribute Address: string
+
+Table Name: Payment Attribute PaymentId: Integer
+ Primary Key
+
+Table Name: Payment Attribute CardNo: Integer
+
+Table Name: Payment Attribute PaymentName: string
+
+Table Name: Payment Attribute CardType: string
+
+Table Name: Guest Attribute GuestId: Integer
+ Primary Key
+
+Table Name: Products Attribute Group: string
+
+Table Name: Products Attribute Subgroup: string
+
+Table Name: Cart Attribute CartId: Integer
+ Primary Key
+
+Table Name: Cart Attribute NumOfProducts: Integer
+
+Table Name: Cart Attribute Price: Integer
+
+Table Name: Cart Attribute Total: Integer
+
+Table Name: Admin Attribute AdminId: Integer
+ Primary Key
+
+Table Name: Customer Attribute CustomerId: Integer
+ Primary Key
+
+Table Name: Payment Attribute PaymentId: Integer
+ Primary Key
+
+Table Name: Guest Attribute GuestId: Integer
+ Primary Key
+
+Table Name: Cart Attribute CartId: Integer
+ Primary Key
+
+Table Name: Admin
+
+Table Name: Customer
+
+Table Name: Payment
+
+Table Name: Guest
+
+Table Name: Products
+
+Table Name: Cart
+
+Mapping Strategy for Admin : Union Sub Class
+
+Mapping Strategy for Customer : Union Sub Class
+
+Mapping Strategy for Payment : Union Sub Class
+
+Mapping Strategy for Guest : Union Sub Class
+
+Mapping Strategy for Cart : Union Sub Class
+
+Association Strategy for AdminProductsAssociation : ForeignKeyEmbeddingStrategy
+
+Association Strategy for ProductsGuestAssociation : ForeignKeyEmbeddingStrategy
+
+Association Strategy for CustomerProductsAssociation : OwnAssociationTableStrategy
+
+Association Strategy for CustomerCartAssociation : OwnAssociationTableStrategy
+
+Association Strategy for CustomerPaymentAssociation : OwnAssociationTableStrategy

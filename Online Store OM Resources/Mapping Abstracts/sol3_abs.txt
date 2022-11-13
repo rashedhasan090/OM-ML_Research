@@ -1,0 +1,83 @@
+OM_name_Solution : 0
+
+Table: class1_name Attribute c1_at1: c1_at1_type
+ Primary Key
+
+Table: class1_name Attribute c1_at2: c1_at2_type
+
+Table: class2_name Attribute c2_at1: c1_at1_type
+ Primary Key
+
+Table: class2_name Attribute c2_at2: c2_at2_type
+
+Table: class2_name Attribute c2_at3: c2_at3_type
+
+Table: class3_name Attribute c3_at1: c3_at1_type
+ Primary Key
+
+Table: class3_name Attribute c3_at4: c3_at4_type
+
+Table: class3_name Attribute c3_at2: c3_at2_type
+
+Table: class4_name Attribute c4_at1: c4_at1_type
+ Primary Key
+
+Table: class5_name Attribute c5_at3: c5_at3_type
+
+Table: class5_name Attribute c5_at4: c5_at4_type
+
+Table: class6_name Attribute c6_at1: c6_at1_type
+ Primary Key
+
+Table: class6_name Attribute c6_at2: c6_at2_type
+
+Table: class6_name Attribute c6_at3: c6_at3_type
+
+Table: class6_name Attribute c6_at4: c6_at4_type
+
+Table: class1_name Attribute c1_at1: c1_at1_type
+ Primary Key
+
+Table: class2_name Attribute c2_at1: c1_at1_type
+ Primary Key
+
+Table: class3_name Attribute c3_at1: c3_at1_type
+ Primary Key
+
+Table: class4_name Attribute c4_at1: c4_at1_type
+ Primary Key
+
+Table: class6_name Attribute c6_at1: c6_at1_type
+ Primary Key
+
+Table Name: class1_name
+
+Table Name: class2_name
+
+Table Name: class3_name
+
+Table Name: class4_name
+
+Table Name: class5_name
+
+Table Name: class6_name
+
+Mapping Strategy of Table class1_name: map_str2
+
+Mapping Strategy of Table class2_name: map_str2
+
+Mapping Strategy of Table class3_name: map_str2
+
+Mapping Strategy of Table class4_name: map_str2
+
+Mapping Strategy of Table class6_name: map_str2
+
+Association Strategy for assoc2 : assoc_type1
+
+Association Strategy for assoc3 : assoc_type1
+
+Association Strategy for assoc1 : assoc_type2
+
+Association Strategy for assoc4 : assoc_type2
+
+Association Strategy for assoc5 : assoc_type2
