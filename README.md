@@ -36,3 +36,7 @@ Resource Folder: customer_order_OM_solution_mapping_extraction_resources
 9. Which should be saved at OM_Mapping_strategy_abstract_1.txt file. 
 10. The original python source file (om_sol_extract.py) is also included in the folder.
 
+
+## Online Store OM resources 
+
+Computation is similar to the Customer Order OM. Python source files , experiment notebooks are included in the folder
