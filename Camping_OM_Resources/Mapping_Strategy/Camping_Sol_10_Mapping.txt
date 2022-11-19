@@ -1,0 +1,77 @@
+Camping_Solution : 0
+
+Table: BadgeAwarded Attribute AwardId: Integer
+ Primary Key
+
+Table: BadgeAwarded Attribute Date: Integer
+
+Table: CampSite Attribute SiteID: Integer
+ Primary Key
+
+Table: CampSite Attribute Location: string
+
+Table: BadgeSpecification Attribute BadgeSpecificationId: Integer
+
+Table: BadgeSpecification Attribute BadgeName: string
+
+Table: Scout Attribute ScoutId: Integer
+ Primary Key
+
+Table: Scout Attribute Name: string
+
+Table: Scout Attribute DOB: Integer
+
+Table: Scout Attribute Joined: Integer
+
+Table: WealthyScout Attribute DonationAmount: Integer
+
+Table: WealthyScout Attribute DonationDate: Integer
+
+Table: CampingTrip Attribute TripId: Integer
+ Primary Key
+
+Table: CampingTrip Attribute StartDate: Integer
+
+Table Name: CampingTrip Attribute EndDate: Integer
+
+Table: BadgeAwarded Attribute AwardId: Integer
+ Primary Key
+
+Table: CampSite Attribute SiteID: Integer
+ Primary Key
+
+Table: BadgeSpecification Attribute BadgeSpecificationId: Integer
+
+Table: Scout Attribute ScoutId: Integer
+ Primary Key
+
+Table: CampingTrip Attribute TripId: Integer
+ Primary Key
+
+Table Name: BadgeAwarded
+
+Table Name: CampSite
+
+Table Name: BadgeSpecification
+
+Table Name: Scout
+
+Table Name: WealthyScout
+
+Table Name: CampingTrip
+
+Mapping Strategy for CampSite : Union Sub Class
+
+Mapping Strategy for BadgeSpecification : Union Sub Class
+
+Mapping Strategy for Scout : Union Super Class
+
+Mapping Strategy for WealthyScout : Union Super Class
+
+Association Strategy for CampingTripSiteAssociation : ForeignKeyEmbeddingStrategy
+
+Association Strategy for ScoutBadgeAwardedAssociation : ForeignKeyEmbeddingStrategy
+
+Association Strategy for BadgeAwardedSpecificationAssociation : ForeignKeyEmbeddingStrategy
+
+Association Strategy for CampingTripScoutAssociation : OwnAssociationTableStrategy
