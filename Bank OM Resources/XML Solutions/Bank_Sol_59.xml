@@ -1,0 +1,674 @@
+<alloy builddate="2008/10/27 23:45 EDT">
+
+<instance bitwidth="4" maxseq="7" command="Run mapping_run_Bank for 29" filename="">
+
+<sig label="univ" ID="0" builtin="yes">
+   <atom label="assertions/relationalModel/Table$0"/>
+   <atom label="assertions/relationalModel/Table$1"/>
+   <atom label="assertions/relationalModel/Table$2"/>
+   <atom label="assertions/relationalModel/Table$3"/>
+   <atom label="assertions/relationalModel/Table$4"/>
+   <atom label="assertions/relationalModel/Table$5"/>
+   <atom label="assertions/relationalModel/Table$6"/>
+   <atom label="assertions/relationalModel/Table$7"/>
+   <atom label="assertions/relationalModel/Table$8"/>
+   <atom label="assertions/relationalModel/Table$9"/>
+   <atom label="assertions/relationalModel/Table$10"/>
+   <atom label="assertions/relationalModel/Table$11"/>
+   <atom label="assertions/relationalModel/Field$0"/>
+   <atom label="assertions/relationalModel/Field$1"/>
+   <atom label="assertions/relationalModel/Field$2"/>
+   <atom label="assertions/relationalModel/Field$3"/>
+   <atom label="assertions/relationalModel/Field$4"/>
+   <atom label="assertions/relationalModel/Field$5"/>
+   <atom label="assertions/relationalModel/Field$6"/>
+   <atom label="assertions/relationalModel/Field$7"/>
+   <atom label="assertions/relationalModel/Field$8"/>
+   <atom label="assertions/relationalModel/Field$9"/>
+   <atom label="assertions/relationalModel/Field$10"/>
+   <atom label="assertions/relationalModel/Field$11"/>
+   <atom label="assertions/relationalModel/Field$12"/>
+   <atom label="assertions/relationalModel/Field$13"/>
+   <atom label="assertions/relationalModel/Field$14"/>
+   <atom label="Bank/Loan"/>
+   <atom label="Bank/Checking"/>
+   <atom label="Bank/Customer"/>
+   <atom label="Bank/Teller"/>
+   <atom label="Bank/Account"/>
+   <atom label="Bank/Bank"/>
+   <atom label="Bank/Savings"/>
+   <atom label="Bank/LoanId"/>
+   <atom label="Bank/CheckingId"/>
+   <atom label="Bank/CustomerId"/>
+   <atom label="Bank/CustomerPhoneNo"/>
+   <atom label="Bank/CustomerAcctNo"/>
+   <atom label="Bank/TellerId"/>
+   <atom label="Bank/AccountId"/>
+   <atom label="Bank/BankId"/>
+   <atom label="Bank/SavingsId"/>
+   <atom label="Bank/LoanType"/>
+   <atom label="Bank/CustomerName"/>
+   <atom label="Bank/CustomerAddress"/>
+   <atom label="Bank/TellerName"/>
+   <atom label="Bank/BankName"/>
+   <atom label="Bank/BankLocation"/>
+   <atom label="Bank/BankTellerAssociation"/>
+   <atom label="Bank/BankCustomerAssociation"/>
+   <atom label="Bank/CustomerTellerAssociation"/>
+   <atom label="Bank/CustomerAccountAssociation"/>
+   <atom label="Bank/CustomerLoanAssociation"/>
+   <atom label="AssociationMappings/Declaration/No$0"/>
+   <atom label="AssociationMappings/Declaration/ONE"/>
+   <atom label="AssociationMappings/Declaration/MANY"/>
+   <atom label="ORMStrategies/UnionSubclassStrategy"/>
+   <atom label="ORMStrategies/JoinedSubclassStrategy"/>
+   <atom label="ORMStrategies/UnionSuperclassStrategy"/>
+   <atom label="AssociationMappings/ForeignKeyEmbeddingStrategy"/>
+   <atom label="AssociationMappings/OwnAssociationTableStrategy"/>
+   <atom label="AssociationMappings/MergingOneTableStrategy"/>
+   <atom label="AssociationMappings/AssociationMappingStrategies"/>
+   <atom label="-8"/>
+   <atom label="-7"/>
+   <atom label="-6"/>
+   <atom label="-5"/>
+   <atom label="-4"/>
+   <atom label="-3"/>
+   <atom label="-2"/>
+   <atom label="-1"/>
+   <atom label="0"/>
+   <atom label="1"/>
+   <atom label="2"/>
+   <atom label="3"/>
+   <atom label="4"/>
+   <atom label="5"/>
+   <atom label="6"/>
+   <atom label="7"/>
+</sig>
+
+<sig label="Int" ID="1" parentID="0" builtin="yes">
+   <atom label="-8"/>
+   <atom label="-7"/>
+   <atom label="-6"/>
+   <atom label="-5"/>
+   <atom label="-4"/>
+   <atom label="-3"/>
+   <atom label="-2"/>
+   <atom label="-1"/>
+   <atom label="0"/>
+   <atom label="1"/>
+   <atom label="2"/>
+   <atom label="3"/>
+   <atom label="4"/>
+   <atom label="5"/>
+   <atom label="6"/>
+   <atom label="7"/>
+</sig>
+
+<sig label="seq/Int" ID="2" parentID="1" builtin="yes">
+   <atom label="0"/>
+   <atom label="1"/>
+   <atom label="2"/>
+   <atom label="3"/>
+   <atom label="4"/>
+   <atom label="5"/>
+   <atom label="6"/>
+</sig>
+
+<sig label="fun/String" ID="3" parentID="0" builtin="yes">
+</sig>
+
+<sig label="assertions/relationalModel/Table" ID="4" parentID="0">
+   <atom label="assertions/relationalModel/Table$0"/>
+   <atom label="assertions/relationalModel/Table$1"/>
+   <atom label="assertions/relationalModel/Table$2"/>
+   <atom label="assertions/relationalModel/Table$3"/>
+   <atom label="assertions/relationalModel/Table$4"/>
+   <atom label="assertions/relationalModel/Table$5"/>
+   <atom label="assertions/relationalModel/Table$6"/>
+   <atom label="assertions/relationalModel/Table$7"/>
+   <atom label="assertions/relationalModel/Table$8"/>
+   <atom label="assertions/relationalModel/Table$9"/>
+   <atom label="assertions/relationalModel/Table$10"/>
+   <atom label="assertions/relationalModel/Table$11"/>
+</sig>
+
+<field label="fields" ID="5" parentID="4">
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$14"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="assertions/relationalModel/Field$8"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$3"/> <atom label="assertions/relationalModel/Field$8"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$3"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="assertions/relationalModel/Field$8"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="assertions/relationalModel/Field$13"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$7"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="assertions/relationalModel/Field$7"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$7"/> <atom label="assertions/relationalModel/Field$6"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$7"/> <atom label="assertions/relationalModel/Field$8"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$7"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$8"/> <atom label="assertions/relationalModel/Field$5"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$8"/> <atom label="assertions/relationalModel/Field$14"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$9"/> <atom label="assertions/relationalModel/Field$3"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$9"/> <atom label="assertions/relationalModel/Field$4"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$9"/> <atom label="assertions/relationalModel/Field$10"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$9"/> <atom label="assertions/relationalModel/Field$11"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$9"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$10"/> <atom label="assertions/relationalModel/Field$2"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$10"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$11"/> <atom label="assertions/relationalModel/Field$0"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$11"/> <atom label="assertions/relationalModel/Field$1"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$11"/> <atom label="assertions/relationalModel/Field$7"/> </tuple>
+   <types> <type ID="4"/> <type ID="6"/> </types>
+</field>
+
+<field label="primaryKey" ID="7" parentID="4">
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$14"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="assertions/relationalModel/Field$8"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$3"/> <atom label="assertions/relationalModel/Field$8"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$7"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="assertions/relationalModel/Field$7"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$7"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$8"/> <atom label="assertions/relationalModel/Field$14"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$9"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$10"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$11"/> <atom label="assertions/relationalModel/Field$7"/> </tuple>
+   <types> <type ID="4"/> <type ID="6"/> </types>
+</field>
+
+<field label="foreignKey" ID="8" parentID="4">
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$14"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="assertions/relationalModel/Field$8"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$7"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="assertions/relationalModel/Field$7"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <types> <type ID="4"/> <type ID="6"/> </types>
+</field>
+
+<field label="tAssociate" ID="9" parentID="4">
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="Bank/CustomerLoanAssociation"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="Bank/CustomerTellerAssociation"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="Bank/CustomerAccountAssociation"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$3"/> <atom label="Bank/Account"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="Bank/Checking"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="Bank/BankCustomerAssociation"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="Bank/BankTellerAssociation"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$7"/> <atom label="Bank/Savings"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$8"/> <atom label="Bank/Loan"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$9"/> <atom label="Bank/Customer"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$10"/> <atom label="Bank/Teller"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$11"/> <atom label="Bank/Bank"/> </tuple>
+   <types> <type ID="4"/> <type ID="10"/> </types>
+   <types> <type ID="4"/> <type ID="11"/> </types>
+</field>
+
+<sig label="assertions/relationalModel/Field" ID="6" parentID="0">
+   <atom label="assertions/relationalModel/Field$0"/>
+   <atom label="assertions/relationalModel/Field$1"/>
+   <atom label="assertions/relationalModel/Field$2"/>
+   <atom label="assertions/relationalModel/Field$3"/>
+   <atom label="assertions/relationalModel/Field$4"/>
+   <atom label="assertions/relationalModel/Field$5"/>
+   <atom label="assertions/relationalModel/Field$6"/>
+   <atom label="assertions/relationalModel/Field$7"/>
+   <atom label="assertions/relationalModel/Field$8"/>
+   <atom label="assertions/relationalModel/Field$9"/>
+   <atom label="assertions/relationalModel/Field$10"/>
+   <atom label="assertions/relationalModel/Field$11"/>
+   <atom label="assertions/relationalModel/Field$12"/>
+   <atom label="assertions/relationalModel/Field$13"/>
+   <atom label="assertions/relationalModel/Field$14"/>
+</sig>
+
+<field label="fAssociate" ID="12" parentID="6">
+   <tuple> <atom label="assertions/relationalModel/Field$0"/> <atom label="Bank/BankLocation"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$1"/> <atom label="Bank/BankName"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$2"/> <atom label="Bank/TellerName"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$3"/> <atom label="Bank/CustomerAddress"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$4"/> <atom label="Bank/CustomerName"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$5"/> <atom label="Bank/LoanType"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$6"/> <atom label="Bank/SavingsId"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$7"/> <atom label="Bank/BankId"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$8"/> <atom label="Bank/AccountId"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$9"/> <atom label="Bank/TellerId"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$10"/> <atom label="Bank/CustomerAcctNo"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$11"/> <atom label="Bank/CustomerPhoneNo"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$12"/> <atom label="Bank/CustomerId"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$13"/> <atom label="Bank/CheckingId"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$14"/> <atom label="Bank/LoanId"/> </tuple>
+   <types> <type ID="6"/> <type ID="13"/> </types>
+</field>
+
+<sig label="AssociationMappings/Declaration/needHandle" ID="13" parentID="0" abstract="yes">
+   <atom label="Bank/Loan"/>
+   <atom label="Bank/Checking"/>
+   <atom label="Bank/Customer"/>
+   <atom label="Bank/Teller"/>
+   <atom label="Bank/Account"/>
+   <atom label="Bank/Bank"/>
+   <atom label="Bank/Savings"/>
+   <atom label="Bank/LoanId"/>
+   <atom label="Bank/CheckingId"/>
+   <atom label="Bank/CustomerId"/>
+   <atom label="Bank/CustomerPhoneNo"/>
+   <atom label="Bank/CustomerAcctNo"/>
+   <atom label="Bank/TellerId"/>
+   <atom label="Bank/AccountId"/>
+   <atom label="Bank/BankId"/>
+   <atom label="Bank/SavingsId"/>
+   <atom label="Bank/LoanType"/>
+   <atom label="Bank/CustomerName"/>
+   <atom label="Bank/CustomerAddress"/>
+   <atom label="Bank/TellerName"/>
+   <atom label="Bank/BankName"/>
+   <atom label="Bank/BankLocation"/>
+   <atom label="Bank/BankTellerAssociation"/>
+   <atom label="Bank/BankCustomerAssociation"/>
+   <atom label="Bank/CustomerTellerAssociation"/>
+   <atom label="Bank/CustomerAccountAssociation"/>
+   <atom label="Bank/CustomerLoanAssociation"/>
+   <atom label="AssociationMappings/Declaration/No$0"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Attribute" ID="14" parentID="13" abstract="yes">
+   <atom label="Bank/Loan"/>
+   <atom label="Bank/Checking"/>
+   <atom label="Bank/Customer"/>
+   <atom label="Bank/Teller"/>
+   <atom label="Bank/Account"/>
+   <atom label="Bank/Bank"/>
+   <atom label="Bank/Savings"/>
+   <atom label="Bank/LoanId"/>
+   <atom label="Bank/CheckingId"/>
+   <atom label="Bank/CustomerId"/>
+   <atom label="Bank/CustomerPhoneNo"/>
+   <atom label="Bank/CustomerAcctNo"/>
+   <atom label="Bank/TellerId"/>
+   <atom label="Bank/AccountId"/>
+   <atom label="Bank/BankId"/>
+   <atom label="Bank/SavingsId"/>
+   <atom label="Bank/LoanType"/>
+   <atom label="Bank/CustomerName"/>
+   <atom label="Bank/CustomerAddress"/>
+   <atom label="Bank/TellerName"/>
+   <atom label="Bank/BankName"/>
+   <atom label="Bank/BankLocation"/>
+   <atom label="AssociationMappings/Declaration/No$0"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Class" ID="10" parentID="14" abstract="yes">
+   <atom label="Bank/Loan"/>
+   <atom label="Bank/Checking"/>
+   <atom label="Bank/Customer"/>
+   <atom label="Bank/Teller"/>
+   <atom label="Bank/Account"/>
+   <atom label="Bank/Bank"/>
+   <atom label="Bank/Savings"/>
+</sig>
+
+<field label="attrSet" ID="15" parentID="10">
+   <tuple> <atom label="Bank/Loan"/> <atom label="Bank/LoanId"/> </tuple>
+   <tuple> <atom label="Bank/Loan"/> <atom label="Bank/LoanType"/> </tuple>
+   <tuple> <atom label="Bank/Checking"/> <atom label="Bank/CheckingId"/> </tuple>
+   <tuple> <atom label="Bank/Customer"/> <atom label="Bank/CustomerId"/> </tuple>
+   <tuple> <atom label="Bank/Customer"/> <atom label="Bank/CustomerPhoneNo"/> </tuple>
+   <tuple> <atom label="Bank/Customer"/> <atom label="Bank/CustomerAcctNo"/> </tuple>
+   <tuple> <atom label="Bank/Customer"/> <atom label="Bank/CustomerName"/> </tuple>
+   <tuple> <atom label="Bank/Customer"/> <atom label="Bank/CustomerAddress"/> </tuple>
+   <tuple> <atom label="Bank/Teller"/> <atom label="Bank/TellerId"/> </tuple>
+   <tuple> <atom label="Bank/Teller"/> <atom label="Bank/TellerName"/> </tuple>
+   <tuple> <atom label="Bank/Account"/> <atom label="Bank/CustomerId"/> </tuple>
+   <tuple> <atom label="Bank/Account"/> <atom label="Bank/AccountId"/> </tuple>
+   <tuple> <atom label="Bank/Bank"/> <atom label="Bank/BankId"/> </tuple>
+   <tuple> <atom label="Bank/Bank"/> <atom label="Bank/BankName"/> </tuple>
+   <tuple> <atom label="Bank/Bank"/> <atom label="Bank/BankLocation"/> </tuple>
+   <tuple> <atom label="Bank/Savings"/> <atom label="Bank/SavingsId"/> </tuple>
+   <types> <type ID="10"/> <type ID="14"/> </types>
+</field>
+
+<field label="id" ID="16" parentID="10">
+   <tuple> <atom label="Bank/Loan"/> <atom label="Bank/LoanId"/> </tuple>
+   <tuple> <atom label="Bank/Checking"/> <atom label="Bank/CustomerId"/> </tuple>
+   <tuple> <atom label="Bank/Customer"/> <atom label="Bank/CustomerId"/> </tuple>
+   <tuple> <atom label="Bank/Teller"/> <atom label="Bank/TellerId"/> </tuple>
+   <tuple> <atom label="Bank/Account"/> <atom label="Bank/AccountId"/> </tuple>
+   <tuple> <atom label="Bank/Bank"/> <atom label="Bank/BankId"/> </tuple>
+   <tuple> <atom label="Bank/Savings"/> <atom label="Bank/CustomerId"/> </tuple>
+   <types> <type ID="10"/> <type ID="14"/> </types>
+</field>
+
+<field label="parent" ID="17" parentID="10">
+   <tuple> <atom label="Bank/Checking"/> <atom label="Bank/Account"/> </tuple>
+   <tuple> <atom label="Bank/Savings"/> <atom label="Bank/Account"/> </tuple>
+   <types> <type ID="10"/> <type ID="10"/> </types>
+</field>
+
+<field label="isAbstract" ID="18" parentID="10">
+   <tuple> <atom label="Bank/Loan"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="Bank/Checking"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="Bank/Customer"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="Bank/Teller"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="Bank/Account"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="Bank/Bank"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="Bank/Savings"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <types> <type ID="10"/> <type ID="19"/> </types>
+</field>
+
+<sig label="Bank/Loan" ID="20" parentID="10" one="yes">
+   <atom label="Bank/Loan"/>
+</sig>
+
+<sig label="Bank/Checking" ID="21" parentID="10" one="yes">
+   <atom label="Bank/Checking"/>
+</sig>
+
+<sig label="Bank/Customer" ID="22" parentID="10" one="yes">
+   <atom label="Bank/Customer"/>
+</sig>
+
+<sig label="Bank/Teller" ID="23" parentID="10" one="yes">
+   <atom label="Bank/Teller"/>
+</sig>
+
+<sig label="Bank/Account" ID="24" parentID="10" one="yes">
+   <atom label="Bank/Account"/>
+</sig>
+
+<sig label="Bank/Bank" ID="25" parentID="10" one="yes">
+   <atom label="Bank/Bank"/>
+</sig>
+
+<sig label="Bank/Savings" ID="26" parentID="10" one="yes">
+   <atom label="Bank/Savings"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Type" ID="27" parentID="14" abstract="yes">
+   <atom label="Bank/LoanId"/>
+   <atom label="Bank/CheckingId"/>
+   <atom label="Bank/CustomerId"/>
+   <atom label="Bank/CustomerPhoneNo"/>
+   <atom label="Bank/CustomerAcctNo"/>
+   <atom label="Bank/TellerId"/>
+   <atom label="Bank/AccountId"/>
+   <atom label="Bank/BankId"/>
+   <atom label="Bank/SavingsId"/>
+   <atom label="Bank/LoanType"/>
+   <atom label="Bank/CustomerName"/>
+   <atom label="Bank/CustomerAddress"/>
+   <atom label="Bank/TellerName"/>
+   <atom label="Bank/BankName"/>
+   <atom label="Bank/BankLocation"/>
+   <atom label="AssociationMappings/Declaration/No$0"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Integer" ID="28" parentID="27">
+   <atom label="Bank/LoanId"/>
+   <atom label="Bank/CheckingId"/>
+   <atom label="Bank/CustomerId"/>
+   <atom label="Bank/CustomerPhoneNo"/>
+   <atom label="Bank/CustomerAcctNo"/>
+   <atom label="Bank/TellerId"/>
+   <atom label="Bank/AccountId"/>
+   <atom label="Bank/BankId"/>
+   <atom label="Bank/SavingsId"/>
+</sig>
+
+<sig label="Bank/LoanId" ID="29" parentID="28" one="yes">
+   <atom label="Bank/LoanId"/>
+</sig>
+
+<sig label="Bank/CheckingId" ID="30" parentID="28" one="yes">
+   <atom label="Bank/CheckingId"/>
+</sig>
+
+<sig label="Bank/CustomerId" ID="31" parentID="28" one="yes">
+   <atom label="Bank/CustomerId"/>
+</sig>
+
+<sig label="Bank/CustomerPhoneNo" ID="32" parentID="28" one="yes">
+   <atom label="Bank/CustomerPhoneNo"/>
+</sig>
+
+<sig label="Bank/CustomerAcctNo" ID="33" parentID="28" one="yes">
+   <atom label="Bank/CustomerAcctNo"/>
+</sig>
+
+<sig label="Bank/TellerId" ID="34" parentID="28" one="yes">
+   <atom label="Bank/TellerId"/>
+</sig>
+
+<sig label="Bank/AccountId" ID="35" parentID="28" one="yes">
+   <atom label="Bank/AccountId"/>
+</sig>
+
+<sig label="Bank/BankId" ID="36" parentID="28" one="yes">
+   <atom label="Bank/BankId"/>
+</sig>
+
+<sig label="Bank/SavingsId" ID="37" parentID="28" one="yes">
+   <atom label="Bank/SavingsId"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Real" ID="38" parentID="27">
+</sig>
+
+<sig label="AssociationMappings/Declaration/string" ID="39" parentID="27">
+   <atom label="Bank/LoanType"/>
+   <atom label="Bank/CustomerName"/>
+   <atom label="Bank/CustomerAddress"/>
+   <atom label="Bank/TellerName"/>
+   <atom label="Bank/BankName"/>
+   <atom label="Bank/BankLocation"/>
+</sig>
+
+<sig label="Bank/LoanType" ID="40" parentID="39" one="yes">
+   <atom label="Bank/LoanType"/>
+</sig>
+
+<sig label="Bank/CustomerName" ID="41" parentID="39" one="yes">
+   <atom label="Bank/CustomerName"/>
+</sig>
+
+<sig label="Bank/CustomerAddress" ID="42" parentID="39" one="yes">
+   <atom label="Bank/CustomerAddress"/>
+</sig>
+
+<sig label="Bank/TellerName" ID="43" parentID="39" one="yes">
+   <atom label="Bank/TellerName"/>
+</sig>
+
+<sig label="Bank/BankName" ID="44" parentID="39" one="yes">
+   <atom label="Bank/BankName"/>
+</sig>
+
+<sig label="Bank/BankLocation" ID="45" parentID="39" one="yes">
+   <atom label="Bank/BankLocation"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Bool" ID="19" parentID="27">
+   <atom label="AssociationMappings/Declaration/No$0"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Yes" ID="46" parentID="19">
+</sig>
+
+<sig label="AssociationMappings/Declaration/No" ID="47" parentID="19">
+   <atom label="AssociationMappings/Declaration/No$0"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/DType" ID="48" parentID="27">
+</sig>
+
+<sig label="AssociationMappings/Declaration/Longblob" ID="49" parentID="27">
+</sig>
+
+<sig label="AssociationMappings/Declaration/Time" ID="50" parentID="27">
+</sig>
+
+<sig label="AssociationMappings/Declaration/Association" ID="11" parentID="13" abstract="yes">
+   <atom label="Bank/BankTellerAssociation"/>
+   <atom label="Bank/BankCustomerAssociation"/>
+   <atom label="Bank/CustomerTellerAssociation"/>
+   <atom label="Bank/CustomerAccountAssociation"/>
+   <atom label="Bank/CustomerLoanAssociation"/>
+</sig>
+
+<field label="src" ID="51" parentID="11">
+   <tuple> <atom label="Bank/BankTellerAssociation"/> <atom label="Bank/Bank"/> </tuple>
+   <tuple> <atom label="Bank/BankCustomerAssociation"/> <atom label="Bank/Bank"/> </tuple>
+   <tuple> <atom label="Bank/CustomerTellerAssociation"/> <atom label="Bank/Customer"/> </tuple>
+   <tuple> <atom label="Bank/CustomerAccountAssociation"/> <atom label="Bank/Customer"/> </tuple>
+   <tuple> <atom label="Bank/CustomerLoanAssociation"/> <atom label="Bank/Customer"/> </tuple>
+   <types> <type ID="11"/> <type ID="10"/> </types>
+</field>
+
+<field label="dst" ID="52" parentID="11">
+   <tuple> <atom label="Bank/BankTellerAssociation"/> <atom label="Bank/Teller"/> </tuple>
+   <tuple> <atom label="Bank/BankCustomerAssociation"/> <atom label="Bank/Customer"/> </tuple>
+   <tuple> <atom label="Bank/CustomerTellerAssociation"/> <atom label="Bank/Teller"/> </tuple>
+   <tuple> <atom label="Bank/CustomerAccountAssociation"/> <atom label="Bank/Account"/> </tuple>
+   <tuple> <atom label="Bank/CustomerLoanAssociation"/> <atom label="Bank/Loan"/> </tuple>
+   <types> <type ID="11"/> <type ID="10"/> </types>
+</field>
+
+<field label="src_multiplicity" ID="53" parentID="11">
+   <tuple> <atom label="Bank/BankTellerAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <tuple> <atom label="Bank/BankCustomerAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <tuple> <atom label="Bank/CustomerTellerAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="Bank/CustomerAccountAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <tuple> <atom label="Bank/CustomerLoanAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <types> <type ID="11"/> <type ID="54"/> </types>
+</field>
+
+<field label="dst_multiplicity" ID="55" parentID="11">
+   <tuple> <atom label="Bank/BankTellerAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="Bank/BankCustomerAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="Bank/CustomerTellerAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="Bank/CustomerAccountAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="Bank/CustomerLoanAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <types> <type ID="11"/> <type ID="54"/> </types>
+</field>
+
+<sig label="Bank/BankTellerAssociation" ID="56" parentID="11" one="yes">
+   <atom label="Bank/BankTellerAssociation"/>
+</sig>
+
+<sig label="Bank/BankCustomerAssociation" ID="57" parentID="11" one="yes">
+   <atom label="Bank/BankCustomerAssociation"/>
+</sig>
+
+<sig label="Bank/CustomerTellerAssociation" ID="58" parentID="11" one="yes">
+   <atom label="Bank/CustomerTellerAssociation"/>
+</sig>
+
+<sig label="Bank/CustomerAccountAssociation" ID="59" parentID="11" one="yes">
+   <atom label="Bank/CustomerAccountAssociation"/>
+</sig>
+
+<sig label="Bank/CustomerLoanAssociation" ID="60" parentID="11" one="yes">
+   <atom label="Bank/CustomerLoanAssociation"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Multiplicity_State" ID="54" parentID="0" abstract="yes">
+   <atom label="AssociationMappings/Declaration/ONE"/>
+   <atom label="AssociationMappings/Declaration/MANY"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/ONE" ID="61" parentID="54" one="yes">
+   <atom label="AssociationMappings/Declaration/ONE"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/MANY" ID="62" parentID="54" one="yes">
+   <atom label="AssociationMappings/Declaration/MANY"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Strategy" ID="63" parentID="0" abstract="yes">
+   <atom label="ORMStrategies/UnionSubclassStrategy"/>
+   <atom label="ORMStrategies/JoinedSubclassStrategy"/>
+   <atom label="ORMStrategies/UnionSuperclassStrategy"/>
+   <atom label="AssociationMappings/ForeignKeyEmbeddingStrategy"/>
+   <atom label="AssociationMappings/OwnAssociationTableStrategy"/>
+   <atom label="AssociationMappings/MergingOneTableStrategy"/>
+</sig>
+
+<field label="assignees" ID="64" parentID="63">
+   <tuple> <atom label="ORMStrategies/UnionSubclassStrategy"/> <atom label="Bank/Loan"/> </tuple>
+   <tuple> <atom label="ORMStrategies/UnionSubclassStrategy"/> <atom label="Bank/Checking"/> </tuple>
+   <tuple> <atom label="ORMStrategies/UnionSubclassStrategy"/> <atom label="Bank/Customer"/> </tuple>
+   <tuple> <atom label="ORMStrategies/UnionSubclassStrategy"/> <atom label="Bank/Teller"/> </tuple>
+   <tuple> <atom label="ORMStrategies/UnionSubclassStrategy"/> <atom label="Bank/Account"/> </tuple>
+   <tuple> <atom label="ORMStrategies/UnionSubclassStrategy"/> <atom label="Bank/Bank"/> </tuple>
+   <tuple> <atom label="ORMStrategies/UnionSubclassStrategy"/> <atom label="Bank/Savings"/> </tuple>
+   <tuple> <atom label="AssociationMappings/OwnAssociationTableStrategy"/> <atom label="Bank/BankTellerAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/OwnAssociationTableStrategy"/> <atom label="Bank/BankCustomerAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/OwnAssociationTableStrategy"/> <atom label="Bank/CustomerTellerAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/OwnAssociationTableStrategy"/> <atom label="Bank/CustomerAccountAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/OwnAssociationTableStrategy"/> <atom label="Bank/CustomerLoanAssociation"/> </tuple>
+   <types> <type ID="63"/> <type ID="10"/> </types>
+   <types> <type ID="63"/> <type ID="11"/> </types>
+</field>
+
+<sig label="ORMStrategies/UnionSubclassStrategy" ID="65" parentID="63" one="yes">
+   <atom label="ORMStrategies/UnionSubclassStrategy"/>
+</sig>
+
+<sig label="ORMStrategies/JoinedSubclassStrategy" ID="66" parentID="63" one="yes">
+   <atom label="ORMStrategies/JoinedSubclassStrategy"/>
+</sig>
+
+<sig label="ORMStrategies/UnionSuperclassStrategy" ID="67" parentID="63" one="yes">
+   <atom label="ORMStrategies/UnionSuperclassStrategy"/>
+</sig>
+
+<sig label="AssociationMappings/ForeignKeyEmbeddingStrategy" ID="68" parentID="63" one="yes">
+   <atom label="AssociationMappings/ForeignKeyEmbeddingStrategy"/>
+</sig>
+
+<sig label="AssociationMappings/OwnAssociationTableStrategy" ID="69" parentID="63" one="yes">
+   <atom label="AssociationMappings/OwnAssociationTableStrategy"/>
+</sig>
+
+<sig label="AssociationMappings/MergingOneTableStrategy" ID="70" parentID="63" one="yes">
+   <atom label="AssociationMappings/MergingOneTableStrategy"/>
+</sig>
+
+<sig label="AssociationMappings/AssociationMappingStrategies" ID="71" parentID="0" one="yes">
+   <atom label="AssociationMappings/AssociationMappingStrategies"/>
+</sig>
+
+<field label="FKE" ID="72" parentID="71">
+   <types> <type ID="71"/> <type ID="11"/> </types>
+</field>
+
+<field label="OAT" ID="73" parentID="71">
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="Bank/BankTellerAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="Bank/BankCustomerAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="Bank/CustomerTellerAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="Bank/CustomerAccountAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="Bank/CustomerLoanAssociation"/> </tuple>
+   <types> <type ID="71"/> <type ID="11"/> </types>
+</field>
+
+<field label="MOT" ID="74" parentID="71">
+   <types> <type ID="71"/> <type ID="11"/> </types>
+</field>
+
+</instance>
+
+</alloy>
