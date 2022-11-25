@@ -1,0 +1,688 @@
+<alloy builddate="2008/10/27 23:45 EDT">
+
+<instance bitwidth="4" maxseq="7" command="Run mapping_run_decider for 31" filename="">
+
+<sig label="univ" ID="0" builtin="yes">
+   <atom label="assertions/relationalModel/Table$0"/>
+   <atom label="assertions/relationalModel/Table$1"/>
+   <atom label="assertions/relationalModel/Table$2"/>
+   <atom label="assertions/relationalModel/Table$3"/>
+   <atom label="assertions/relationalModel/Table$4"/>
+   <atom label="assertions/relationalModel/Table$5"/>
+   <atom label="assertions/relationalModel/Table$6"/>
+   <atom label="assertions/relationalModel/Table$7"/>
+   <atom label="assertions/relationalModel/Table$8"/>
+   <atom label="assertions/relationalModel/Table$9"/>
+   <atom label="assertions/relationalModel/Table$10"/>
+   <atom label="assertions/relationalModel/Table$11"/>
+   <atom label="assertions/relationalModel/Field$0"/>
+   <atom label="assertions/relationalModel/Field$1"/>
+   <atom label="assertions/relationalModel/Field$2"/>
+   <atom label="assertions/relationalModel/Field$3"/>
+   <atom label="assertions/relationalModel/Field$4"/>
+   <atom label="assertions/relationalModel/Field$5"/>
+   <atom label="assertions/relationalModel/Field$6"/>
+   <atom label="assertions/relationalModel/Field$7"/>
+   <atom label="assertions/relationalModel/Field$8"/>
+   <atom label="assertions/relationalModel/Field$9"/>
+   <atom label="assertions/relationalModel/Field$10"/>
+   <atom label="assertions/relationalModel/Field$11"/>
+   <atom label="assertions/relationalModel/Field$12"/>
+   <atom label="assertions/relationalModel/Field$13"/>
+   <atom label="assertions/relationalModel/Field$14"/>
+   <atom label="decider/NameSpace"/>
+   <atom label="decider/Variable"/>
+   <atom label="decider/Relationship"/>
+   <atom label="decider/Role"/>
+   <atom label="decider/DecisionSpace"/>
+   <atom label="decider/Participant"/>
+   <atom label="decider/User"/>
+   <atom label="decider/Viewer"/>
+   <atom label="decider/Developer"/>
+   <atom label="decider/namespaceID"/>
+   <atom label="decider/variableID"/>
+   <atom label="decider/relationshipID"/>
+   <atom label="decider/roleID"/>
+   <atom label="decider/decisionSpaceID"/>
+   <atom label="decider/participantID"/>
+   <atom label="decider/period"/>
+   <atom label="decider/department"/>
+   <atom label="decider/namespaceName"/>
+   <atom label="decider/variableName"/>
+   <atom label="decider/relationshipName"/>
+   <atom label="decider/roleName"/>
+   <atom label="decider/decisionSpaceName"/>
+   <atom label="decider/username"/>
+   <atom label="decider/password"/>
+   <atom label="decider/VarAssociation"/>
+   <atom label="decider/RoleBindingsAssociation"/>
+   <atom label="decider/descisionSpaceParticipantsAssociation"/>
+   <atom label="decider/descisionSpaceVariablesAssociation"/>
+   <atom label="decider/DSNNamespaceAssociation"/>
+   <atom label="AssociationMappings/Declaration/No$0"/>
+   <atom label="AssociationMappings/Declaration/ONE"/>
+   <atom label="AssociationMappings/Declaration/MANY"/>
+   <atom label="ORMStrategies/UnionSubclassStrategy"/>
+   <atom label="ORMStrategies/JoinedSubclassStrategy"/>
+   <atom label="ORMStrategies/UnionSuperclassStrategy"/>
+   <atom label="AssociationMappings/ForeignKeyEmbeddingStrategy"/>
+   <atom label="AssociationMappings/OwnAssociationTableStrategy"/>
+   <atom label="AssociationMappings/MergingOneTableStrategy"/>
+   <atom label="AssociationMappings/AssociationMappingStrategies"/>
+   <atom label="-8"/>
+   <atom label="-7"/>
+   <atom label="-6"/>
+   <atom label="-5"/>
+   <atom label="-4"/>
+   <atom label="-3"/>
+   <atom label="-2"/>
+   <atom label="-1"/>
+   <atom label="0"/>
+   <atom label="1"/>
+   <atom label="2"/>
+   <atom label="3"/>
+   <atom label="4"/>
+   <atom label="5"/>
+   <atom label="6"/>
+   <atom label="7"/>
+</sig>
+
+<sig label="Int" ID="1" parentID="0" builtin="yes">
+   <atom label="-8"/>
+   <atom label="-7"/>
+   <atom label="-6"/>
+   <atom label="-5"/>
+   <atom label="-4"/>
+   <atom label="-3"/>
+   <atom label="-2"/>
+   <atom label="-1"/>
+   <atom label="0"/>
+   <atom label="1"/>
+   <atom label="2"/>
+   <atom label="3"/>
+   <atom label="4"/>
+   <atom label="5"/>
+   <atom label="6"/>
+   <atom label="7"/>
+</sig>
+
+<sig label="seq/Int" ID="2" parentID="1" builtin="yes">
+   <atom label="0"/>
+   <atom label="1"/>
+   <atom label="2"/>
+   <atom label="3"/>
+   <atom label="4"/>
+   <atom label="5"/>
+   <atom label="6"/>
+</sig>
+
+<sig label="fun/String" ID="3" parentID="0" builtin="yes">
+</sig>
+
+<sig label="assertions/relationalModel/Table" ID="4" parentID="0">
+   <atom label="assertions/relationalModel/Table$0"/>
+   <atom label="assertions/relationalModel/Table$1"/>
+   <atom label="assertions/relationalModel/Table$2"/>
+   <atom label="assertions/relationalModel/Table$3"/>
+   <atom label="assertions/relationalModel/Table$4"/>
+   <atom label="assertions/relationalModel/Table$5"/>
+   <atom label="assertions/relationalModel/Table$6"/>
+   <atom label="assertions/relationalModel/Table$7"/>
+   <atom label="assertions/relationalModel/Table$8"/>
+   <atom label="assertions/relationalModel/Table$9"/>
+   <atom label="assertions/relationalModel/Table$10"/>
+   <atom label="assertions/relationalModel/Table$11"/>
+</sig>
+
+<field label="fields" ID="5" parentID="4">
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$10"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$14"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="assertions/relationalModel/Field$11"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$3"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$3"/> <atom label="assertions/relationalModel/Field$10"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="assertions/relationalModel/Field$8"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$7"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="assertions/relationalModel/Field$6"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="assertions/relationalModel/Field$14"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$7"/> <atom label="assertions/relationalModel/Field$5"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$7"/> <atom label="assertions/relationalModel/Field$10"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$7"/> <atom label="assertions/relationalModel/Field$13"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$8"/> <atom label="assertions/relationalModel/Field$4"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$8"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$8"/> <atom label="assertions/relationalModel/Field$13"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$9"/> <atom label="assertions/relationalModel/Field$3"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$9"/> <atom label="assertions/relationalModel/Field$11"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$10"/> <atom label="assertions/relationalModel/Field$2"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$10"/> <atom label="assertions/relationalModel/Field$10"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$11"/> <atom label="assertions/relationalModel/Field$0"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$11"/> <atom label="assertions/relationalModel/Field$1"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$11"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <types> <type ID="4"/> <type ID="6"/> </types>
+</field>
+
+<field label="primaryKey" ID="7" parentID="4">
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$10"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$14"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="assertions/relationalModel/Field$11"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$3"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$3"/> <atom label="assertions/relationalModel/Field$10"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="assertions/relationalModel/Field$14"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$7"/> <atom label="assertions/relationalModel/Field$13"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$8"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$9"/> <atom label="assertions/relationalModel/Field$11"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$10"/> <atom label="assertions/relationalModel/Field$10"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$11"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <types> <type ID="4"/> <type ID="6"/> </types>
+</field>
+
+<field label="foreignKey" ID="8" parentID="4">
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$10"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$14"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="assertions/relationalModel/Field$11"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$3"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$3"/> <atom label="assertions/relationalModel/Field$10"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$7"/> <atom label="assertions/relationalModel/Field$10"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$8"/> <atom label="assertions/relationalModel/Field$13"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$11"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <types> <type ID="4"/> <type ID="6"/> </types>
+</field>
+
+<field label="tAssociate" ID="9" parentID="4">
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="decider/DSNNamespaceAssociation"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="decider/Participant"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="decider/RoleBindingsAssociation"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$3"/> <atom label="decider/descisionSpaceParticipantsAssociation"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="decider/Viewer"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="decider/Developer"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="decider/NameSpace"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$7"/> <atom label="decider/Variable"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$8"/> <atom label="decider/Relationship"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$9"/> <atom label="decider/Role"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$10"/> <atom label="decider/DecisionSpace"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$11"/> <atom label="decider/User"/> </tuple>
+   <types> <type ID="4"/> <type ID="10"/> </types>
+   <types> <type ID="4"/> <type ID="11"/> </types>
+</field>
+
+<sig label="assertions/relationalModel/Field" ID="6" parentID="0">
+   <atom label="assertions/relationalModel/Field$0"/>
+   <atom label="assertions/relationalModel/Field$1"/>
+   <atom label="assertions/relationalModel/Field$2"/>
+   <atom label="assertions/relationalModel/Field$3"/>
+   <atom label="assertions/relationalModel/Field$4"/>
+   <atom label="assertions/relationalModel/Field$5"/>
+   <atom label="assertions/relationalModel/Field$6"/>
+   <atom label="assertions/relationalModel/Field$7"/>
+   <atom label="assertions/relationalModel/Field$8"/>
+   <atom label="assertions/relationalModel/Field$9"/>
+   <atom label="assertions/relationalModel/Field$10"/>
+   <atom label="assertions/relationalModel/Field$11"/>
+   <atom label="assertions/relationalModel/Field$12"/>
+   <atom label="assertions/relationalModel/Field$13"/>
+   <atom label="assertions/relationalModel/Field$14"/>
+</sig>
+
+<field label="fAssociate" ID="12" parentID="6">
+   <tuple> <atom label="assertions/relationalModel/Field$0"/> <atom label="decider/password"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$1"/> <atom label="decider/username"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$2"/> <atom label="decider/decisionSpaceName"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$3"/> <atom label="decider/roleName"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$4"/> <atom label="decider/relationshipName"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$5"/> <atom label="decider/variableName"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$6"/> <atom label="decider/namespaceName"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$7"/> <atom label="decider/department"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$8"/> <atom label="decider/period"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$9"/> <atom label="decider/participantID"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$10"/> <atom label="decider/decisionSpaceID"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$11"/> <atom label="decider/roleID"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$12"/> <atom label="decider/relationshipID"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$13"/> <atom label="decider/variableID"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$14"/> <atom label="decider/namespaceID"/> </tuple>
+   <types> <type ID="6"/> <type ID="13"/> </types>
+</field>
+
+<sig label="AssociationMappings/Declaration/needHandle" ID="13" parentID="0" abstract="yes">
+   <atom label="decider/NameSpace"/>
+   <atom label="decider/Variable"/>
+   <atom label="decider/Relationship"/>
+   <atom label="decider/Role"/>
+   <atom label="decider/DecisionSpace"/>
+   <atom label="decider/Participant"/>
+   <atom label="decider/User"/>
+   <atom label="decider/Viewer"/>
+   <atom label="decider/Developer"/>
+   <atom label="decider/namespaceID"/>
+   <atom label="decider/variableID"/>
+   <atom label="decider/relationshipID"/>
+   <atom label="decider/roleID"/>
+   <atom label="decider/decisionSpaceID"/>
+   <atom label="decider/participantID"/>
+   <atom label="decider/period"/>
+   <atom label="decider/department"/>
+   <atom label="decider/namespaceName"/>
+   <atom label="decider/variableName"/>
+   <atom label="decider/relationshipName"/>
+   <atom label="decider/roleName"/>
+   <atom label="decider/decisionSpaceName"/>
+   <atom label="decider/username"/>
+   <atom label="decider/password"/>
+   <atom label="decider/VarAssociation"/>
+   <atom label="decider/RoleBindingsAssociation"/>
+   <atom label="decider/descisionSpaceParticipantsAssociation"/>
+   <atom label="decider/descisionSpaceVariablesAssociation"/>
+   <atom label="decider/DSNNamespaceAssociation"/>
+   <atom label="AssociationMappings/Declaration/No$0"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Attribute" ID="14" parentID="13" abstract="yes">
+   <atom label="decider/NameSpace"/>
+   <atom label="decider/Variable"/>
+   <atom label="decider/Relationship"/>
+   <atom label="decider/Role"/>
+   <atom label="decider/DecisionSpace"/>
+   <atom label="decider/Participant"/>
+   <atom label="decider/User"/>
+   <atom label="decider/Viewer"/>
+   <atom label="decider/Developer"/>
+   <atom label="decider/namespaceID"/>
+   <atom label="decider/variableID"/>
+   <atom label="decider/relationshipID"/>
+   <atom label="decider/roleID"/>
+   <atom label="decider/decisionSpaceID"/>
+   <atom label="decider/participantID"/>
+   <atom label="decider/period"/>
+   <atom label="decider/department"/>
+   <atom label="decider/namespaceName"/>
+   <atom label="decider/variableName"/>
+   <atom label="decider/relationshipName"/>
+   <atom label="decider/roleName"/>
+   <atom label="decider/decisionSpaceName"/>
+   <atom label="decider/username"/>
+   <atom label="decider/password"/>
+   <atom label="AssociationMappings/Declaration/No$0"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Class" ID="10" parentID="14" abstract="yes">
+   <atom label="decider/NameSpace"/>
+   <atom label="decider/Variable"/>
+   <atom label="decider/Relationship"/>
+   <atom label="decider/Role"/>
+   <atom label="decider/DecisionSpace"/>
+   <atom label="decider/Participant"/>
+   <atom label="decider/User"/>
+   <atom label="decider/Viewer"/>
+   <atom label="decider/Developer"/>
+</sig>
+
+<field label="attrSet" ID="15" parentID="10">
+   <tuple> <atom label="decider/NameSpace"/> <atom label="decider/namespaceID"/> </tuple>
+   <tuple> <atom label="decider/NameSpace"/> <atom label="decider/namespaceName"/> </tuple>
+   <tuple> <atom label="decider/Variable"/> <atom label="decider/variableID"/> </tuple>
+   <tuple> <atom label="decider/Variable"/> <atom label="decider/variableName"/> </tuple>
+   <tuple> <atom label="decider/Relationship"/> <atom label="decider/relationshipID"/> </tuple>
+   <tuple> <atom label="decider/Relationship"/> <atom label="decider/relationshipName"/> </tuple>
+   <tuple> <atom label="decider/Role"/> <atom label="decider/roleID"/> </tuple>
+   <tuple> <atom label="decider/Role"/> <atom label="decider/roleName"/> </tuple>
+   <tuple> <atom label="decider/DecisionSpace"/> <atom label="decider/decisionSpaceID"/> </tuple>
+   <tuple> <atom label="decider/DecisionSpace"/> <atom label="decider/decisionSpaceName"/> </tuple>
+   <tuple> <atom label="decider/Participant"/> <atom label="decider/participantID"/> </tuple>
+   <tuple> <atom label="decider/User"/> <atom label="decider/username"/> </tuple>
+   <tuple> <atom label="decider/User"/> <atom label="decider/password"/> </tuple>
+   <tuple> <atom label="decider/Viewer"/> <atom label="decider/period"/> </tuple>
+   <tuple> <atom label="decider/Developer"/> <atom label="decider/department"/> </tuple>
+   <types> <type ID="10"/> <type ID="14"/> </types>
+</field>
+
+<field label="id" ID="16" parentID="10">
+   <tuple> <atom label="decider/NameSpace"/> <atom label="decider/namespaceID"/> </tuple>
+   <tuple> <atom label="decider/Variable"/> <atom label="decider/variableID"/> </tuple>
+   <tuple> <atom label="decider/Relationship"/> <atom label="decider/relationshipID"/> </tuple>
+   <tuple> <atom label="decider/Role"/> <atom label="decider/roleID"/> </tuple>
+   <tuple> <atom label="decider/DecisionSpace"/> <atom label="decider/decisionSpaceID"/> </tuple>
+   <tuple> <atom label="decider/Participant"/> <atom label="decider/participantID"/> </tuple>
+   <tuple> <atom label="decider/User"/> <atom label="decider/participantID"/> </tuple>
+   <tuple> <atom label="decider/Viewer"/> <atom label="decider/participantID"/> </tuple>
+   <tuple> <atom label="decider/Developer"/> <atom label="decider/participantID"/> </tuple>
+   <types> <type ID="10"/> <type ID="14"/> </types>
+</field>
+
+<field label="parent" ID="17" parentID="10">
+   <tuple> <atom label="decider/User"/> <atom label="decider/Participant"/> </tuple>
+   <tuple> <atom label="decider/Viewer"/> <atom label="decider/Participant"/> </tuple>
+   <tuple> <atom label="decider/Developer"/> <atom label="decider/Participant"/> </tuple>
+   <types> <type ID="10"/> <type ID="10"/> </types>
+</field>
+
+<field label="isAbstract" ID="18" parentID="10">
+   <tuple> <atom label="decider/NameSpace"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="decider/Variable"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="decider/Relationship"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="decider/Role"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="decider/DecisionSpace"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="decider/Participant"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="decider/User"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="decider/Viewer"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="decider/Developer"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <types> <type ID="10"/> <type ID="19"/> </types>
+</field>
+
+<sig label="decider/NameSpace" ID="20" parentID="10" one="yes">
+   <atom label="decider/NameSpace"/>
+</sig>
+
+<sig label="decider/Variable" ID="21" parentID="10" one="yes">
+   <atom label="decider/Variable"/>
+</sig>
+
+<sig label="decider/Relationship" ID="22" parentID="10" one="yes">
+   <atom label="decider/Relationship"/>
+</sig>
+
+<sig label="decider/Role" ID="23" parentID="10" one="yes">
+   <atom label="decider/Role"/>
+</sig>
+
+<sig label="decider/DecisionSpace" ID="24" parentID="10" one="yes">
+   <atom label="decider/DecisionSpace"/>
+</sig>
+
+<sig label="decider/Participant" ID="25" parentID="10" one="yes">
+   <atom label="decider/Participant"/>
+</sig>
+
+<sig label="decider/User" ID="26" parentID="10" one="yes">
+   <atom label="decider/User"/>
+</sig>
+
+<sig label="decider/Viewer" ID="27" parentID="10" one="yes">
+   <atom label="decider/Viewer"/>
+</sig>
+
+<sig label="decider/Developer" ID="28" parentID="10" one="yes">
+   <atom label="decider/Developer"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Type" ID="29" parentID="14" abstract="yes">
+   <atom label="decider/namespaceID"/>
+   <atom label="decider/variableID"/>
+   <atom label="decider/relationshipID"/>
+   <atom label="decider/roleID"/>
+   <atom label="decider/decisionSpaceID"/>
+   <atom label="decider/participantID"/>
+   <atom label="decider/period"/>
+   <atom label="decider/department"/>
+   <atom label="decider/namespaceName"/>
+   <atom label="decider/variableName"/>
+   <atom label="decider/relationshipName"/>
+   <atom label="decider/roleName"/>
+   <atom label="decider/decisionSpaceName"/>
+   <atom label="decider/username"/>
+   <atom label="decider/password"/>
+   <atom label="AssociationMappings/Declaration/No$0"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Integer" ID="30" parentID="29">
+   <atom label="decider/namespaceID"/>
+   <atom label="decider/variableID"/>
+   <atom label="decider/relationshipID"/>
+   <atom label="decider/roleID"/>
+   <atom label="decider/decisionSpaceID"/>
+   <atom label="decider/participantID"/>
+   <atom label="decider/period"/>
+   <atom label="decider/department"/>
+</sig>
+
+<sig label="decider/namespaceID" ID="31" parentID="30" one="yes">
+   <atom label="decider/namespaceID"/>
+</sig>
+
+<sig label="decider/variableID" ID="32" parentID="30" one="yes">
+   <atom label="decider/variableID"/>
+</sig>
+
+<sig label="decider/relationshipID" ID="33" parentID="30" one="yes">
+   <atom label="decider/relationshipID"/>
+</sig>
+
+<sig label="decider/roleID" ID="34" parentID="30" one="yes">
+   <atom label="decider/roleID"/>
+</sig>
+
+<sig label="decider/decisionSpaceID" ID="35" parentID="30" one="yes">
+   <atom label="decider/decisionSpaceID"/>
+</sig>
+
+<sig label="decider/participantID" ID="36" parentID="30" one="yes">
+   <atom label="decider/participantID"/>
+</sig>
+
+<sig label="decider/period" ID="37" parentID="30" one="yes">
+   <atom label="decider/period"/>
+</sig>
+
+<sig label="decider/department" ID="38" parentID="30" one="yes">
+   <atom label="decider/department"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Real" ID="39" parentID="29">
+</sig>
+
+<sig label="AssociationMappings/Declaration/string" ID="40" parentID="29">
+   <atom label="decider/namespaceName"/>
+   <atom label="decider/variableName"/>
+   <atom label="decider/relationshipName"/>
+   <atom label="decider/roleName"/>
+   <atom label="decider/decisionSpaceName"/>
+   <atom label="decider/username"/>
+   <atom label="decider/password"/>
+</sig>
+
+<sig label="decider/namespaceName" ID="41" parentID="40" one="yes">
+   <atom label="decider/namespaceName"/>
+</sig>
+
+<sig label="decider/variableName" ID="42" parentID="40" one="yes">
+   <atom label="decider/variableName"/>
+</sig>
+
+<sig label="decider/relationshipName" ID="43" parentID="40" one="yes">
+   <atom label="decider/relationshipName"/>
+</sig>
+
+<sig label="decider/roleName" ID="44" parentID="40" one="yes">
+   <atom label="decider/roleName"/>
+</sig>
+
+<sig label="decider/decisionSpaceName" ID="45" parentID="40" one="yes">
+   <atom label="decider/decisionSpaceName"/>
+</sig>
+
+<sig label="decider/username" ID="46" parentID="40" one="yes">
+   <atom label="decider/username"/>
+</sig>
+
+<sig label="decider/password" ID="47" parentID="40" one="yes">
+   <atom label="decider/password"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Bool" ID="19" parentID="29">
+   <atom label="AssociationMappings/Declaration/No$0"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Yes" ID="48" parentID="19">
+</sig>
+
+<sig label="AssociationMappings/Declaration/No" ID="49" parentID="19">
+   <atom label="AssociationMappings/Declaration/No$0"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/DType" ID="50" parentID="29">
+</sig>
+
+<sig label="AssociationMappings/Declaration/Longblob" ID="51" parentID="29">
+</sig>
+
+<sig label="AssociationMappings/Declaration/Time" ID="52" parentID="29">
+</sig>
+
+<sig label="AssociationMappings/Declaration/Association" ID="11" parentID="13" abstract="yes">
+   <atom label="decider/VarAssociation"/>
+   <atom label="decider/RoleBindingsAssociation"/>
+   <atom label="decider/descisionSpaceParticipantsAssociation"/>
+   <atom label="decider/descisionSpaceVariablesAssociation"/>
+   <atom label="decider/DSNNamespaceAssociation"/>
+</sig>
+
+<field label="src" ID="53" parentID="11">
+   <tuple> <atom label="decider/VarAssociation"/> <atom label="decider/Variable"/> </tuple>
+   <tuple> <atom label="decider/RoleBindingsAssociation"/> <atom label="decider/Participant"/> </tuple>
+   <tuple> <atom label="decider/descisionSpaceParticipantsAssociation"/> <atom label="decider/DecisionSpace"/> </tuple>
+   <tuple> <atom label="decider/descisionSpaceVariablesAssociation"/> <atom label="decider/DecisionSpace"/> </tuple>
+   <tuple> <atom label="decider/DSNNamespaceAssociation"/> <atom label="decider/DecisionSpace"/> </tuple>
+   <types> <type ID="11"/> <type ID="10"/> </types>
+</field>
+
+<field label="dst" ID="54" parentID="11">
+   <tuple> <atom label="decider/VarAssociation"/> <atom label="decider/Relationship"/> </tuple>
+   <tuple> <atom label="decider/RoleBindingsAssociation"/> <atom label="decider/Role"/> </tuple>
+   <tuple> <atom label="decider/descisionSpaceParticipantsAssociation"/> <atom label="decider/Participant"/> </tuple>
+   <tuple> <atom label="decider/descisionSpaceVariablesAssociation"/> <atom label="decider/Variable"/> </tuple>
+   <tuple> <atom label="decider/DSNNamespaceAssociation"/> <atom label="decider/NameSpace"/> </tuple>
+   <types> <type ID="11"/> <type ID="10"/> </types>
+</field>
+
+<field label="src_multiplicity" ID="55" parentID="11">
+   <tuple> <atom label="decider/VarAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <tuple> <atom label="decider/RoleBindingsAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="decider/descisionSpaceParticipantsAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="decider/descisionSpaceVariablesAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <tuple> <atom label="decider/DSNNamespaceAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <types> <type ID="11"/> <type ID="56"/> </types>
+</field>
+
+<field label="dst_multiplicity" ID="57" parentID="11">
+   <tuple> <atom label="decider/VarAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="decider/RoleBindingsAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="decider/descisionSpaceParticipantsAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="decider/descisionSpaceVariablesAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="decider/DSNNamespaceAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <types> <type ID="11"/> <type ID="56"/> </types>
+</field>
+
+<sig label="decider/VarAssociation" ID="58" parentID="11" one="yes">
+   <atom label="decider/VarAssociation"/>
+</sig>
+
+<sig label="decider/RoleBindingsAssociation" ID="59" parentID="11" one="yes">
+   <atom label="decider/RoleBindingsAssociation"/>
+</sig>
+
+<sig label="decider/descisionSpaceParticipantsAssociation" ID="60" parentID="11" one="yes">
+   <atom label="decider/descisionSpaceParticipantsAssociation"/>
+</sig>
+
+<sig label="decider/descisionSpaceVariablesAssociation" ID="61" parentID="11" one="yes">
+   <atom label="decider/descisionSpaceVariablesAssociation"/>
+</sig>
+
+<sig label="decider/DSNNamespaceAssociation" ID="62" parentID="11" one="yes">
+   <atom label="decider/DSNNamespaceAssociation"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Multiplicity_State" ID="56" parentID="0" abstract="yes">
+   <atom label="AssociationMappings/Declaration/ONE"/>
+   <atom label="AssociationMappings/Declaration/MANY"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/ONE" ID="63" parentID="56" one="yes">
+   <atom label="AssociationMappings/Declaration/ONE"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/MANY" ID="64" parentID="56" one="yes">
+   <atom label="AssociationMappings/Declaration/MANY"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Strategy" ID="65" parentID="0" abstract="yes">
+   <atom label="ORMStrategies/UnionSubclassStrategy"/>
+   <atom label="ORMStrategies/JoinedSubclassStrategy"/>
+   <atom label="ORMStrategies/UnionSuperclassStrategy"/>
+   <atom label="AssociationMappings/ForeignKeyEmbeddingStrategy"/>
+   <atom label="AssociationMappings/OwnAssociationTableStrategy"/>
+   <atom label="AssociationMappings/MergingOneTableStrategy"/>
+</sig>
+
+<field label="assignees" ID="66" parentID="65">
+   <tuple> <atom label="ORMStrategies/UnionSubclassStrategy"/> <atom label="decider/NameSpace"/> </tuple>
+   <tuple> <atom label="ORMStrategies/UnionSubclassStrategy"/> <atom label="decider/Role"/> </tuple>
+   <tuple> <atom label="ORMStrategies/UnionSubclassStrategy"/> <atom label="decider/DecisionSpace"/> </tuple>
+   <tuple> <atom label="ORMStrategies/UnionSubclassStrategy"/> <atom label="decider/Participant"/> </tuple>
+   <tuple> <atom label="ORMStrategies/UnionSubclassStrategy"/> <atom label="decider/Viewer"/> </tuple>
+   <tuple> <atom label="ORMStrategies/JoinedSubclassStrategy"/> <atom label="decider/User"/> </tuple>
+   <tuple> <atom label="ORMStrategies/JoinedSubclassStrategy"/> <atom label="decider/Developer"/> </tuple>
+   <tuple> <atom label="AssociationMappings/ForeignKeyEmbeddingStrategy"/> <atom label="decider/VarAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/ForeignKeyEmbeddingStrategy"/> <atom label="decider/descisionSpaceVariablesAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/OwnAssociationTableStrategy"/> <atom label="decider/RoleBindingsAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/OwnAssociationTableStrategy"/> <atom label="decider/descisionSpaceParticipantsAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/OwnAssociationTableStrategy"/> <atom label="decider/DSNNamespaceAssociation"/> </tuple>
+   <types> <type ID="65"/> <type ID="10"/> </types>
+   <types> <type ID="65"/> <type ID="11"/> </types>
+</field>
+
+<sig label="ORMStrategies/UnionSubclassStrategy" ID="67" parentID="65" one="yes">
+   <atom label="ORMStrategies/UnionSubclassStrategy"/>
+</sig>
+
+<sig label="ORMStrategies/JoinedSubclassStrategy" ID="68" parentID="65" one="yes">
+   <atom label="ORMStrategies/JoinedSubclassStrategy"/>
+</sig>
+
+<sig label="ORMStrategies/UnionSuperclassStrategy" ID="69" parentID="65" one="yes">
+   <atom label="ORMStrategies/UnionSuperclassStrategy"/>
+</sig>
+
+<sig label="AssociationMappings/ForeignKeyEmbeddingStrategy" ID="70" parentID="65" one="yes">
+   <atom label="AssociationMappings/ForeignKeyEmbeddingStrategy"/>
+</sig>
+
+<sig label="AssociationMappings/OwnAssociationTableStrategy" ID="71" parentID="65" one="yes">
+   <atom label="AssociationMappings/OwnAssociationTableStrategy"/>
+</sig>
+
+<sig label="AssociationMappings/MergingOneTableStrategy" ID="72" parentID="65" one="yes">
+   <atom label="AssociationMappings/MergingOneTableStrategy"/>
+</sig>
+
+<sig label="AssociationMappings/AssociationMappingStrategies" ID="73" parentID="0" one="yes">
+   <atom label="AssociationMappings/AssociationMappingStrategies"/>
+</sig>
+
+<field label="FKE" ID="74" parentID="73">
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="decider/VarAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="decider/descisionSpaceVariablesAssociation"/> </tuple>
+   <types> <type ID="73"/> <type ID="11"/> </types>
+</field>
+
+<field label="OAT" ID="75" parentID="73">
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="decider/RoleBindingsAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="decider/descisionSpaceParticipantsAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="decider/DSNNamespaceAssociation"/> </tuple>
+   <types> <type ID="73"/> <type ID="11"/> </types>
+</field>
+
+<field label="MOT" ID="76" parentID="73">
+   <types> <type ID="73"/> <type ID="11"/> </types>
+</field>
+
+</instance>
+
+</alloy>
