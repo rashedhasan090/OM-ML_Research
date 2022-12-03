@@ -1,0 +1,19 @@
+Mapping Strategy for Role : Union Sub Class
+
+Mapping Strategy for DecisionSpace : Union Sub Class
+
+Mapping Strategy for Participant : Union Sub Class
+
+Mapping Strategy for Viewer : Joined Sub Class
+
+Mapping Strategy for Developer : Joined Sub Class
+
+Association Strategy for VarAssociation : ForeignKeyEmbeddingStrategy
+
+Association Strategy for descisionSpaceVariablesAssociation : ForeignKeyEmbeddingStrategy
+
+Association Strategy for DSNNamespaceAssociation : ForeignKeyEmbeddingStrategy
+
+Association Strategy for RoleBindingsAssociation : OwnAssociationTableStrategy
+
+Association Strategy for descisionSpaceParticipantsAssociation : OwnAssociationTableStrategy
