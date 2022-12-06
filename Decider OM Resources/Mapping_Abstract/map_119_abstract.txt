@@ -4,11 +4,9 @@ Mapping Strategy of Table class5_name: map_str2
 
 Mapping Strategy of Table class7_name: map_str2
 
-Mapping Strategy of Table class8_name: map_str2
+Mapping Strategy of Table class10_name: map_str2
 
 Mapping Strategy of Table class9_name: map_str3
-
-Mapping Strategy of Table class6_name: map_str3
 
 Association Strategy for assoc4 : assoc_type1
 
