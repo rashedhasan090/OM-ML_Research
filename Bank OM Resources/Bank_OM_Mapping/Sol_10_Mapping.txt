@@ -1,0 +1,63 @@
+Table Name: Account
+
+Table Name: Checking
+
+Table Loan : Attribute LoanId
+ Primary Key
+
+Table Loan : Attribute LoanType
+
+Table Checking : Attribute CheckingId
+ Primary Key
+
+Table Customer : Attribute CustomerPhoneNo
+
+Table Customer : Attribute CustomerAcctNo
+
+Table Customer : Attribute CustomerName
+
+Table Customer : Attribute CustomerName
+
+Table Teller : Attribute TellerId
+ Primary Key
+
+Table Teller : Attribute TellerName
+
+Table Account : Attribute CustomerId
+ Primary Key
+
+Table Account : Attribute AccountId
+
+Table Bank : Attribute BankId
+ Primary Key
+
+Table Bank : Attribute BankName
+
+Table Bank : Attribute BankLocation
+
+Table Savings : Attribute SavingsId
+
+Table Loan : Attribute LoanId
+ Primary Key
+
+Table Teller : Attribute TellerId
+ Primary Key
+
+Table Account : Attribute AccountId
+
+Table Bank : Attribute BankId
+ Primary Key
+
+Mapping Strategy for Checking : Union Sub Class
+
+Mapping Strategy for Bank : Union Sub Class
+
+Mapping Strategy for Savings : Union Sub Class
+
+Association Strategy for BankCustomerAssociation : ForeignKeyEmbeddingStrategy
+
+Association Strategy for CustomerLoanAssociation : ForeignKeyEmbeddingStrategy
+
+Association Strategy for BankTellerAssociation : OwnAssociationTableStrategy
+
+Association Strategy for CustomerTellerAssociation : OwnAssociationTableStrategy
