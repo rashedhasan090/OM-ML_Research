@@ -1,63 +1,77 @@
-Table Loan : Attribute LoanId
+Table class1_name : Attribute c1_at1
  Primary Key
 
-Table Loan : Attribute LoanType
+Table class1_name : Attribute c1_at2
 
-Table Checking : Attribute CheckingId
+Table class2_name : Attribute c2_at1
  Primary Key
 
-Table Customer : Attribute CustomerPhoneNo
+Table class3_name : Attribute c3_at4
 
-Table Customer : Attribute CustomerAcctNo
+Table class3_name : Attribute c3_at5
 
-Table Customer : Attribute CustomerName
+Table class3_name : Attribute c3_at2
 
-Table Customer : Attribute CustomerName
+Table class3_name : Attribute c3_at2
 
-Table Teller : Attribute TellerId
+Table class4_name : Attribute c4_at1
  Primary Key
 
-Table Teller : Attribute TellerName
+Table class4_name : Attribute c4_at2
 
-Table Account : Attribute CustomerId
+Table class5_name : Attribute c3_at1
  Primary Key
 
-Table Account : Attribute AccountId
+Table class5_name : Attribute c5_at1
 
-Table Bank : Attribute BankId
+Table class6_name : Attribute c6_at1
  Primary Key
 
-Table Bank : Attribute BankName
+Table class6_name : Attribute c6_at2
 
-Table Bank : Attribute BankLocation
+Table class6_name : Attribute c6_at3
 
-Table Savings : Attribute SavingsId
+Table class7_name : Attribute c7_at1
 
-Table Loan : Attribute LoanId
+Table class1_name : Attribute c1_at1
  Primary Key
 
-Table Teller : Attribute TellerId
+Table class4_name : Attribute c4_at1
  Primary Key
 
-Table Account : Attribute AccountId
+Table class5_name : Attribute c5_at1
 
-Table Bank : Attribute BankId
+Table class6_name : Attribute c6_at1
  Primary Key
 
-Mapping Strategy for Loan : Union Sub Class
+Table Name: class1_name
 
-Mapping Strategy for Checking : Union Sub Class
+Table Name: class2_name
 
-Mapping Strategy for Customer : Union Sub Class
+Table Name: class3_name
 
-Mapping Strategy for Bank : Union Sub Class
+Table Name: class4_name
 
-Mapping Strategy for Savings : Union Sub Class
+Table Name: class5_name
 
-Association Strategy for BankTellerAssociation : ForeignKeyEmbeddingStrategy
+Table Name: class6_name
 
-Association Strategy for BankCustomerAssociation : OwnAssociationTableStrategy
+Table Name: class7_name
 
-Association Strategy for CustomerTellerAssociation : OwnAssociationTableStrategy
+Mapping Strategy for class1_name : map_str2
 
-Association Strategy for CustomerLoanAssociation : OwnAssociationTableStrategy
+Mapping Strategy for class8_name : map_str2
+
+Mapping Strategy for class3_name : map_str2
+
+Mapping Strategy for class6_name : map_str2
+
+Mapping Strategy for class7_name : map_str2
+
+Association Strategy for assoc1 : assoc_type1
+
+Association Strategy for assoc2 : assoc_type2
+
+Association Strategy for assoc3 : assoc_type2
+
+Association Strategy for assoc5 : assoc_type2

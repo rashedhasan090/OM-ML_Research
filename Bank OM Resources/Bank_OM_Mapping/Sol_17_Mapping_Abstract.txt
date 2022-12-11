@@ -58,9 +58,9 @@ Table Name: class6_name
 
 Table Name: class7_name
 
-Mapping Strategy for class8_name : map_str2
+Mapping Strategy for class1_name : map_str2
 
-Mapping Strategy for class3_name : map_str2
+Mapping Strategy for class8_name : map_str2
 
 Mapping Strategy for class5_name : map_str2
 
@@ -68,10 +68,10 @@ Mapping Strategy for class6_name : map_str2
 
 Mapping Strategy for class7_name : map_str2
 
-Association Strategy for assoc5 : assoc_type1
+Association Strategy for assoc1 : assoc_type1
 
-Association Strategy for assoc1 : assoc_type2
-
-Association Strategy for assoc2 : assoc_type2
+Association Strategy for assoc2 : assoc_type1
 
 Association Strategy for assoc3 : assoc_type2
+
+Association Strategy for assoc5 : assoc_type2
