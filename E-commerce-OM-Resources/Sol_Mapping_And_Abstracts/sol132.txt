@@ -1,0 +1,41 @@
+Table Name: Customer
+
+Table Name: Order
+
+Mapping Strategy for Customer : Union Sub Class
+
+Mapping Strategy for Category : Union Sub Class
+
+Mapping Strategy for Product : Union Sub Class
+
+Mapping Strategy for PhysicalProduct : Union Sub Class
+
+Mapping Strategy for Asset : Union Sub Class
+
+Mapping Strategy for CartItem : Joined Sub Class
+
+Mapping Strategy for Item : Joined Sub Class
+
+Mapping Strategy for ElectronicProduct : Joined Sub Class
+
+Mapping Strategy for Service : Joined Sub Class
+
+Mapping Strategy for Service : Joined Sub Class
+
+Mapping Strategy for Documents : Joined Sub Class
+
+Association Strategy for ProductCatalogAssociation : ForeignKeyEmbeddingStrategy
+
+Association Strategy for CustomerOrderAssociation : OwnAssociationTableStrategy
+
+Association Strategy for CustomerShippingCartAssociation : OwnAssociationTableStrategy
+
+Association Strategy for ShippingCartItemAssociation : OwnAssociationTableStrategy
+
+Association Strategy for OrderItemAssociation : OwnAssociationTableStrategy
+
+Association Strategy for ProductCategoryAssociation : OwnAssociationTableStrategy
+
+Association Strategy for ProductItemAssociation : OwnAssociationTableStrategy
+
+Association Strategy for ProductAssetAssociation : OwnAssociationTableStrategy
