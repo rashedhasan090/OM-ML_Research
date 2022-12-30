@@ -1,0 +1,45 @@
+Table Name: Customer
+
+Table Name: Order
+
+Table Name ShippingCart
+
+Table Name Service
+
+Mapping Strategy for Customer : Union Sub Class
+
+Mapping Strategy for Category : Union Sub Class
+
+Mapping Strategy for Asset : Union Sub Class
+
+Mapping Strategy for Service : Union Sub Class
+
+Mapping Strategy for Documents : Union Sub Class
+
+Mapping Strategy for CartItem : Union Super Class
+
+Mapping Strategy for OrderItem : Union Super Class
+
+Mapping Strategy for Product : Union Super Class
+
+Mapping Strategy for PhysicalProduct : Union Super Class
+
+Mapping Strategy for ElectronicProduct : Union Super Class
+
+Mapping Strategy for Service : Union Super Class
+
+Association Strategy for CustomerOrderAssociation : ForeignKeyEmbeddingStrategy
+
+Association Strategy for CustomerShippingCartAssociation : ForeignKeyEmbeddingStrategy
+
+Association Strategy for ProductCatalogAssociation : ForeignKeyEmbeddingStrategy
+
+Association Strategy for ShippingCartItemAssociation : OwnAssociationTableStrategy
+
+Association Strategy for OrderItemAssociation : OwnAssociationTableStrategy
+
+Association Strategy for ProductCategoryAssociation : OwnAssociationTableStrategy
+
+Association Strategy for ProductItemAssociation : OwnAssociationTableStrategy
+
+Association Strategy for ProductAssetAssociation : OwnAssociationTableStrategy
