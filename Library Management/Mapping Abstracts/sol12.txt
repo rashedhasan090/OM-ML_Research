@@ -1,0 +1,25 @@
+Mapping Strategy for LibraryDatabase : Union Sub Class
+
+Mapping Strategy for LibraryManagementSystem : Union Sub Class
+
+Mapping Strategy for Student : Joined Sub Class
+
+Mapping Strategy for Staff : Joined Sub Class
+
+Association Strategy for UserLMSAssociation : ForeignKeyEmbeddingStrategy
+
+Association Strategy for LMSBookAssociation : ForeignKeyEmbeddingStrategy
+
+Association Strategy for LibrarianBookAssociation : ForeignKeyEmbeddingStrategy
+
+Association Strategy for AccountLibraryDbAssociation : ForeignKeyEmbeddingStrategy
+
+Association Strategy for BookLibraryDbAssociation : ForeignKeyEmbeddingStrategy
+
+Association Strategy for UserAccountAssociation : OwnAssociationTableStrategy
+
+Association Strategy for LMSAccountAssociation : OwnAssociationTableStrategy
+
+Association Strategy for LMSLibrarianAssociation : OwnAssociationTableStrategy
+
+Association Strategy for LibrarianLibraryDbAssociation : OwnAssociationTableStrategy
