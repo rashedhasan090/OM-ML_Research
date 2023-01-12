@@ -1,0 +1,51 @@
+Exp 1 Jan23 - Regular Dataset  - Tokenization 1 - 6 OM Dataset
+
+
+Notes
+Optimizers used: 'Adadelta', 'Adagrad', 'Adam', ‘SGD’, ‘RMSProp’
+Adam and RMSprop provoided better results
+
+
+Comma separated tokenization, class separation noticed.
+
+
+Ran multiple times to observe translations
+
+- Re ran after 10 sample assessment (Adam & SGD)
+
+- Re an after 36 (RMSprop)
+
+- Re ran after 50 (Adadelta) - Adagrad
+
+
+
+
+Total Instance = 102
+
+Pareto = 71
+Not Pareto = 31
+
+
+correctly predicted P = 47 (TP)
+Incorrectly predicted P = 24 (FN)
+
+
+correctly predicted NP = 6 (TN)
+Incorrectly predicted NP = 25 (FP)
+
+Incorrectly predicted = 24 predicted as NP but they were P | 47 predicted as P and they are P
+25 predicted as P but they were NP | 6 predicted as NP and they are NP
+
+
+
+
+
+Precision - TP / (TP + FP) = 47 / (47 + 25) = 0.65
+Recall - TP / (TP + FN) = 47 / (47 + 24) = 0.66
+Accuracy = (TN + TP ) / (TN + FP + TP + FN ) = (6 + 47) / (6 + 25 + 47 + 24) = 0.519
+F1 = 2 * (Precision * Recall / Precision + Recall) = 2 * (0.65 * 0.66 / 0.65 + 0.66) = 2 * (0.429 / 1.31) = 0.65
+
+
+
+
+018 198 226 19
