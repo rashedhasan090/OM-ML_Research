@@ -1,0 +1,63 @@
+Exp 3 Jan23 - Regular Dataset  - Tokenization 3 - 6 OM combined
+
+
+Notes
+Optimizers used: 'Adam''Adadelta', 'Adagrad', 'Adam', ‘SGD’, ‘RMSProp’
+
+
+statement specific tokenization, full completed statements from the dataset appeared in vocabulary.
+Noticed separated sections (OM / Mapping / Schema) and also conjoint in few cases.
+
+
+Ran multiple times to observe translations
+
+
+- SGD has provided results
+
+- Run 1 - Till sample 7 (SGD)
+- Run 2 - RMSProp (till sample 15)
+
+
+- Run 3 - RMSProp (Sample 16 - 28)
+- Run 4 - Adadelta (sample 29 - 40)
+
+
+- Run 5 - Adam (sample 41 - 92 )
+- Run 6 - Adam (93 - 102)
+
+
+
+
+---------------------------
+
+
+
+Total Instance = 102
+
+Pareto = 71
+Not Pareto = 31
+
+
+correctly predicted P = 56 (TP)
+Incorrectly predicted P = 15 (FN)
+
+
+correctly predicted NP = 17 (TN)
+Incorrectly predicted NP = 14 (FP)
+
+Incorrectly predicted = 15 predicted as NP but they were P | 56 predicted as P and they are P
+14 predicted as P but they were NP | 17 predicted as NP and they are NP
+
+
+
+
+
+Precision - TP / (TP + FP) = 56 / (56 + 14) = 0.70
+Recall - TP / (TP + FN) = 56 / (56 + 15) = 0.78
+Accuracy = (TN + TP ) / (TN + FP + TP + FN ) = (17 + 56) / (17 + 14 + 56 + 15) = 0.715
+F1 = 2 * (Precision * Recall / Precision + Recall) = 2 * (0.70 * 0.78 / 0.70 + 0.78) = 2 * (0.429 / 1.31) = 0.737
+
+
+
+
+018 198 226 19

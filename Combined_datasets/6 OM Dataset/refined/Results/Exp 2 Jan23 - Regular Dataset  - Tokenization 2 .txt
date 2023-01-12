@@ -46,10 +46,10 @@ Incorrectly predicted = 26 predicted as NP but they were P | 45 predicted as P a
 
 
 
-Precision - TP / (TP + FP) = 47 / (47 + 25) = 0.65
-Recall - TP / (TP + FN) = 47 / (47 + 24) = 0.66
-Accuracy = (TN + TP ) / (TN + FP + TP + FN ) = (6 + 47) / (6 + 25 + 47 + 24) = 0.519
-F1 = 2 * (Precision * Recall / Precision + Recall) = 2 * (0.65 * 0.66 / 0.65 + 0.66) = 2 * (0.429 / 1.31) = 0.65
+Precision - TP / (TP + FP) = 45 / (45 + 20) = 0.69
+Recall - TP / (TP + FN) = 45 / (45 + 26) = 0.63
+Accuracy = (TN + TP ) / (TN + FP + TP + FN ) = (11 + 45) / (11 + 20 + 45 + 26) = 0.549
+F1 = 2 * (Precision * Recall / Precision + Recall) = 2 * (0.69 * 0.63 / 0.69 + 0.66) = 2 * (0.4347 / 1.35) = 0.64
 
 
 
