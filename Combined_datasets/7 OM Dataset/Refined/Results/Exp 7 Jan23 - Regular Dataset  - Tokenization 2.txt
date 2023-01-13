@@ -1,0 +1,32 @@
+Exp 6 Jan23 - Regular Dataset  - Tokenization 1 - 7 OM Dataset
+
+
+Notes
+
+
+
+Comma separated tokenization, class separation and conjoint entities separation noticed.
+mapping and schema separation noticed by the means of comma.
+
+labels considered separately as token in the target context.
+
+Optimizers used: 'Adam''Adadelta', 'Adagrad', 'Adam', ‘SGD’, ‘RMSProp’
+
+
+
+Ran multiple times to observe translations
+
+- Run 1 - Adam (Sample 1 -5)
+- Run 2 - RMSProp (Sample 6 - 11)
+- Run 3 - Adam (sample 12-16)
+- Run 4 - Adadelta (sample 17 - 23)
+- Run 5 - SGD ( 24 - 45 ) consistant result with P and Np
+
+
+
+Total Instance = 102
+
+Pareto = 71
+Not Pareto = 31
+
+Incomplete Statements
