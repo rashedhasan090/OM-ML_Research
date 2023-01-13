@@ -30,3 +30,29 @@ Pareto = 71
 Not Pareto = 31
 
 Incomplete Statements
+
+
+Total Instance = 102
+
+Pareto = 71
+Not Pareto = 31
+
+
+correctly predicted P =  66 (TP)
+Incorrectly predicted P = 5 (FN)
+
+
+correctly predicted NP = 10 (TN)
+Incorrectly predicted NP = 21 (FP)
+
+Incorrectly predicted = 5 predicted as NP but they were P | 66 predicted as P and they are P
+21 predicted as P but they were NP | 10 predicted as NP and they are NP
+
+
+
+
+
+Precision - TP / (TP + FP) = 66 / (66 + 21) = 0.758
+Recall - TP / (TP + FN) = 57 / (57 + 14) = 0.929
+Accuracy = (TN + TP ) / (TN + FP + TP + FN ) = (10 + 66) / (10 + 21 + 66 + 5) = 0.745
+F1 = 2 * (Precision * Recall / Precision + Recall) = 2 * (0.758 * 0.929 / 0.758 + 0.929) = 2 * (0.40) = 0.834
