@@ -1,4 +1,4 @@
-Exp 6 Jan23 - Regular Dataset  - Tokenization 4 - 7 OM Dataset
+Exp 9 Jan23 - Regular Dataset  - Tokenization 4 - 7 OM Dataset
 
 
 Notes
@@ -41,8 +41,6 @@ Incorrectly predicted NP = 17 (FP)
 
 Incorrectly predicted = 20 predicted as NP but they were P | 51 predicted as P and they are P
 17 predicted as P but they were NP | 14 predicted as NP and they are NP
-
-
 
 
 

@@ -1,0 +1,65 @@
+Exp 10 Jan23 - Regular Dataset  - Tokenization 5 - 7 OM Dataset
+
+
+
+
+Notes
+Optimizers used: 'Adam''Adadelta', 'Adagrad', 'Adam', ‘SGD’, ‘RMSProp’
+
+
+- strips out all the numbers
+- special characters and notations
+- separates based on comma
+- very generic architecture
+-Easy to specify keywards
+-SGD, VAL steps 50 gave predictions as P
+
+
+
+Ran multiple times to observe translations
+
+- Run 1 - Adam (Sample 1 -7)
+- Run 2 - SGD (sample 8 - 28)
+- Run 3 - Adadelta (sample 29 - 39)
+- Run 4 - Adadelta (sample 39 - 48)
+- Run 5 - RMSProp (sample 49 - 55)
+- Run 6 - Adagrad (sample 56 )
+
+
+
+
+
+- Run 2 - SGD (22 - 32)
+- Run 3 - RMSProp (33 - 47 )
+- Run 4 - Adagrad (sample 48 - 55)
+- Run 5 - Adadelta (sample 56-67)
+- Run 6 - RMSProp (sample 68 - 102)
+
+
+
+
+Total Instance = 102
+
+Pareto = 71
+Not Pareto = 31
+
+
+correctly predicted P =  62 (TP)
+Incorrectly predicted P = 9 (FN)
+
+
+correctly predicted NP = 5 (TN)
+Incorrectly predicted NP = 26 (FP)
+
+Incorrectly predicted = 9 predicted as NP but they were P | 62 predicted as P and they are P
+26 predicted as P but they were NP | 5 predicted as NP and they are NP
+
+
+
+
+
+Precision - TP / (TP + FP) = 62 / (62 + 26) = 0.704
+Recall - TP / (TP + FN) = 62 / (62 + 9) = 0.873
+Accuracy = (TN + TP ) / (TN + FP + TP + FN ) = (5 + 62) / (5 + 26 + 62 + 9) = 0.656
+F1 = 2 * (Precision * Recall / Precision + Recall) = 2 * (0.704 * 0.873 / 0.704 + 0.873) = 2* (0.614592 / 1.577)
+                                                                                      = 0.779
