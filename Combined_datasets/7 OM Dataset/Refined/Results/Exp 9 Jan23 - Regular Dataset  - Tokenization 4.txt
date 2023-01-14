@@ -1,0 +1,53 @@
+Exp 6 Jan23 - Regular Dataset  - Tokenization 4 - 7 OM Dataset
+
+
+Notes
+
+
+
+Comma separated tokenization, class separation and conjoint entities separation noticed.
+mapping and schema separation noticed by the means of comma.
+
+labels appeared conjointly with the tokens - not separately in the target vocabulary.
+
+Optimizers used: 'Adam''Adadelta', 'Adagrad', 'Adam', ‘SGD’, ‘RMSProp’
+
+
+
+Ran multiple times to observe translations
+
+- Run 1 - Adam (Sample 1 -21)
+- Run 2 - SGD (22 - 32)
+- Run 3 - RMSProp (33 - 47 )
+- Run 4 - Adagrad (sample 48 - 55)
+- Run 5 - Adadelta (sample 56-67)
+- Run 6 - RMSProp (sample 68 - 102)
+
+
+
+
+Total Instance = 102
+
+Pareto = 71
+Not Pareto = 31
+
+
+correctly predicted P =  51 (TP)
+Incorrectly predicted P = 20 (FN)
+
+
+correctly predicted NP = 14 (TN)
+Incorrectly predicted NP = 17 (FP)
+
+Incorrectly predicted = 20 predicted as NP but they were P | 51 predicted as P and they are P
+17 predicted as P but they were NP | 14 predicted as NP and they are NP
+
+
+
+
+
+Precision - TP / (TP + FP) = 51 / (51 + 17) = 0.75
+Recall - TP / (TP + FN) = 51 / (51 + 20) = 0.71
+Accuracy = (TN + TP ) / (TN + FP + TP + FN ) = (14 + 51) / (14 + 17 + 51 + 20) = 0.637
+F1 = 2 * (Precision * Recall / Precision + Recall) = 2 * (0.75 * 0.71 / 0.75 + 0.71) = 2* (0.5325 / 1.46)
+                                                                                      = 0.729

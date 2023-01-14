@@ -1,4 +1,4 @@
-Exp 6 Jan23 - Regular Dataset  - Tokenization 1 - 7 OM Dataset
+Exp 8 Jan23 - Regular Dataset  - Tokenization 4 - 7 OM Dataset
 
 
 Notes
@@ -17,15 +17,13 @@ Optimizers used: 'Adam''Adadelta', 'Adagrad', 'Adam', ‘SGD’, ‘RMSProp’
 Ran multiple times to observe translations
 
 - Run 1 - Adam (Sample 1 -7)
+
 - Run 2 - RMSProp (Sample 8 - 20)
 - Run 3 - Adagrad (Sample 21 - 40)
 - Run 4 - Adadelta (sample 41 - 45)
 - Run 5 - SGD (sample 46 - 50)
 - Run 6 - SGD (sample 51 - 55)
-
-- Run 3 - Adam (sample 12-16)
-- Run 4 - Adadelta (sample 17 - 23)
-- Run 5 - SGD ( 24 - 45 ) consistant result with P and Np
+- Run 7 - Adam (56 - 102) - validation steps 70
 
 
 
@@ -34,4 +32,23 @@ Total Instance = 102
 Pareto = 71
 Not Pareto = 31
 
-Incomplete Statements
+
+correctly predicted P =  48 (TP)
+Incorrectly predicted P = 23 (FN)
+
+
+correctly predicted NP = 24 (TN)
+Incorrectly predicted NP = 7 (FP)
+
+Incorrectly predicted = 23 predicted as NP but they were P | 48 predicted as P and they are P
+7 predicted as P but they were NP | 24 predicted as NP and they are NP
+
+
+
+
+
+Precision - TP / (TP + FP) = 48 / (48 + 7) = 0.872
+Recall - TP / (TP + FN) = 48 / (48 + 23) = 0.67
+Accuracy = (TN + TP ) / (TN + FP + TP + FN ) = (24 + 48) / (24 + 7 + 48 + 23) = 0.705
+F1 = 2 * (Precision * Recall / Precision + Recall) = 2 * (0.872 * 0.67 / 0.872 + 0.67) = 2* (0.58424 / 1.542)
+                                                                                      = 0.7577
