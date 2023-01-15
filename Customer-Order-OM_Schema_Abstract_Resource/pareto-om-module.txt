@@ -1,0 +1,102 @@
+Dear Professor,
+
+Thank you for your valuable response. I took some time for looking inside the source code of Trademaker’s implementation of Pareto Optimal solution identification. I tried to understand how the algorithm is working to make this decision.
+
+
+
+I would like to describe the technical aspects of the process briefly as I understand from analytical perspective.
+
+—————————————————————————
+
+
+1. This below segment (on Smartbridge.java file) symbolizes an ArrayList solutionsMV based on the MetricValue.java file. Which lists and groups the metric value from the static metrics calculation. Specifically this line focuses on the list of quality equivalence classes on the Pareto optimal frontier.
+
+
+ArrayList<MetricValue> solutionsMV = new ArrayList<MetricValue>();
+
+
+2. Then this line makes a list of Solutions on the Pareto optimal frontier based on the information from metric value file.
+
+
+ArrayList<MetricValue> paretoOptimalSolutions = new ArrayList<MetricValue>();
+
+3. Then we look towards solutionMV , which is a MetricValue (MetricValue.java) object , it works with each solution file
+
+MetricValue solutionMV = new MetricValue(solutionNo);
+
+4. Afterwards if we go inside the private boolean measureMetric  method (on Smartbridge.java file) we can see the for loops where the static metric calculations are stated (TATI, NCT, NIC, NFK, ANV….)
+
+5. Each one of these calculations are added  to solutionMV.
+
+
+    solutionMV.setTATI(overallTATI);
+    solutionMV.setNCT(overallNCT);
+    solutionMV.setNCRF(overallNCRF);
+    solutionMV.setANV(overallANV);
+
+
+6. Then comes a boolean operator isParetoOptimal which is initially set to true. However if the Metricvalue object for obtaining static metric values are greater than their object instances (such as solutionMV.getNCT() >= instance.getNCT()) , boolean operator isParetoOptimal  is set to false.
+
+     if (solutionMV.getTATI() >= instance.getTATI()
+      && solutionMV.getNCT() >= instance.getNCT()
+      && solutionMV.getNCRF() >= instance.getNCRF()
+      && solutionMV.getANV() >= instance.getANV()
+      && solutionMV.getNFK() >= instance.getNFK()
+      && solutionMV.getNIC() >= instance.getNIC()) {
+     isParetoOptimal = false;
+
+
+7. However if the conditions are met then the solution is regarded Pareto optimal and appended with the list paretoOptimalSolutions
+
+    paretoOptimalSolutions.add(solutionMV);
+  // file.println("Solution #" + solutionNo +
+  // " is a pareto Optimal Solution.");
+  // System.out.println("Solution #" + solutionNo +
+  // " is a pareto Optimal Solution.");
+  solutionsMV.add(solutionMV);
+  isNewSolution = true;
+
+
+
+8. And just after this by design in the current implementation of the tool I belief , it provides the final score for the solutions based on static metrics and , keeps the probable pareto optimal solutions and discards the other solutions.
+
+      // there is no need to write again
+        if(!storeAllSolutions){
+       // changed to write all solutions before calling this method
+       solution.writeXML(trimmedFilename + "_Sol_" + solutionNo + ".xml");
+        }
+
+
+
+9. Then the file SolveAlloyDM.java which is basically used for the operations of dynamic analysis. Generating statements (select, insert, update using HashMap) and obtaining time measurements of execution time.
+
+———————————————————————————
+
+
+So as according to the above mentioned points it can be understood that
+
+
+While point number 6 is true (Metricvalue object for obtaining static metric values are greater or equal than their object instances ) the solution may not be deemed as Pareto Optimal.
+
+Otherwise it will be marked as Pareto optimal and will be appended into the list for the tool to utilize those later.
+
+Static metrics (TATI, NCT, NCRF.. etc) has a specific formula for the calculations (Example: such as String queryTATI = "#" + className + ".*(~parent).~tAssociate";) which they follow for determining each value for a static measure.
+
+They also adjust the if the value for a static metric drops to zero (such as below example )
+
+
+    // if (value <0) value = 16+value
+     valueNCT = valueNCT < 0 ? 16 + valueNCT : valueNCT;
+    overallNCT += valueNCT;
+
+- Afterwards when solutions are manifested , only Pareto optimal solutions are being preserved at the interest of the solution space.
+
+- The dynamic analysis is being conducted to understand how much  the process of static method was completely accurate based on the algorithm.
+
+
+————————————————————————————
+
+Thus I belief I will keep in mind about this algorithms architecture  & points mentioned when I conduct analysis, to mark P and NP in the dataset along with the result I find from the Trademaker analysis. So to speak even If I initially work with 250 samples from a OM solution space having 3000 solution samples. I will need to develop an analysis based on all the solutions to make my judgement for labeling, so that I can obtain most accurate information even for a small sample set. And when I use other solution samples from that space - I do not make any mistakes as I would have the accurate analysis of the solution space.
+
+
+I hope I was clearly able to interpret my understanding how the algorithm of the Trademaker handle Pareto optimal solutions. I would also cordially request you to correct my understanding if it has been wrong at any point. 

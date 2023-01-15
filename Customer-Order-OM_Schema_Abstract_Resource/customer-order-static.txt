@@ -1,0 +1,187 @@
+Computing Satisfying Solutions ...
+Current Time: 2023-01-14 14:52:50.715
+-----------------------------------------
+Solution #1 has been generated.
+Eq.Class #1
+
+TATI(Customer)= 2
+TATI(Order)= 1
+TATI(PreferredCustomer)= 1
+Overall_TATI(solution:1)= 4
+
+NCT(Customer)= 1
+NCT(Order)= 2
+NCT(PreferredCustomer)= 2
+Overall_NCT(solution:1)= 5
+
+NCRF(Customer)= 1
+NCRF(Order)= 1
+NCRF(PreferredCustomer)= 1
+Overall_NCRF(solution:1)= 3
+
+ANV(Customer)= 0
+ANV(Order)= 0
+ANV(PreferredCustomer)= 0
+Overall_ANV(solution:1)= 0
+Overall_NIC(solution:1)= 5
+Overall_NFK(solution:1)= 2
+Eq.Classes: 1 / 1
+-----------------------------------------
+-----------------------------------------
+Solution #2 has been generated.
+Eq.Class #1
+-----------------------------------------
+Solution #3 has been generated.
+Eq.Class #2
+
+TATI(Customer)= 2
+TATI(Order)= 1
+TATI(PreferredCustomer)= 1
+Overall_TATI(solution:3)= 4
+
+NCT(Customer)= 1
+NCT(Order)= 2
+NCT(PreferredCustomer)= 1
+Overall_NCT(solution:3)= 4
+
+NCRF(Customer)= 2
+NCRF(Order)= 1
+NCRF(PreferredCustomer)= 1
+Overall_NCRF(solution:3)= 4
+
+ANV(Customer)= 0
+ANV(Order)= 0
+ANV(PreferredCustomer)= 0
+Overall_ANV(solution:3)= 0
+Overall_NIC(solution:3)= 5
+Overall_NFK(solution:3)= 1
+Eq.Classes: 2 / 3
+-----------------------------------------
+-----------------------------------------
+Solution #4 has been generated.
+Eq.Class #2
+-----------------------------------------
+Solution #5 has been generated.
+Eq.Class #3
+
+TATI(Customer)= 2
+TATI(Order)= 1
+TATI(PreferredCustomer)= 1
+Overall_TATI(solution:5)= 4
+
+NCT(Customer)= 1
+NCT(Order)= 1
+NCT(PreferredCustomer)= 1
+Overall_NCT(solution:5)= 3
+
+NCRF(Customer)= 2
+NCRF(Order)= 1
+NCRF(PreferredCustomer)= 1
+Overall_NCRF(solution:5)= 4
+
+ANV(Customer)= 0
+ANV(Order)= 0
+ANV(PreferredCustomer)= 0
+Overall_ANV(solution:5)= 0
+Overall_NIC(solution:5)= 4
+Overall_NFK(solution:5)= 2
+Eq.Classes: 3 / 5
+-----------------------------------------
+-----------------------------------------
+Solution #6 has been generated.
+Eq.Class #3
+-----------------------------------------
+Solution #7 has been generated.
+Eq.Class #4
+
+TATI(Customer)= 2
+TATI(Order)= 1
+TATI(PreferredCustomer)= 1
+Overall_TATI(solution:7)= 4
+
+NCT(Customer)= 1
+NCT(Order)= 1
+NCT(PreferredCustomer)= 2
+Overall_NCT(solution:7)= 4
+
+NCRF(Customer)= 1
+NCRF(Order)= 1
+NCRF(PreferredCustomer)= 1
+Overall_NCRF(solution:7)= 3
+
+ANV(Customer)= 0
+ANV(Order)= 0
+ANV(PreferredCustomer)= 0
+Overall_ANV(solution:7)= 0
+Overall_NIC(solution:7)= 4
+Overall_NFK(solution:7)= 3
+Eq.Classes: 4 / 7
+-----------------------------------------
+-----------------------------------------
+Solution #8 has been generated.
+Eq.Class #4
+-----------------------------------------
+Solution #9 has been generated.
+Eq.Class #5
+
+TATI(Customer)= 1
+TATI(Order)= 1
+TATI(PreferredCustomer)= 1
+Overall_TATI(solution:9)= 3
+
+NCT(Customer)= 1
+NCT(Order)= 2
+NCT(PreferredCustomer)= 1
+Overall_NCT(solution:9)= 4
+
+NCRF(Customer)= 1
+NCRF(Order)= 1
+NCRF(PreferredCustomer)= 1
+Overall_NCRF(solution:9)= 3
+
+ANV(Customer)= 1
+ANV(Order)= 0
+ANV(PreferredCustomer)= 0
+Overall_ANV(solution:9)= 1
+Overall_NIC(solution:9)= 4
+Overall_NFK(solution:9)= 1
+Eq.Classes: 5 / 9
+-----------------------------------------
+-----------------------------------------
+Solution #10 has been generated.
+Eq.Class #5
+-----------------------------------------
+Solution #11 has been generated.
+Eq.Class #6
+
+TATI(Customer)= 1
+TATI(Order)= 1
+TATI(PreferredCustomer)= 1
+Overall_TATI(solution:11)= 3
+
+NCT(Customer)= 1
+NCT(Order)= 1
+NCT(PreferredCustomer)= 1
+Overall_NCT(solution:11)= 3
+
+NCRF(Customer)= 1
+NCRF(Order)= 1
+NCRF(PreferredCustomer)= 1
+Overall_NCRF(solution:11)= 3
+
+ANV(Customer)= 1
+ANV(Order)= 0
+ANV(PreferredCustomer)= 0
+Overall_ANV(solution:11)= 1
+Overall_NIC(solution:11)= 3
+Overall_NFK(solution:11)= 2
+Eq.Classes: 6 / 11
+-----------------------------------------
+-----------------------------------------
+Solution #12 has been generated.
+Eq.Class #6
+
+-----------------------------------------
+# Eq.Classes: 6 / 13
+Current Time: 2023-01-14 14:52:51.938
+No more Satisfying solutions
