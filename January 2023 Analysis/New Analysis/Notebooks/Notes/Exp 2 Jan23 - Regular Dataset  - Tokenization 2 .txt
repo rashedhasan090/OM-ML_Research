@@ -1,55 +1,60 @@
-Exp 2 Jan23 - Regular Dataset  - Tokenization 2 - 6 OM combined
+Exp 1 Jan23 - Regular Dataset  - Tokenization 2 - 6 OM Dataset
 
 
 Notes
-Optimizers used: 'Adam''Adadelta', 'Adagrad', 'Adam', ‘SGD’, ‘RMSProp’
+Optimizers used: 'Adadelta', 'Adagrad', 'Adam', ‘SGD’, ‘RMSProp’
 
 
-statement specific tokenization, full completed statements from the dataset appeared in vocabulary.
-Noticed separated sections (OM / Mapping / Schema) and also conjoint in few cases.
+Tokenization structure:
+
+- Comma separated tokenization, section based separation noticed.
+- entity separation noticed.
+- Labels are not considered separately but along with subsections
+- Nothing was deducted from original context
 
 
 Ran multiple times to observe translations
 
-- Run 1 - Till sample 20 (RMSProp)
-- Run 2 - Adam (till sample 23)
-- Run 3 - Adam (Sample 24 - 68)
-- Run 4 - SGD (sample 68 - 77)
-
-- Run 5 after 84 sample (Adadelta)
 
 
-- validation_steps = 40  shows consistent performance
+- Run 1 : Adam (Sample 1 - 20) val steps=40, epochs 100
+- Run 2 : Adadelta (Sample 21 - 40) val steps=40, epochs 100
+- Run 3 : Adagrad(Sample 41 - 60) val steps=40, epochs 100
+- Run 4 : SGD (Sample 61 - 80) val steps=40, epochs 100
+- Run 5 : RMSProp (Sample 41 - 60) (no prediction)
+
+
+
 
 
 ---------------------------
 
 
 
-Total Instance = 102
+Total Instance = 101
 
-Pareto = 71
-Not Pareto = 31
-
-
-correctly predicted P = 45 (TP)
-Incorrectly predicted P = 26 (FN)
+Pareto = 15
+Not Pareto = 86
 
 
-correctly predicted NP = 11 (TN)
-Incorrectly predicted NP = 20 (FP)
-
-Incorrectly predicted = 26 predicted as NP but they were P | 45 predicted as P and they are P
-20 predicted as P but they were NP | 11 predicted as NP and they are NP
+correctly predicted P = 1 (TP)
+Incorrectly predicted P = 14 (FN)
 
 
+correctly predicted NP = 86 (TN)
+Incorrectly predicted NP = 0 (FP)
+
+Incorrectly predicted = 14 predicted as NP but they were P | 1 predicted as P and they are P
+0 predicted as P but they were NP | 86 predicted as NP and they are NP
 
 
 
-Precision - TP / (TP + FP) = 45 / (45 + 20) = 0.69
-Recall - TP / (TP + FN) = 45 / (45 + 26) = 0.63
-Accuracy = (TN + TP ) / (TN + FP + TP + FN ) = (11 + 45) / (11 + 20 + 45 + 26) = 0.549
-F1 = 2 * (Precision * Recall / Precision + Recall) = 2 * (0.69 * 0.63 / 0.69 + 0.66) = 2 * (0.4347 / 1.35) = 0.64
+
+
+Precision - TP / (TP + FP) = 1 / (1 + 0) = 1.00
+Recall - TP / (TP + FN) = 1 / (1 + 14) = 0.066
+Accuracy = (TN + TP ) / (TN + FP + TP + FN ) = (86 + 1) / (86 + 0 + 1 + 14) = 0.86
+F1 = 2 * (Precision * Recall / Precision + Recall) = 2 * (1.00 * 0.066 / 1.00 + 0.066) = 2 * (0.066 / 1.066) = 0.123
 
 
 

@@ -24,7 +24,7 @@ Ran multiple times to observe translations
 - Run 4 : SGD (Sample 41 - 60) (no prediction)
 - Run 5 : RMSProp (Sample 41 - 60) (no prediction)
 
-- Run 6 : Adam (Sample 41 - 60) val steps=30, epochs 100
+- Run 6 : Adam (Sample 41 - 60) val steps=30, epochs 100 (No prediction)
 
 
 
