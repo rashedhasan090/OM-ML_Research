@@ -1,0 +1,63 @@
+Exp 5 Jan23 - Regular Dataset  - Tokenization 5 - 6 OM combined
+
+
+Notes
+Optimizers used: 'Adam''Adadelta', 'Adagrad', 'Adam', ‘SGD’, ‘RMSProp’
+
+
+- strips out all the numbers
+- special characters and notations
+- separates based on comma
+- very generic architecture
+-Easy to specify keywards
+-SGD, VAL steps 50 gave predictions as P
+
+
+
+Ran multiple times to observe translations
+
+
+
+
+- Run 1 - Adam (Sample 1 - 5)
+- Run 2 - Adadelta (6 - 14)
+
+
+- Run 3 - Adagrad (Sample 15 - 31)
+- Run 4 - SGD (sample 32 - 89)
+
+
+- Run 5 - Adam (sample 41 - 92 )
+- Run 6 - Adam (93 - 102)
+
+
+
+
+---------------------------
+
+
+
+Total Instance = 102
+
+Pareto = 71
+Not Pareto = 31
+
+
+correctly predicted P =  57 (TP)
+Incorrectly predicted P = 14 (FN)
+
+
+correctly predicted NP = 17 (TN)
+Incorrectly predicted NP = 14 (FP)
+
+Incorrectly predicted = 14 predicted as NP but they were P | 57 predicted as P and they are P
+14 predicted as P but they were NP | 17 predicted as NP and they are NP
+
+
+
+
+
+Precision - TP / (TP + FP) = 57 / (57 + 14) = 0.80
+Recall - TP / (TP + FN) = 57 / (57 + 14) = 0.80
+Accuracy = (TN + TP ) / (TN + FP + TP + FN ) = (17 + 57) / (17 + 14 + 57 + 14) = 0.725
+F1 = 2 * (Precision * Recall / Precision + Recall) = 2 * (0.80 * 0.80 / 0.80 + 0.80) = 2 * (0.40) = 0.80

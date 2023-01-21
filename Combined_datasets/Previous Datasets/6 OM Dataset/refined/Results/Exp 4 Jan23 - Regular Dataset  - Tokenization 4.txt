@@ -1,0 +1,61 @@
+Exp 4 Jan23 - Regular Dataset  - Tokenization 4 - 6 OM combined
+
+
+Notes
+Optimizers used: 'Adam''Adadelta', 'Adagrad', 'Adam', ‘SGD’, ‘RMSProp’
+
+
+statement specific tokenization, full completed statements from the dataset appeared in vocabulary.
+Noticed separated sections (OM / Mapping / Schema) and also conjoint in few cases.
+
+- Tokenization specified appended label with the target context instead of marking or considering the label as a
+separate token
+
+
+Ran multiple times to observe translations
+
+
+
+
+- Run 1 - Adam (Sample 1 - 15)
+- Run 2 - SGD (till sample 22)
+
+
+- Run 3 - Adadelta (Sample 23 - 37)
+- Run 4 - RMSProp (sample 38 - 53)
+
+
+- Run 5 - Adam (sample 41 - 92 )
+- Run 6 - Adam (93 - 102)
+
+
+
+
+---------------------------
+
+
+
+Total Instance = 102
+
+Pareto = 71
+Not Pareto = 31
+
+
+correctly predicted P = 0 (TP)
+Incorrectly predicted P = 71 (FN)
+
+
+correctly predicted NP = 31 (TN)
+Incorrectly predicted NP = 0 (FP)
+
+Incorrectly predicted = 71 predicted as NP but they were P | 0 predicted as P and they are P
+0 predicted as P but they were NP | 31 predicted as NP and they are NP
+
+
+
+
+
+Precision - TP / (TP + FP) = 0 / (0 + 0) = 0.00
+Recall - TP / (TP + FN) = 0 / (0 + 71) = 0.00
+Accuracy = (TN + TP ) / (TN + FP + TP + FN ) = (31 + 0) / (31 + 0 + 0 + 71) = 0.30
+F1 = 2 * (Precision * Recall / Precision + Recall) = 2 * (0 * 0 / 0 + 0) = 2 * (0) = 0
