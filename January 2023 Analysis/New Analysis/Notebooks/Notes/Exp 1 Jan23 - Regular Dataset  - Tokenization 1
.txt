@@ -3,38 +3,50 @@ Exp 1 Jan23 - Regular Dataset  - Tokenization 1 - 6 OM Dataset
 
 Notes
 Optimizers used: 'Adadelta', 'Adagrad', 'Adam', ‘SGD’, ‘RMSProp’
-Adam and RMSprop provoided better results
 
 
-Comma separated tokenization, class separation noticed.
+Tokenization structure:
+
+- Comma separated tokenization, section based separation noticed.
+- entity separation noticed.
+- Labels considered as a token on target
 
 
 Ran multiple times to observe translations
 
-- Re ran after 10 sample assessment (Adam & SGD)
-
-- Re an after 36 (RMSprop)
-
-- Re ran after 50 (Adadelta) - Adagrad
 
 
+- Run 1 : Adam (Sample 1 - 20) val steps=30, epochs 100
+- Run 2 : Adadelta (Sample 20 - 40) val steps=30, epochs 100
+- Run 3 : Adagrad(Sample 41 - 60) val steps=30, epochs 100 (no prediction)
 
 
-Total Instance = 102
+- Run 4 : SGD (Sample 41 - 60) (no prediction)
+- Run 5 : RMSProp (Sample 41 - 60) (no prediction)
 
-Pareto = 71
-Not Pareto = 31
-
-
-correctly predicted P = 47 (TP)
-Incorrectly predicted P = 24 (FN)
+- Run 6 : Adam (Sample 41 - 60) val steps=30, epochs 100
 
 
-correctly predicted NP = 6 (TN)
-Incorrectly predicted NP = 25 (FP)
 
-Incorrectly predicted = 24 predicted as NP but they were P | 47 predicted as P and they are P
-25 predicted as P but they were NP | 6 predicted as NP and they are NP
+
+
+
+
+Total Instance = 101
+
+Pareto = 15
+Not Pareto = 86
+
+
+correctly predicted P =   (TP)
+Incorrectly predicted P =   (FN)
+
+
+correctly predicted NP =  (TN)
+Incorrectly predicted NP =   (FP)
+
+Incorrectly predicted =   predicted as NP but they were P |   predicted as P and they are P
+  predicted as P but they were NP |   predicted as NP and they are NP
 
 
 
