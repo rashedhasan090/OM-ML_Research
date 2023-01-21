@@ -21,6 +21,7 @@ Ran multiple times to observe translations
 
 
 - Run 1 : Adam (Sample 1 - 20) val steps=40, epochs 100
+
 - Run 2 : Adadelta (Sample 21 - 40) val steps=40, epochs 100
 - Run 3 : Adagrad(Sample 41 - 60) val steps=40, epochs 100
 - Run 4 : SGD (Sample 61 - 80) val steps=40, epochs 100
@@ -36,27 +37,27 @@ Ran multiple times to observe translations
 
 
 
-Total Instance = 102
+Total Instance = 101
 
-Pareto = 71
-Not Pareto = 31
-
-
-correctly predicted P = 56 (TP)
-Incorrectly predicted P = 15 (FN)
+Pareto = 15
+Not Pareto = 86
 
 
-correctly predicted NP = 17 (TN)
-Incorrectly predicted NP = 14 (FP)
-
-Incorrectly predicted = 15 predicted as NP but they were P | 56 predicted as P and they are P
-14 predicted as P but they were NP | 17 predicted as NP and they are NP
+correctly predicted P = 2 (TP)
+Incorrectly predicted P = 13 (FN)
 
 
+correctly predicted NP = 68 (TN)
+Incorrectly predicted NP = 18 (FP)
+
+Incorrectly predicted = 13 predicted as NP but they were P | 2 predicted as P and they are P
+18 predicted as P but they were NP | 68 predicted as NP and they are NP
 
 
 
-Precision - TP / (TP + FP) = 56 / (56 + 14) = 0.70
-Recall - TP / (TP + FN) = 56 / (56 + 15) = 0.78
-Accuracy = (TN + TP ) / (TN + FP + TP + FN ) = (17 + 56) / (17 + 14 + 56 + 15) = 0.715
-F1 = 2 * (Precision * Recall / Precision + Recall) = 2 * (0.70 * 0.78 / 0.70 + 0.78) = 2 * (0.429 / 1.31) = 0.737
+
+
+Precision - TP / (TP + FP) = 2 / (2 + 18) = 0.025
+Recall - TP / (TP + FN) = 2 / (2 + 13) = 0.13
+Accuracy = (TN + TP ) / (TN + FP + TP + FN ) = (68 + 18) / (68 + 18 + 2 + 13) = 0.85
+F1 = 2 * (Precision * Recall / Precision + Recall) = 2 * (0.025 * 0.13 / 0.025 + 0.13) = 2 * (0.00325 / 0.155) = 0.02096
