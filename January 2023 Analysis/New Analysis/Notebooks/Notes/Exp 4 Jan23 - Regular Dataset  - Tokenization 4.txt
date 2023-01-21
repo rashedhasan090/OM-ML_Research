@@ -5,57 +5,69 @@ Notes
 Optimizers used: 'Adam''Adadelta', 'Adagrad', 'Adam', ‘SGD’, ‘RMSProp’
 
 
-statement specific tokenization, full completed statements from the dataset appeared in vocabulary.
+- statement specific tokenization, full completed statements from the dataset appeared in vocabulary.
 Noticed separated sections (OM / Mapping / Schema) and also conjoint in few cases.
+- Tokenization specified appended label with the target context instead of marking or considering the label as a
+separate token
+- No space based split due to tokenization on context or target
 
 - Tokenization specified appended label with the target context instead of marking or considering the label as a
 separate token
+- Labels are not considered separately but along with subsections
 
 
 Ran multiple times to observe translations
 
 
 
+- Run 1 : Adam (Sample 1 - 10) val steps=20, epochs 100
 
-- Run 1 - Adam (Sample 1 - 15)
-- Run 2 - SGD (till sample 22)
+- Run 2 : Adadelta (Sample 11 - 20) val steps=40, epochs 100
 
+- Run 3 : Adagrad(Sample 21 - 30) val steps=40, epochs 100
 
-- Run 3 - Adadelta (Sample 23 - 37)
-- Run 4 - RMSProp (sample 38 - 53)
+- Run 4 : SGD (Sample 31 - 40) val steps=40, epochs 100
 
+- Run 5 : RMSProp (Sample 41 - 50) val steps=40, epochs 100
 
-- Run 5 - Adam (sample 41 - 92 )
-- Run 6 - Adam (93 - 102)
+- Run 6 : Adam (Sample 51 - 62) val steps=40, epochs 100
 
+- Run 7 : Adadelta (Sample 63 - 70) val steps=40, epochs 100
 
+- Run 8 : Adagrad(Sample 71 - 80) val steps=40, epochs 100
+
+- Run 9 : SGD (Sample 71 - 80) val steps=40, epochs 100
+
+- Run 10 : RMSProp (Sample 81 - 90) val steps=40, epochs 100
+
+- Run 11 : Adam (Sample 91 - 101) val steps=20, epochs 100
 
 
 ---------------------------
 
 
 
-Total Instance = 102
+Total Instance = 101
 
-Pareto = 71
-Not Pareto = 31
-
-
-correctly predicted P = 0 (TP)
-Incorrectly predicted P = 71 (FN)
+Pareto = 15
+Not Pareto = 86
 
 
-correctly predicted NP = 31 (TN)
-Incorrectly predicted NP = 0 (FP)
-
-Incorrectly predicted = 71 predicted as NP but they were P | 0 predicted as P and they are P
-0 predicted as P but they were NP | 31 predicted as NP and they are NP
+correctly predicted P = 3 (TP)
+Incorrectly predicted P = 12 (FN)
 
 
+correctly predicted NP = 66 (TN)
+Incorrectly predicted NP = 20 (FP)
+
+Incorrectly predicted = 12 predicted as NP but they were P | 3 predicted as P and they are P
+20 predicted as P but they were NP | 66 predicted as NP and they are NP
 
 
 
-Precision - TP / (TP + FP) = 0 / (0 + 0) = 0.00
-Recall - TP / (TP + FN) = 0 / (0 + 71) = 0.00
-Accuracy = (TN + TP ) / (TN + FP + TP + FN ) = (31 + 0) / (31 + 0 + 0 + 71) = 0.30
-F1 = 2 * (Precision * Recall / Precision + Recall) = 2 * (0 * 0 / 0 + 0) = 2 * (0) = 0
+
+
+Precision - TP / (TP + FP) = 3 / (3 + 20) = 0.130
+Recall - TP / (TP + FN) = 3 / (3 + 12) = 0.2
+Accuracy = (TN + TP ) / (TN + FP + TP + FN ) = (66 + 3) / (66 + 20 + 3 + 12) = 0.68
+F1 = 2 * (Precision * Recall / Precision + Recall) = 2 * (0.130 * 0.2 / 0.130 + 0.2) = 2 * (0.026 / 0.33)  = 0.15
