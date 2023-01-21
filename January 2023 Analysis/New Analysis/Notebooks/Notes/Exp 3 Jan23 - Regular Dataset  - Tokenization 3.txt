@@ -5,29 +5,29 @@ Notes
 Optimizers used: 'Adam''Adadelta', 'Adagrad', 'Adam', ‘SGD’, ‘RMSProp’
 
 
-statement specific tokenization, full completed statements from the dataset appeared in vocabulary.
-Noticed separated sections (OM / Mapping / Schema) and also conjoint in few cases.
 
+Tokenization structure:
 
+- statement specific tokenization, full completed statements from the dataset appeared in vocabulary.
+- Noticed separated sections (OM / Mapping / Schema) and also conjoint in few cases.
 - Tokenization specified appended label with the target context instead of marking or considering the label as a
-separate token 
+separate token
+- Labels are not considered separately but along with subsections
+
 
 
 Ran multiple times to observe translations
 
 
-- SGD has provided results
 
-- Run 1 - Till sample 7 (SGD)
-- Run 2 - RMSProp (till sample 15)
-
-
-- Run 3 - RMSProp (Sample 16 - 28)
-- Run 4 - Adadelta (sample 29 - 40)
+- Run 1 : Adam (Sample 1 - 20) val steps=40, epochs 100
+- Run 2 : Adadelta (Sample 21 - 40) val steps=40, epochs 100
+- Run 3 : Adagrad(Sample 41 - 60) val steps=40, epochs 100
+- Run 4 : SGD (Sample 61 - 80) val steps=40, epochs 100
+- Run 5 : RMSProp (Sample 41 - 60) (no prediction)
 
 
-- Run 5 - Adam (sample 41 - 92 )
-- Run 6 - Adam (93 - 102)
+
 
 
 
