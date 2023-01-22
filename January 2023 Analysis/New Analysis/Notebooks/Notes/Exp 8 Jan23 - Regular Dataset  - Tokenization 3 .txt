@@ -1,0 +1,72 @@
+Exp 8 Jan23 - Regular Dataset  - Tokenization 3 - 7 OM Dataset
+
+
+Notes
+Optimizers used: 'Adadelta', 'Adagrad', 'Adam', ‘SGD’, ‘RMSProp’
+
+
+Tokenization structure:
+
+- Comma separated tokenization, section based separation noticed.
+- entity separation noticed.
+- Labels are not considered separately but along with subsections
+- Nothing was deducted from original context
+- No space between the tokens
+
+Ran multiple times to observe translations
+
+
+
+- Run 1 : Adam (Sample 1 - 10) val steps=40, epochs 100
+- Run 2 : Adadelta (Sample 11 - 20) val steps=40, epochs 100
+- Run 3 : Adagrad(Sample 21 - 30) val steps=40, epochs 100
+
+- Run 4 : SGD (Sample 31 - 40) val steps=40, epochs 100
+- Run 5 : SGD (Sample 41 - 50) (no prediction)
+
+- Run 6 : RMSProp (Sample 51 - 60) val steps=40, epochs 100
+
+- Run 7 : Adam (Sample 61 - 70) val steps=40, epochs 100
+- Run 8 : Adadelta (Sample 71 - 80) val steps=40, epochs 100*** (both type of predictions)
+- Run 9:  Adadelta (Sample 81 - 90)
+
+- Run 10 : Adagrad(Sample 71 - 80) val steps=40, epochs 100
+
+- Run 11 : SGD (Sample 81 - 101) val steps=40, epochs 100
+
+
+
+
+---------------------------
+
+
+
+Total Instance = 101
+
+Pareto = 15
+Not Pareto = 86
+
+
+correctly predicted P = 7 (TP)
+Incorrectly predicted P = 8 (FN)
+
+
+correctly predicted NP = 71 (TN)
+Incorrectly predicted NP = 15 (FP)
+
+Incorrectly predicted = 8 predicted as NP but they were P | 7 predicted as P and they are P
+15 predicted as P but they were NP | 71 predicted as NP and they are NP
+
+
+
+
+
+Precision - TP / (TP + FP) = 7 / (7 + 15) = 0.318
+Recall - TP / (TP + FN) = 7 / (7 + 8) = 0.46
+Accuracy = (TN + TP ) / (TN + FP + TP + FN ) = (71 + 7) / (71 + 15 + 7 + 8) = 0.77
+F1 = 2 * (Precision * Recall / Precision + Recall) = 2 * (0.318 * 0.46 / 0.318 + 0.46) = 2 * (0.14628 / 0.778) = 0.376
+
+
+
+
+018 198 226 19
