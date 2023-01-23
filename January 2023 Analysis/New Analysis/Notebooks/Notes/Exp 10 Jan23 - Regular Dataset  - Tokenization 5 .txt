@@ -49,24 +49,24 @@ Pareto = 15
 Not Pareto = 86
 
 
-correctly predicted P = 0 (TP)
-Incorrectly predicted P = 15 (FN)
+correctly predicted P = 3 (TP)
+Incorrectly predicted P = 12 (FN)
 
 
 correctly predicted NP = 86 (TN)
 Incorrectly predicted NP = 0 (FP)
 
-Incorrectly predicted = 15 predicted as NP but they were P | 0 predicted as P and they are P
+Incorrectly predicted = 12 predicted as NP but they were P | 3 predicted as P and they are P
 0 predicted as P but they were NP | 86 predicted as NP and they are NP
 
 
 
 
 
-Precision - TP / (TP + FP) = 0 / (0 + 0) = 0
-Recall - TP / (TP + FN) = 0 / (0 + 15) = 0
-Accuracy = (TN + TP ) / (TN + FP + TP + FN ) = (86 + 0) / (86 + 0 + 0 + 15) = 0.85
-F1 = 2 * (Precision * Recall / Precision + Recall) = 2 * (0 * 0/ 0 + 0) = 2 * (0 / 0) = 0
+Precision - TP / (TP + FP) = 3 / (3 + 0) = 3 / 3 = 1
+Recall - TP / (TP + FN) = 3 / (3 + 12) = 0.2
+Accuracy = (TN + TP ) / (TN + FP + TP + FN ) = (86 + 3) / (86 + 0 + 3 + 12) = 0.881
+F1 = 2 * (Precision * Recall / Precision + Recall) = 2 * (1 * 0.2/ 1 + 0.2) = 2 * (0.2 / 1.2) = 0.33333
 
 
 
