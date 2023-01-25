@@ -1,4 +1,4 @@
-Exp 1 Jan23 - Regular Dataset  - Tokenization 1 - 6 OM Dataset
+Exp 11 Jan23 - 3 Sep Dataset  - Tokenization 1 - 6 OM Dataset
 
 
 Notes
@@ -10,21 +10,21 @@ Tokenization structure:
 - Comma separated tokenization, section based separation noticed.
 - entity separation noticed.
 - Labels considered as a token on target
+- Each section appeared as separated
 
 
 Ran multiple times to observe translations
 
 
 
-- Run 1 : Adam (Sample 1 - 20) val steps=30, epochs 100
-- Run 2 : Adadelta (Sample 20 - 40) val steps=30, epochs 100
-- Run 3 : Adagrad(Sample 41 - 60) val steps=30, epochs 100 (no prediction)
+- Run 1 : Adam (Sample 1 - 20) val steps=40, epochs 100
+- Run 2 : Adagrad (Sample 21 - 40) val steps=40, epochs 100
+- Run 3 : Adadelta(Sample 41 - 60) val steps=40, epochs 100
 
 
-- Run 4 : SGD (Sample 41 - 60) (no prediction)
-- Run 5 : RMSProp (Sample 41 - 60) (no prediction)
+- Run 4 : SGD (Sample 61 - 80) val steps=40, epochs 100
+- Run 5 : RMSProp (Sample 81 - 100) val steps=40, epochs 100
 
-- Run 6 : Adam (Sample 41 - 60) val steps=30, epochs 100 (No prediction)
 
 
 
