@@ -1,0 +1,62 @@
+Exp 1 Jan23 - Regular Dataset  - Tokenization 2 - 6 OM Dataset
+
+
+Notes
+Optimizers used: 'Adadelta', 'Adagrad', 'Adam', ‘SGD’, ‘RMSProp’
+
+
+Tokenization structure:
+
+- Comma separated tokenization, section based separation noticed.
+- entity separation noticed.
+- Labels are not considered separately but along with subsections
+- Nothing was deducted from original context
+
+
+Ran multiple times to observe translations
+
+
+
+- Run 1 : Adam (Sample 1 - 20) val steps=40, epochs 100
+- Run 2 : Adadelta (Sample 21 - 40) val steps=40, epochs 100
+- Run 3 : Adagrad(Sample 41 - 60) val steps=40, epochs 100
+- Run 4 : SGD (Sample 61 - 80) val steps=40, epochs 100
+- Run 5 : RMSProp (Sample 41 - 60) (no prediction)
+
+
+
+
+
+---------------------------
+
+
+
+Total Instance = 101
+
+Pareto = 15
+Not Pareto = 86
+
+
+correctly predicted P = 1 (TP)
+Incorrectly predicted P = 14 (FN)
+
+
+correctly predicted NP = 86 (TN)
+Incorrectly predicted NP = 0 (FP)
+
+Incorrectly predicted = 14 predicted as NP but they were P | 1 predicted as P and they are P
+0 predicted as P but they were NP | 86 predicted as NP and they are NP
+
+
+
+
+
+Precision - TP / (TP + FP) = 1 / (1 + 0) = 1.00
+Recall - TP / (TP + FN) = 1 / (1 + 14) = 0.066
+Accuracy = (TN + TP ) / (TN + FP + TP + FN ) = (86 + 1) / (86 + 0 + 1 + 14) = 0.86
+F1 = 2 * (Precision * Recall / Precision + Recall) = 2 * (1.00 * 0.066 / 1.00 + 0.066) = 2 * (0.066 / 1.066) = 0.123
+
+
+
+
+018 198 226 19
