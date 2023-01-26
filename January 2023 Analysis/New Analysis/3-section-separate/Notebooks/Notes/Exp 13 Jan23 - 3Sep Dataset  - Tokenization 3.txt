@@ -1,4 +1,4 @@
-Exp 3 Jan23 - Regular Dataset  - Tokenization 3 - 6 OM combined
+Exp 13 Jan23 - Regular Dataset  - Tokenization 3 - 6 OM combined
 
 
 Notes
@@ -8,11 +8,12 @@ Optimizers used: 'Adam''Adadelta', 'Adagrad', 'Adam', ‘SGD’, ‘RMSProp’
 
 Tokenization structure:
 
-- statement specific tokenization, full completed statements from the dataset appeared in vocabulary.
-- Noticed separated sections (OM / Mapping / Schema) and also conjoint in few cases.
-- Tokenization specified appended label with the target context instead of marking or considering the label as a
-separate token
-- Labels are not considered separately but along with subsections
+- Comma separated tokenization, section based separation noticed.
+- entity separation noticed.
+- Labels considered as a token on target
+- Each section appeared as separated
+- labels appended with each section
+- organized tokenization approach
 
 
 
