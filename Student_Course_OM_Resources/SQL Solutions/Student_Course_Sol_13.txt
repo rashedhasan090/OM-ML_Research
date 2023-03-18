@@ -1,0 +1,100 @@
+-- CREATE DATABASE FOR /home/centos/orm_synthesizer/models/Student_Course/ImplSolution/Student_Course_Sol_13.sql
+
+USE Student_Course_Sol_13;
+--
+-- Table structure for table RegistrationSpecificationAssociation
+--
+
+CREATE TABLE `RegistrationSpecificationAssociation` (
+`TransactionId` int NOT NULL,
+`AwardId` int NOT NULL,
+KEY `FK_RegistrationSpecificationAssociation_TransactionId_idx` (`TransactionId`),
+KEY `FK_RegistrationSpecificationAssociation_AwardId_idx` (`AwardId`),
+PRIMARY KEY (`TransactionId`,`AwardId`)
+);
+
+--
+-- Table structure for table Payment
+--
+
+CREATE TABLE `Payment` (
+`amount` varchar(64),
+`PaymentID` int NOT NULL,
+PRIMARY KEY (`PaymentID`)
+);
+
+--
+-- Table structure for table Transaction
+--
+
+CREATE TABLE `Transaction` (
+`TransactionName` varchar(64),
+`TransactionId` int NOT NULL,
+PRIMARY KEY (`TransactionId`)
+);
+
+--
+-- Table structure for table Registration
+--
+
+CREATE TABLE `Registration` (
+`StudentId` int,
+`Fee` int,
+`AwardId` int NOT NULL,
+KEY `FK_Registration_StudentId_idx` (`StudentId`),
+PRIMARY KEY (`AwardId`)
+);
+
+--
+-- Table structure for table CoursesStudentAssociation
+--
+
+CREATE TABLE `CoursesStudentAssociation` (
+`CourseId` int NOT NULL,
+`StudentId` int NOT NULL,
+KEY `FK_CoursesStudentAssociation_CourseId_idx` (`CourseId`),
+KEY `FK_CoursesStudentAssociation_StudentId_idx` (`StudentId`),
+PRIMARY KEY (`CourseId`,`StudentId`)
+);
+
+--
+-- Table structure for table Courses
+--
+
+CREATE TABLE `Courses` (
+`Description` int,
+`CourseName` int,
+`CourseId` int NOT NULL,
+`PaymentID` int,
+KEY `FK_Courses_PaymentID_idx` (`PaymentID`),
+PRIMARY KEY (`CourseId`)
+);
+
+--
+-- Table structure for table Student
+--
+
+CREATE TABLE `Student` (
+`DType` varchar(64),
+`Name` varchar(64),
+`date` int,
+`content` int,
+`gender` int,
+`Age` int,
+`StudentId` int NOT NULL,
+PRIMARY KEY (`StudentId`)
+);
+
+ALTER TABLE `RegistrationSpecificationAssociation`
+  ADD CONSTRAINT `FK_RegistrationSpecificationAssociation_TransactionId` FOREIGN KEY (`TransactionId`) REFERENCES `Transaction` (`TransactionId`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `FK_RegistrationSpecificationAssociation_AwardId` FOREIGN KEY (`AwardId`) REFERENCES `Registration` (`AwardId`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+ALTER TABLE `Registration`
+  ADD CONSTRAINT `FK_Registration_StudentId` FOREIGN KEY (`StudentId`) REFERENCES `Student` (`StudentId`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+ALTER TABLE `CoursesStudentAssociation`
+  ADD CONSTRAINT `FK_CoursesStudentAssociation_CourseId` FOREIGN KEY (`CourseId`) REFERENCES `Courses` (`CourseId`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `FK_CoursesStudentAssociation_StudentId` FOREIGN KEY (`StudentId`) REFERENCES `Student` (`StudentId`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+ALTER TABLE `Courses`
+  ADD CONSTRAINT `FK_Courses_PaymentID` FOREIGN KEY (`PaymentID`) REFERENCES `Payment` (`PaymentID`) ON DELETE CASCADE ON UPDATE CASCADE;
