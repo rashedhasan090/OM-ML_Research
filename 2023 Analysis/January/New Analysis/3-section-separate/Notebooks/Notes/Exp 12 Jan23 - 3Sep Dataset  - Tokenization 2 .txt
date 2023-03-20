@@ -1,0 +1,62 @@
+Exp 1 Jan23 - Regular Dataset  - Tokenization 2 - 6 OM Dataset
+
+
+Notes
+Optimizers used: 'Adadelta', 'Adagrad', 'Adam', ‘SGD’, ‘RMSProp’
+
+
+Tokenization structure:
+
+- Comma separated tokenization, section based separation noticed.
+- entity separation noticed.
+- Labels considered as a token on target
+- Each section appeared as separated
+- labels appended with each section
+- organized tokenization approach
+
+
+Ran multiple times to observe translations
+
+
+
+- Run 1 : Adam (Sample 1 - 20) val steps=40, epochs 100
+- Run 2 : Adadelta (Sample 21 - 40) val steps=40, epochs 100
+- Run 3 : Adagrad(Sample 41 - 60) val steps=40, epochs 100
+- Run 4 : SGD (Sample 61 - 80) val steps=40, epochs 100 (consistent on detecting P labels)
+- Run 5 : RMSProp (Sample 41 - 60) (no prediction)
+
+
+
+
+
+---------------------------
+
+
+
+Total Instance = 101
+
+Pareto = 15
+Not Pareto = 86
+
+
+correctly predicted P =  4 (TP)
+Incorrectly predicted P =  11 (FN)
+
+
+correctly predicted NP = 86 (TN)
+Incorrectly predicted NP = 0 (FP)
+
+correctly predicted NP = 49 (TN)
+Incorrectly predicted NP =  37 (FP)
+
+Incorrectly predicted = 11  predicted as NP but they were P | 4  predicted as P and they are P
+37  predicted as P but they were NP | 49  predicted as NP and they are NP
+
+
+
+
+
+Precision - TP / (TP + FP) = 4 / (4 + 37) = 0.097
+Recall - TP / (TP + FN) = 4 / (4 + 11) = 0.26
+Accuracy = (TN + TP ) / (TN + FP + TP + FN ) = (49 + 4) / (49 + 37 + 4 + 11) = 0.524
+F1 = 2 * (Precision * Recall / Precision + Recall) = 2 * (0.097 * 0.26 / 0.097 + 0.26) = 2 * (0.02522 / 0.357) = 0.0706

@@ -1,0 +1,45 @@
+Exp 5 Jan23 - Regular Dataset  - Tokenization 1 - 7 OM combined
+
+
+Notes
+Optimizers used: 'Adam''Adadelta', 'Adagrad', 'Adam', ‘SGD’, ‘RMSProp’
+
+
+- Comma separated tokenization, section based separation noticed.
+- entity separation noticed.
+- Labels considered as a token on target
+
+- Failed to receive results due to separation between entities
+
+
+Ran multiple times to observe translations
+
+
+
+- Run 1 : Adam (Sample 1 - 10) val steps=20, epochs 100 no result
+
+- Run 2 : Adadelta (Sample 11 - 20) val steps=40, epochs 100 no result
+
+
+
+
+
+---------------------------
+
+
+
+Total Instance = 101
+
+Pareto = 15
+Not Pareto = 86
+
+
+correctly predicted P =   (TP)
+Incorrectly predicted P =  (FN)
+
+
+correctly predicted NP =  (TN)
+Incorrectly predicted NP =  (FP)
+
+Incorrectly predicted =  predicted as NP but they were |  predicted as  and they are
+ predicted as P but they were NP |  predicted as NP and they are NP
