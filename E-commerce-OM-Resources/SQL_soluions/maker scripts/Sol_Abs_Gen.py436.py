@@ -2,7 +2,7 @@
 #print(mylist)
 
 
-file_name = "ecommerce_Sol_211.sql"
+file_name = "ecommerce_Sol_640.sql"
 file_read = open(file_name, "r")
 mylist = file_read.readlines()
 
@@ -263,7 +263,7 @@ map_str1_0 = "map_str1"
 map_str2_0 = "map_str2"
 map_str3_0 = "map_str3"
 
-file_object = open(f'sol_211.txt', 'a')
+file_object = open(f'sol_640.txt', 'a')
 
 
 for j in range(len(mylist)):
