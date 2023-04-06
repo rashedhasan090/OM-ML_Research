@@ -1,0 +1,674 @@
+<alloy builddate="2008/10/27 23:45 EDT">
+
+<instance bitwidth="4" maxseq="7" command="Run mapping_run_Order_Process for 29" filename="">
+
+<sig label="univ" ID="0" builtin="yes">
+   <atom label="assertions/relationalModel/Table$0"/>
+   <atom label="assertions/relationalModel/Table$1"/>
+   <atom label="assertions/relationalModel/Table$2"/>
+   <atom label="assertions/relationalModel/Table$3"/>
+   <atom label="assertions/relationalModel/Table$4"/>
+   <atom label="assertions/relationalModel/Table$5"/>
+   <atom label="assertions/relationalModel/Table$6"/>
+   <atom label="assertions/relationalModel/Table$7"/>
+   <atom label="assertions/relationalModel/Table$8"/>
+   <atom label="assertions/relationalModel/Table$9"/>
+   <atom label="assertions/relationalModel/Table$10"/>
+   <atom label="assertions/relationalModel/Table$11"/>
+   <atom label="assertions/relationalModel/Field$0"/>
+   <atom label="assertions/relationalModel/Field$1"/>
+   <atom label="assertions/relationalModel/Field$2"/>
+   <atom label="assertions/relationalModel/Field$3"/>
+   <atom label="assertions/relationalModel/Field$4"/>
+   <atom label="assertions/relationalModel/Field$5"/>
+   <atom label="assertions/relationalModel/Field$6"/>
+   <atom label="assertions/relationalModel/Field$7"/>
+   <atom label="assertions/relationalModel/Field$8"/>
+   <atom label="assertions/relationalModel/Field$9"/>
+   <atom label="assertions/relationalModel/Field$10"/>
+   <atom label="assertions/relationalModel/Field$11"/>
+   <atom label="assertions/relationalModel/Field$12"/>
+   <atom label="assertions/relationalModel/Field$13"/>
+   <atom label="assertions/relationalModel/Field$14"/>
+   <atom label="Order_Process/Inventory"/>
+   <atom label="Order_Process/Payment"/>
+   <atom label="Order_Process/Management"/>
+   <atom label="Order_Process/Products"/>
+   <atom label="Order_Process/Customer"/>
+   <atom label="Order_Process/Delivery"/>
+   <atom label="Order_Process/Order"/>
+   <atom label="Order_Process/ItemId"/>
+   <atom label="Order_Process/PaymentId"/>
+   <atom label="Order_Process/ManagementId"/>
+   <atom label="Order_Process/ManagementPhoneNo"/>
+   <atom label="Order_Process/ManagementAcctNo"/>
+   <atom label="Order_Process/ProductsId"/>
+   <atom label="Order_Process/CustomerId"/>
+   <atom label="Order_Process/DeliveryId"/>
+   <atom label="Order_Process/OrderId"/>
+   <atom label="Order_Process/ItemType"/>
+   <atom label="Order_Process/ManagementName"/>
+   <atom label="Order_Process/ManagementAddress"/>
+   <atom label="Order_Process/ProductsName"/>
+   <atom label="Order_Process/AgentName"/>
+   <atom label="Order_Process/DeliveryLocation"/>
+   <atom label="Order_Process/CustomerProductsAssociation"/>
+   <atom label="Order_Process/CustomerManagementAssociation"/>
+   <atom label="Order_Process/ManagementProductsAssociation"/>
+   <atom label="Order_Process/ManagementCustomerAssociation"/>
+   <atom label="Order_Process/ManagementInventoryAssociation"/>
+   <atom label="AssociationMappings/Declaration/No$0"/>
+   <atom label="AssociationMappings/Declaration/ONE"/>
+   <atom label="AssociationMappings/Declaration/MANY"/>
+   <atom label="ORMStrategies/UnionSubclassStrategy"/>
+   <atom label="ORMStrategies/JoinedSubclassStrategy"/>
+   <atom label="ORMStrategies/UnionSuperclassStrategy"/>
+   <atom label="AssociationMappings/ForeignKeyEmbeddingStrategy"/>
+   <atom label="AssociationMappings/OwnAssociationTableStrategy"/>
+   <atom label="AssociationMappings/MergingOneTableStrategy"/>
+   <atom label="AssociationMappings/AssociationMappingStrategies"/>
+   <atom label="-8"/>
+   <atom label="-7"/>
+   <atom label="-6"/>
+   <atom label="-5"/>
+   <atom label="-4"/>
+   <atom label="-3"/>
+   <atom label="-2"/>
+   <atom label="-1"/>
+   <atom label="0"/>
+   <atom label="1"/>
+   <atom label="2"/>
+   <atom label="3"/>
+   <atom label="4"/>
+   <atom label="5"/>
+   <atom label="6"/>
+   <atom label="7"/>
+</sig>
+
+<sig label="Int" ID="1" parentID="0" builtin="yes">
+   <atom label="-8"/>
+   <atom label="-7"/>
+   <atom label="-6"/>
+   <atom label="-5"/>
+   <atom label="-4"/>
+   <atom label="-3"/>
+   <atom label="-2"/>
+   <atom label="-1"/>
+   <atom label="0"/>
+   <atom label="1"/>
+   <atom label="2"/>
+   <atom label="3"/>
+   <atom label="4"/>
+   <atom label="5"/>
+   <atom label="6"/>
+   <atom label="7"/>
+</sig>
+
+<sig label="seq/Int" ID="2" parentID="1" builtin="yes">
+   <atom label="0"/>
+   <atom label="1"/>
+   <atom label="2"/>
+   <atom label="3"/>
+   <atom label="4"/>
+   <atom label="5"/>
+   <atom label="6"/>
+</sig>
+
+<sig label="fun/String" ID="3" parentID="0" builtin="yes">
+</sig>
+
+<sig label="assertions/relationalModel/Table" ID="4" parentID="0">
+   <atom label="assertions/relationalModel/Table$0"/>
+   <atom label="assertions/relationalModel/Table$1"/>
+   <atom label="assertions/relationalModel/Table$2"/>
+   <atom label="assertions/relationalModel/Table$3"/>
+   <atom label="assertions/relationalModel/Table$4"/>
+   <atom label="assertions/relationalModel/Table$5"/>
+   <atom label="assertions/relationalModel/Table$6"/>
+   <atom label="assertions/relationalModel/Table$7"/>
+   <atom label="assertions/relationalModel/Table$8"/>
+   <atom label="assertions/relationalModel/Table$9"/>
+   <atom label="assertions/relationalModel/Table$10"/>
+   <atom label="assertions/relationalModel/Table$11"/>
+</sig>
+
+<field label="fields" ID="5" parentID="4">
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$14"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="assertions/relationalModel/Field$8"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$3"/> <atom label="assertions/relationalModel/Field$8"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$3"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="assertions/relationalModel/Field$8"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$8"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$13"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="assertions/relationalModel/Field$8"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$7"/> <atom label="assertions/relationalModel/Field$6"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$7"/> <atom label="assertions/relationalModel/Field$8"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$7"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$8"/> <atom label="assertions/relationalModel/Field$5"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$8"/> <atom label="assertions/relationalModel/Field$14"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$9"/> <atom label="assertions/relationalModel/Field$3"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$9"/> <atom label="assertions/relationalModel/Field$4"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$9"/> <atom label="assertions/relationalModel/Field$10"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$9"/> <atom label="assertions/relationalModel/Field$11"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$9"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$10"/> <atom label="assertions/relationalModel/Field$2"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$10"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$11"/> <atom label="assertions/relationalModel/Field$0"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$11"/> <atom label="assertions/relationalModel/Field$1"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$11"/> <atom label="assertions/relationalModel/Field$7"/> </tuple>
+   <types> <type ID="4"/> <type ID="6"/> </types>
+</field>
+
+<field label="primaryKey" ID="7" parentID="4">
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$14"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="assertions/relationalModel/Field$8"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$3"/> <atom label="assertions/relationalModel/Field$8"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="assertions/relationalModel/Field$8"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="assertions/relationalModel/Field$8"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$7"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$8"/> <atom label="assertions/relationalModel/Field$14"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$9"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$10"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$11"/> <atom label="assertions/relationalModel/Field$7"/> </tuple>
+   <types> <type ID="4"/> <type ID="6"/> </types>
+</field>
+
+<field label="foreignKey" ID="8" parentID="4">
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$14"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="assertions/relationalModel/Field$8"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="assertions/relationalModel/Field$8"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="assertions/relationalModel/Field$8"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <types> <type ID="4"/> <type ID="6"/> </types>
+</field>
+
+<field label="tAssociate" ID="9" parentID="4">
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="Order_Process/ManagementInventoryAssociation"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="Order_Process/ManagementProductsAssociation"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="Order_Process/ManagementCustomerAssociation"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$3"/> <atom label="Order_Process/Customer"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="Order_Process/CustomerManagementAssociation"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="Order_Process/Payment"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="Order_Process/CustomerProductsAssociation"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$7"/> <atom label="Order_Process/Order"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$8"/> <atom label="Order_Process/Inventory"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$9"/> <atom label="Order_Process/Management"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$10"/> <atom label="Order_Process/Products"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$11"/> <atom label="Order_Process/Delivery"/> </tuple>
+   <types> <type ID="4"/> <type ID="10"/> </types>
+   <types> <type ID="4"/> <type ID="11"/> </types>
+</field>
+
+<sig label="assertions/relationalModel/Field" ID="6" parentID="0">
+   <atom label="assertions/relationalModel/Field$0"/>
+   <atom label="assertions/relationalModel/Field$1"/>
+   <atom label="assertions/relationalModel/Field$2"/>
+   <atom label="assertions/relationalModel/Field$3"/>
+   <atom label="assertions/relationalModel/Field$4"/>
+   <atom label="assertions/relationalModel/Field$5"/>
+   <atom label="assertions/relationalModel/Field$6"/>
+   <atom label="assertions/relationalModel/Field$7"/>
+   <atom label="assertions/relationalModel/Field$8"/>
+   <atom label="assertions/relationalModel/Field$9"/>
+   <atom label="assertions/relationalModel/Field$10"/>
+   <atom label="assertions/relationalModel/Field$11"/>
+   <atom label="assertions/relationalModel/Field$12"/>
+   <atom label="assertions/relationalModel/Field$13"/>
+   <atom label="assertions/relationalModel/Field$14"/>
+</sig>
+
+<field label="fAssociate" ID="12" parentID="6">
+   <tuple> <atom label="assertions/relationalModel/Field$0"/> <atom label="Order_Process/DeliveryLocation"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$1"/> <atom label="Order_Process/AgentName"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$2"/> <atom label="Order_Process/ProductsName"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$3"/> <atom label="Order_Process/ManagementAddress"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$4"/> <atom label="Order_Process/ManagementName"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$5"/> <atom label="Order_Process/ItemType"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$6"/> <atom label="Order_Process/OrderId"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$7"/> <atom label="Order_Process/DeliveryId"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$8"/> <atom label="Order_Process/CustomerId"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$9"/> <atom label="Order_Process/ProductsId"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$10"/> <atom label="Order_Process/ManagementAcctNo"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$11"/> <atom label="Order_Process/ManagementPhoneNo"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$12"/> <atom label="Order_Process/ManagementId"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$13"/> <atom label="Order_Process/PaymentId"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$14"/> <atom label="Order_Process/ItemId"/> </tuple>
+   <types> <type ID="6"/> <type ID="13"/> </types>
+</field>
+
+<sig label="AssociationMappings/Declaration/needHandle" ID="13" parentID="0" abstract="yes">
+   <atom label="Order_Process/Inventory"/>
+   <atom label="Order_Process/Payment"/>
+   <atom label="Order_Process/Management"/>
+   <atom label="Order_Process/Products"/>
+   <atom label="Order_Process/Customer"/>
+   <atom label="Order_Process/Delivery"/>
+   <atom label="Order_Process/Order"/>
+   <atom label="Order_Process/ItemId"/>
+   <atom label="Order_Process/PaymentId"/>
+   <atom label="Order_Process/ManagementId"/>
+   <atom label="Order_Process/ManagementPhoneNo"/>
+   <atom label="Order_Process/ManagementAcctNo"/>
+   <atom label="Order_Process/ProductsId"/>
+   <atom label="Order_Process/CustomerId"/>
+   <atom label="Order_Process/DeliveryId"/>
+   <atom label="Order_Process/OrderId"/>
+   <atom label="Order_Process/ItemType"/>
+   <atom label="Order_Process/ManagementName"/>
+   <atom label="Order_Process/ManagementAddress"/>
+   <atom label="Order_Process/ProductsName"/>
+   <atom label="Order_Process/AgentName"/>
+   <atom label="Order_Process/DeliveryLocation"/>
+   <atom label="Order_Process/CustomerProductsAssociation"/>
+   <atom label="Order_Process/CustomerManagementAssociation"/>
+   <atom label="Order_Process/ManagementProductsAssociation"/>
+   <atom label="Order_Process/ManagementCustomerAssociation"/>
+   <atom label="Order_Process/ManagementInventoryAssociation"/>
+   <atom label="AssociationMappings/Declaration/No$0"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Attribute" ID="14" parentID="13" abstract="yes">
+   <atom label="Order_Process/Inventory"/>
+   <atom label="Order_Process/Payment"/>
+   <atom label="Order_Process/Management"/>
+   <atom label="Order_Process/Products"/>
+   <atom label="Order_Process/Customer"/>
+   <atom label="Order_Process/Delivery"/>
+   <atom label="Order_Process/Order"/>
+   <atom label="Order_Process/ItemId"/>
+   <atom label="Order_Process/PaymentId"/>
+   <atom label="Order_Process/ManagementId"/>
+   <atom label="Order_Process/ManagementPhoneNo"/>
+   <atom label="Order_Process/ManagementAcctNo"/>
+   <atom label="Order_Process/ProductsId"/>
+   <atom label="Order_Process/CustomerId"/>
+   <atom label="Order_Process/DeliveryId"/>
+   <atom label="Order_Process/OrderId"/>
+   <atom label="Order_Process/ItemType"/>
+   <atom label="Order_Process/ManagementName"/>
+   <atom label="Order_Process/ManagementAddress"/>
+   <atom label="Order_Process/ProductsName"/>
+   <atom label="Order_Process/AgentName"/>
+   <atom label="Order_Process/DeliveryLocation"/>
+   <atom label="AssociationMappings/Declaration/No$0"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Class" ID="10" parentID="14" abstract="yes">
+   <atom label="Order_Process/Inventory"/>
+   <atom label="Order_Process/Payment"/>
+   <atom label="Order_Process/Management"/>
+   <atom label="Order_Process/Products"/>
+   <atom label="Order_Process/Customer"/>
+   <atom label="Order_Process/Delivery"/>
+   <atom label="Order_Process/Order"/>
+</sig>
+
+<field label="attrSet" ID="15" parentID="10">
+   <tuple> <atom label="Order_Process/Inventory"/> <atom label="Order_Process/ItemId"/> </tuple>
+   <tuple> <atom label="Order_Process/Inventory"/> <atom label="Order_Process/ItemType"/> </tuple>
+   <tuple> <atom label="Order_Process/Payment"/> <atom label="Order_Process/PaymentId"/> </tuple>
+   <tuple> <atom label="Order_Process/Management"/> <atom label="Order_Process/ManagementId"/> </tuple>
+   <tuple> <atom label="Order_Process/Management"/> <atom label="Order_Process/ManagementPhoneNo"/> </tuple>
+   <tuple> <atom label="Order_Process/Management"/> <atom label="Order_Process/ManagementAcctNo"/> </tuple>
+   <tuple> <atom label="Order_Process/Management"/> <atom label="Order_Process/ManagementName"/> </tuple>
+   <tuple> <atom label="Order_Process/Management"/> <atom label="Order_Process/ManagementAddress"/> </tuple>
+   <tuple> <atom label="Order_Process/Products"/> <atom label="Order_Process/ProductsId"/> </tuple>
+   <tuple> <atom label="Order_Process/Products"/> <atom label="Order_Process/ProductsName"/> </tuple>
+   <tuple> <atom label="Order_Process/Customer"/> <atom label="Order_Process/ManagementId"/> </tuple>
+   <tuple> <atom label="Order_Process/Customer"/> <atom label="Order_Process/CustomerId"/> </tuple>
+   <tuple> <atom label="Order_Process/Delivery"/> <atom label="Order_Process/DeliveryId"/> </tuple>
+   <tuple> <atom label="Order_Process/Delivery"/> <atom label="Order_Process/AgentName"/> </tuple>
+   <tuple> <atom label="Order_Process/Delivery"/> <atom label="Order_Process/DeliveryLocation"/> </tuple>
+   <tuple> <atom label="Order_Process/Order"/> <atom label="Order_Process/OrderId"/> </tuple>
+   <types> <type ID="10"/> <type ID="14"/> </types>
+</field>
+
+<field label="id" ID="16" parentID="10">
+   <tuple> <atom label="Order_Process/Inventory"/> <atom label="Order_Process/ItemId"/> </tuple>
+   <tuple> <atom label="Order_Process/Payment"/> <atom label="Order_Process/ManagementId"/> </tuple>
+   <tuple> <atom label="Order_Process/Management"/> <atom label="Order_Process/ManagementId"/> </tuple>
+   <tuple> <atom label="Order_Process/Products"/> <atom label="Order_Process/ProductsId"/> </tuple>
+   <tuple> <atom label="Order_Process/Customer"/> <atom label="Order_Process/CustomerId"/> </tuple>
+   <tuple> <atom label="Order_Process/Delivery"/> <atom label="Order_Process/DeliveryId"/> </tuple>
+   <tuple> <atom label="Order_Process/Order"/> <atom label="Order_Process/ManagementId"/> </tuple>
+   <types> <type ID="10"/> <type ID="14"/> </types>
+</field>
+
+<field label="parent" ID="17" parentID="10">
+   <tuple> <atom label="Order_Process/Payment"/> <atom label="Order_Process/Customer"/> </tuple>
+   <tuple> <atom label="Order_Process/Order"/> <atom label="Order_Process/Customer"/> </tuple>
+   <types> <type ID="10"/> <type ID="10"/> </types>
+</field>
+
+<field label="isAbstract" ID="18" parentID="10">
+   <tuple> <atom label="Order_Process/Inventory"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="Order_Process/Payment"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="Order_Process/Management"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="Order_Process/Products"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="Order_Process/Customer"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="Order_Process/Delivery"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="Order_Process/Order"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <types> <type ID="10"/> <type ID="19"/> </types>
+</field>
+
+<sig label="Order_Process/Inventory" ID="20" parentID="10" one="yes">
+   <atom label="Order_Process/Inventory"/>
+</sig>
+
+<sig label="Order_Process/Payment" ID="21" parentID="10" one="yes">
+   <atom label="Order_Process/Payment"/>
+</sig>
+
+<sig label="Order_Process/Management" ID="22" parentID="10" one="yes">
+   <atom label="Order_Process/Management"/>
+</sig>
+
+<sig label="Order_Process/Products" ID="23" parentID="10" one="yes">
+   <atom label="Order_Process/Products"/>
+</sig>
+
+<sig label="Order_Process/Customer" ID="24" parentID="10" one="yes">
+   <atom label="Order_Process/Customer"/>
+</sig>
+
+<sig label="Order_Process/Delivery" ID="25" parentID="10" one="yes">
+   <atom label="Order_Process/Delivery"/>
+</sig>
+
+<sig label="Order_Process/Order" ID="26" parentID="10" one="yes">
+   <atom label="Order_Process/Order"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Type" ID="27" parentID="14" abstract="yes">
+   <atom label="Order_Process/ItemId"/>
+   <atom label="Order_Process/PaymentId"/>
+   <atom label="Order_Process/ManagementId"/>
+   <atom label="Order_Process/ManagementPhoneNo"/>
+   <atom label="Order_Process/ManagementAcctNo"/>
+   <atom label="Order_Process/ProductsId"/>
+   <atom label="Order_Process/CustomerId"/>
+   <atom label="Order_Process/DeliveryId"/>
+   <atom label="Order_Process/OrderId"/>
+   <atom label="Order_Process/ItemType"/>
+   <atom label="Order_Process/ManagementName"/>
+   <atom label="Order_Process/ManagementAddress"/>
+   <atom label="Order_Process/ProductsName"/>
+   <atom label="Order_Process/AgentName"/>
+   <atom label="Order_Process/DeliveryLocation"/>
+   <atom label="AssociationMappings/Declaration/No$0"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Integer" ID="28" parentID="27">
+   <atom label="Order_Process/ItemId"/>
+   <atom label="Order_Process/PaymentId"/>
+   <atom label="Order_Process/ManagementId"/>
+   <atom label="Order_Process/ManagementPhoneNo"/>
+   <atom label="Order_Process/ManagementAcctNo"/>
+   <atom label="Order_Process/ProductsId"/>
+   <atom label="Order_Process/CustomerId"/>
+   <atom label="Order_Process/DeliveryId"/>
+   <atom label="Order_Process/OrderId"/>
+</sig>
+
+<sig label="Order_Process/ItemId" ID="29" parentID="28" one="yes">
+   <atom label="Order_Process/ItemId"/>
+</sig>
+
+<sig label="Order_Process/PaymentId" ID="30" parentID="28" one="yes">
+   <atom label="Order_Process/PaymentId"/>
+</sig>
+
+<sig label="Order_Process/ManagementId" ID="31" parentID="28" one="yes">
+   <atom label="Order_Process/ManagementId"/>
+</sig>
+
+<sig label="Order_Process/ManagementPhoneNo" ID="32" parentID="28" one="yes">
+   <atom label="Order_Process/ManagementPhoneNo"/>
+</sig>
+
+<sig label="Order_Process/ManagementAcctNo" ID="33" parentID="28" one="yes">
+   <atom label="Order_Process/ManagementAcctNo"/>
+</sig>
+
+<sig label="Order_Process/ProductsId" ID="34" parentID="28" one="yes">
+   <atom label="Order_Process/ProductsId"/>
+</sig>
+
+<sig label="Order_Process/CustomerId" ID="35" parentID="28" one="yes">
+   <atom label="Order_Process/CustomerId"/>
+</sig>
+
+<sig label="Order_Process/DeliveryId" ID="36" parentID="28" one="yes">
+   <atom label="Order_Process/DeliveryId"/>
+</sig>
+
+<sig label="Order_Process/OrderId" ID="37" parentID="28" one="yes">
+   <atom label="Order_Process/OrderId"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Real" ID="38" parentID="27">
+</sig>
+
+<sig label="AssociationMappings/Declaration/string" ID="39" parentID="27">
+   <atom label="Order_Process/ItemType"/>
+   <atom label="Order_Process/ManagementName"/>
+   <atom label="Order_Process/ManagementAddress"/>
+   <atom label="Order_Process/ProductsName"/>
+   <atom label="Order_Process/AgentName"/>
+   <atom label="Order_Process/DeliveryLocation"/>
+</sig>
+
+<sig label="Order_Process/ItemType" ID="40" parentID="39" one="yes">
+   <atom label="Order_Process/ItemType"/>
+</sig>
+
+<sig label="Order_Process/ManagementName" ID="41" parentID="39" one="yes">
+   <atom label="Order_Process/ManagementName"/>
+</sig>
+
+<sig label="Order_Process/ManagementAddress" ID="42" parentID="39" one="yes">
+   <atom label="Order_Process/ManagementAddress"/>
+</sig>
+
+<sig label="Order_Process/ProductsName" ID="43" parentID="39" one="yes">
+   <atom label="Order_Process/ProductsName"/>
+</sig>
+
+<sig label="Order_Process/AgentName" ID="44" parentID="39" one="yes">
+   <atom label="Order_Process/AgentName"/>
+</sig>
+
+<sig label="Order_Process/DeliveryLocation" ID="45" parentID="39" one="yes">
+   <atom label="Order_Process/DeliveryLocation"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Bool" ID="19" parentID="27">
+   <atom label="AssociationMappings/Declaration/No$0"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Yes" ID="46" parentID="19">
+</sig>
+
+<sig label="AssociationMappings/Declaration/No" ID="47" parentID="19">
+   <atom label="AssociationMappings/Declaration/No$0"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/DType" ID="48" parentID="27">
+</sig>
+
+<sig label="AssociationMappings/Declaration/Longblob" ID="49" parentID="27">
+</sig>
+
+<sig label="AssociationMappings/Declaration/Time" ID="50" parentID="27">
+</sig>
+
+<sig label="AssociationMappings/Declaration/Association" ID="11" parentID="13" abstract="yes">
+   <atom label="Order_Process/CustomerProductsAssociation"/>
+   <atom label="Order_Process/CustomerManagementAssociation"/>
+   <atom label="Order_Process/ManagementProductsAssociation"/>
+   <atom label="Order_Process/ManagementCustomerAssociation"/>
+   <atom label="Order_Process/ManagementInventoryAssociation"/>
+</sig>
+
+<field label="src" ID="51" parentID="11">
+   <tuple> <atom label="Order_Process/CustomerProductsAssociation"/> <atom label="Order_Process/Customer"/> </tuple>
+   <tuple> <atom label="Order_Process/CustomerManagementAssociation"/> <atom label="Order_Process/Customer"/> </tuple>
+   <tuple> <atom label="Order_Process/ManagementProductsAssociation"/> <atom label="Order_Process/Management"/> </tuple>
+   <tuple> <atom label="Order_Process/ManagementCustomerAssociation"/> <atom label="Order_Process/Management"/> </tuple>
+   <tuple> <atom label="Order_Process/ManagementInventoryAssociation"/> <atom label="Order_Process/Management"/> </tuple>
+   <types> <type ID="11"/> <type ID="10"/> </types>
+</field>
+
+<field label="dst" ID="52" parentID="11">
+   <tuple> <atom label="Order_Process/CustomerProductsAssociation"/> <atom label="Order_Process/Products"/> </tuple>
+   <tuple> <atom label="Order_Process/CustomerManagementAssociation"/> <atom label="Order_Process/Management"/> </tuple>
+   <tuple> <atom label="Order_Process/ManagementProductsAssociation"/> <atom label="Order_Process/Products"/> </tuple>
+   <tuple> <atom label="Order_Process/ManagementCustomerAssociation"/> <atom label="Order_Process/Customer"/> </tuple>
+   <tuple> <atom label="Order_Process/ManagementInventoryAssociation"/> <atom label="Order_Process/Inventory"/> </tuple>
+   <types> <type ID="11"/> <type ID="10"/> </types>
+</field>
+
+<field label="src_multiplicity" ID="53" parentID="11">
+   <tuple> <atom label="Order_Process/CustomerProductsAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <tuple> <atom label="Order_Process/CustomerManagementAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <tuple> <atom label="Order_Process/ManagementProductsAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="Order_Process/ManagementCustomerAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <tuple> <atom label="Order_Process/ManagementInventoryAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <types> <type ID="11"/> <type ID="54"/> </types>
+</field>
+
+<field label="dst_multiplicity" ID="55" parentID="11">
+   <tuple> <atom label="Order_Process/CustomerProductsAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="Order_Process/CustomerManagementAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="Order_Process/ManagementProductsAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="Order_Process/ManagementCustomerAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="Order_Process/ManagementInventoryAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <types> <type ID="11"/> <type ID="54"/> </types>
+</field>
+
+<sig label="Order_Process/CustomerProductsAssociation" ID="56" parentID="11" one="yes">
+   <atom label="Order_Process/CustomerProductsAssociation"/>
+</sig>
+
+<sig label="Order_Process/CustomerManagementAssociation" ID="57" parentID="11" one="yes">
+   <atom label="Order_Process/CustomerManagementAssociation"/>
+</sig>
+
+<sig label="Order_Process/ManagementProductsAssociation" ID="58" parentID="11" one="yes">
+   <atom label="Order_Process/ManagementProductsAssociation"/>
+</sig>
+
+<sig label="Order_Process/ManagementCustomerAssociation" ID="59" parentID="11" one="yes">
+   <atom label="Order_Process/ManagementCustomerAssociation"/>
+</sig>
+
+<sig label="Order_Process/ManagementInventoryAssociation" ID="60" parentID="11" one="yes">
+   <atom label="Order_Process/ManagementInventoryAssociation"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Multiplicity_State" ID="54" parentID="0" abstract="yes">
+   <atom label="AssociationMappings/Declaration/ONE"/>
+   <atom label="AssociationMappings/Declaration/MANY"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/ONE" ID="61" parentID="54" one="yes">
+   <atom label="AssociationMappings/Declaration/ONE"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/MANY" ID="62" parentID="54" one="yes">
+   <atom label="AssociationMappings/Declaration/MANY"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Strategy" ID="63" parentID="0" abstract="yes">
+   <atom label="ORMStrategies/UnionSubclassStrategy"/>
+   <atom label="ORMStrategies/JoinedSubclassStrategy"/>
+   <atom label="ORMStrategies/UnionSuperclassStrategy"/>
+   <atom label="AssociationMappings/ForeignKeyEmbeddingStrategy"/>
+   <atom label="AssociationMappings/OwnAssociationTableStrategy"/>
+   <atom label="AssociationMappings/MergingOneTableStrategy"/>
+</sig>
+
+<field label="assignees" ID="64" parentID="63">
+   <tuple> <atom label="ORMStrategies/UnionSubclassStrategy"/> <atom label="Order_Process/Inventory"/> </tuple>
+   <tuple> <atom label="ORMStrategies/UnionSubclassStrategy"/> <atom label="Order_Process/Payment"/> </tuple>
+   <tuple> <atom label="ORMStrategies/UnionSubclassStrategy"/> <atom label="Order_Process/Management"/> </tuple>
+   <tuple> <atom label="ORMStrategies/UnionSubclassStrategy"/> <atom label="Order_Process/Products"/> </tuple>
+   <tuple> <atom label="ORMStrategies/UnionSubclassStrategy"/> <atom label="Order_Process/Customer"/> </tuple>
+   <tuple> <atom label="ORMStrategies/UnionSubclassStrategy"/> <atom label="Order_Process/Delivery"/> </tuple>
+   <tuple> <atom label="ORMStrategies/UnionSubclassStrategy"/> <atom label="Order_Process/Order"/> </tuple>
+   <tuple> <atom label="AssociationMappings/OwnAssociationTableStrategy"/> <atom label="Order_Process/CustomerProductsAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/OwnAssociationTableStrategy"/> <atom label="Order_Process/CustomerManagementAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/OwnAssociationTableStrategy"/> <atom label="Order_Process/ManagementProductsAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/OwnAssociationTableStrategy"/> <atom label="Order_Process/ManagementCustomerAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/OwnAssociationTableStrategy"/> <atom label="Order_Process/ManagementInventoryAssociation"/> </tuple>
+   <types> <type ID="63"/> <type ID="10"/> </types>
+   <types> <type ID="63"/> <type ID="11"/> </types>
+</field>
+
+<sig label="ORMStrategies/UnionSubclassStrategy" ID="65" parentID="63" one="yes">
+   <atom label="ORMStrategies/UnionSubclassStrategy"/>
+</sig>
+
+<sig label="ORMStrategies/JoinedSubclassStrategy" ID="66" parentID="63" one="yes">
+   <atom label="ORMStrategies/JoinedSubclassStrategy"/>
+</sig>
+
+<sig label="ORMStrategies/UnionSuperclassStrategy" ID="67" parentID="63" one="yes">
+   <atom label="ORMStrategies/UnionSuperclassStrategy"/>
+</sig>
+
+<sig label="AssociationMappings/ForeignKeyEmbeddingStrategy" ID="68" parentID="63" one="yes">
+   <atom label="AssociationMappings/ForeignKeyEmbeddingStrategy"/>
+</sig>
+
+<sig label="AssociationMappings/OwnAssociationTableStrategy" ID="69" parentID="63" one="yes">
+   <atom label="AssociationMappings/OwnAssociationTableStrategy"/>
+</sig>
+
+<sig label="AssociationMappings/MergingOneTableStrategy" ID="70" parentID="63" one="yes">
+   <atom label="AssociationMappings/MergingOneTableStrategy"/>
+</sig>
+
+<sig label="AssociationMappings/AssociationMappingStrategies" ID="71" parentID="0" one="yes">
+   <atom label="AssociationMappings/AssociationMappingStrategies"/>
+</sig>
+
+<field label="FKE" ID="72" parentID="71">
+   <types> <type ID="71"/> <type ID="11"/> </types>
+</field>
+
+<field label="OAT" ID="73" parentID="71">
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="Order_Process/CustomerProductsAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="Order_Process/CustomerManagementAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="Order_Process/ManagementProductsAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="Order_Process/ManagementCustomerAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="Order_Process/ManagementInventoryAssociation"/> </tuple>
+   <types> <type ID="71"/> <type ID="11"/> </types>
+</field>
+
+<field label="MOT" ID="74" parentID="71">
+   <types> <type ID="71"/> <type ID="11"/> </types>
+</field>
+
+</instance>
+
+</alloy>

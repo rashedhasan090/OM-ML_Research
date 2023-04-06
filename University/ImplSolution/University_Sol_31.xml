@@ -1,0 +1,658 @@
+<alloy builddate="2008/10/27 23:45 EDT">
+
+<instance bitwidth="4" maxseq="7" command="Run mapping_run_University for 29" filename="">
+
+<sig label="univ" ID="0" builtin="yes">
+   <atom label="assertions/relationalModel/Table$0"/>
+   <atom label="assertions/relationalModel/Table$1"/>
+   <atom label="assertions/relationalModel/Table$2"/>
+   <atom label="assertions/relationalModel/Table$3"/>
+   <atom label="assertions/relationalModel/Table$4"/>
+   <atom label="assertions/relationalModel/Table$5"/>
+   <atom label="assertions/relationalModel/Table$6"/>
+   <atom label="assertions/relationalModel/Table$7"/>
+   <atom label="assertions/relationalModel/Table$8"/>
+   <atom label="assertions/relationalModel/Table$9"/>
+   <atom label="assertions/relationalModel/Field$0"/>
+   <atom label="assertions/relationalModel/Field$1"/>
+   <atom label="assertions/relationalModel/Field$2"/>
+   <atom label="assertions/relationalModel/Field$3"/>
+   <atom label="assertions/relationalModel/Field$4"/>
+   <atom label="assertions/relationalModel/Field$5"/>
+   <atom label="assertions/relationalModel/Field$6"/>
+   <atom label="assertions/relationalModel/Field$7"/>
+   <atom label="assertions/relationalModel/Field$8"/>
+   <atom label="assertions/relationalModel/Field$9"/>
+   <atom label="assertions/relationalModel/Field$10"/>
+   <atom label="assertions/relationalModel/Field$11"/>
+   <atom label="assertions/relationalModel/Field$12"/>
+   <atom label="assertions/relationalModel/Field$13"/>
+   <atom label="assertions/relationalModel/Field$14"/>
+   <atom label="University/Loan"/>
+   <atom label="University/MonthlySalary"/>
+   <atom label="University/Employee"/>
+   <atom label="University/HR"/>
+   <atom label="University/Salary"/>
+   <atom label="University/University"/>
+   <atom label="University/Savings"/>
+   <atom label="University/LoanId"/>
+   <atom label="University/MonthlySalaryId"/>
+   <atom label="University/EmployeeId"/>
+   <atom label="University/EmployeePhoneNo"/>
+   <atom label="University/EmployeeAcctNo"/>
+   <atom label="University/HRId"/>
+   <atom label="University/SalaryId"/>
+   <atom label="University/UniversityId"/>
+   <atom label="University/SavingsId"/>
+   <atom label="University/LoanType"/>
+   <atom label="University/EmployeeName"/>
+   <atom label="University/EmployeeAddress"/>
+   <atom label="University/HRName"/>
+   <atom label="University/UniversityName"/>
+   <atom label="University/UniversityLocation"/>
+   <atom label="University/UniversityHRAssociation"/>
+   <atom label="University/UniversityEmployeeAssociation"/>
+   <atom label="University/EmployeeHRAssociation"/>
+   <atom label="University/EmployeeSalaryAssociation"/>
+   <atom label="University/EmployeeLoanAssociation"/>
+   <atom label="AssociationMappings/Declaration/No$0"/>
+   <atom label="AssociationMappings/Declaration/ONE"/>
+   <atom label="AssociationMappings/Declaration/MANY"/>
+   <atom label="ORMStrategies/UnionSubclassStrategy"/>
+   <atom label="ORMStrategies/JoinedSubclassStrategy"/>
+   <atom label="ORMStrategies/UnionSuperclassStrategy"/>
+   <atom label="AssociationMappings/ForeignKeyEmbeddingStrategy"/>
+   <atom label="AssociationMappings/OwnAssociationTableStrategy"/>
+   <atom label="AssociationMappings/MergingOneTableStrategy"/>
+   <atom label="AssociationMappings/AssociationMappingStrategies"/>
+   <atom label="-8"/>
+   <atom label="-7"/>
+   <atom label="-6"/>
+   <atom label="-5"/>
+   <atom label="-4"/>
+   <atom label="-3"/>
+   <atom label="-2"/>
+   <atom label="-1"/>
+   <atom label="0"/>
+   <atom label="1"/>
+   <atom label="2"/>
+   <atom label="3"/>
+   <atom label="4"/>
+   <atom label="5"/>
+   <atom label="6"/>
+   <atom label="7"/>
+</sig>
+
+<sig label="Int" ID="1" parentID="0" builtin="yes">
+   <atom label="-8"/>
+   <atom label="-7"/>
+   <atom label="-6"/>
+   <atom label="-5"/>
+   <atom label="-4"/>
+   <atom label="-3"/>
+   <atom label="-2"/>
+   <atom label="-1"/>
+   <atom label="0"/>
+   <atom label="1"/>
+   <atom label="2"/>
+   <atom label="3"/>
+   <atom label="4"/>
+   <atom label="5"/>
+   <atom label="6"/>
+   <atom label="7"/>
+</sig>
+
+<sig label="seq/Int" ID="2" parentID="1" builtin="yes">
+   <atom label="0"/>
+   <atom label="1"/>
+   <atom label="2"/>
+   <atom label="3"/>
+   <atom label="4"/>
+   <atom label="5"/>
+   <atom label="6"/>
+</sig>
+
+<sig label="fun/String" ID="3" parentID="0" builtin="yes">
+</sig>
+
+<sig label="assertions/relationalModel/Table" ID="4" parentID="0">
+   <atom label="assertions/relationalModel/Table$0"/>
+   <atom label="assertions/relationalModel/Table$1"/>
+   <atom label="assertions/relationalModel/Table$2"/>
+   <atom label="assertions/relationalModel/Table$3"/>
+   <atom label="assertions/relationalModel/Table$4"/>
+   <atom label="assertions/relationalModel/Table$5"/>
+   <atom label="assertions/relationalModel/Table$6"/>
+   <atom label="assertions/relationalModel/Table$7"/>
+   <atom label="assertions/relationalModel/Table$8"/>
+   <atom label="assertions/relationalModel/Table$9"/>
+</sig>
+
+<field label="fields" ID="5" parentID="4">
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="assertions/relationalModel/Field$8"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="assertions/relationalModel/Field$8"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$3"/> <atom label="assertions/relationalModel/Field$8"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$3"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$3"/> <atom label="assertions/relationalModel/Field$13"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="assertions/relationalModel/Field$7"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$6"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$8"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="assertions/relationalModel/Field$5"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="assertions/relationalModel/Field$14"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$7"/> <atom label="assertions/relationalModel/Field$3"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$7"/> <atom label="assertions/relationalModel/Field$4"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$7"/> <atom label="assertions/relationalModel/Field$7"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$7"/> <atom label="assertions/relationalModel/Field$10"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$7"/> <atom label="assertions/relationalModel/Field$11"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$7"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$8"/> <atom label="assertions/relationalModel/Field$2"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$8"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$9"/> <atom label="assertions/relationalModel/Field$0"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$9"/> <atom label="assertions/relationalModel/Field$1"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$9"/> <atom label="assertions/relationalModel/Field$7"/> </tuple>
+   <types> <type ID="4"/> <type ID="6"/> </types>
+</field>
+
+<field label="primaryKey" ID="7" parentID="4">
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="assertions/relationalModel/Field$8"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="assertions/relationalModel/Field$8"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$3"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="assertions/relationalModel/Field$7"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="assertions/relationalModel/Field$14"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$7"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$8"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$9"/> <atom label="assertions/relationalModel/Field$7"/> </tuple>
+   <types> <type ID="4"/> <type ID="6"/> </types>
+</field>
+
+<field label="foreignKey" ID="8" parentID="4">
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="assertions/relationalModel/Field$8"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="assertions/relationalModel/Field$7"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$7"/> <atom label="assertions/relationalModel/Field$7"/> </tuple>
+   <types> <type ID="4"/> <type ID="6"/> </types>
+</field>
+
+<field label="tAssociate" ID="9" parentID="4">
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="University/EmployeeHRAssociation"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="University/EmployeeSalaryAssociation"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="University/Salary"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$3"/> <atom label="University/MonthlySalary"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="University/UniversityHRAssociation"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="University/Savings"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="University/Loan"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$7"/> <atom label="University/Employee"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$8"/> <atom label="University/HR"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$9"/> <atom label="University/University"/> </tuple>
+   <types> <type ID="4"/> <type ID="10"/> </types>
+   <types> <type ID="4"/> <type ID="11"/> </types>
+</field>
+
+<sig label="assertions/relationalModel/Field" ID="6" parentID="0">
+   <atom label="assertions/relationalModel/Field$0"/>
+   <atom label="assertions/relationalModel/Field$1"/>
+   <atom label="assertions/relationalModel/Field$2"/>
+   <atom label="assertions/relationalModel/Field$3"/>
+   <atom label="assertions/relationalModel/Field$4"/>
+   <atom label="assertions/relationalModel/Field$5"/>
+   <atom label="assertions/relationalModel/Field$6"/>
+   <atom label="assertions/relationalModel/Field$7"/>
+   <atom label="assertions/relationalModel/Field$8"/>
+   <atom label="assertions/relationalModel/Field$9"/>
+   <atom label="assertions/relationalModel/Field$10"/>
+   <atom label="assertions/relationalModel/Field$11"/>
+   <atom label="assertions/relationalModel/Field$12"/>
+   <atom label="assertions/relationalModel/Field$13"/>
+   <atom label="assertions/relationalModel/Field$14"/>
+</sig>
+
+<field label="fAssociate" ID="12" parentID="6">
+   <tuple> <atom label="assertions/relationalModel/Field$0"/> <atom label="University/UniversityLocation"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$1"/> <atom label="University/UniversityName"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$2"/> <atom label="University/HRName"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$3"/> <atom label="University/EmployeeAddress"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$4"/> <atom label="University/EmployeeName"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$5"/> <atom label="University/LoanType"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$6"/> <atom label="University/SavingsId"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$7"/> <atom label="University/UniversityId"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$8"/> <atom label="University/SalaryId"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$9"/> <atom label="University/HRId"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$10"/> <atom label="University/EmployeeAcctNo"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$11"/> <atom label="University/EmployeePhoneNo"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$12"/> <atom label="University/EmployeeId"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$13"/> <atom label="University/MonthlySalaryId"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$14"/> <atom label="University/LoanId"/> </tuple>
+   <types> <type ID="6"/> <type ID="13"/> </types>
+</field>
+
+<sig label="AssociationMappings/Declaration/needHandle" ID="13" parentID="0" abstract="yes">
+   <atom label="University/Loan"/>
+   <atom label="University/MonthlySalary"/>
+   <atom label="University/Employee"/>
+   <atom label="University/HR"/>
+   <atom label="University/Salary"/>
+   <atom label="University/University"/>
+   <atom label="University/Savings"/>
+   <atom label="University/LoanId"/>
+   <atom label="University/MonthlySalaryId"/>
+   <atom label="University/EmployeeId"/>
+   <atom label="University/EmployeePhoneNo"/>
+   <atom label="University/EmployeeAcctNo"/>
+   <atom label="University/HRId"/>
+   <atom label="University/SalaryId"/>
+   <atom label="University/UniversityId"/>
+   <atom label="University/SavingsId"/>
+   <atom label="University/LoanType"/>
+   <atom label="University/EmployeeName"/>
+   <atom label="University/EmployeeAddress"/>
+   <atom label="University/HRName"/>
+   <atom label="University/UniversityName"/>
+   <atom label="University/UniversityLocation"/>
+   <atom label="University/UniversityHRAssociation"/>
+   <atom label="University/UniversityEmployeeAssociation"/>
+   <atom label="University/EmployeeHRAssociation"/>
+   <atom label="University/EmployeeSalaryAssociation"/>
+   <atom label="University/EmployeeLoanAssociation"/>
+   <atom label="AssociationMappings/Declaration/No$0"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Attribute" ID="14" parentID="13" abstract="yes">
+   <atom label="University/Loan"/>
+   <atom label="University/MonthlySalary"/>
+   <atom label="University/Employee"/>
+   <atom label="University/HR"/>
+   <atom label="University/Salary"/>
+   <atom label="University/University"/>
+   <atom label="University/Savings"/>
+   <atom label="University/LoanId"/>
+   <atom label="University/MonthlySalaryId"/>
+   <atom label="University/EmployeeId"/>
+   <atom label="University/EmployeePhoneNo"/>
+   <atom label="University/EmployeeAcctNo"/>
+   <atom label="University/HRId"/>
+   <atom label="University/SalaryId"/>
+   <atom label="University/UniversityId"/>
+   <atom label="University/SavingsId"/>
+   <atom label="University/LoanType"/>
+   <atom label="University/EmployeeName"/>
+   <atom label="University/EmployeeAddress"/>
+   <atom label="University/HRName"/>
+   <atom label="University/UniversityName"/>
+   <atom label="University/UniversityLocation"/>
+   <atom label="AssociationMappings/Declaration/No$0"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Class" ID="10" parentID="14" abstract="yes">
+   <atom label="University/Loan"/>
+   <atom label="University/MonthlySalary"/>
+   <atom label="University/Employee"/>
+   <atom label="University/HR"/>
+   <atom label="University/Salary"/>
+   <atom label="University/University"/>
+   <atom label="University/Savings"/>
+</sig>
+
+<field label="attrSet" ID="15" parentID="10">
+   <tuple> <atom label="University/Loan"/> <atom label="University/LoanId"/> </tuple>
+   <tuple> <atom label="University/Loan"/> <atom label="University/LoanType"/> </tuple>
+   <tuple> <atom label="University/MonthlySalary"/> <atom label="University/MonthlySalaryId"/> </tuple>
+   <tuple> <atom label="University/Employee"/> <atom label="University/EmployeeId"/> </tuple>
+   <tuple> <atom label="University/Employee"/> <atom label="University/EmployeePhoneNo"/> </tuple>
+   <tuple> <atom label="University/Employee"/> <atom label="University/EmployeeAcctNo"/> </tuple>
+   <tuple> <atom label="University/Employee"/> <atom label="University/EmployeeName"/> </tuple>
+   <tuple> <atom label="University/Employee"/> <atom label="University/EmployeeAddress"/> </tuple>
+   <tuple> <atom label="University/HR"/> <atom label="University/HRId"/> </tuple>
+   <tuple> <atom label="University/HR"/> <atom label="University/HRName"/> </tuple>
+   <tuple> <atom label="University/Salary"/> <atom label="University/EmployeeId"/> </tuple>
+   <tuple> <atom label="University/Salary"/> <atom label="University/SalaryId"/> </tuple>
+   <tuple> <atom label="University/University"/> <atom label="University/UniversityId"/> </tuple>
+   <tuple> <atom label="University/University"/> <atom label="University/UniversityName"/> </tuple>
+   <tuple> <atom label="University/University"/> <atom label="University/UniversityLocation"/> </tuple>
+   <tuple> <atom label="University/Savings"/> <atom label="University/SavingsId"/> </tuple>
+   <types> <type ID="10"/> <type ID="14"/> </types>
+</field>
+
+<field label="id" ID="16" parentID="10">
+   <tuple> <atom label="University/Loan"/> <atom label="University/LoanId"/> </tuple>
+   <tuple> <atom label="University/MonthlySalary"/> <atom label="University/EmployeeId"/> </tuple>
+   <tuple> <atom label="University/Employee"/> <atom label="University/EmployeeId"/> </tuple>
+   <tuple> <atom label="University/HR"/> <atom label="University/HRId"/> </tuple>
+   <tuple> <atom label="University/Salary"/> <atom label="University/SalaryId"/> </tuple>
+   <tuple> <atom label="University/University"/> <atom label="University/UniversityId"/> </tuple>
+   <tuple> <atom label="University/Savings"/> <atom label="University/EmployeeId"/> </tuple>
+   <types> <type ID="10"/> <type ID="14"/> </types>
+</field>
+
+<field label="parent" ID="17" parentID="10">
+   <tuple> <atom label="University/MonthlySalary"/> <atom label="University/Salary"/> </tuple>
+   <tuple> <atom label="University/Savings"/> <atom label="University/Salary"/> </tuple>
+   <types> <type ID="10"/> <type ID="10"/> </types>
+</field>
+
+<field label="isAbstract" ID="18" parentID="10">
+   <tuple> <atom label="University/Loan"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="University/MonthlySalary"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="University/Employee"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="University/HR"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="University/Salary"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="University/University"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="University/Savings"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <types> <type ID="10"/> <type ID="19"/> </types>
+</field>
+
+<sig label="University/Loan" ID="20" parentID="10" one="yes">
+   <atom label="University/Loan"/>
+</sig>
+
+<sig label="University/MonthlySalary" ID="21" parentID="10" one="yes">
+   <atom label="University/MonthlySalary"/>
+</sig>
+
+<sig label="University/Employee" ID="22" parentID="10" one="yes">
+   <atom label="University/Employee"/>
+</sig>
+
+<sig label="University/HR" ID="23" parentID="10" one="yes">
+   <atom label="University/HR"/>
+</sig>
+
+<sig label="University/Salary" ID="24" parentID="10" one="yes">
+   <atom label="University/Salary"/>
+</sig>
+
+<sig label="University/University" ID="25" parentID="10" one="yes">
+   <atom label="University/University"/>
+</sig>
+
+<sig label="University/Savings" ID="26" parentID="10" one="yes">
+   <atom label="University/Savings"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Type" ID="27" parentID="14" abstract="yes">
+   <atom label="University/LoanId"/>
+   <atom label="University/MonthlySalaryId"/>
+   <atom label="University/EmployeeId"/>
+   <atom label="University/EmployeePhoneNo"/>
+   <atom label="University/EmployeeAcctNo"/>
+   <atom label="University/HRId"/>
+   <atom label="University/SalaryId"/>
+   <atom label="University/UniversityId"/>
+   <atom label="University/SavingsId"/>
+   <atom label="University/LoanType"/>
+   <atom label="University/EmployeeName"/>
+   <atom label="University/EmployeeAddress"/>
+   <atom label="University/HRName"/>
+   <atom label="University/UniversityName"/>
+   <atom label="University/UniversityLocation"/>
+   <atom label="AssociationMappings/Declaration/No$0"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Integer" ID="28" parentID="27">
+   <atom label="University/LoanId"/>
+   <atom label="University/MonthlySalaryId"/>
+   <atom label="University/EmployeeId"/>
+   <atom label="University/EmployeePhoneNo"/>
+   <atom label="University/EmployeeAcctNo"/>
+   <atom label="University/HRId"/>
+   <atom label="University/SalaryId"/>
+   <atom label="University/UniversityId"/>
+   <atom label="University/SavingsId"/>
+</sig>
+
+<sig label="University/LoanId" ID="29" parentID="28" one="yes">
+   <atom label="University/LoanId"/>
+</sig>
+
+<sig label="University/MonthlySalaryId" ID="30" parentID="28" one="yes">
+   <atom label="University/MonthlySalaryId"/>
+</sig>
+
+<sig label="University/EmployeeId" ID="31" parentID="28" one="yes">
+   <atom label="University/EmployeeId"/>
+</sig>
+
+<sig label="University/EmployeePhoneNo" ID="32" parentID="28" one="yes">
+   <atom label="University/EmployeePhoneNo"/>
+</sig>
+
+<sig label="University/EmployeeAcctNo" ID="33" parentID="28" one="yes">
+   <atom label="University/EmployeeAcctNo"/>
+</sig>
+
+<sig label="University/HRId" ID="34" parentID="28" one="yes">
+   <atom label="University/HRId"/>
+</sig>
+
+<sig label="University/SalaryId" ID="35" parentID="28" one="yes">
+   <atom label="University/SalaryId"/>
+</sig>
+
+<sig label="University/UniversityId" ID="36" parentID="28" one="yes">
+   <atom label="University/UniversityId"/>
+</sig>
+
+<sig label="University/SavingsId" ID="37" parentID="28" one="yes">
+   <atom label="University/SavingsId"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Real" ID="38" parentID="27">
+</sig>
+
+<sig label="AssociationMappings/Declaration/string" ID="39" parentID="27">
+   <atom label="University/LoanType"/>
+   <atom label="University/EmployeeName"/>
+   <atom label="University/EmployeeAddress"/>
+   <atom label="University/HRName"/>
+   <atom label="University/UniversityName"/>
+   <atom label="University/UniversityLocation"/>
+</sig>
+
+<sig label="University/LoanType" ID="40" parentID="39" one="yes">
+   <atom label="University/LoanType"/>
+</sig>
+
+<sig label="University/EmployeeName" ID="41" parentID="39" one="yes">
+   <atom label="University/EmployeeName"/>
+</sig>
+
+<sig label="University/EmployeeAddress" ID="42" parentID="39" one="yes">
+   <atom label="University/EmployeeAddress"/>
+</sig>
+
+<sig label="University/HRName" ID="43" parentID="39" one="yes">
+   <atom label="University/HRName"/>
+</sig>
+
+<sig label="University/UniversityName" ID="44" parentID="39" one="yes">
+   <atom label="University/UniversityName"/>
+</sig>
+
+<sig label="University/UniversityLocation" ID="45" parentID="39" one="yes">
+   <atom label="University/UniversityLocation"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Bool" ID="19" parentID="27">
+   <atom label="AssociationMappings/Declaration/No$0"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Yes" ID="46" parentID="19">
+</sig>
+
+<sig label="AssociationMappings/Declaration/No" ID="47" parentID="19">
+   <atom label="AssociationMappings/Declaration/No$0"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/DType" ID="48" parentID="27">
+</sig>
+
+<sig label="AssociationMappings/Declaration/Longblob" ID="49" parentID="27">
+</sig>
+
+<sig label="AssociationMappings/Declaration/Time" ID="50" parentID="27">
+</sig>
+
+<sig label="AssociationMappings/Declaration/Association" ID="11" parentID="13" abstract="yes">
+   <atom label="University/UniversityHRAssociation"/>
+   <atom label="University/UniversityEmployeeAssociation"/>
+   <atom label="University/EmployeeHRAssociation"/>
+   <atom label="University/EmployeeSalaryAssociation"/>
+   <atom label="University/EmployeeLoanAssociation"/>
+</sig>
+
+<field label="src" ID="51" parentID="11">
+   <tuple> <atom label="University/UniversityHRAssociation"/> <atom label="University/University"/> </tuple>
+   <tuple> <atom label="University/UniversityEmployeeAssociation"/> <atom label="University/University"/> </tuple>
+   <tuple> <atom label="University/EmployeeHRAssociation"/> <atom label="University/Employee"/> </tuple>
+   <tuple> <atom label="University/EmployeeSalaryAssociation"/> <atom label="University/Employee"/> </tuple>
+   <tuple> <atom label="University/EmployeeLoanAssociation"/> <atom label="University/Employee"/> </tuple>
+   <types> <type ID="11"/> <type ID="10"/> </types>
+</field>
+
+<field label="dst" ID="52" parentID="11">
+   <tuple> <atom label="University/UniversityHRAssociation"/> <atom label="University/HR"/> </tuple>
+   <tuple> <atom label="University/UniversityEmployeeAssociation"/> <atom label="University/Employee"/> </tuple>
+   <tuple> <atom label="University/EmployeeHRAssociation"/> <atom label="University/HR"/> </tuple>
+   <tuple> <atom label="University/EmployeeSalaryAssociation"/> <atom label="University/Salary"/> </tuple>
+   <tuple> <atom label="University/EmployeeLoanAssociation"/> <atom label="University/Loan"/> </tuple>
+   <types> <type ID="11"/> <type ID="10"/> </types>
+</field>
+
+<field label="src_multiplicity" ID="53" parentID="11">
+   <tuple> <atom label="University/UniversityHRAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <tuple> <atom label="University/UniversityEmployeeAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <tuple> <atom label="University/EmployeeHRAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="University/EmployeeSalaryAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <tuple> <atom label="University/EmployeeLoanAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <types> <type ID="11"/> <type ID="54"/> </types>
+</field>
+
+<field label="dst_multiplicity" ID="55" parentID="11">
+   <tuple> <atom label="University/UniversityHRAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="University/UniversityEmployeeAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="University/EmployeeHRAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="University/EmployeeSalaryAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="University/EmployeeLoanAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <types> <type ID="11"/> <type ID="54"/> </types>
+</field>
+
+<sig label="University/UniversityHRAssociation" ID="56" parentID="11" one="yes">
+   <atom label="University/UniversityHRAssociation"/>
+</sig>
+
+<sig label="University/UniversityEmployeeAssociation" ID="57" parentID="11" one="yes">
+   <atom label="University/UniversityEmployeeAssociation"/>
+</sig>
+
+<sig label="University/EmployeeHRAssociation" ID="58" parentID="11" one="yes">
+   <atom label="University/EmployeeHRAssociation"/>
+</sig>
+
+<sig label="University/EmployeeSalaryAssociation" ID="59" parentID="11" one="yes">
+   <atom label="University/EmployeeSalaryAssociation"/>
+</sig>
+
+<sig label="University/EmployeeLoanAssociation" ID="60" parentID="11" one="yes">
+   <atom label="University/EmployeeLoanAssociation"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Multiplicity_State" ID="54" parentID="0" abstract="yes">
+   <atom label="AssociationMappings/Declaration/ONE"/>
+   <atom label="AssociationMappings/Declaration/MANY"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/ONE" ID="61" parentID="54" one="yes">
+   <atom label="AssociationMappings/Declaration/ONE"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/MANY" ID="62" parentID="54" one="yes">
+   <atom label="AssociationMappings/Declaration/MANY"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Strategy" ID="63" parentID="0" abstract="yes">
+   <atom label="ORMStrategies/UnionSubclassStrategy"/>
+   <atom label="ORMStrategies/JoinedSubclassStrategy"/>
+   <atom label="ORMStrategies/UnionSuperclassStrategy"/>
+   <atom label="AssociationMappings/ForeignKeyEmbeddingStrategy"/>
+   <atom label="AssociationMappings/OwnAssociationTableStrategy"/>
+   <atom label="AssociationMappings/MergingOneTableStrategy"/>
+</sig>
+
+<field label="assignees" ID="64" parentID="63">
+   <tuple> <atom label="ORMStrategies/UnionSubclassStrategy"/> <atom label="University/MonthlySalary"/> </tuple>
+   <tuple> <atom label="ORMStrategies/UnionSubclassStrategy"/> <atom label="University/HR"/> </tuple>
+   <tuple> <atom label="ORMStrategies/UnionSubclassStrategy"/> <atom label="University/Salary"/> </tuple>
+   <tuple> <atom label="ORMStrategies/UnionSubclassStrategy"/> <atom label="University/University"/> </tuple>
+   <tuple> <atom label="ORMStrategies/UnionSubclassStrategy"/> <atom label="University/Savings"/> </tuple>
+   <tuple> <atom label="AssociationMappings/ForeignKeyEmbeddingStrategy"/> <atom label="University/UniversityEmployeeAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/ForeignKeyEmbeddingStrategy"/> <atom label="University/EmployeeLoanAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/OwnAssociationTableStrategy"/> <atom label="University/UniversityHRAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/OwnAssociationTableStrategy"/> <atom label="University/EmployeeHRAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/OwnAssociationTableStrategy"/> <atom label="University/EmployeeSalaryAssociation"/> </tuple>
+   <types> <type ID="63"/> <type ID="10"/> </types>
+   <types> <type ID="63"/> <type ID="11"/> </types>
+</field>
+
+<sig label="ORMStrategies/UnionSubclassStrategy" ID="65" parentID="63" one="yes">
+   <atom label="ORMStrategies/UnionSubclassStrategy"/>
+</sig>
+
+<sig label="ORMStrategies/JoinedSubclassStrategy" ID="66" parentID="63" one="yes">
+   <atom label="ORMStrategies/JoinedSubclassStrategy"/>
+</sig>
+
+<sig label="ORMStrategies/UnionSuperclassStrategy" ID="67" parentID="63" one="yes">
+   <atom label="ORMStrategies/UnionSuperclassStrategy"/>
+</sig>
+
+<sig label="AssociationMappings/ForeignKeyEmbeddingStrategy" ID="68" parentID="63" one="yes">
+   <atom label="AssociationMappings/ForeignKeyEmbeddingStrategy"/>
+</sig>
+
+<sig label="AssociationMappings/OwnAssociationTableStrategy" ID="69" parentID="63" one="yes">
+   <atom label="AssociationMappings/OwnAssociationTableStrategy"/>
+</sig>
+
+<sig label="AssociationMappings/MergingOneTableStrategy" ID="70" parentID="63" one="yes">
+   <atom label="AssociationMappings/MergingOneTableStrategy"/>
+</sig>
+
+<sig label="AssociationMappings/AssociationMappingStrategies" ID="71" parentID="0" one="yes">
+   <atom label="AssociationMappings/AssociationMappingStrategies"/>
+</sig>
+
+<field label="FKE" ID="72" parentID="71">
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="University/UniversityEmployeeAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="University/EmployeeLoanAssociation"/> </tuple>
+   <types> <type ID="71"/> <type ID="11"/> </types>
+</field>
+
+<field label="OAT" ID="73" parentID="71">
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="University/UniversityHRAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="University/EmployeeHRAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="University/EmployeeSalaryAssociation"/> </tuple>
+   <types> <type ID="71"/> <type ID="11"/> </types>
+</field>
+
+<field label="MOT" ID="74" parentID="71">
+   <types> <type ID="71"/> <type ID="11"/> </types>
+</field>
+
+</instance>
+
+</alloy>

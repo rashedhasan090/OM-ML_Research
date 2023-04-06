@@ -1,0 +1,867 @@
+<alloy builddate="2008/10/27 23:45 EDT">
+
+<instance bitwidth="4" maxseq="7" command="Run mapping_run_Canteen for 42" filename="">
+
+<sig label="univ" ID="0" builtin="yes">
+   <atom label="assertions/relationalModel/Table$0"/>
+   <atom label="assertions/relationalModel/Table$1"/>
+   <atom label="assertions/relationalModel/Table$2"/>
+   <atom label="assertions/relationalModel/Table$3"/>
+   <atom label="assertions/relationalModel/Table$4"/>
+   <atom label="assertions/relationalModel/Table$5"/>
+   <atom label="assertions/relationalModel/Table$6"/>
+   <atom label="assertions/relationalModel/Table$7"/>
+   <atom label="assertions/relationalModel/Table$8"/>
+   <atom label="assertions/relationalModel/Table$9"/>
+   <atom label="assertions/relationalModel/Table$10"/>
+   <atom label="assertions/relationalModel/Table$11"/>
+   <atom label="assertions/relationalModel/Table$12"/>
+   <atom label="assertions/relationalModel/Table$13"/>
+   <atom label="assertions/relationalModel/Field$0"/>
+   <atom label="assertions/relationalModel/Field$1"/>
+   <atom label="assertions/relationalModel/Field$2"/>
+   <atom label="assertions/relationalModel/Field$3"/>
+   <atom label="assertions/relationalModel/Field$4"/>
+   <atom label="assertions/relationalModel/Field$5"/>
+   <atom label="assertions/relationalModel/Field$6"/>
+   <atom label="assertions/relationalModel/Field$7"/>
+   <atom label="assertions/relationalModel/Field$8"/>
+   <atom label="assertions/relationalModel/Field$9"/>
+   <atom label="assertions/relationalModel/Field$10"/>
+   <atom label="assertions/relationalModel/Field$11"/>
+   <atom label="assertions/relationalModel/Field$12"/>
+   <atom label="assertions/relationalModel/Field$13"/>
+   <atom label="assertions/relationalModel/Field$14"/>
+   <atom label="assertions/relationalModel/Field$15"/>
+   <atom label="assertions/relationalModel/Field$16"/>
+   <atom label="assertions/relationalModel/Field$17"/>
+   <atom label="assertions/relationalModel/Field$18"/>
+   <atom label="assertions/relationalModel/Field$19"/>
+   <atom label="assertions/relationalModel/Field$20"/>
+   <atom label="assertions/relationalModel/Field$21"/>
+   <atom label="Canteen/Payment"/>
+   <atom label="Canteen/User"/>
+   <atom label="Canteen/Product"/>
+   <atom label="Canteen/Food"/>
+   <atom label="Canteen/Salesman"/>
+   <atom label="Canteen/Orders"/>
+   <atom label="Canteen/Manager"/>
+   <atom label="Canteen/Canteen"/>
+   <atom label="Canteen/PaymentId"/>
+   <atom label="Canteen/UserId"/>
+   <atom label="Canteen/ProductId"/>
+   <atom label="Canteen/NoOfSoldProducts"/>
+   <atom label="Canteen/NoTotalProducts"/>
+   <atom label="Canteen/NoInventoryProducts"/>
+   <atom label="Canteen/ProductType"/>
+   <atom label="Canteen/Description"/>
+   <atom label="Canteen/ItemId"/>
+   <atom label="Canteen/OrdersId"/>
+   <atom label="Canteen/CanteenId"/>
+   <atom label="Canteen/ProductDetails"/>
+   <atom label="Canteen/IntructionType"/>
+   <atom label="Canteen/FoodCategory"/>
+   <atom label="Canteen/FoodType"/>
+   <atom label="Canteen/Price"/>
+   <atom label="Canteen/TotalItemsSold"/>
+   <atom label="Canteen/OrdersName"/>
+   <atom label="Canteen/OrderNumber"/>
+   <atom label="Canteen/Customer_Info"/>
+   <atom label="Canteen/ResponsibilityLog"/>
+   <atom label="Canteen/UserType"/>
+   <atom label="Canteen/UserCanteenAssociation"/>
+   <atom label="Canteen/UserFoodAssociation"/>
+   <atom label="Canteen/CanteenProductAssociation"/>
+   <atom label="Canteen/CanteenFoodAssociation"/>
+   <atom label="Canteen/CanteenOrdersAssociation"/>
+   <atom label="Canteen/OrdersLibraryDbAssociation"/>
+   <atom label="Canteen/OrdersFoodAssociation"/>
+   <atom label="Canteen/ProductLibraryDbAssociation"/>
+   <atom label="Canteen/FoodLibraryDbAssociation"/>
+   <atom label="Canteen/UserProductAssociation"/>
+   <atom label="AssociationMappings/Declaration/No$0"/>
+   <atom label="AssociationMappings/Declaration/ONE"/>
+   <atom label="AssociationMappings/Declaration/MANY"/>
+   <atom label="ORMStrategies/UnionSubclassStrategy"/>
+   <atom label="ORMStrategies/JoinedSubclassStrategy"/>
+   <atom label="ORMStrategies/UnionSuperclassStrategy"/>
+   <atom label="AssociationMappings/ForeignKeyEmbeddingStrategy"/>
+   <atom label="AssociationMappings/OwnAssociationTableStrategy"/>
+   <atom label="AssociationMappings/MergingOneTableStrategy"/>
+   <atom label="AssociationMappings/AssociationMappingStrategies"/>
+   <atom label="-8"/>
+   <atom label="-7"/>
+   <atom label="-6"/>
+   <atom label="-5"/>
+   <atom label="-4"/>
+   <atom label="-3"/>
+   <atom label="-2"/>
+   <atom label="-1"/>
+   <atom label="0"/>
+   <atom label="1"/>
+   <atom label="2"/>
+   <atom label="3"/>
+   <atom label="4"/>
+   <atom label="5"/>
+   <atom label="6"/>
+   <atom label="7"/>
+</sig>
+
+<sig label="Int" ID="1" parentID="0" builtin="yes">
+   <atom label="-8"/>
+   <atom label="-7"/>
+   <atom label="-6"/>
+   <atom label="-5"/>
+   <atom label="-4"/>
+   <atom label="-3"/>
+   <atom label="-2"/>
+   <atom label="-1"/>
+   <atom label="0"/>
+   <atom label="1"/>
+   <atom label="2"/>
+   <atom label="3"/>
+   <atom label="4"/>
+   <atom label="5"/>
+   <atom label="6"/>
+   <atom label="7"/>
+</sig>
+
+<sig label="seq/Int" ID="2" parentID="1" builtin="yes">
+   <atom label="0"/>
+   <atom label="1"/>
+   <atom label="2"/>
+   <atom label="3"/>
+   <atom label="4"/>
+   <atom label="5"/>
+   <atom label="6"/>
+</sig>
+
+<sig label="fun/String" ID="3" parentID="0" builtin="yes">
+</sig>
+
+<sig label="assertions/relationalModel/Table" ID="4" parentID="0">
+   <atom label="assertions/relationalModel/Table$0"/>
+   <atom label="assertions/relationalModel/Table$1"/>
+   <atom label="assertions/relationalModel/Table$2"/>
+   <atom label="assertions/relationalModel/Table$3"/>
+   <atom label="assertions/relationalModel/Table$4"/>
+   <atom label="assertions/relationalModel/Table$5"/>
+   <atom label="assertions/relationalModel/Table$6"/>
+   <atom label="assertions/relationalModel/Table$7"/>
+   <atom label="assertions/relationalModel/Table$8"/>
+   <atom label="assertions/relationalModel/Table$9"/>
+   <atom label="assertions/relationalModel/Table$10"/>
+   <atom label="assertions/relationalModel/Table$11"/>
+   <atom label="assertions/relationalModel/Table$12"/>
+   <atom label="assertions/relationalModel/Table$13"/>
+</sig>
+
+<field label="fields" ID="5" parentID="4">
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$19"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$20"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="assertions/relationalModel/Field$13"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="assertions/relationalModel/Field$21"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="assertions/relationalModel/Field$13"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="assertions/relationalModel/Field$20"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$3"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$3"/> <atom label="assertions/relationalModel/Field$21"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="assertions/relationalModel/Field$11"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="assertions/relationalModel/Field$20"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$11"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$14"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$15"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$16"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$17"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$18"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$19"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$21"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="assertions/relationalModel/Field$11"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$7"/> <atom label="assertions/relationalModel/Field$10"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$7"/> <atom label="assertions/relationalModel/Field$21"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$8"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$8"/> <atom label="assertions/relationalModel/Field$20"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$9"/> <atom label="assertions/relationalModel/Field$6"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$9"/> <atom label="assertions/relationalModel/Field$7"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$9"/> <atom label="assertions/relationalModel/Field$8"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$9"/> <atom label="assertions/relationalModel/Field$11"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$9"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$9"/> <atom label="assertions/relationalModel/Field$13"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$10"/> <atom label="assertions/relationalModel/Field$5"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$10"/> <atom label="assertions/relationalModel/Field$20"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$11"/> <atom label="assertions/relationalModel/Field$2"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$11"/> <atom label="assertions/relationalModel/Field$4"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$11"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$12"/> <atom label="assertions/relationalModel/Field$1"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$12"/> <atom label="assertions/relationalModel/Field$20"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$13"/> <atom label="assertions/relationalModel/Field$0"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$13"/> <atom label="assertions/relationalModel/Field$3"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$13"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$13"/> <atom label="assertions/relationalModel/Field$11"/> </tuple>
+   <types> <type ID="4"/> <type ID="6"/> </types>
+</field>
+
+<field label="primaryKey" ID="7" parentID="4">
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$19"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$20"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="assertions/relationalModel/Field$13"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="assertions/relationalModel/Field$21"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="assertions/relationalModel/Field$13"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="assertions/relationalModel/Field$20"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$3"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$3"/> <atom label="assertions/relationalModel/Field$21"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="assertions/relationalModel/Field$11"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="assertions/relationalModel/Field$20"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$19"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="assertions/relationalModel/Field$11"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$7"/> <atom label="assertions/relationalModel/Field$21"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$8"/> <atom label="assertions/relationalModel/Field$20"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$9"/> <atom label="assertions/relationalModel/Field$13"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$10"/> <atom label="assertions/relationalModel/Field$20"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$11"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$12"/> <atom label="assertions/relationalModel/Field$20"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$13"/> <atom label="assertions/relationalModel/Field$11"/> </tuple>
+   <types> <type ID="4"/> <type ID="6"/> </types>
+</field>
+
+<field label="foreignKey" ID="8" parentID="4">
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$19"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$20"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="assertions/relationalModel/Field$13"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="assertions/relationalModel/Field$21"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="assertions/relationalModel/Field$13"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="assertions/relationalModel/Field$20"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$3"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$3"/> <atom label="assertions/relationalModel/Field$21"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="assertions/relationalModel/Field$11"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="assertions/relationalModel/Field$20"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$11"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$21"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="assertions/relationalModel/Field$11"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$9"/> <atom label="assertions/relationalModel/Field$11"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$9"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$10"/> <atom label="assertions/relationalModel/Field$20"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$12"/> <atom label="assertions/relationalModel/Field$20"/> </tuple>
+   <types> <type ID="4"/> <type ID="6"/> </types>
+</field>
+
+<field label="tAssociate" ID="9" parentID="4">
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="Canteen/UserProductAssociation"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="Canteen/FoodLibraryDbAssociation"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="Canteen/UserFoodAssociation"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$3"/> <atom label="Canteen/OrdersLibraryDbAssociation"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="Canteen/UserCanteenAssociation"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="Canteen/Product"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="Canteen/CanteenOrdersAssociation"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$7"/> <atom label="Canteen/Payment"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$8"/> <atom label="Canteen/User"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$9"/> <atom label="Canteen/Food"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$10"/> <atom label="Canteen/Salesman"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$11"/> <atom label="Canteen/Orders"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$12"/> <atom label="Canteen/Manager"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$13"/> <atom label="Canteen/Canteen"/> </tuple>
+   <types> <type ID="4"/> <type ID="10"/> </types>
+   <types> <type ID="4"/> <type ID="11"/> </types>
+</field>
+
+<sig label="assertions/relationalModel/Field" ID="6" parentID="0">
+   <atom label="assertions/relationalModel/Field$0"/>
+   <atom label="assertions/relationalModel/Field$1"/>
+   <atom label="assertions/relationalModel/Field$2"/>
+   <atom label="assertions/relationalModel/Field$3"/>
+   <atom label="assertions/relationalModel/Field$4"/>
+   <atom label="assertions/relationalModel/Field$5"/>
+   <atom label="assertions/relationalModel/Field$6"/>
+   <atom label="assertions/relationalModel/Field$7"/>
+   <atom label="assertions/relationalModel/Field$8"/>
+   <atom label="assertions/relationalModel/Field$9"/>
+   <atom label="assertions/relationalModel/Field$10"/>
+   <atom label="assertions/relationalModel/Field$11"/>
+   <atom label="assertions/relationalModel/Field$12"/>
+   <atom label="assertions/relationalModel/Field$13"/>
+   <atom label="assertions/relationalModel/Field$14"/>
+   <atom label="assertions/relationalModel/Field$15"/>
+   <atom label="assertions/relationalModel/Field$16"/>
+   <atom label="assertions/relationalModel/Field$17"/>
+   <atom label="assertions/relationalModel/Field$18"/>
+   <atom label="assertions/relationalModel/Field$19"/>
+   <atom label="assertions/relationalModel/Field$20"/>
+   <atom label="assertions/relationalModel/Field$21"/>
+</sig>
+
+<field label="fAssociate" ID="12" parentID="6">
+   <tuple> <atom label="assertions/relationalModel/Field$0"/> <atom label="Canteen/UserType"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$1"/> <atom label="Canteen/ResponsibilityLog"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$2"/> <atom label="Canteen/Customer_Info"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$3"/> <atom label="Canteen/OrderNumber"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$4"/> <atom label="Canteen/OrdersName"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$5"/> <atom label="Canteen/TotalItemsSold"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$6"/> <atom label="Canteen/Price"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$7"/> <atom label="Canteen/FoodType"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$8"/> <atom label="Canteen/FoodCategory"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$9"/> <atom label="Canteen/IntructionType"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$10"/> <atom label="Canteen/ProductDetails"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$11"/> <atom label="Canteen/CanteenId"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$12"/> <atom label="Canteen/OrdersId"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$13"/> <atom label="Canteen/ItemId"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$14"/> <atom label="Canteen/Description"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$15"/> <atom label="Canteen/ProductType"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$16"/> <atom label="Canteen/NoInventoryProducts"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$17"/> <atom label="Canteen/NoTotalProducts"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$18"/> <atom label="Canteen/NoOfSoldProducts"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$19"/> <atom label="Canteen/ProductId"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$20"/> <atom label="Canteen/UserId"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$21"/> <atom label="Canteen/PaymentId"/> </tuple>
+   <types> <type ID="6"/> <type ID="13"/> </types>
+</field>
+
+<sig label="AssociationMappings/Declaration/needHandle" ID="13" parentID="0" abstract="yes">
+   <atom label="Canteen/Payment"/>
+   <atom label="Canteen/User"/>
+   <atom label="Canteen/Product"/>
+   <atom label="Canteen/Food"/>
+   <atom label="Canteen/Salesman"/>
+   <atom label="Canteen/Orders"/>
+   <atom label="Canteen/Manager"/>
+   <atom label="Canteen/Canteen"/>
+   <atom label="Canteen/PaymentId"/>
+   <atom label="Canteen/UserId"/>
+   <atom label="Canteen/ProductId"/>
+   <atom label="Canteen/NoOfSoldProducts"/>
+   <atom label="Canteen/NoTotalProducts"/>
+   <atom label="Canteen/NoInventoryProducts"/>
+   <atom label="Canteen/ProductType"/>
+   <atom label="Canteen/Description"/>
+   <atom label="Canteen/ItemId"/>
+   <atom label="Canteen/OrdersId"/>
+   <atom label="Canteen/CanteenId"/>
+   <atom label="Canteen/ProductDetails"/>
+   <atom label="Canteen/IntructionType"/>
+   <atom label="Canteen/FoodCategory"/>
+   <atom label="Canteen/FoodType"/>
+   <atom label="Canteen/Price"/>
+   <atom label="Canteen/TotalItemsSold"/>
+   <atom label="Canteen/OrdersName"/>
+   <atom label="Canteen/OrderNumber"/>
+   <atom label="Canteen/Customer_Info"/>
+   <atom label="Canteen/ResponsibilityLog"/>
+   <atom label="Canteen/UserType"/>
+   <atom label="Canteen/UserCanteenAssociation"/>
+   <atom label="Canteen/UserFoodAssociation"/>
+   <atom label="Canteen/CanteenProductAssociation"/>
+   <atom label="Canteen/CanteenFoodAssociation"/>
+   <atom label="Canteen/CanteenOrdersAssociation"/>
+   <atom label="Canteen/OrdersLibraryDbAssociation"/>
+   <atom label="Canteen/OrdersFoodAssociation"/>
+   <atom label="Canteen/ProductLibraryDbAssociation"/>
+   <atom label="Canteen/FoodLibraryDbAssociation"/>
+   <atom label="Canteen/UserProductAssociation"/>
+   <atom label="AssociationMappings/Declaration/No$0"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Attribute" ID="14" parentID="13" abstract="yes">
+   <atom label="Canteen/Payment"/>
+   <atom label="Canteen/User"/>
+   <atom label="Canteen/Product"/>
+   <atom label="Canteen/Food"/>
+   <atom label="Canteen/Salesman"/>
+   <atom label="Canteen/Orders"/>
+   <atom label="Canteen/Manager"/>
+   <atom label="Canteen/Canteen"/>
+   <atom label="Canteen/PaymentId"/>
+   <atom label="Canteen/UserId"/>
+   <atom label="Canteen/ProductId"/>
+   <atom label="Canteen/NoOfSoldProducts"/>
+   <atom label="Canteen/NoTotalProducts"/>
+   <atom label="Canteen/NoInventoryProducts"/>
+   <atom label="Canteen/ProductType"/>
+   <atom label="Canteen/Description"/>
+   <atom label="Canteen/ItemId"/>
+   <atom label="Canteen/OrdersId"/>
+   <atom label="Canteen/CanteenId"/>
+   <atom label="Canteen/ProductDetails"/>
+   <atom label="Canteen/IntructionType"/>
+   <atom label="Canteen/FoodCategory"/>
+   <atom label="Canteen/FoodType"/>
+   <atom label="Canteen/Price"/>
+   <atom label="Canteen/TotalItemsSold"/>
+   <atom label="Canteen/OrdersName"/>
+   <atom label="Canteen/OrderNumber"/>
+   <atom label="Canteen/Customer_Info"/>
+   <atom label="Canteen/ResponsibilityLog"/>
+   <atom label="Canteen/UserType"/>
+   <atom label="AssociationMappings/Declaration/No$0"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Class" ID="10" parentID="14" abstract="yes">
+   <atom label="Canteen/Payment"/>
+   <atom label="Canteen/User"/>
+   <atom label="Canteen/Product"/>
+   <atom label="Canteen/Food"/>
+   <atom label="Canteen/Salesman"/>
+   <atom label="Canteen/Orders"/>
+   <atom label="Canteen/Manager"/>
+   <atom label="Canteen/Canteen"/>
+</sig>
+
+<field label="attrSet" ID="15" parentID="10">
+   <tuple> <atom label="Canteen/Payment"/> <atom label="Canteen/PaymentId"/> </tuple>
+   <tuple> <atom label="Canteen/Payment"/> <atom label="Canteen/ProductDetails"/> </tuple>
+   <tuple> <atom label="Canteen/User"/> <atom label="Canteen/UserId"/> </tuple>
+   <tuple> <atom label="Canteen/User"/> <atom label="Canteen/IntructionType"/> </tuple>
+   <tuple> <atom label="Canteen/Product"/> <atom label="Canteen/ProductId"/> </tuple>
+   <tuple> <atom label="Canteen/Product"/> <atom label="Canteen/NoOfSoldProducts"/> </tuple>
+   <tuple> <atom label="Canteen/Product"/> <atom label="Canteen/NoTotalProducts"/> </tuple>
+   <tuple> <atom label="Canteen/Product"/> <atom label="Canteen/NoInventoryProducts"/> </tuple>
+   <tuple> <atom label="Canteen/Product"/> <atom label="Canteen/ProductType"/> </tuple>
+   <tuple> <atom label="Canteen/Product"/> <atom label="Canteen/Description"/> </tuple>
+   <tuple> <atom label="Canteen/Food"/> <atom label="Canteen/ItemId"/> </tuple>
+   <tuple> <atom label="Canteen/Food"/> <atom label="Canteen/FoodCategory"/> </tuple>
+   <tuple> <atom label="Canteen/Food"/> <atom label="Canteen/FoodType"/> </tuple>
+   <tuple> <atom label="Canteen/Food"/> <atom label="Canteen/Price"/> </tuple>
+   <tuple> <atom label="Canteen/Salesman"/> <atom label="Canteen/TotalItemsSold"/> </tuple>
+   <tuple> <atom label="Canteen/Orders"/> <atom label="Canteen/OrdersId"/> </tuple>
+   <tuple> <atom label="Canteen/Orders"/> <atom label="Canteen/OrdersName"/> </tuple>
+   <tuple> <atom label="Canteen/Orders"/> <atom label="Canteen/OrderNumber"/> </tuple>
+   <tuple> <atom label="Canteen/Orders"/> <atom label="Canteen/Customer_Info"/> </tuple>
+   <tuple> <atom label="Canteen/Manager"/> <atom label="Canteen/ResponsibilityLog"/> </tuple>
+   <tuple> <atom label="Canteen/Canteen"/> <atom label="Canteen/CanteenId"/> </tuple>
+   <tuple> <atom label="Canteen/Canteen"/> <atom label="Canteen/IntructionType"/> </tuple>
+   <tuple> <atom label="Canteen/Canteen"/> <atom label="Canteen/OrderNumber"/> </tuple>
+   <tuple> <atom label="Canteen/Canteen"/> <atom label="Canteen/UserType"/> </tuple>
+   <types> <type ID="10"/> <type ID="14"/> </types>
+</field>
+
+<field label="id" ID="16" parentID="10">
+   <tuple> <atom label="Canteen/Payment"/> <atom label="Canteen/PaymentId"/> </tuple>
+   <tuple> <atom label="Canteen/User"/> <atom label="Canteen/UserId"/> </tuple>
+   <tuple> <atom label="Canteen/Product"/> <atom label="Canteen/ProductId"/> </tuple>
+   <tuple> <atom label="Canteen/Food"/> <atom label="Canteen/ItemId"/> </tuple>
+   <tuple> <atom label="Canteen/Salesman"/> <atom label="Canteen/UserId"/> </tuple>
+   <tuple> <atom label="Canteen/Orders"/> <atom label="Canteen/OrdersId"/> </tuple>
+   <tuple> <atom label="Canteen/Manager"/> <atom label="Canteen/UserId"/> </tuple>
+   <tuple> <atom label="Canteen/Canteen"/> <atom label="Canteen/CanteenId"/> </tuple>
+   <types> <type ID="10"/> <type ID="14"/> </types>
+</field>
+
+<field label="parent" ID="17" parentID="10">
+   <tuple> <atom label="Canteen/Salesman"/> <atom label="Canteen/User"/> </tuple>
+   <tuple> <atom label="Canteen/Manager"/> <atom label="Canteen/User"/> </tuple>
+   <types> <type ID="10"/> <type ID="10"/> </types>
+</field>
+
+<field label="isAbstract" ID="18" parentID="10">
+   <tuple> <atom label="Canteen/Payment"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="Canteen/User"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="Canteen/Product"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="Canteen/Food"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="Canteen/Salesman"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="Canteen/Orders"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="Canteen/Manager"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="Canteen/Canteen"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <types> <type ID="10"/> <type ID="19"/> </types>
+</field>
+
+<sig label="Canteen/Payment" ID="20" parentID="10" one="yes">
+   <atom label="Canteen/Payment"/>
+</sig>
+
+<sig label="Canteen/User" ID="21" parentID="10" one="yes">
+   <atom label="Canteen/User"/>
+</sig>
+
+<sig label="Canteen/Product" ID="22" parentID="10" one="yes">
+   <atom label="Canteen/Product"/>
+</sig>
+
+<sig label="Canteen/Food" ID="23" parentID="10" one="yes">
+   <atom label="Canteen/Food"/>
+</sig>
+
+<sig label="Canteen/Salesman" ID="24" parentID="10" one="yes">
+   <atom label="Canteen/Salesman"/>
+</sig>
+
+<sig label="Canteen/Orders" ID="25" parentID="10" one="yes">
+   <atom label="Canteen/Orders"/>
+</sig>
+
+<sig label="Canteen/Manager" ID="26" parentID="10" one="yes">
+   <atom label="Canteen/Manager"/>
+</sig>
+
+<sig label="Canteen/Canteen" ID="27" parentID="10" one="yes">
+   <atom label="Canteen/Canteen"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Type" ID="28" parentID="14" abstract="yes">
+   <atom label="Canteen/PaymentId"/>
+   <atom label="Canteen/UserId"/>
+   <atom label="Canteen/ProductId"/>
+   <atom label="Canteen/NoOfSoldProducts"/>
+   <atom label="Canteen/NoTotalProducts"/>
+   <atom label="Canteen/NoInventoryProducts"/>
+   <atom label="Canteen/ProductType"/>
+   <atom label="Canteen/Description"/>
+   <atom label="Canteen/ItemId"/>
+   <atom label="Canteen/OrdersId"/>
+   <atom label="Canteen/CanteenId"/>
+   <atom label="Canteen/ProductDetails"/>
+   <atom label="Canteen/IntructionType"/>
+   <atom label="Canteen/FoodCategory"/>
+   <atom label="Canteen/FoodType"/>
+   <atom label="Canteen/Price"/>
+   <atom label="Canteen/TotalItemsSold"/>
+   <atom label="Canteen/OrdersName"/>
+   <atom label="Canteen/OrderNumber"/>
+   <atom label="Canteen/Customer_Info"/>
+   <atom label="Canteen/ResponsibilityLog"/>
+   <atom label="Canteen/UserType"/>
+   <atom label="AssociationMappings/Declaration/No$0"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Integer" ID="29" parentID="28">
+   <atom label="Canteen/PaymentId"/>
+   <atom label="Canteen/UserId"/>
+   <atom label="Canteen/ProductId"/>
+   <atom label="Canteen/NoOfSoldProducts"/>
+   <atom label="Canteen/NoTotalProducts"/>
+   <atom label="Canteen/NoInventoryProducts"/>
+   <atom label="Canteen/ProductType"/>
+   <atom label="Canteen/Description"/>
+   <atom label="Canteen/ItemId"/>
+   <atom label="Canteen/OrdersId"/>
+   <atom label="Canteen/CanteenId"/>
+</sig>
+
+<sig label="Canteen/PaymentId" ID="30" parentID="29" one="yes">
+   <atom label="Canteen/PaymentId"/>
+</sig>
+
+<sig label="Canteen/UserId" ID="31" parentID="29" one="yes">
+   <atom label="Canteen/UserId"/>
+</sig>
+
+<sig label="Canteen/ProductId" ID="32" parentID="29" one="yes">
+   <atom label="Canteen/ProductId"/>
+</sig>
+
+<sig label="Canteen/NoOfSoldProducts" ID="33" parentID="29" one="yes">
+   <atom label="Canteen/NoOfSoldProducts"/>
+</sig>
+
+<sig label="Canteen/NoTotalProducts" ID="34" parentID="29" one="yes">
+   <atom label="Canteen/NoTotalProducts"/>
+</sig>
+
+<sig label="Canteen/NoInventoryProducts" ID="35" parentID="29" one="yes">
+   <atom label="Canteen/NoInventoryProducts"/>
+</sig>
+
+<sig label="Canteen/ProductType" ID="36" parentID="29" one="yes">
+   <atom label="Canteen/ProductType"/>
+</sig>
+
+<sig label="Canteen/Description" ID="37" parentID="29" one="yes">
+   <atom label="Canteen/Description"/>
+</sig>
+
+<sig label="Canteen/ItemId" ID="38" parentID="29" one="yes">
+   <atom label="Canteen/ItemId"/>
+</sig>
+
+<sig label="Canteen/OrdersId" ID="39" parentID="29" one="yes">
+   <atom label="Canteen/OrdersId"/>
+</sig>
+
+<sig label="Canteen/CanteenId" ID="40" parentID="29" one="yes">
+   <atom label="Canteen/CanteenId"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Real" ID="41" parentID="28">
+</sig>
+
+<sig label="AssociationMappings/Declaration/string" ID="42" parentID="28">
+   <atom label="Canteen/ProductDetails"/>
+   <atom label="Canteen/IntructionType"/>
+   <atom label="Canteen/FoodCategory"/>
+   <atom label="Canteen/FoodType"/>
+   <atom label="Canteen/Price"/>
+   <atom label="Canteen/TotalItemsSold"/>
+   <atom label="Canteen/OrdersName"/>
+   <atom label="Canteen/OrderNumber"/>
+   <atom label="Canteen/Customer_Info"/>
+   <atom label="Canteen/ResponsibilityLog"/>
+   <atom label="Canteen/UserType"/>
+</sig>
+
+<sig label="Canteen/ProductDetails" ID="43" parentID="42" one="yes">
+   <atom label="Canteen/ProductDetails"/>
+</sig>
+
+<sig label="Canteen/IntructionType" ID="44" parentID="42" one="yes">
+   <atom label="Canteen/IntructionType"/>
+</sig>
+
+<sig label="Canteen/FoodCategory" ID="45" parentID="42" one="yes">
+   <atom label="Canteen/FoodCategory"/>
+</sig>
+
+<sig label="Canteen/FoodType" ID="46" parentID="42" one="yes">
+   <atom label="Canteen/FoodType"/>
+</sig>
+
+<sig label="Canteen/Price" ID="47" parentID="42" one="yes">
+   <atom label="Canteen/Price"/>
+</sig>
+
+<sig label="Canteen/TotalItemsSold" ID="48" parentID="42" one="yes">
+   <atom label="Canteen/TotalItemsSold"/>
+</sig>
+
+<sig label="Canteen/OrdersName" ID="49" parentID="42" one="yes">
+   <atom label="Canteen/OrdersName"/>
+</sig>
+
+<sig label="Canteen/OrderNumber" ID="50" parentID="42" one="yes">
+   <atom label="Canteen/OrderNumber"/>
+</sig>
+
+<sig label="Canteen/Customer_Info" ID="51" parentID="42" one="yes">
+   <atom label="Canteen/Customer_Info"/>
+</sig>
+
+<sig label="Canteen/ResponsibilityLog" ID="52" parentID="42" one="yes">
+   <atom label="Canteen/ResponsibilityLog"/>
+</sig>
+
+<sig label="Canteen/UserType" ID="53" parentID="42" one="yes">
+   <atom label="Canteen/UserType"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Bool" ID="19" parentID="28">
+   <atom label="AssociationMappings/Declaration/No$0"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Yes" ID="54" parentID="19">
+</sig>
+
+<sig label="AssociationMappings/Declaration/No" ID="55" parentID="19">
+   <atom label="AssociationMappings/Declaration/No$0"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/DType" ID="56" parentID="28">
+</sig>
+
+<sig label="AssociationMappings/Declaration/Longblob" ID="57" parentID="28">
+</sig>
+
+<sig label="AssociationMappings/Declaration/Time" ID="58" parentID="28">
+</sig>
+
+<sig label="AssociationMappings/Declaration/Association" ID="11" parentID="13" abstract="yes">
+   <atom label="Canteen/UserCanteenAssociation"/>
+   <atom label="Canteen/UserFoodAssociation"/>
+   <atom label="Canteen/CanteenProductAssociation"/>
+   <atom label="Canteen/CanteenFoodAssociation"/>
+   <atom label="Canteen/CanteenOrdersAssociation"/>
+   <atom label="Canteen/OrdersLibraryDbAssociation"/>
+   <atom label="Canteen/OrdersFoodAssociation"/>
+   <atom label="Canteen/ProductLibraryDbAssociation"/>
+   <atom label="Canteen/FoodLibraryDbAssociation"/>
+   <atom label="Canteen/UserProductAssociation"/>
+</sig>
+
+<field label="src" ID="59" parentID="11">
+   <tuple> <atom label="Canteen/UserCanteenAssociation"/> <atom label="Canteen/Canteen"/> </tuple>
+   <tuple> <atom label="Canteen/UserFoodAssociation"/> <atom label="Canteen/User"/> </tuple>
+   <tuple> <atom label="Canteen/CanteenProductAssociation"/> <atom label="Canteen/Canteen"/> </tuple>
+   <tuple> <atom label="Canteen/CanteenFoodAssociation"/> <atom label="Canteen/Canteen"/> </tuple>
+   <tuple> <atom label="Canteen/CanteenOrdersAssociation"/> <atom label="Canteen/Canteen"/> </tuple>
+   <tuple> <atom label="Canteen/OrdersLibraryDbAssociation"/> <atom label="Canteen/Orders"/> </tuple>
+   <tuple> <atom label="Canteen/OrdersFoodAssociation"/> <atom label="Canteen/Orders"/> </tuple>
+   <tuple> <atom label="Canteen/ProductLibraryDbAssociation"/> <atom label="Canteen/Payment"/> </tuple>
+   <tuple> <atom label="Canteen/FoodLibraryDbAssociation"/> <atom label="Canteen/Payment"/> </tuple>
+   <tuple> <atom label="Canteen/UserProductAssociation"/> <atom label="Canteen/User"/> </tuple>
+   <types> <type ID="11"/> <type ID="10"/> </types>
+</field>
+
+<field label="dst" ID="60" parentID="11">
+   <tuple> <atom label="Canteen/UserCanteenAssociation"/> <atom label="Canteen/User"/> </tuple>
+   <tuple> <atom label="Canteen/UserFoodAssociation"/> <atom label="Canteen/Food"/> </tuple>
+   <tuple> <atom label="Canteen/CanteenProductAssociation"/> <atom label="Canteen/Product"/> </tuple>
+   <tuple> <atom label="Canteen/CanteenFoodAssociation"/> <atom label="Canteen/Food"/> </tuple>
+   <tuple> <atom label="Canteen/CanteenOrdersAssociation"/> <atom label="Canteen/Orders"/> </tuple>
+   <tuple> <atom label="Canteen/OrdersLibraryDbAssociation"/> <atom label="Canteen/Payment"/> </tuple>
+   <tuple> <atom label="Canteen/OrdersFoodAssociation"/> <atom label="Canteen/Food"/> </tuple>
+   <tuple> <atom label="Canteen/ProductLibraryDbAssociation"/> <atom label="Canteen/Product"/> </tuple>
+   <tuple> <atom label="Canteen/FoodLibraryDbAssociation"/> <atom label="Canteen/Food"/> </tuple>
+   <tuple> <atom label="Canteen/UserProductAssociation"/> <atom label="Canteen/Product"/> </tuple>
+   <types> <type ID="11"/> <type ID="10"/> </types>
+</field>
+
+<field label="src_multiplicity" ID="61" parentID="11">
+   <tuple> <atom label="Canteen/UserCanteenAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <tuple> <atom label="Canteen/UserFoodAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="Canteen/CanteenProductAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <tuple> <atom label="Canteen/CanteenFoodAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <tuple> <atom label="Canteen/CanteenOrdersAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <tuple> <atom label="Canteen/OrdersLibraryDbAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <tuple> <atom label="Canteen/OrdersFoodAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <tuple> <atom label="Canteen/ProductLibraryDbAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <tuple> <atom label="Canteen/FoodLibraryDbAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <tuple> <atom label="Canteen/UserProductAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <types> <type ID="11"/> <type ID="62"/> </types>
+</field>
+
+<field label="dst_multiplicity" ID="63" parentID="11">
+   <tuple> <atom label="Canteen/UserCanteenAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="Canteen/UserFoodAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="Canteen/CanteenProductAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="Canteen/CanteenFoodAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="Canteen/CanteenOrdersAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <tuple> <atom label="Canteen/OrdersLibraryDbAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <tuple> <atom label="Canteen/OrdersFoodAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="Canteen/ProductLibraryDbAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="Canteen/FoodLibraryDbAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="Canteen/UserProductAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <types> <type ID="11"/> <type ID="62"/> </types>
+</field>
+
+<sig label="Canteen/UserCanteenAssociation" ID="64" parentID="11" one="yes">
+   <atom label="Canteen/UserCanteenAssociation"/>
+</sig>
+
+<sig label="Canteen/UserFoodAssociation" ID="65" parentID="11" one="yes">
+   <atom label="Canteen/UserFoodAssociation"/>
+</sig>
+
+<sig label="Canteen/CanteenProductAssociation" ID="66" parentID="11" one="yes">
+   <atom label="Canteen/CanteenProductAssociation"/>
+</sig>
+
+<sig label="Canteen/CanteenFoodAssociation" ID="67" parentID="11" one="yes">
+   <atom label="Canteen/CanteenFoodAssociation"/>
+</sig>
+
+<sig label="Canteen/CanteenOrdersAssociation" ID="68" parentID="11" one="yes">
+   <atom label="Canteen/CanteenOrdersAssociation"/>
+</sig>
+
+<sig label="Canteen/OrdersLibraryDbAssociation" ID="69" parentID="11" one="yes">
+   <atom label="Canteen/OrdersLibraryDbAssociation"/>
+</sig>
+
+<sig label="Canteen/OrdersFoodAssociation" ID="70" parentID="11" one="yes">
+   <atom label="Canteen/OrdersFoodAssociation"/>
+</sig>
+
+<sig label="Canteen/ProductLibraryDbAssociation" ID="71" parentID="11" one="yes">
+   <atom label="Canteen/ProductLibraryDbAssociation"/>
+</sig>
+
+<sig label="Canteen/FoodLibraryDbAssociation" ID="72" parentID="11" one="yes">
+   <atom label="Canteen/FoodLibraryDbAssociation"/>
+</sig>
+
+<sig label="Canteen/UserProductAssociation" ID="73" parentID="11" one="yes">
+   <atom label="Canteen/UserProductAssociation"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Multiplicity_State" ID="62" parentID="0" abstract="yes">
+   <atom label="AssociationMappings/Declaration/ONE"/>
+   <atom label="AssociationMappings/Declaration/MANY"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/ONE" ID="74" parentID="62" one="yes">
+   <atom label="AssociationMappings/Declaration/ONE"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/MANY" ID="75" parentID="62" one="yes">
+   <atom label="AssociationMappings/Declaration/MANY"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Strategy" ID="76" parentID="0" abstract="yes">
+   <atom label="ORMStrategies/UnionSubclassStrategy"/>
+   <atom label="ORMStrategies/JoinedSubclassStrategy"/>
+   <atom label="ORMStrategies/UnionSuperclassStrategy"/>
+   <atom label="AssociationMappings/ForeignKeyEmbeddingStrategy"/>
+   <atom label="AssociationMappings/OwnAssociationTableStrategy"/>
+   <atom label="AssociationMappings/MergingOneTableStrategy"/>
+</sig>
+
+<field label="assignees" ID="77" parentID="76">
+   <tuple> <atom label="ORMStrategies/UnionSubclassStrategy"/> <atom label="Canteen/Payment"/> </tuple>
+   <tuple> <atom label="ORMStrategies/UnionSubclassStrategy"/> <atom label="Canteen/User"/> </tuple>
+   <tuple> <atom label="ORMStrategies/UnionSubclassStrategy"/> <atom label="Canteen/Canteen"/> </tuple>
+   <tuple> <atom label="ORMStrategies/JoinedSubclassStrategy"/> <atom label="Canteen/Salesman"/> </tuple>
+   <tuple> <atom label="ORMStrategies/JoinedSubclassStrategy"/> <atom label="Canteen/Manager"/> </tuple>
+   <tuple> <atom label="AssociationMappings/ForeignKeyEmbeddingStrategy"/> <atom label="Canteen/CanteenProductAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/ForeignKeyEmbeddingStrategy"/> <atom label="Canteen/CanteenFoodAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/ForeignKeyEmbeddingStrategy"/> <atom label="Canteen/OrdersFoodAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/ForeignKeyEmbeddingStrategy"/> <atom label="Canteen/ProductLibraryDbAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/OwnAssociationTableStrategy"/> <atom label="Canteen/UserCanteenAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/OwnAssociationTableStrategy"/> <atom label="Canteen/UserFoodAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/OwnAssociationTableStrategy"/> <atom label="Canteen/CanteenOrdersAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/OwnAssociationTableStrategy"/> <atom label="Canteen/OrdersLibraryDbAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/OwnAssociationTableStrategy"/> <atom label="Canteen/FoodLibraryDbAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/OwnAssociationTableStrategy"/> <atom label="Canteen/UserProductAssociation"/> </tuple>
+   <types> <type ID="76"/> <type ID="10"/> </types>
+   <types> <type ID="76"/> <type ID="11"/> </types>
+</field>
+
+<sig label="ORMStrategies/UnionSubclassStrategy" ID="78" parentID="76" one="yes">
+   <atom label="ORMStrategies/UnionSubclassStrategy"/>
+</sig>
+
+<sig label="ORMStrategies/JoinedSubclassStrategy" ID="79" parentID="76" one="yes">
+   <atom label="ORMStrategies/JoinedSubclassStrategy"/>
+</sig>
+
+<sig label="ORMStrategies/UnionSuperclassStrategy" ID="80" parentID="76" one="yes">
+   <atom label="ORMStrategies/UnionSuperclassStrategy"/>
+</sig>
+
+<sig label="AssociationMappings/ForeignKeyEmbeddingStrategy" ID="81" parentID="76" one="yes">
+   <atom label="AssociationMappings/ForeignKeyEmbeddingStrategy"/>
+</sig>
+
+<sig label="AssociationMappings/OwnAssociationTableStrategy" ID="82" parentID="76" one="yes">
+   <atom label="AssociationMappings/OwnAssociationTableStrategy"/>
+</sig>
+
+<sig label="AssociationMappings/MergingOneTableStrategy" ID="83" parentID="76" one="yes">
+   <atom label="AssociationMappings/MergingOneTableStrategy"/>
+</sig>
+
+<sig label="AssociationMappings/AssociationMappingStrategies" ID="84" parentID="0" one="yes">
+   <atom label="AssociationMappings/AssociationMappingStrategies"/>
+</sig>
+
+<field label="FKE" ID="85" parentID="84">
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="Canteen/CanteenProductAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="Canteen/CanteenFoodAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="Canteen/OrdersFoodAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="Canteen/ProductLibraryDbAssociation"/> </tuple>
+   <types> <type ID="84"/> <type ID="11"/> </types>
+</field>
+
+<field label="OAT" ID="86" parentID="84">
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="Canteen/UserCanteenAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="Canteen/UserFoodAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="Canteen/CanteenOrdersAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="Canteen/OrdersLibraryDbAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="Canteen/FoodLibraryDbAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="Canteen/UserProductAssociation"/> </tuple>
+   <types> <type ID="84"/> <type ID="11"/> </types>
+</field>
+
+<field label="MOT" ID="87" parentID="84">
+   <types> <type ID="84"/> <type ID="11"/> </types>
+</field>
+
+</instance>
+
+</alloy>

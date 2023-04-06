@@ -1,0 +1,866 @@
+<alloy builddate="2008/10/27 23:45 EDT">
+
+<instance bitwidth="4" maxseq="7" command="Run mapping_run_traffic_control for 42" filename="">
+
+<sig label="univ" ID="0" builtin="yes">
+   <atom label="assertions/relationalModel/Table$0"/>
+   <atom label="assertions/relationalModel/Table$1"/>
+   <atom label="assertions/relationalModel/Table$2"/>
+   <atom label="assertions/relationalModel/Table$3"/>
+   <atom label="assertions/relationalModel/Table$4"/>
+   <atom label="assertions/relationalModel/Table$5"/>
+   <atom label="assertions/relationalModel/Table$6"/>
+   <atom label="assertions/relationalModel/Table$7"/>
+   <atom label="assertions/relationalModel/Table$8"/>
+   <atom label="assertions/relationalModel/Table$9"/>
+   <atom label="assertions/relationalModel/Table$10"/>
+   <atom label="assertions/relationalModel/Table$11"/>
+   <atom label="assertions/relationalModel/Field$0"/>
+   <atom label="assertions/relationalModel/Field$1"/>
+   <atom label="assertions/relationalModel/Field$2"/>
+   <atom label="assertions/relationalModel/Field$3"/>
+   <atom label="assertions/relationalModel/Field$4"/>
+   <atom label="assertions/relationalModel/Field$5"/>
+   <atom label="assertions/relationalModel/Field$6"/>
+   <atom label="assertions/relationalModel/Field$7"/>
+   <atom label="assertions/relationalModel/Field$8"/>
+   <atom label="assertions/relationalModel/Field$9"/>
+   <atom label="assertions/relationalModel/Field$10"/>
+   <atom label="assertions/relationalModel/Field$11"/>
+   <atom label="assertions/relationalModel/Field$12"/>
+   <atom label="assertions/relationalModel/Field$13"/>
+   <atom label="assertions/relationalModel/Field$14"/>
+   <atom label="assertions/relationalModel/Field$15"/>
+   <atom label="assertions/relationalModel/Field$16"/>
+   <atom label="assertions/relationalModel/Field$17"/>
+   <atom label="assertions/relationalModel/Field$18"/>
+   <atom label="assertions/relationalModel/Field$19"/>
+   <atom label="assertions/relationalModel/Field$20"/>
+   <atom label="assertions/relationalModel/Field$21"/>
+   <atom label="assertions/relationalModel/Field$22"/>
+   <atom label="traffic_control/GIS"/>
+   <atom label="traffic_control/Traffic_Controller"/>
+   <atom label="traffic_control/Report"/>
+   <atom label="traffic_control/Insurance_Company"/>
+   <atom label="traffic_control/Insurance"/>
+   <atom label="traffic_control/Driver"/>
+   <atom label="traffic_control/VehicleDetails"/>
+   <atom label="traffic_control/TARS"/>
+   <atom label="traffic_control/GISRoute"/>
+   <atom label="traffic_control/EmployeeId"/>
+   <atom label="traffic_control/ReportId"/>
+   <atom label="traffic_control/Incident_No"/>
+   <atom label="traffic_control/Reporting_Officer"/>
+   <atom label="traffic_control/caseid"/>
+   <atom label="traffic_control/Location"/>
+   <atom label="traffic_control/FineAmount"/>
+   <atom label="traffic_control/Policy_No"/>
+   <atom label="traffic_control/DriverLNo"/>
+   <atom label="traffic_control/TARS_NO"/>
+   <atom label="traffic_control/SATLocation"/>
+   <atom label="traffic_control/Duty_Officer"/>
+   <atom label="traffic_control/IC_Name"/>
+   <atom label="traffic_control/IC_Address"/>
+   <atom label="traffic_control/Policy_Date"/>
+   <atom label="traffic_control/Insurancedetails"/>
+   <atom label="traffic_control/DriverName"/>
+   <atom label="traffic_control/Insurance_company"/>
+   <atom label="traffic_control/LicDuration"/>
+   <atom label="traffic_control/VIN_NVMC"/>
+   <atom label="traffic_control/TARS_NAME"/>
+   <atom label="traffic_control/Traffic_ControllerTARSAssociation"/>
+   <atom label="traffic_control/Traffic_ControllerInsurance_CompanyAssociation"/>
+   <atom label="traffic_control/TARSReportAssociation"/>
+   <atom label="traffic_control/TARSInsurance_CompanyAssociation"/>
+   <atom label="traffic_control/TARSDriverAssociation"/>
+   <atom label="traffic_control/DriverGISAssociation"/>
+   <atom label="traffic_control/DriverInsurance_CompanyAssociation"/>
+   <atom label="traffic_control/ReportGISAssociation"/>
+   <atom label="traffic_control/Insurance_CompanyGISAssociation"/>
+   <atom label="traffic_control/Traffic_ControllerReportAssociation"/>
+   <atom label="AssociationMappings/Declaration/No$0"/>
+   <atom label="AssociationMappings/Declaration/DType$0"/>
+   <atom label="AssociationMappings/Declaration/ONE"/>
+   <atom label="AssociationMappings/Declaration/MANY"/>
+   <atom label="ORMStrategies/UnionSubclassStrategy"/>
+   <atom label="ORMStrategies/JoinedSubclassStrategy"/>
+   <atom label="ORMStrategies/UnionSuperclassStrategy"/>
+   <atom label="AssociationMappings/ForeignKeyEmbeddingStrategy"/>
+   <atom label="AssociationMappings/OwnAssociationTableStrategy"/>
+   <atom label="AssociationMappings/MergingOneTableStrategy"/>
+   <atom label="AssociationMappings/AssociationMappingStrategies"/>
+   <atom label="-8"/>
+   <atom label="-7"/>
+   <atom label="-6"/>
+   <atom label="-5"/>
+   <atom label="-4"/>
+   <atom label="-3"/>
+   <atom label="-2"/>
+   <atom label="-1"/>
+   <atom label="0"/>
+   <atom label="1"/>
+   <atom label="2"/>
+   <atom label="3"/>
+   <atom label="4"/>
+   <atom label="5"/>
+   <atom label="6"/>
+   <atom label="7"/>
+</sig>
+
+<sig label="Int" ID="1" parentID="0" builtin="yes">
+   <atom label="-8"/>
+   <atom label="-7"/>
+   <atom label="-6"/>
+   <atom label="-5"/>
+   <atom label="-4"/>
+   <atom label="-3"/>
+   <atom label="-2"/>
+   <atom label="-1"/>
+   <atom label="0"/>
+   <atom label="1"/>
+   <atom label="2"/>
+   <atom label="3"/>
+   <atom label="4"/>
+   <atom label="5"/>
+   <atom label="6"/>
+   <atom label="7"/>
+</sig>
+
+<sig label="seq/Int" ID="2" parentID="1" builtin="yes">
+   <atom label="0"/>
+   <atom label="1"/>
+   <atom label="2"/>
+   <atom label="3"/>
+   <atom label="4"/>
+   <atom label="5"/>
+   <atom label="6"/>
+</sig>
+
+<sig label="fun/String" ID="3" parentID="0" builtin="yes">
+</sig>
+
+<sig label="assertions/relationalModel/Table" ID="4" parentID="0">
+   <atom label="assertions/relationalModel/Table$0"/>
+   <atom label="assertions/relationalModel/Table$1"/>
+   <atom label="assertions/relationalModel/Table$2"/>
+   <atom label="assertions/relationalModel/Table$3"/>
+   <atom label="assertions/relationalModel/Table$4"/>
+   <atom label="assertions/relationalModel/Table$5"/>
+   <atom label="assertions/relationalModel/Table$6"/>
+   <atom label="assertions/relationalModel/Table$7"/>
+   <atom label="assertions/relationalModel/Table$8"/>
+   <atom label="assertions/relationalModel/Table$9"/>
+   <atom label="assertions/relationalModel/Table$10"/>
+   <atom label="assertions/relationalModel/Table$11"/>
+</sig>
+
+<field label="fields" ID="5" parentID="4">
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$20"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$21"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="assertions/relationalModel/Field$14"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="assertions/relationalModel/Field$21"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="assertions/relationalModel/Field$13"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="assertions/relationalModel/Field$22"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$3"/> <atom label="assertions/relationalModel/Field$13"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$3"/> <atom label="assertions/relationalModel/Field$14"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="assertions/relationalModel/Field$21"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$15"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$16"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$17"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$18"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$19"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$20"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$22"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="assertions/relationalModel/Field$13"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$7"/> <atom label="assertions/relationalModel/Field$11"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$7"/> <atom label="assertions/relationalModel/Field$22"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$8"/> <atom label="assertions/relationalModel/Field$7"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$8"/> <atom label="assertions/relationalModel/Field$8"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$8"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$8"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$8"/> <atom label="assertions/relationalModel/Field$14"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$8"/> <atom label="assertions/relationalModel/Field$22"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$9"/> <atom label="assertions/relationalModel/Field$3"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$9"/> <atom label="assertions/relationalModel/Field$5"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$9"/> <atom label="assertions/relationalModel/Field$13"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$10"/> <atom label="assertions/relationalModel/Field$1"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$10"/> <atom label="assertions/relationalModel/Field$4"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$10"/> <atom label="assertions/relationalModel/Field$10"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$10"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$11"/> <atom label="assertions/relationalModel/Field$0"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$11"/> <atom label="assertions/relationalModel/Field$2"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$11"/> <atom label="assertions/relationalModel/Field$6"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$11"/> <atom label="assertions/relationalModel/Field$10"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$11"/> <atom label="assertions/relationalModel/Field$21"/> </tuple>
+   <types> <type ID="4"/> <type ID="6"/> </types>
+</field>
+
+<field label="primaryKey" ID="7" parentID="4">
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$20"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$21"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="assertions/relationalModel/Field$14"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="assertions/relationalModel/Field$21"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="assertions/relationalModel/Field$13"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="assertions/relationalModel/Field$22"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$3"/> <atom label="assertions/relationalModel/Field$13"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$3"/> <atom label="assertions/relationalModel/Field$14"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="assertions/relationalModel/Field$21"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$20"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="assertions/relationalModel/Field$13"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$7"/> <atom label="assertions/relationalModel/Field$22"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$8"/> <atom label="assertions/relationalModel/Field$14"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$9"/> <atom label="assertions/relationalModel/Field$13"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$10"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$11"/> <atom label="assertions/relationalModel/Field$21"/> </tuple>
+   <types> <type ID="4"/> <type ID="6"/> </types>
+</field>
+
+<field label="foreignKey" ID="8" parentID="4">
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$20"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$21"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="assertions/relationalModel/Field$14"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="assertions/relationalModel/Field$21"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="assertions/relationalModel/Field$13"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="assertions/relationalModel/Field$22"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$3"/> <atom label="assertions/relationalModel/Field$13"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$3"/> <atom label="assertions/relationalModel/Field$14"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="assertions/relationalModel/Field$21"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$22"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="assertions/relationalModel/Field$13"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$8"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$8"/> <atom label="assertions/relationalModel/Field$22"/> </tuple>
+   <types> <type ID="4"/> <type ID="6"/> </types>
+</field>
+
+<field label="tAssociate" ID="9" parentID="4">
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="traffic_control/Traffic_ControllerReportAssociation"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="traffic_control/Traffic_ControllerInsurance_CompanyAssociation"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="traffic_control/DriverGISAssociation"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$3"/> <atom label="traffic_control/DriverInsurance_CompanyAssociation"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="traffic_control/Traffic_ControllerTARSAssociation"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="traffic_control/Report"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="traffic_control/TARSDriverAssociation"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$7"/> <atom label="traffic_control/GIS"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$8"/> <atom label="traffic_control/Insurance_Company"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$9"/> <atom label="traffic_control/Driver"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$10"/> <atom label="traffic_control/TARS"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$11"/> <atom label="traffic_control/Traffic_Controller"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$11"/> <atom label="traffic_control/Insurance"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$11"/> <atom label="traffic_control/VehicleDetails"/> </tuple>
+   <types> <type ID="4"/> <type ID="10"/> </types>
+   <types> <type ID="4"/> <type ID="11"/> </types>
+</field>
+
+<sig label="assertions/relationalModel/Field" ID="6" parentID="0">
+   <atom label="assertions/relationalModel/Field$0"/>
+   <atom label="assertions/relationalModel/Field$1"/>
+   <atom label="assertions/relationalModel/Field$2"/>
+   <atom label="assertions/relationalModel/Field$3"/>
+   <atom label="assertions/relationalModel/Field$4"/>
+   <atom label="assertions/relationalModel/Field$5"/>
+   <atom label="assertions/relationalModel/Field$6"/>
+   <atom label="assertions/relationalModel/Field$7"/>
+   <atom label="assertions/relationalModel/Field$8"/>
+   <atom label="assertions/relationalModel/Field$9"/>
+   <atom label="assertions/relationalModel/Field$10"/>
+   <atom label="assertions/relationalModel/Field$11"/>
+   <atom label="assertions/relationalModel/Field$12"/>
+   <atom label="assertions/relationalModel/Field$13"/>
+   <atom label="assertions/relationalModel/Field$14"/>
+   <atom label="assertions/relationalModel/Field$15"/>
+   <atom label="assertions/relationalModel/Field$16"/>
+   <atom label="assertions/relationalModel/Field$17"/>
+   <atom label="assertions/relationalModel/Field$18"/>
+   <atom label="assertions/relationalModel/Field$19"/>
+   <atom label="assertions/relationalModel/Field$20"/>
+   <atom label="assertions/relationalModel/Field$21"/>
+   <atom label="assertions/relationalModel/Field$22"/>
+</sig>
+
+<field label="fAssociate" ID="12" parentID="6">
+   <tuple> <atom label="assertions/relationalModel/Field$0"/> <atom label="AssociationMappings/Declaration/DType$0"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$1"/> <atom label="traffic_control/TARS_NAME"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$2"/> <atom label="traffic_control/VIN_NVMC"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$3"/> <atom label="traffic_control/LicDuration"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$4"/> <atom label="traffic_control/Insurance_company"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$5"/> <atom label="traffic_control/DriverName"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$6"/> <atom label="traffic_control/Insurancedetails"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$7"/> <atom label="traffic_control/Policy_Date"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$8"/> <atom label="traffic_control/IC_Address"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$9"/> <atom label="traffic_control/IC_Name"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$10"/> <atom label="traffic_control/Duty_Officer"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$11"/> <atom label="traffic_control/SATLocation"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$12"/> <atom label="traffic_control/TARS_NO"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$13"/> <atom label="traffic_control/DriverLNo"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$14"/> <atom label="traffic_control/Policy_No"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$15"/> <atom label="traffic_control/FineAmount"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$16"/> <atom label="traffic_control/Location"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$17"/> <atom label="traffic_control/caseid"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$18"/> <atom label="traffic_control/Reporting_Officer"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$19"/> <atom label="traffic_control/Incident_No"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$20"/> <atom label="traffic_control/ReportId"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$21"/> <atom label="traffic_control/EmployeeId"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$22"/> <atom label="traffic_control/GISRoute"/> </tuple>
+   <types> <type ID="6"/> <type ID="13"/> </types>
+</field>
+
+<sig label="AssociationMappings/Declaration/needHandle" ID="13" parentID="0" abstract="yes">
+   <atom label="traffic_control/GIS"/>
+   <atom label="traffic_control/Traffic_Controller"/>
+   <atom label="traffic_control/Report"/>
+   <atom label="traffic_control/Insurance_Company"/>
+   <atom label="traffic_control/Insurance"/>
+   <atom label="traffic_control/Driver"/>
+   <atom label="traffic_control/VehicleDetails"/>
+   <atom label="traffic_control/TARS"/>
+   <atom label="traffic_control/GISRoute"/>
+   <atom label="traffic_control/EmployeeId"/>
+   <atom label="traffic_control/ReportId"/>
+   <atom label="traffic_control/Incident_No"/>
+   <atom label="traffic_control/Reporting_Officer"/>
+   <atom label="traffic_control/caseid"/>
+   <atom label="traffic_control/Location"/>
+   <atom label="traffic_control/FineAmount"/>
+   <atom label="traffic_control/Policy_No"/>
+   <atom label="traffic_control/DriverLNo"/>
+   <atom label="traffic_control/TARS_NO"/>
+   <atom label="traffic_control/SATLocation"/>
+   <atom label="traffic_control/Duty_Officer"/>
+   <atom label="traffic_control/IC_Name"/>
+   <atom label="traffic_control/IC_Address"/>
+   <atom label="traffic_control/Policy_Date"/>
+   <atom label="traffic_control/Insurancedetails"/>
+   <atom label="traffic_control/DriverName"/>
+   <atom label="traffic_control/Insurance_company"/>
+   <atom label="traffic_control/LicDuration"/>
+   <atom label="traffic_control/VIN_NVMC"/>
+   <atom label="traffic_control/TARS_NAME"/>
+   <atom label="traffic_control/Traffic_ControllerTARSAssociation"/>
+   <atom label="traffic_control/Traffic_ControllerInsurance_CompanyAssociation"/>
+   <atom label="traffic_control/TARSReportAssociation"/>
+   <atom label="traffic_control/TARSInsurance_CompanyAssociation"/>
+   <atom label="traffic_control/TARSDriverAssociation"/>
+   <atom label="traffic_control/DriverGISAssociation"/>
+   <atom label="traffic_control/DriverInsurance_CompanyAssociation"/>
+   <atom label="traffic_control/ReportGISAssociation"/>
+   <atom label="traffic_control/Insurance_CompanyGISAssociation"/>
+   <atom label="traffic_control/Traffic_ControllerReportAssociation"/>
+   <atom label="AssociationMappings/Declaration/No$0"/>
+   <atom label="AssociationMappings/Declaration/DType$0"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Attribute" ID="14" parentID="13" abstract="yes">
+   <atom label="traffic_control/GIS"/>
+   <atom label="traffic_control/Traffic_Controller"/>
+   <atom label="traffic_control/Report"/>
+   <atom label="traffic_control/Insurance_Company"/>
+   <atom label="traffic_control/Insurance"/>
+   <atom label="traffic_control/Driver"/>
+   <atom label="traffic_control/VehicleDetails"/>
+   <atom label="traffic_control/TARS"/>
+   <atom label="traffic_control/GISRoute"/>
+   <atom label="traffic_control/EmployeeId"/>
+   <atom label="traffic_control/ReportId"/>
+   <atom label="traffic_control/Incident_No"/>
+   <atom label="traffic_control/Reporting_Officer"/>
+   <atom label="traffic_control/caseid"/>
+   <atom label="traffic_control/Location"/>
+   <atom label="traffic_control/FineAmount"/>
+   <atom label="traffic_control/Policy_No"/>
+   <atom label="traffic_control/DriverLNo"/>
+   <atom label="traffic_control/TARS_NO"/>
+   <atom label="traffic_control/SATLocation"/>
+   <atom label="traffic_control/Duty_Officer"/>
+   <atom label="traffic_control/IC_Name"/>
+   <atom label="traffic_control/IC_Address"/>
+   <atom label="traffic_control/Policy_Date"/>
+   <atom label="traffic_control/Insurancedetails"/>
+   <atom label="traffic_control/DriverName"/>
+   <atom label="traffic_control/Insurance_company"/>
+   <atom label="traffic_control/LicDuration"/>
+   <atom label="traffic_control/VIN_NVMC"/>
+   <atom label="traffic_control/TARS_NAME"/>
+   <atom label="AssociationMappings/Declaration/No$0"/>
+   <atom label="AssociationMappings/Declaration/DType$0"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Class" ID="10" parentID="14" abstract="yes">
+   <atom label="traffic_control/GIS"/>
+   <atom label="traffic_control/Traffic_Controller"/>
+   <atom label="traffic_control/Report"/>
+   <atom label="traffic_control/Insurance_Company"/>
+   <atom label="traffic_control/Insurance"/>
+   <atom label="traffic_control/Driver"/>
+   <atom label="traffic_control/VehicleDetails"/>
+   <atom label="traffic_control/TARS"/>
+</sig>
+
+<field label="attrSet" ID="15" parentID="10">
+   <tuple> <atom label="traffic_control/GIS"/> <atom label="traffic_control/GISRoute"/> </tuple>
+   <tuple> <atom label="traffic_control/GIS"/> <atom label="traffic_control/SATLocation"/> </tuple>
+   <tuple> <atom label="traffic_control/Traffic_Controller"/> <atom label="traffic_control/EmployeeId"/> </tuple>
+   <tuple> <atom label="traffic_control/Traffic_Controller"/> <atom label="traffic_control/Duty_Officer"/> </tuple>
+   <tuple> <atom label="traffic_control/Report"/> <atom label="traffic_control/ReportId"/> </tuple>
+   <tuple> <atom label="traffic_control/Report"/> <atom label="traffic_control/Incident_No"/> </tuple>
+   <tuple> <atom label="traffic_control/Report"/> <atom label="traffic_control/Reporting_Officer"/> </tuple>
+   <tuple> <atom label="traffic_control/Report"/> <atom label="traffic_control/caseid"/> </tuple>
+   <tuple> <atom label="traffic_control/Report"/> <atom label="traffic_control/Location"/> </tuple>
+   <tuple> <atom label="traffic_control/Report"/> <atom label="traffic_control/FineAmount"/> </tuple>
+   <tuple> <atom label="traffic_control/Insurance_Company"/> <atom label="traffic_control/Policy_No"/> </tuple>
+   <tuple> <atom label="traffic_control/Insurance_Company"/> <atom label="traffic_control/IC_Name"/> </tuple>
+   <tuple> <atom label="traffic_control/Insurance_Company"/> <atom label="traffic_control/IC_Address"/> </tuple>
+   <tuple> <atom label="traffic_control/Insurance_Company"/> <atom label="traffic_control/Policy_Date"/> </tuple>
+   <tuple> <atom label="traffic_control/Insurance"/> <atom label="traffic_control/Insurancedetails"/> </tuple>
+   <tuple> <atom label="traffic_control/Driver"/> <atom label="traffic_control/DriverLNo"/> </tuple>
+   <tuple> <atom label="traffic_control/Driver"/> <atom label="traffic_control/DriverName"/> </tuple>
+   <tuple> <atom label="traffic_control/Driver"/> <atom label="traffic_control/Insurance_company"/> </tuple>
+   <tuple> <atom label="traffic_control/Driver"/> <atom label="traffic_control/LicDuration"/> </tuple>
+   <tuple> <atom label="traffic_control/VehicleDetails"/> <atom label="traffic_control/VIN_NVMC"/> </tuple>
+   <tuple> <atom label="traffic_control/TARS"/> <atom label="traffic_control/TARS_NO"/> </tuple>
+   <tuple> <atom label="traffic_control/TARS"/> <atom label="traffic_control/Duty_Officer"/> </tuple>
+   <tuple> <atom label="traffic_control/TARS"/> <atom label="traffic_control/Insurance_company"/> </tuple>
+   <tuple> <atom label="traffic_control/TARS"/> <atom label="traffic_control/TARS_NAME"/> </tuple>
+   <types> <type ID="10"/> <type ID="14"/> </types>
+</field>
+
+<field label="id" ID="16" parentID="10">
+   <tuple> <atom label="traffic_control/GIS"/> <atom label="traffic_control/GISRoute"/> </tuple>
+   <tuple> <atom label="traffic_control/Traffic_Controller"/> <atom label="traffic_control/EmployeeId"/> </tuple>
+   <tuple> <atom label="traffic_control/Report"/> <atom label="traffic_control/ReportId"/> </tuple>
+   <tuple> <atom label="traffic_control/Insurance_Company"/> <atom label="traffic_control/Policy_No"/> </tuple>
+   <tuple> <atom label="traffic_control/Insurance"/> <atom label="traffic_control/EmployeeId"/> </tuple>
+   <tuple> <atom label="traffic_control/Driver"/> <atom label="traffic_control/DriverLNo"/> </tuple>
+   <tuple> <atom label="traffic_control/VehicleDetails"/> <atom label="traffic_control/EmployeeId"/> </tuple>
+   <tuple> <atom label="traffic_control/TARS"/> <atom label="traffic_control/TARS_NO"/> </tuple>
+   <types> <type ID="10"/> <type ID="14"/> </types>
+</field>
+
+<field label="parent" ID="17" parentID="10">
+   <tuple> <atom label="traffic_control/Insurance"/> <atom label="traffic_control/Traffic_Controller"/> </tuple>
+   <tuple> <atom label="traffic_control/VehicleDetails"/> <atom label="traffic_control/Traffic_Controller"/> </tuple>
+   <types> <type ID="10"/> <type ID="10"/> </types>
+</field>
+
+<field label="isAbstract" ID="18" parentID="10">
+   <tuple> <atom label="traffic_control/GIS"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="traffic_control/Traffic_Controller"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="traffic_control/Report"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="traffic_control/Insurance_Company"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="traffic_control/Insurance"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="traffic_control/Driver"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="traffic_control/VehicleDetails"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="traffic_control/TARS"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <types> <type ID="10"/> <type ID="19"/> </types>
+</field>
+
+<sig label="traffic_control/GIS" ID="20" parentID="10" one="yes">
+   <atom label="traffic_control/GIS"/>
+</sig>
+
+<sig label="traffic_control/Traffic_Controller" ID="21" parentID="10" one="yes">
+   <atom label="traffic_control/Traffic_Controller"/>
+</sig>
+
+<sig label="traffic_control/Report" ID="22" parentID="10" one="yes">
+   <atom label="traffic_control/Report"/>
+</sig>
+
+<sig label="traffic_control/Insurance_Company" ID="23" parentID="10" one="yes">
+   <atom label="traffic_control/Insurance_Company"/>
+</sig>
+
+<sig label="traffic_control/Insurance" ID="24" parentID="10" one="yes">
+   <atom label="traffic_control/Insurance"/>
+</sig>
+
+<sig label="traffic_control/Driver" ID="25" parentID="10" one="yes">
+   <atom label="traffic_control/Driver"/>
+</sig>
+
+<sig label="traffic_control/VehicleDetails" ID="26" parentID="10" one="yes">
+   <atom label="traffic_control/VehicleDetails"/>
+</sig>
+
+<sig label="traffic_control/TARS" ID="27" parentID="10" one="yes">
+   <atom label="traffic_control/TARS"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Type" ID="28" parentID="14" abstract="yes">
+   <atom label="traffic_control/GISRoute"/>
+   <atom label="traffic_control/EmployeeId"/>
+   <atom label="traffic_control/ReportId"/>
+   <atom label="traffic_control/Incident_No"/>
+   <atom label="traffic_control/Reporting_Officer"/>
+   <atom label="traffic_control/caseid"/>
+   <atom label="traffic_control/Location"/>
+   <atom label="traffic_control/FineAmount"/>
+   <atom label="traffic_control/Policy_No"/>
+   <atom label="traffic_control/DriverLNo"/>
+   <atom label="traffic_control/TARS_NO"/>
+   <atom label="traffic_control/SATLocation"/>
+   <atom label="traffic_control/Duty_Officer"/>
+   <atom label="traffic_control/IC_Name"/>
+   <atom label="traffic_control/IC_Address"/>
+   <atom label="traffic_control/Policy_Date"/>
+   <atom label="traffic_control/Insurancedetails"/>
+   <atom label="traffic_control/DriverName"/>
+   <atom label="traffic_control/Insurance_company"/>
+   <atom label="traffic_control/LicDuration"/>
+   <atom label="traffic_control/VIN_NVMC"/>
+   <atom label="traffic_control/TARS_NAME"/>
+   <atom label="AssociationMappings/Declaration/No$0"/>
+   <atom label="AssociationMappings/Declaration/DType$0"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Integer" ID="29" parentID="28">
+   <atom label="traffic_control/GISRoute"/>
+   <atom label="traffic_control/EmployeeId"/>
+   <atom label="traffic_control/ReportId"/>
+   <atom label="traffic_control/Incident_No"/>
+   <atom label="traffic_control/Reporting_Officer"/>
+   <atom label="traffic_control/caseid"/>
+   <atom label="traffic_control/Location"/>
+   <atom label="traffic_control/FineAmount"/>
+   <atom label="traffic_control/Policy_No"/>
+   <atom label="traffic_control/DriverLNo"/>
+   <atom label="traffic_control/TARS_NO"/>
+</sig>
+
+<sig label="traffic_control/GISRoute" ID="30" parentID="29" one="yes">
+   <atom label="traffic_control/GISRoute"/>
+</sig>
+
+<sig label="traffic_control/EmployeeId" ID="31" parentID="29" one="yes">
+   <atom label="traffic_control/EmployeeId"/>
+</sig>
+
+<sig label="traffic_control/ReportId" ID="32" parentID="29" one="yes">
+   <atom label="traffic_control/ReportId"/>
+</sig>
+
+<sig label="traffic_control/Incident_No" ID="33" parentID="29" one="yes">
+   <atom label="traffic_control/Incident_No"/>
+</sig>
+
+<sig label="traffic_control/Reporting_Officer" ID="34" parentID="29" one="yes">
+   <atom label="traffic_control/Reporting_Officer"/>
+</sig>
+
+<sig label="traffic_control/caseid" ID="35" parentID="29" one="yes">
+   <atom label="traffic_control/caseid"/>
+</sig>
+
+<sig label="traffic_control/Location" ID="36" parentID="29" one="yes">
+   <atom label="traffic_control/Location"/>
+</sig>
+
+<sig label="traffic_control/FineAmount" ID="37" parentID="29" one="yes">
+   <atom label="traffic_control/FineAmount"/>
+</sig>
+
+<sig label="traffic_control/Policy_No" ID="38" parentID="29" one="yes">
+   <atom label="traffic_control/Policy_No"/>
+</sig>
+
+<sig label="traffic_control/DriverLNo" ID="39" parentID="29" one="yes">
+   <atom label="traffic_control/DriverLNo"/>
+</sig>
+
+<sig label="traffic_control/TARS_NO" ID="40" parentID="29" one="yes">
+   <atom label="traffic_control/TARS_NO"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Real" ID="41" parentID="28">
+</sig>
+
+<sig label="AssociationMappings/Declaration/string" ID="42" parentID="28">
+   <atom label="traffic_control/SATLocation"/>
+   <atom label="traffic_control/Duty_Officer"/>
+   <atom label="traffic_control/IC_Name"/>
+   <atom label="traffic_control/IC_Address"/>
+   <atom label="traffic_control/Policy_Date"/>
+   <atom label="traffic_control/Insurancedetails"/>
+   <atom label="traffic_control/DriverName"/>
+   <atom label="traffic_control/Insurance_company"/>
+   <atom label="traffic_control/LicDuration"/>
+   <atom label="traffic_control/VIN_NVMC"/>
+   <atom label="traffic_control/TARS_NAME"/>
+</sig>
+
+<sig label="traffic_control/SATLocation" ID="43" parentID="42" one="yes">
+   <atom label="traffic_control/SATLocation"/>
+</sig>
+
+<sig label="traffic_control/Duty_Officer" ID="44" parentID="42" one="yes">
+   <atom label="traffic_control/Duty_Officer"/>
+</sig>
+
+<sig label="traffic_control/IC_Name" ID="45" parentID="42" one="yes">
+   <atom label="traffic_control/IC_Name"/>
+</sig>
+
+<sig label="traffic_control/IC_Address" ID="46" parentID="42" one="yes">
+   <atom label="traffic_control/IC_Address"/>
+</sig>
+
+<sig label="traffic_control/Policy_Date" ID="47" parentID="42" one="yes">
+   <atom label="traffic_control/Policy_Date"/>
+</sig>
+
+<sig label="traffic_control/Insurancedetails" ID="48" parentID="42" one="yes">
+   <atom label="traffic_control/Insurancedetails"/>
+</sig>
+
+<sig label="traffic_control/DriverName" ID="49" parentID="42" one="yes">
+   <atom label="traffic_control/DriverName"/>
+</sig>
+
+<sig label="traffic_control/Insurance_company" ID="50" parentID="42" one="yes">
+   <atom label="traffic_control/Insurance_company"/>
+</sig>
+
+<sig label="traffic_control/LicDuration" ID="51" parentID="42" one="yes">
+   <atom label="traffic_control/LicDuration"/>
+</sig>
+
+<sig label="traffic_control/VIN_NVMC" ID="52" parentID="42" one="yes">
+   <atom label="traffic_control/VIN_NVMC"/>
+</sig>
+
+<sig label="traffic_control/TARS_NAME" ID="53" parentID="42" one="yes">
+   <atom label="traffic_control/TARS_NAME"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Bool" ID="19" parentID="28">
+   <atom label="AssociationMappings/Declaration/No$0"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Yes" ID="54" parentID="19">
+</sig>
+
+<sig label="AssociationMappings/Declaration/No" ID="55" parentID="19">
+   <atom label="AssociationMappings/Declaration/No$0"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/DType" ID="56" parentID="28">
+   <atom label="AssociationMappings/Declaration/DType$0"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Longblob" ID="57" parentID="28">
+</sig>
+
+<sig label="AssociationMappings/Declaration/Time" ID="58" parentID="28">
+</sig>
+
+<sig label="AssociationMappings/Declaration/Association" ID="11" parentID="13" abstract="yes">
+   <atom label="traffic_control/Traffic_ControllerTARSAssociation"/>
+   <atom label="traffic_control/Traffic_ControllerInsurance_CompanyAssociation"/>
+   <atom label="traffic_control/TARSReportAssociation"/>
+   <atom label="traffic_control/TARSInsurance_CompanyAssociation"/>
+   <atom label="traffic_control/TARSDriverAssociation"/>
+   <atom label="traffic_control/DriverGISAssociation"/>
+   <atom label="traffic_control/DriverInsurance_CompanyAssociation"/>
+   <atom label="traffic_control/ReportGISAssociation"/>
+   <atom label="traffic_control/Insurance_CompanyGISAssociation"/>
+   <atom label="traffic_control/Traffic_ControllerReportAssociation"/>
+</sig>
+
+<field label="src" ID="59" parentID="11">
+   <tuple> <atom label="traffic_control/Traffic_ControllerTARSAssociation"/> <atom label="traffic_control/TARS"/> </tuple>
+   <tuple> <atom label="traffic_control/Traffic_ControllerInsurance_CompanyAssociation"/> <atom label="traffic_control/Traffic_Controller"/> </tuple>
+   <tuple> <atom label="traffic_control/TARSReportAssociation"/> <atom label="traffic_control/TARS"/> </tuple>
+   <tuple> <atom label="traffic_control/TARSInsurance_CompanyAssociation"/> <atom label="traffic_control/TARS"/> </tuple>
+   <tuple> <atom label="traffic_control/TARSDriverAssociation"/> <atom label="traffic_control/TARS"/> </tuple>
+   <tuple> <atom label="traffic_control/DriverGISAssociation"/> <atom label="traffic_control/Driver"/> </tuple>
+   <tuple> <atom label="traffic_control/DriverInsurance_CompanyAssociation"/> <atom label="traffic_control/Driver"/> </tuple>
+   <tuple> <atom label="traffic_control/ReportGISAssociation"/> <atom label="traffic_control/GIS"/> </tuple>
+   <tuple> <atom label="traffic_control/Insurance_CompanyGISAssociation"/> <atom label="traffic_control/GIS"/> </tuple>
+   <tuple> <atom label="traffic_control/Traffic_ControllerReportAssociation"/> <atom label="traffic_control/Traffic_Controller"/> </tuple>
+   <types> <type ID="11"/> <type ID="10"/> </types>
+</field>
+
+<field label="dst" ID="60" parentID="11">
+   <tuple> <atom label="traffic_control/Traffic_ControllerTARSAssociation"/> <atom label="traffic_control/Traffic_Controller"/> </tuple>
+   <tuple> <atom label="traffic_control/Traffic_ControllerInsurance_CompanyAssociation"/> <atom label="traffic_control/Insurance_Company"/> </tuple>
+   <tuple> <atom label="traffic_control/TARSReportAssociation"/> <atom label="traffic_control/Report"/> </tuple>
+   <tuple> <atom label="traffic_control/TARSInsurance_CompanyAssociation"/> <atom label="traffic_control/Insurance_Company"/> </tuple>
+   <tuple> <atom label="traffic_control/TARSDriverAssociation"/> <atom label="traffic_control/Driver"/> </tuple>
+   <tuple> <atom label="traffic_control/DriverGISAssociation"/> <atom label="traffic_control/GIS"/> </tuple>
+   <tuple> <atom label="traffic_control/DriverInsurance_CompanyAssociation"/> <atom label="traffic_control/Insurance_Company"/> </tuple>
+   <tuple> <atom label="traffic_control/ReportGISAssociation"/> <atom label="traffic_control/Report"/> </tuple>
+   <tuple> <atom label="traffic_control/Insurance_CompanyGISAssociation"/> <atom label="traffic_control/Insurance_Company"/> </tuple>
+   <tuple> <atom label="traffic_control/Traffic_ControllerReportAssociation"/> <atom label="traffic_control/Report"/> </tuple>
+   <types> <type ID="11"/> <type ID="10"/> </types>
+</field>
+
+<field label="src_multiplicity" ID="61" parentID="11">
+   <tuple> <atom label="traffic_control/Traffic_ControllerTARSAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <tuple> <atom label="traffic_control/Traffic_ControllerInsurance_CompanyAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="traffic_control/TARSReportAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <tuple> <atom label="traffic_control/TARSInsurance_CompanyAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <tuple> <atom label="traffic_control/TARSDriverAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <tuple> <atom label="traffic_control/DriverGISAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <tuple> <atom label="traffic_control/DriverInsurance_CompanyAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <tuple> <atom label="traffic_control/ReportGISAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <tuple> <atom label="traffic_control/Insurance_CompanyGISAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <tuple> <atom label="traffic_control/Traffic_ControllerReportAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <types> <type ID="11"/> <type ID="62"/> </types>
+</field>
+
+<field label="dst_multiplicity" ID="63" parentID="11">
+   <tuple> <atom label="traffic_control/Traffic_ControllerTARSAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="traffic_control/Traffic_ControllerInsurance_CompanyAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="traffic_control/TARSReportAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="traffic_control/TARSInsurance_CompanyAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="traffic_control/TARSDriverAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <tuple> <atom label="traffic_control/DriverGISAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <tuple> <atom label="traffic_control/DriverInsurance_CompanyAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="traffic_control/ReportGISAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="traffic_control/Insurance_CompanyGISAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="traffic_control/Traffic_ControllerReportAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <types> <type ID="11"/> <type ID="62"/> </types>
+</field>
+
+<sig label="traffic_control/Traffic_ControllerTARSAssociation" ID="64" parentID="11" one="yes">
+   <atom label="traffic_control/Traffic_ControllerTARSAssociation"/>
+</sig>
+
+<sig label="traffic_control/Traffic_ControllerInsurance_CompanyAssociation" ID="65" parentID="11" one="yes">
+   <atom label="traffic_control/Traffic_ControllerInsurance_CompanyAssociation"/>
+</sig>
+
+<sig label="traffic_control/TARSReportAssociation" ID="66" parentID="11" one="yes">
+   <atom label="traffic_control/TARSReportAssociation"/>
+</sig>
+
+<sig label="traffic_control/TARSInsurance_CompanyAssociation" ID="67" parentID="11" one="yes">
+   <atom label="traffic_control/TARSInsurance_CompanyAssociation"/>
+</sig>
+
+<sig label="traffic_control/TARSDriverAssociation" ID="68" parentID="11" one="yes">
+   <atom label="traffic_control/TARSDriverAssociation"/>
+</sig>
+
+<sig label="traffic_control/DriverGISAssociation" ID="69" parentID="11" one="yes">
+   <atom label="traffic_control/DriverGISAssociation"/>
+</sig>
+
+<sig label="traffic_control/DriverInsurance_CompanyAssociation" ID="70" parentID="11" one="yes">
+   <atom label="traffic_control/DriverInsurance_CompanyAssociation"/>
+</sig>
+
+<sig label="traffic_control/ReportGISAssociation" ID="71" parentID="11" one="yes">
+   <atom label="traffic_control/ReportGISAssociation"/>
+</sig>
+
+<sig label="traffic_control/Insurance_CompanyGISAssociation" ID="72" parentID="11" one="yes">
+   <atom label="traffic_control/Insurance_CompanyGISAssociation"/>
+</sig>
+
+<sig label="traffic_control/Traffic_ControllerReportAssociation" ID="73" parentID="11" one="yes">
+   <atom label="traffic_control/Traffic_ControllerReportAssociation"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Multiplicity_State" ID="62" parentID="0" abstract="yes">
+   <atom label="AssociationMappings/Declaration/ONE"/>
+   <atom label="AssociationMappings/Declaration/MANY"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/ONE" ID="74" parentID="62" one="yes">
+   <atom label="AssociationMappings/Declaration/ONE"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/MANY" ID="75" parentID="62" one="yes">
+   <atom label="AssociationMappings/Declaration/MANY"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Strategy" ID="76" parentID="0" abstract="yes">
+   <atom label="ORMStrategies/UnionSubclassStrategy"/>
+   <atom label="ORMStrategies/JoinedSubclassStrategy"/>
+   <atom label="ORMStrategies/UnionSuperclassStrategy"/>
+   <atom label="AssociationMappings/ForeignKeyEmbeddingStrategy"/>
+   <atom label="AssociationMappings/OwnAssociationTableStrategy"/>
+   <atom label="AssociationMappings/MergingOneTableStrategy"/>
+</sig>
+
+<field label="assignees" ID="77" parentID="76">
+   <tuple> <atom label="ORMStrategies/UnionSubclassStrategy"/> <atom label="traffic_control/GIS"/> </tuple>
+   <tuple> <atom label="ORMStrategies/UnionSubclassStrategy"/> <atom label="traffic_control/TARS"/> </tuple>
+   <tuple> <atom label="ORMStrategies/UnionSuperclassStrategy"/> <atom label="traffic_control/Traffic_Controller"/> </tuple>
+   <tuple> <atom label="ORMStrategies/UnionSuperclassStrategy"/> <atom label="traffic_control/Insurance"/> </tuple>
+   <tuple> <atom label="ORMStrategies/UnionSuperclassStrategy"/> <atom label="traffic_control/VehicleDetails"/> </tuple>
+   <tuple> <atom label="AssociationMappings/ForeignKeyEmbeddingStrategy"/> <atom label="traffic_control/TARSReportAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/ForeignKeyEmbeddingStrategy"/> <atom label="traffic_control/TARSInsurance_CompanyAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/ForeignKeyEmbeddingStrategy"/> <atom label="traffic_control/ReportGISAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/ForeignKeyEmbeddingStrategy"/> <atom label="traffic_control/Insurance_CompanyGISAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/OwnAssociationTableStrategy"/> <atom label="traffic_control/Traffic_ControllerTARSAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/OwnAssociationTableStrategy"/> <atom label="traffic_control/Traffic_ControllerInsurance_CompanyAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/OwnAssociationTableStrategy"/> <atom label="traffic_control/TARSDriverAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/OwnAssociationTableStrategy"/> <atom label="traffic_control/DriverGISAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/OwnAssociationTableStrategy"/> <atom label="traffic_control/DriverInsurance_CompanyAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/OwnAssociationTableStrategy"/> <atom label="traffic_control/Traffic_ControllerReportAssociation"/> </tuple>
+   <types> <type ID="76"/> <type ID="10"/> </types>
+   <types> <type ID="76"/> <type ID="11"/> </types>
+</field>
+
+<sig label="ORMStrategies/UnionSubclassStrategy" ID="78" parentID="76" one="yes">
+   <atom label="ORMStrategies/UnionSubclassStrategy"/>
+</sig>
+
+<sig label="ORMStrategies/JoinedSubclassStrategy" ID="79" parentID="76" one="yes">
+   <atom label="ORMStrategies/JoinedSubclassStrategy"/>
+</sig>
+
+<sig label="ORMStrategies/UnionSuperclassStrategy" ID="80" parentID="76" one="yes">
+   <atom label="ORMStrategies/UnionSuperclassStrategy"/>
+</sig>
+
+<sig label="AssociationMappings/ForeignKeyEmbeddingStrategy" ID="81" parentID="76" one="yes">
+   <atom label="AssociationMappings/ForeignKeyEmbeddingStrategy"/>
+</sig>
+
+<sig label="AssociationMappings/OwnAssociationTableStrategy" ID="82" parentID="76" one="yes">
+   <atom label="AssociationMappings/OwnAssociationTableStrategy"/>
+</sig>
+
+<sig label="AssociationMappings/MergingOneTableStrategy" ID="83" parentID="76" one="yes">
+   <atom label="AssociationMappings/MergingOneTableStrategy"/>
+</sig>
+
+<sig label="AssociationMappings/AssociationMappingStrategies" ID="84" parentID="0" one="yes">
+   <atom label="AssociationMappings/AssociationMappingStrategies"/>
+</sig>
+
+<field label="FKE" ID="85" parentID="84">
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="traffic_control/TARSReportAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="traffic_control/TARSInsurance_CompanyAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="traffic_control/ReportGISAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="traffic_control/Insurance_CompanyGISAssociation"/> </tuple>
+   <types> <type ID="84"/> <type ID="11"/> </types>
+</field>
+
+<field label="OAT" ID="86" parentID="84">
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="traffic_control/Traffic_ControllerTARSAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="traffic_control/Traffic_ControllerInsurance_CompanyAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="traffic_control/TARSDriverAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="traffic_control/DriverGISAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="traffic_control/DriverInsurance_CompanyAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="traffic_control/Traffic_ControllerReportAssociation"/> </tuple>
+   <types> <type ID="84"/> <type ID="11"/> </types>
+</field>
+
+<field label="MOT" ID="87" parentID="84">
+   <types> <type ID="84"/> <type ID="11"/> </types>
+</field>
+
+</instance>
+
+</alloy>

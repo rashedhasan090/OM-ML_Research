@@ -1,0 +1,570 @@
+<alloy builddate="2008/10/27 23:45 EDT">
+
+<instance bitwidth="4" maxseq="7" command="Run mapping_run_attendence_mgmt_extended for 23" filename="">
+
+<sig label="univ" ID="0" builtin="yes">
+   <atom label="assertions/relationalModel/Table$0"/>
+   <atom label="assertions/relationalModel/Table$1"/>
+   <atom label="assertions/relationalModel/Table$2"/>
+   <atom label="assertions/relationalModel/Table$3"/>
+   <atom label="assertions/relationalModel/Table$4"/>
+   <atom label="assertions/relationalModel/Table$5"/>
+   <atom label="assertions/relationalModel/Table$6"/>
+   <atom label="assertions/relationalModel/Field$0"/>
+   <atom label="assertions/relationalModel/Field$1"/>
+   <atom label="assertions/relationalModel/Field$2"/>
+   <atom label="assertions/relationalModel/Field$3"/>
+   <atom label="assertions/relationalModel/Field$4"/>
+   <atom label="assertions/relationalModel/Field$5"/>
+   <atom label="assertions/relationalModel/Field$6"/>
+   <atom label="assertions/relationalModel/Field$7"/>
+   <atom label="assertions/relationalModel/Field$8"/>
+   <atom label="assertions/relationalModel/Field$9"/>
+   <atom label="assertions/relationalModel/Field$10"/>
+   <atom label="assertions/relationalModel/Field$11"/>
+   <atom label="attendence_mgmt_extended/Admin"/>
+   <atom label="attendence_mgmt_extended/Student"/>
+   <atom label="attendence_mgmt_extended/Teacher"/>
+   <atom label="attendence_mgmt_extended/TeachingAssistant"/>
+   <atom label="attendence_mgmt_extended/Course"/>
+   <atom label="attendence_mgmt_extended/AttendenceManagementSystem"/>
+   <atom label="attendence_mgmt_extended/AdminID"/>
+   <atom label="attendence_mgmt_extended/StudentID"/>
+   <atom label="attendence_mgmt_extended/credentials"/>
+   <atom label="attendence_mgmt_extended/TAcred"/>
+   <atom label="attendence_mgmt_extended/CourseID"/>
+   <atom label="attendence_mgmt_extended/sysid"/>
+   <atom label="attendence_mgmt_extended/studentcount"/>
+   <atom label="attendence_mgmt_extended/StudentName"/>
+   <atom label="attendence_mgmt_extended/AdminName"/>
+   <atom label="attendence_mgmt_extended/CourseName"/>
+   <atom label="attendence_mgmt_extended/systemconifg"/>
+   <atom label="attendence_mgmt_extended/AdminStudentAssociation"/>
+   <atom label="attendence_mgmt_extended/StudentCourseAssociation"/>
+   <atom label="attendence_mgmt_extended/TeacherCourseAssociation"/>
+   <atom label="attendence_mgmt_extended/AdminAttendenceManagementSystemAssociation"/>
+   <atom label="AssociationMappings/Declaration/No$0"/>
+   <atom label="AssociationMappings/Declaration/DType$0"/>
+   <atom label="AssociationMappings/Declaration/ONE"/>
+   <atom label="AssociationMappings/Declaration/MANY"/>
+   <atom label="ORMStrategies/UnionSubclassStrategy"/>
+   <atom label="ORMStrategies/JoinedSubclassStrategy"/>
+   <atom label="ORMStrategies/UnionSuperclassStrategy"/>
+   <atom label="AssociationMappings/ForeignKeyEmbeddingStrategy"/>
+   <atom label="AssociationMappings/OwnAssociationTableStrategy"/>
+   <atom label="AssociationMappings/MergingOneTableStrategy"/>
+   <atom label="AssociationMappings/AssociationMappingStrategies"/>
+   <atom label="-8"/>
+   <atom label="-7"/>
+   <atom label="-6"/>
+   <atom label="-5"/>
+   <atom label="-4"/>
+   <atom label="-3"/>
+   <atom label="-2"/>
+   <atom label="-1"/>
+   <atom label="0"/>
+   <atom label="1"/>
+   <atom label="2"/>
+   <atom label="3"/>
+   <atom label="4"/>
+   <atom label="5"/>
+   <atom label="6"/>
+   <atom label="7"/>
+</sig>
+
+<sig label="Int" ID="1" parentID="0" builtin="yes">
+   <atom label="-8"/>
+   <atom label="-7"/>
+   <atom label="-6"/>
+   <atom label="-5"/>
+   <atom label="-4"/>
+   <atom label="-3"/>
+   <atom label="-2"/>
+   <atom label="-1"/>
+   <atom label="0"/>
+   <atom label="1"/>
+   <atom label="2"/>
+   <atom label="3"/>
+   <atom label="4"/>
+   <atom label="5"/>
+   <atom label="6"/>
+   <atom label="7"/>
+</sig>
+
+<sig label="seq/Int" ID="2" parentID="1" builtin="yes">
+   <atom label="0"/>
+   <atom label="1"/>
+   <atom label="2"/>
+   <atom label="3"/>
+   <atom label="4"/>
+   <atom label="5"/>
+   <atom label="6"/>
+</sig>
+
+<sig label="fun/String" ID="3" parentID="0" builtin="yes">
+</sig>
+
+<sig label="assertions/relationalModel/Table" ID="4" parentID="0">
+   <atom label="assertions/relationalModel/Table$0"/>
+   <atom label="assertions/relationalModel/Table$1"/>
+   <atom label="assertions/relationalModel/Table$2"/>
+   <atom label="assertions/relationalModel/Table$3"/>
+   <atom label="assertions/relationalModel/Table$4"/>
+   <atom label="assertions/relationalModel/Table$5"/>
+   <atom label="assertions/relationalModel/Table$6"/>
+</sig>
+
+<field label="fields" ID="5" parentID="4">
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$10"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$11"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="assertions/relationalModel/Field$7"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="assertions/relationalModel/Field$10"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="assertions/relationalModel/Field$6"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="assertions/relationalModel/Field$11"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$3"/> <atom label="assertions/relationalModel/Field$4"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$3"/> <atom label="assertions/relationalModel/Field$10"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="assertions/relationalModel/Field$2"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="assertions/relationalModel/Field$7"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="assertions/relationalModel/Field$11"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$1"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$5"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$6"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="assertions/relationalModel/Field$0"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="assertions/relationalModel/Field$3"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="assertions/relationalModel/Field$8"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="assertions/relationalModel/Field$11"/> </tuple>
+   <types> <type ID="4"/> <type ID="6"/> </types>
+</field>
+
+<field label="primaryKey" ID="7" parentID="4">
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$10"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$11"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="assertions/relationalModel/Field$7"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="assertions/relationalModel/Field$10"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="assertions/relationalModel/Field$6"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="assertions/relationalModel/Field$11"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$3"/> <atom label="assertions/relationalModel/Field$10"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="assertions/relationalModel/Field$7"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$6"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="assertions/relationalModel/Field$11"/> </tuple>
+   <types> <type ID="4"/> <type ID="6"/> </types>
+</field>
+
+<field label="foreignKey" ID="8" parentID="4">
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$10"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$11"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="assertions/relationalModel/Field$7"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="assertions/relationalModel/Field$10"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="assertions/relationalModel/Field$6"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="assertions/relationalModel/Field$11"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="assertions/relationalModel/Field$11"/> </tuple>
+   <types> <type ID="4"/> <type ID="6"/> </types>
+</field>
+
+<field label="tAssociate" ID="9" parentID="4">
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="attendence_mgmt_extended/AdminStudentAssociation"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="attendence_mgmt_extended/StudentCourseAssociation"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="attendence_mgmt_extended/AdminAttendenceManagementSystemAssociation"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$3"/> <atom label="attendence_mgmt_extended/Student"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="attendence_mgmt_extended/Course"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="attendence_mgmt_extended/AttendenceManagementSystem"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="attendence_mgmt_extended/Admin"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="attendence_mgmt_extended/Teacher"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="attendence_mgmt_extended/TeachingAssistant"/> </tuple>
+   <types> <type ID="4"/> <type ID="10"/> </types>
+   <types> <type ID="4"/> <type ID="11"/> </types>
+</field>
+
+<sig label="assertions/relationalModel/Field" ID="6" parentID="0">
+   <atom label="assertions/relationalModel/Field$0"/>
+   <atom label="assertions/relationalModel/Field$1"/>
+   <atom label="assertions/relationalModel/Field$2"/>
+   <atom label="assertions/relationalModel/Field$3"/>
+   <atom label="assertions/relationalModel/Field$4"/>
+   <atom label="assertions/relationalModel/Field$5"/>
+   <atom label="assertions/relationalModel/Field$6"/>
+   <atom label="assertions/relationalModel/Field$7"/>
+   <atom label="assertions/relationalModel/Field$8"/>
+   <atom label="assertions/relationalModel/Field$9"/>
+   <atom label="assertions/relationalModel/Field$10"/>
+   <atom label="assertions/relationalModel/Field$11"/>
+</sig>
+
+<field label="fAssociate" ID="12" parentID="6">
+   <tuple> <atom label="assertions/relationalModel/Field$0"/> <atom label="AssociationMappings/Declaration/DType$0"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$1"/> <atom label="attendence_mgmt_extended/systemconifg"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$2"/> <atom label="attendence_mgmt_extended/CourseName"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$3"/> <atom label="attendence_mgmt_extended/AdminName"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$4"/> <atom label="attendence_mgmt_extended/StudentName"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$5"/> <atom label="attendence_mgmt_extended/studentcount"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$6"/> <atom label="attendence_mgmt_extended/sysid"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$7"/> <atom label="attendence_mgmt_extended/CourseID"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$8"/> <atom label="attendence_mgmt_extended/TAcred"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$9"/> <atom label="attendence_mgmt_extended/credentials"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$10"/> <atom label="attendence_mgmt_extended/StudentID"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$11"/> <atom label="attendence_mgmt_extended/AdminID"/> </tuple>
+   <types> <type ID="6"/> <type ID="13"/> </types>
+</field>
+
+<sig label="AssociationMappings/Declaration/needHandle" ID="13" parentID="0" abstract="yes">
+   <atom label="attendence_mgmt_extended/Admin"/>
+   <atom label="attendence_mgmt_extended/Student"/>
+   <atom label="attendence_mgmt_extended/Teacher"/>
+   <atom label="attendence_mgmt_extended/TeachingAssistant"/>
+   <atom label="attendence_mgmt_extended/Course"/>
+   <atom label="attendence_mgmt_extended/AttendenceManagementSystem"/>
+   <atom label="attendence_mgmt_extended/AdminID"/>
+   <atom label="attendence_mgmt_extended/StudentID"/>
+   <atom label="attendence_mgmt_extended/credentials"/>
+   <atom label="attendence_mgmt_extended/TAcred"/>
+   <atom label="attendence_mgmt_extended/CourseID"/>
+   <atom label="attendence_mgmt_extended/sysid"/>
+   <atom label="attendence_mgmt_extended/studentcount"/>
+   <atom label="attendence_mgmt_extended/StudentName"/>
+   <atom label="attendence_mgmt_extended/AdminName"/>
+   <atom label="attendence_mgmt_extended/CourseName"/>
+   <atom label="attendence_mgmt_extended/systemconifg"/>
+   <atom label="attendence_mgmt_extended/AdminStudentAssociation"/>
+   <atom label="attendence_mgmt_extended/StudentCourseAssociation"/>
+   <atom label="attendence_mgmt_extended/TeacherCourseAssociation"/>
+   <atom label="attendence_mgmt_extended/AdminAttendenceManagementSystemAssociation"/>
+   <atom label="AssociationMappings/Declaration/No$0"/>
+   <atom label="AssociationMappings/Declaration/DType$0"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Attribute" ID="14" parentID="13" abstract="yes">
+   <atom label="attendence_mgmt_extended/Admin"/>
+   <atom label="attendence_mgmt_extended/Student"/>
+   <atom label="attendence_mgmt_extended/Teacher"/>
+   <atom label="attendence_mgmt_extended/TeachingAssistant"/>
+   <atom label="attendence_mgmt_extended/Course"/>
+   <atom label="attendence_mgmt_extended/AttendenceManagementSystem"/>
+   <atom label="attendence_mgmt_extended/AdminID"/>
+   <atom label="attendence_mgmt_extended/StudentID"/>
+   <atom label="attendence_mgmt_extended/credentials"/>
+   <atom label="attendence_mgmt_extended/TAcred"/>
+   <atom label="attendence_mgmt_extended/CourseID"/>
+   <atom label="attendence_mgmt_extended/sysid"/>
+   <atom label="attendence_mgmt_extended/studentcount"/>
+   <atom label="attendence_mgmt_extended/StudentName"/>
+   <atom label="attendence_mgmt_extended/AdminName"/>
+   <atom label="attendence_mgmt_extended/CourseName"/>
+   <atom label="attendence_mgmt_extended/systemconifg"/>
+   <atom label="AssociationMappings/Declaration/No$0"/>
+   <atom label="AssociationMappings/Declaration/DType$0"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Class" ID="10" parentID="14" abstract="yes">
+   <atom label="attendence_mgmt_extended/Admin"/>
+   <atom label="attendence_mgmt_extended/Student"/>
+   <atom label="attendence_mgmt_extended/Teacher"/>
+   <atom label="attendence_mgmt_extended/TeachingAssistant"/>
+   <atom label="attendence_mgmt_extended/Course"/>
+   <atom label="attendence_mgmt_extended/AttendenceManagementSystem"/>
+</sig>
+
+<field label="attrSet" ID="15" parentID="10">
+   <tuple> <atom label="attendence_mgmt_extended/Admin"/> <atom label="attendence_mgmt_extended/AdminID"/> </tuple>
+   <tuple> <atom label="attendence_mgmt_extended/Admin"/> <atom label="attendence_mgmt_extended/AdminName"/> </tuple>
+   <tuple> <atom label="attendence_mgmt_extended/Student"/> <atom label="attendence_mgmt_extended/StudentID"/> </tuple>
+   <tuple> <atom label="attendence_mgmt_extended/Student"/> <atom label="attendence_mgmt_extended/StudentName"/> </tuple>
+   <tuple> <atom label="attendence_mgmt_extended/Teacher"/> <atom label="attendence_mgmt_extended/credentials"/> </tuple>
+   <tuple> <atom label="attendence_mgmt_extended/TeachingAssistant"/> <atom label="attendence_mgmt_extended/TAcred"/> </tuple>
+   <tuple> <atom label="attendence_mgmt_extended/Course"/> <atom label="attendence_mgmt_extended/CourseID"/> </tuple>
+   <tuple> <atom label="attendence_mgmt_extended/Course"/> <atom label="attendence_mgmt_extended/CourseName"/> </tuple>
+   <tuple> <atom label="attendence_mgmt_extended/AttendenceManagementSystem"/> <atom label="attendence_mgmt_extended/sysid"/> </tuple>
+   <tuple> <atom label="attendence_mgmt_extended/AttendenceManagementSystem"/> <atom label="attendence_mgmt_extended/studentcount"/> </tuple>
+   <tuple> <atom label="attendence_mgmt_extended/AttendenceManagementSystem"/> <atom label="attendence_mgmt_extended/systemconifg"/> </tuple>
+   <types> <type ID="10"/> <type ID="14"/> </types>
+</field>
+
+<field label="id" ID="16" parentID="10">
+   <tuple> <atom label="attendence_mgmt_extended/Admin"/> <atom label="attendence_mgmt_extended/AdminID"/> </tuple>
+   <tuple> <atom label="attendence_mgmt_extended/Student"/> <atom label="attendence_mgmt_extended/StudentID"/> </tuple>
+   <tuple> <atom label="attendence_mgmt_extended/Teacher"/> <atom label="attendence_mgmt_extended/AdminID"/> </tuple>
+   <tuple> <atom label="attendence_mgmt_extended/TeachingAssistant"/> <atom label="attendence_mgmt_extended/AdminID"/> </tuple>
+   <tuple> <atom label="attendence_mgmt_extended/Course"/> <atom label="attendence_mgmt_extended/CourseID"/> </tuple>
+   <tuple> <atom label="attendence_mgmt_extended/AttendenceManagementSystem"/> <atom label="attendence_mgmt_extended/sysid"/> </tuple>
+   <types> <type ID="10"/> <type ID="14"/> </types>
+</field>
+
+<field label="parent" ID="17" parentID="10">
+   <tuple> <atom label="attendence_mgmt_extended/Teacher"/> <atom label="attendence_mgmt_extended/Admin"/> </tuple>
+   <tuple> <atom label="attendence_mgmt_extended/TeachingAssistant"/> <atom label="attendence_mgmt_extended/Admin"/> </tuple>
+   <types> <type ID="10"/> <type ID="10"/> </types>
+</field>
+
+<field label="isAbstract" ID="18" parentID="10">
+   <tuple> <atom label="attendence_mgmt_extended/Admin"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="attendence_mgmt_extended/Student"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="attendence_mgmt_extended/Teacher"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="attendence_mgmt_extended/TeachingAssistant"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="attendence_mgmt_extended/Course"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="attendence_mgmt_extended/AttendenceManagementSystem"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <types> <type ID="10"/> <type ID="19"/> </types>
+</field>
+
+<sig label="attendence_mgmt_extended/Admin" ID="20" parentID="10" one="yes">
+   <atom label="attendence_mgmt_extended/Admin"/>
+</sig>
+
+<sig label="attendence_mgmt_extended/Student" ID="21" parentID="10" one="yes">
+   <atom label="attendence_mgmt_extended/Student"/>
+</sig>
+
+<sig label="attendence_mgmt_extended/Teacher" ID="22" parentID="10" one="yes">
+   <atom label="attendence_mgmt_extended/Teacher"/>
+</sig>
+
+<sig label="attendence_mgmt_extended/TeachingAssistant" ID="23" parentID="10" one="yes">
+   <atom label="attendence_mgmt_extended/TeachingAssistant"/>
+</sig>
+
+<sig label="attendence_mgmt_extended/Course" ID="24" parentID="10" one="yes">
+   <atom label="attendence_mgmt_extended/Course"/>
+</sig>
+
+<sig label="attendence_mgmt_extended/AttendenceManagementSystem" ID="25" parentID="10" one="yes">
+   <atom label="attendence_mgmt_extended/AttendenceManagementSystem"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Type" ID="26" parentID="14" abstract="yes">
+   <atom label="attendence_mgmt_extended/AdminID"/>
+   <atom label="attendence_mgmt_extended/StudentID"/>
+   <atom label="attendence_mgmt_extended/credentials"/>
+   <atom label="attendence_mgmt_extended/TAcred"/>
+   <atom label="attendence_mgmt_extended/CourseID"/>
+   <atom label="attendence_mgmt_extended/sysid"/>
+   <atom label="attendence_mgmt_extended/studentcount"/>
+   <atom label="attendence_mgmt_extended/StudentName"/>
+   <atom label="attendence_mgmt_extended/AdminName"/>
+   <atom label="attendence_mgmt_extended/CourseName"/>
+   <atom label="attendence_mgmt_extended/systemconifg"/>
+   <atom label="AssociationMappings/Declaration/No$0"/>
+   <atom label="AssociationMappings/Declaration/DType$0"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Integer" ID="27" parentID="26">
+   <atom label="attendence_mgmt_extended/AdminID"/>
+   <atom label="attendence_mgmt_extended/StudentID"/>
+   <atom label="attendence_mgmt_extended/credentials"/>
+   <atom label="attendence_mgmt_extended/TAcred"/>
+   <atom label="attendence_mgmt_extended/CourseID"/>
+   <atom label="attendence_mgmt_extended/sysid"/>
+   <atom label="attendence_mgmt_extended/studentcount"/>
+</sig>
+
+<sig label="attendence_mgmt_extended/AdminID" ID="28" parentID="27" one="yes">
+   <atom label="attendence_mgmt_extended/AdminID"/>
+</sig>
+
+<sig label="attendence_mgmt_extended/StudentID" ID="29" parentID="27" one="yes">
+   <atom label="attendence_mgmt_extended/StudentID"/>
+</sig>
+
+<sig label="attendence_mgmt_extended/credentials" ID="30" parentID="27" one="yes">
+   <atom label="attendence_mgmt_extended/credentials"/>
+</sig>
+
+<sig label="attendence_mgmt_extended/TAcred" ID="31" parentID="27" one="yes">
+   <atom label="attendence_mgmt_extended/TAcred"/>
+</sig>
+
+<sig label="attendence_mgmt_extended/CourseID" ID="32" parentID="27" one="yes">
+   <atom label="attendence_mgmt_extended/CourseID"/>
+</sig>
+
+<sig label="attendence_mgmt_extended/sysid" ID="33" parentID="27" one="yes">
+   <atom label="attendence_mgmt_extended/sysid"/>
+</sig>
+
+<sig label="attendence_mgmt_extended/studentcount" ID="34" parentID="27" one="yes">
+   <atom label="attendence_mgmt_extended/studentcount"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Real" ID="35" parentID="26">
+   <atom label="attendence_mgmt_extended/StudentName"/>
+</sig>
+
+<sig label="attendence_mgmt_extended/StudentName" ID="36" parentID="35" one="yes">
+   <atom label="attendence_mgmt_extended/StudentName"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/string" ID="37" parentID="26">
+   <atom label="attendence_mgmt_extended/AdminName"/>
+   <atom label="attendence_mgmt_extended/CourseName"/>
+   <atom label="attendence_mgmt_extended/systemconifg"/>
+</sig>
+
+<sig label="attendence_mgmt_extended/AdminName" ID="38" parentID="37" one="yes">
+   <atom label="attendence_mgmt_extended/AdminName"/>
+</sig>
+
+<sig label="attendence_mgmt_extended/CourseName" ID="39" parentID="37" one="yes">
+   <atom label="attendence_mgmt_extended/CourseName"/>
+</sig>
+
+<sig label="attendence_mgmt_extended/systemconifg" ID="40" parentID="37" one="yes">
+   <atom label="attendence_mgmt_extended/systemconifg"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Bool" ID="19" parentID="26">
+   <atom label="AssociationMappings/Declaration/No$0"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Yes" ID="41" parentID="19">
+</sig>
+
+<sig label="AssociationMappings/Declaration/No" ID="42" parentID="19">
+   <atom label="AssociationMappings/Declaration/No$0"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/DType" ID="43" parentID="26">
+   <atom label="AssociationMappings/Declaration/DType$0"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Longblob" ID="44" parentID="26">
+</sig>
+
+<sig label="AssociationMappings/Declaration/Time" ID="45" parentID="26">
+</sig>
+
+<sig label="AssociationMappings/Declaration/Association" ID="11" parentID="13" abstract="yes">
+   <atom label="attendence_mgmt_extended/AdminStudentAssociation"/>
+   <atom label="attendence_mgmt_extended/StudentCourseAssociation"/>
+   <atom label="attendence_mgmt_extended/TeacherCourseAssociation"/>
+   <atom label="attendence_mgmt_extended/AdminAttendenceManagementSystemAssociation"/>
+</sig>
+
+<field label="src" ID="46" parentID="11">
+   <tuple> <atom label="attendence_mgmt_extended/AdminStudentAssociation"/> <atom label="attendence_mgmt_extended/Admin"/> </tuple>
+   <tuple> <atom label="attendence_mgmt_extended/StudentCourseAssociation"/> <atom label="attendence_mgmt_extended/Student"/> </tuple>
+   <tuple> <atom label="attendence_mgmt_extended/TeacherCourseAssociation"/> <atom label="attendence_mgmt_extended/Teacher"/> </tuple>
+   <tuple> <atom label="attendence_mgmt_extended/AdminAttendenceManagementSystemAssociation"/> <atom label="attendence_mgmt_extended/Admin"/> </tuple>
+   <types> <type ID="11"/> <type ID="10"/> </types>
+</field>
+
+<field label="dst" ID="47" parentID="11">
+   <tuple> <atom label="attendence_mgmt_extended/AdminStudentAssociation"/> <atom label="attendence_mgmt_extended/Student"/> </tuple>
+   <tuple> <atom label="attendence_mgmt_extended/StudentCourseAssociation"/> <atom label="attendence_mgmt_extended/Course"/> </tuple>
+   <tuple> <atom label="attendence_mgmt_extended/TeacherCourseAssociation"/> <atom label="attendence_mgmt_extended/Course"/> </tuple>
+   <tuple> <atom label="attendence_mgmt_extended/AdminAttendenceManagementSystemAssociation"/> <atom label="attendence_mgmt_extended/AttendenceManagementSystem"/> </tuple>
+   <types> <type ID="11"/> <type ID="10"/> </types>
+</field>
+
+<field label="src_multiplicity" ID="48" parentID="11">
+   <tuple> <atom label="attendence_mgmt_extended/AdminStudentAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <tuple> <atom label="attendence_mgmt_extended/StudentCourseAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <tuple> <atom label="attendence_mgmt_extended/TeacherCourseAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <tuple> <atom label="attendence_mgmt_extended/AdminAttendenceManagementSystemAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <types> <type ID="11"/> <type ID="49"/> </types>
+</field>
+
+<field label="dst_multiplicity" ID="50" parentID="11">
+   <tuple> <atom label="attendence_mgmt_extended/AdminStudentAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="attendence_mgmt_extended/StudentCourseAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="attendence_mgmt_extended/TeacherCourseAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="attendence_mgmt_extended/AdminAttendenceManagementSystemAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <types> <type ID="11"/> <type ID="49"/> </types>
+</field>
+
+<sig label="attendence_mgmt_extended/AdminStudentAssociation" ID="51" parentID="11" one="yes">
+   <atom label="attendence_mgmt_extended/AdminStudentAssociation"/>
+</sig>
+
+<sig label="attendence_mgmt_extended/StudentCourseAssociation" ID="52" parentID="11" one="yes">
+   <atom label="attendence_mgmt_extended/StudentCourseAssociation"/>
+</sig>
+
+<sig label="attendence_mgmt_extended/TeacherCourseAssociation" ID="53" parentID="11" one="yes">
+   <atom label="attendence_mgmt_extended/TeacherCourseAssociation"/>
+</sig>
+
+<sig label="attendence_mgmt_extended/AdminAttendenceManagementSystemAssociation" ID="54" parentID="11" one="yes">
+   <atom label="attendence_mgmt_extended/AdminAttendenceManagementSystemAssociation"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Multiplicity_State" ID="49" parentID="0" abstract="yes">
+   <atom label="AssociationMappings/Declaration/ONE"/>
+   <atom label="AssociationMappings/Declaration/MANY"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/ONE" ID="55" parentID="49" one="yes">
+   <atom label="AssociationMappings/Declaration/ONE"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/MANY" ID="56" parentID="49" one="yes">
+   <atom label="AssociationMappings/Declaration/MANY"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Strategy" ID="57" parentID="0" abstract="yes">
+   <atom label="ORMStrategies/UnionSubclassStrategy"/>
+   <atom label="ORMStrategies/JoinedSubclassStrategy"/>
+   <atom label="ORMStrategies/UnionSuperclassStrategy"/>
+   <atom label="AssociationMappings/ForeignKeyEmbeddingStrategy"/>
+   <atom label="AssociationMappings/OwnAssociationTableStrategy"/>
+   <atom label="AssociationMappings/MergingOneTableStrategy"/>
+</sig>
+
+<field label="assignees" ID="58" parentID="57">
+   <tuple> <atom label="ORMStrategies/UnionSubclassStrategy"/> <atom label="attendence_mgmt_extended/Student"/> </tuple>
+   <tuple> <atom label="ORMStrategies/UnionSubclassStrategy"/> <atom label="attendence_mgmt_extended/AttendenceManagementSystem"/> </tuple>
+   <tuple> <atom label="ORMStrategies/UnionSuperclassStrategy"/> <atom label="attendence_mgmt_extended/Admin"/> </tuple>
+   <tuple> <atom label="ORMStrategies/UnionSuperclassStrategy"/> <atom label="attendence_mgmt_extended/Teacher"/> </tuple>
+   <tuple> <atom label="ORMStrategies/UnionSuperclassStrategy"/> <atom label="attendence_mgmt_extended/TeachingAssistant"/> </tuple>
+   <tuple> <atom label="AssociationMappings/ForeignKeyEmbeddingStrategy"/> <atom label="attendence_mgmt_extended/TeacherCourseAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/OwnAssociationTableStrategy"/> <atom label="attendence_mgmt_extended/AdminStudentAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/OwnAssociationTableStrategy"/> <atom label="attendence_mgmt_extended/StudentCourseAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/OwnAssociationTableStrategy"/> <atom label="attendence_mgmt_extended/AdminAttendenceManagementSystemAssociation"/> </tuple>
+   <types> <type ID="57"/> <type ID="10"/> </types>
+   <types> <type ID="57"/> <type ID="11"/> </types>
+</field>
+
+<sig label="ORMStrategies/UnionSubclassStrategy" ID="59" parentID="57" one="yes">
+   <atom label="ORMStrategies/UnionSubclassStrategy"/>
+</sig>
+
+<sig label="ORMStrategies/JoinedSubclassStrategy" ID="60" parentID="57" one="yes">
+   <atom label="ORMStrategies/JoinedSubclassStrategy"/>
+</sig>
+
+<sig label="ORMStrategies/UnionSuperclassStrategy" ID="61" parentID="57" one="yes">
+   <atom label="ORMStrategies/UnionSuperclassStrategy"/>
+</sig>
+
+<sig label="AssociationMappings/ForeignKeyEmbeddingStrategy" ID="62" parentID="57" one="yes">
+   <atom label="AssociationMappings/ForeignKeyEmbeddingStrategy"/>
+</sig>
+
+<sig label="AssociationMappings/OwnAssociationTableStrategy" ID="63" parentID="57" one="yes">
+   <atom label="AssociationMappings/OwnAssociationTableStrategy"/>
+</sig>
+
+<sig label="AssociationMappings/MergingOneTableStrategy" ID="64" parentID="57" one="yes">
+   <atom label="AssociationMappings/MergingOneTableStrategy"/>
+</sig>
+
+<sig label="AssociationMappings/AssociationMappingStrategies" ID="65" parentID="0" one="yes">
+   <atom label="AssociationMappings/AssociationMappingStrategies"/>
+</sig>
+
+<field label="FKE" ID="66" parentID="65">
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="attendence_mgmt_extended/TeacherCourseAssociation"/> </tuple>
+   <types> <type ID="65"/> <type ID="11"/> </types>
+</field>
+
+<field label="OAT" ID="67" parentID="65">
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="attendence_mgmt_extended/AdminStudentAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="attendence_mgmt_extended/StudentCourseAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="attendence_mgmt_extended/AdminAttendenceManagementSystemAssociation"/> </tuple>
+   <types> <type ID="65"/> <type ID="11"/> </types>
+</field>
+
+<field label="MOT" ID="68" parentID="65">
+   <types> <type ID="65"/> <type ID="11"/> </types>
+</field>
+
+</instance>
+
+</alloy>

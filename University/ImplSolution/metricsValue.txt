@@ -1,0 +1,639 @@
+Computing Satisfying Solutions ...
+Current Time: 2023-02-24 04:31:16.319
+-----------------------------------------
+Solution #1 has been generated.
+Eq.Class #1
+Solution #1 is a pareto Optimal Solution.
+
+TATI(Loan)= 1
+TATI(MonthlySalary)= 1
+TATI(Employee)= 1
+TATI(HR)= 1
+TATI(Salary)= 3
+TATI(University)= 1
+TATI(Savings)= 1
+Overall_TATI(solution:1)= 9
+
+NCT(Loan)= 2
+NCT(MonthlySalary)= 1
+NCT(Employee)= 2
+NCT(HR)= 2
+NCT(Salary)= 2
+NCT(University)= 1
+NCT(Savings)= 1
+Overall_NCT(solution:1)= 11
+
+NCRF(Loan)= 1
+NCRF(MonthlySalary)= 1
+NCRF(Employee)= 1
+NCRF(HR)= 1
+NCRF(Salary)= 6
+NCRF(University)= 1
+NCRF(Savings)= 1
+Overall_NCRF(solution:1)= 12
+
+ANV(Loan)= 0
+ANV(MonthlySalary)= 0
+ANV(Employee)= 0
+ANV(HR)= 0
+ANV(Salary)= 0
+ANV(University)= 0
+ANV(Savings)= 0
+Overall_ANV(solution:1)= 0
+Overall_NIC(solution:1)= 17
+Overall_NFK(solution:1)= 6
+Eq.Classes: 1 / 1
+# ParetoOptimalSolutions: 1
+-----------------------------------------
+
+-----------------------------------------
+-----------------------------------------
+Solution #2 has been generated.
+Eq.Class #1
+-----------------------------------------
+Solution #3 has been generated.
+Eq.Class #2
+Solution #3 is a pareto Optimal Solution.
+
+TATI(Loan)= 1
+TATI(MonthlySalary)= 1
+TATI(Employee)= 1
+TATI(HR)= 1
+TATI(Salary)= 3
+TATI(University)= 1
+TATI(Savings)= 1
+Overall_TATI(solution:3)= 9
+
+NCT(Loan)= 2
+NCT(MonthlySalary)= 1
+NCT(Employee)= 2
+NCT(HR)= 2
+NCT(Salary)= 1
+NCT(University)= 1
+NCT(Savings)= 1
+Overall_NCT(solution:3)= 10
+
+NCRF(Loan)= 1
+NCRF(MonthlySalary)= 1
+NCRF(Employee)= 1
+NCRF(HR)= 1
+NCRF(Salary)= 7
+NCRF(University)= 1
+NCRF(Savings)= 1
+Overall_NCRF(solution:3)= 13
+
+ANV(Loan)= 0
+ANV(MonthlySalary)= 0
+ANV(Employee)= 0
+ANV(HR)= 0
+ANV(Salary)= 0
+ANV(University)= 0
+ANV(Savings)= 0
+Overall_ANV(solution:3)= 0
+Overall_NIC(solution:3)= 17
+Overall_NFK(solution:3)= 7
+Eq.Classes: 2 / 3
+# ParetoOptimalSolutions: 2
+-----------------------------------------
+
+-----------------------------------------
+-----------------------------------------
+Solution #4 has been generated.
+Eq.Class #3
+Solution #4 is a pareto Optimal Solution.
+
+TATI(Loan)= 1
+TATI(MonthlySalary)= 1
+TATI(Employee)= 1
+TATI(HR)= 1
+TATI(Salary)= 3
+TATI(University)= 1
+TATI(Savings)= 1
+Overall_TATI(solution:4)= 9
+
+NCT(Loan)= 1
+NCT(MonthlySalary)= 1
+NCT(Employee)= 1
+NCT(HR)= 2
+NCT(Salary)= 2
+NCT(University)= 1
+NCT(Savings)= 1
+Overall_NCT(solution:4)= 9
+
+NCRF(Loan)= 1
+NCRF(MonthlySalary)= 1
+NCRF(Employee)= 1
+NCRF(HR)= 1
+NCRF(Salary)= 7
+NCRF(University)= 1
+NCRF(Savings)= 1
+Overall_NCRF(solution:4)= 13
+
+ANV(Loan)= 0
+ANV(MonthlySalary)= 0
+ANV(Employee)= 0
+ANV(HR)= 0
+ANV(Salary)= 0
+ANV(University)= 0
+ANV(Savings)= 0
+Overall_ANV(solution:4)= 0
+Overall_NIC(solution:4)= 14
+Overall_NFK(solution:4)= 8
+Eq.Classes: 3 / 4
+# ParetoOptimalSolutions: 3
+-----------------------------------------
+
+-----------------------------------------
+-----------------------------------------
+Solution #5 has been generated.
+Eq.Class #4
+Solution #5 is a pareto Optimal Solution.
+
+TATI(Loan)= 1
+TATI(MonthlySalary)= 1
+TATI(Employee)= 1
+TATI(HR)= 1
+TATI(Salary)= 3
+TATI(University)= 1
+TATI(Savings)= 1
+Overall_TATI(solution:5)= 9
+
+NCT(Loan)= 1
+NCT(MonthlySalary)= 1
+NCT(Employee)= 2
+NCT(HR)= 2
+NCT(Salary)= 2
+NCT(University)= 1
+NCT(Savings)= 1
+Overall_NCT(solution:5)= 10
+
+NCRF(Loan)= 1
+NCRF(MonthlySalary)= 1
+NCRF(Employee)= 1
+NCRF(HR)= 1
+NCRF(Salary)= 6
+NCRF(University)= 1
+NCRF(Savings)= 1
+Overall_NCRF(solution:5)= 12
+
+ANV(Loan)= 0
+ANV(MonthlySalary)= 0
+ANV(Employee)= 0
+ANV(HR)= 0
+ANV(Salary)= 0
+ANV(University)= 0
+ANV(Savings)= 0
+Overall_ANV(solution:5)= 0
+Overall_NIC(solution:5)= 15
+Overall_NFK(solution:5)= 7
+Eq.Classes: 4 / 5
+# ParetoOptimalSolutions: 4
+-----------------------------------------
+
+-----------------------------------------
+-----------------------------------------
+Solution #6 has been generated.
+Eq.Class #5
+-----------------------------------------
+Solution #7 has been generated.
+Eq.Class #4
+-----------------------------------------
+Solution #8 has been generated.
+Eq.Class #2
+-----------------------------------------
+Solution #9 has been generated.
+Eq.Class #5
+-----------------------------------------
+Solution #10 has been generated.
+Eq.Class #5
+-----------------------------------------
+Solution #11 has been generated.
+Eq.Class #5
+-----------------------------------------
+Solution #12 has been generated.
+Eq.Class #5
+-----------------------------------------
+Solution #13 has been generated.
+Eq.Class #5
+-----------------------------------------
+Solution #14 has been generated.
+Eq.Class #2
+-----------------------------------------
+Solution #15 has been generated.
+Eq.Class #2
+-----------------------------------------
+Solution #16 has been generated.
+Eq.Class #5
+-----------------------------------------
+Solution #17 has been generated.
+Eq.Class #5
+-----------------------------------------
+Solution #18 has been generated.
+Eq.Class #5
+-----------------------------------------
+Solution #19 has been generated.
+Eq.Class #3
+-----------------------------------------
+Solution #20 has been generated.
+Eq.Class #5
+Solution #20 is a pareto Optimal Solution.
+
+TATI(Loan)= 1
+TATI(MonthlySalary)= 1
+TATI(Employee)= 1
+TATI(HR)= 1
+TATI(Salary)= 3
+TATI(University)= 1
+TATI(Savings)= 1
+Overall_TATI(solution:20)= 9
+
+NCT(Loan)= 1
+NCT(MonthlySalary)= 1
+NCT(Employee)= 2
+NCT(HR)= 2
+NCT(Salary)= 1
+NCT(University)= 1
+NCT(Savings)= 1
+Overall_NCT(solution:20)= 9
+
+NCRF(Loan)= 1
+NCRF(MonthlySalary)= 1
+NCRF(Employee)= 1
+NCRF(HR)= 1
+NCRF(Salary)= 6
+NCRF(University)= 1
+NCRF(Savings)= 1
+Overall_NCRF(solution:20)= 12
+
+ANV(Loan)= 0
+ANV(MonthlySalary)= 0
+ANV(Employee)= 0
+ANV(HR)= 0
+ANV(Salary)= 0
+ANV(University)= 0
+ANV(Savings)= 0
+Overall_ANV(solution:20)= 0
+Overall_NIC(solution:20)= 14
+Overall_NFK(solution:20)= 8
+Eq.Classes: 5 / 20
+# ParetoOptimalSolutions: 5
+-----------------------------------------
+
+-----------------------------------------
+-----------------------------------------
+Solution #21 has been generated.
+Eq.Class #6
+-----------------------------------------
+Solution #22 has been generated.
+Eq.Class #6
+Solution #22 is a pareto Optimal Solution.
+
+TATI(Loan)= 1
+TATI(MonthlySalary)= 1
+TATI(Employee)= 1
+TATI(HR)= 1
+TATI(Salary)= 3
+TATI(University)= 1
+TATI(Savings)= 1
+Overall_TATI(solution:22)= 9
+
+NCT(Loan)= 2
+NCT(MonthlySalary)= 1
+NCT(Employee)= 1
+NCT(HR)= 1
+NCT(Salary)= 1
+NCT(University)= 1
+NCT(Savings)= 1
+Overall_NCT(solution:22)= 8
+
+NCRF(Loan)= 1
+NCRF(MonthlySalary)= 1
+NCRF(Employee)= 1
+NCRF(HR)= 1
+NCRF(Salary)= 7
+NCRF(University)= 1
+NCRF(Savings)= 1
+Overall_NCRF(solution:22)= 13
+
+ANV(Loan)= 0
+ANV(MonthlySalary)= 0
+ANV(Employee)= 0
+ANV(HR)= 0
+ANV(Salary)= 0
+ANV(University)= 0
+ANV(Savings)= 0
+Overall_ANV(solution:22)= 0
+Overall_NIC(solution:22)= 14
+Overall_NFK(solution:22)= 9
+Eq.Classes: 6 / 22
+# ParetoOptimalSolutions: 6
+-----------------------------------------
+
+-----------------------------------------
+-----------------------------------------
+Solution #23 has been generated.
+Eq.Class #7
+-----------------------------------------
+Solution #24 has been generated.
+Eq.Class #7
+-----------------------------------------
+Solution #25 has been generated.
+Eq.Class #7
+Solution #25 is a pareto Optimal Solution.
+
+TATI(Loan)= 1
+TATI(MonthlySalary)= 1
+TATI(Employee)= 1
+TATI(HR)= 1
+TATI(Salary)= 3
+TATI(University)= 1
+TATI(Savings)= 1
+Overall_TATI(solution:25)= 9
+
+NCT(Loan)= 1
+NCT(MonthlySalary)= 1
+NCT(Employee)= 1
+NCT(HR)= 1
+NCT(Salary)= 2
+NCT(University)= 1
+NCT(Savings)= 1
+Overall_NCT(solution:25)= 8
+
+NCRF(Loan)= 1
+NCRF(MonthlySalary)= 1
+NCRF(Employee)= 1
+NCRF(HR)= 1
+NCRF(Salary)= 7
+NCRF(University)= 1
+NCRF(Savings)= 1
+Overall_NCRF(solution:25)= 13
+
+ANV(Loan)= 0
+ANV(MonthlySalary)= 0
+ANV(Employee)= 0
+ANV(HR)= 0
+ANV(Salary)= 0
+ANV(University)= 0
+ANV(Savings)= 0
+Overall_ANV(solution:25)= 0
+Overall_NIC(solution:25)= 13
+Overall_NFK(solution:25)= 9
+Eq.Classes: 7 / 25
+# ParetoOptimalSolutions: 7
+-----------------------------------------
+
+-----------------------------------------
+-----------------------------------------
+Solution #26 has been generated.
+Eq.Class #6
+-----------------------------------------
+Solution #27 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #28 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #29 has been generated.
+Eq.Class #5
+-----------------------------------------
+Solution #30 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #31 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #32 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #33 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #34 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #35 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #36 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #37 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #38 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #39 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #40 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #41 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #42 has been generated.
+Eq.Class #7
+-----------------------------------------
+Solution #43 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #44 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #45 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #46 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #47 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #48 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #49 has been generated.
+Eq.Class #8
+Solution #49 is a pareto Optimal Solution.
+
+TATI(Loan)= 1
+TATI(MonthlySalary)= 1
+TATI(Employee)= 1
+TATI(HR)= 1
+TATI(Salary)= 3
+TATI(University)= 1
+TATI(Savings)= 1
+Overall_TATI(solution:49)= 9
+
+NCT(Loan)= 1
+NCT(MonthlySalary)= 1
+NCT(Employee)= 2
+NCT(HR)= 1
+NCT(Salary)= 1
+NCT(University)= 1
+NCT(Savings)= 1
+Overall_NCT(solution:49)= 8
+
+NCRF(Loan)= 1
+NCRF(MonthlySalary)= 1
+NCRF(Employee)= 1
+NCRF(HR)= 1
+NCRF(Salary)= 6
+NCRF(University)= 1
+NCRF(Savings)= 1
+Overall_NCRF(solution:49)= 12
+
+ANV(Loan)= 0
+ANV(MonthlySalary)= 0
+ANV(Employee)= 0
+ANV(HR)= 0
+ANV(Salary)= 0
+ANV(University)= 0
+ANV(Savings)= 0
+Overall_ANV(solution:49)= 0
+Overall_NIC(solution:49)= 13
+Overall_NFK(solution:49)= 9
+Eq.Classes: 8 / 49
+# ParetoOptimalSolutions: 8
+-----------------------------------------
+
+-----------------------------------------
+-----------------------------------------
+Solution #50 has been generated.
+Eq.Class #9
+-----------------------------------------
+Solution #51 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #52 has been generated.
+Eq.Class #9
+-----------------------------------------
+Solution #53 has been generated.
+Eq.Class #9
+-----------------------------------------
+Solution #54 has been generated.
+Eq.Class #9
+-----------------------------------------
+Solution #55 has been generated.
+Eq.Class #9
+-----------------------------------------
+Solution #56 has been generated.
+Eq.Class #9
+-----------------------------------------
+Solution #57 has been generated.
+Eq.Class #9
+-----------------------------------------
+Solution #58 has been generated.
+Eq.Class #9
+-----------------------------------------
+Solution #59 has been generated.
+Eq.Class #9
+Solution #59 is a pareto Optimal Solution.
+
+TATI(Loan)= 1
+TATI(MonthlySalary)= 1
+TATI(Employee)= 1
+TATI(HR)= 1
+TATI(Salary)= 3
+TATI(University)= 1
+TATI(Savings)= 1
+Overall_TATI(solution:59)= 9
+
+NCT(Loan)= 1
+NCT(MonthlySalary)= 1
+NCT(Employee)= 1
+NCT(HR)= 1
+NCT(Salary)= 1
+NCT(University)= 1
+NCT(Savings)= 1
+Overall_NCT(solution:59)= 7
+
+NCRF(Loan)= 1
+NCRF(MonthlySalary)= 1
+NCRF(Employee)= 1
+NCRF(HR)= 1
+NCRF(Salary)= 8
+NCRF(University)= 1
+NCRF(Savings)= 1
+Overall_NCRF(solution:59)= 14
+
+ANV(Loan)= 0
+ANV(MonthlySalary)= 0
+ANV(Employee)= 0
+ANV(HR)= 0
+ANV(Salary)= 0
+ANV(University)= 0
+ANV(Savings)= 0
+Overall_ANV(solution:59)= 0
+Overall_NIC(solution:59)= 13
+Overall_NFK(solution:59)= 10
+Eq.Classes: 9 / 59
+# ParetoOptimalSolutions: 9
+-----------------------------------------
+
+-----------------------------------------
+-----------------------------------------
+Solution #60 has been generated.
+Eq.Class #9
+-----------------------------------------
+Solution #61 has been generated.
+Eq.Class #10
+Solution #61 is a pareto Optimal Solution.
+
+TATI(Loan)= 1
+TATI(MonthlySalary)= 1
+TATI(Employee)= 1
+TATI(HR)= 1
+TATI(Salary)= 3
+TATI(University)= 1
+TATI(Savings)= 1
+Overall_TATI(solution:61)= 9
+
+NCT(Loan)= 1
+NCT(MonthlySalary)= 1
+NCT(Employee)= 1
+NCT(HR)= 1
+NCT(Salary)= 1
+NCT(University)= 1
+NCT(Savings)= 1
+Overall_NCT(solution:61)= 7
+
+NCRF(Loan)= 1
+NCRF(MonthlySalary)= 1
+NCRF(Employee)= 1
+NCRF(HR)= 1
+NCRF(Salary)= 7
+NCRF(University)= 1
+NCRF(Savings)= 1
+Overall_NCRF(solution:61)= 13
+
+ANV(Loan)= 0
+ANV(MonthlySalary)= 0
+ANV(Employee)= 0
+ANV(HR)= 0
+ANV(Salary)= 0
+ANV(University)= 0
+ANV(Savings)= 0
+Overall_ANV(solution:61)= 0
+Overall_NIC(solution:61)= 12
+Overall_NFK(solution:61)= 10
+Eq.Classes: 10 / 61
+# ParetoOptimalSolutions: 10
+-----------------------------------------
+
+-----------------------------------------
+-----------------------------------------
+Solution #62 has been generated.
+Eq.Class #10
+-----------------------------------------
+Solution #63 has been generated.
+Eq.Class #9
+-----------------------------------------
+Solution #64 has been generated.
+Eq.Class #9
+
+-----------------------------------------
+# Eq.Classes: 10 / 65
+Current Time: 2023-02-24 04:32:34.534
+No more Satisfying solutions

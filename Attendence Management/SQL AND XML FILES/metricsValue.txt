@@ -1,0 +1,215 @@
+Computing Satisfying Solutions ...
+Current Time: 2023-04-02 03:10:09.213
+-----------------------------------------
+Solution #1 has been generated.
+Eq.Class #1
+Solution #1 is a pareto Optimal Solution.
+
+TATI(Admin)= 1
+TATI(Student)= 1
+TATI(Teacher)= 1
+TATI(TeachingAssistant)= 1
+TATI(Course)= 1
+TATI(AttendenceManagementSystem)= 1
+Overall_TATI(solution:1)= 6
+
+NCT(Admin)= 1
+NCT(Student)= 2
+NCT(Teacher)= 1
+NCT(TeachingAssistant)= 1
+NCT(Course)= 3
+NCT(AttendenceManagementSystem)= 1
+Overall_NCT(solution:1)= 9
+
+NCRF(Admin)= 1
+NCRF(Student)= 1
+NCRF(Teacher)= 1
+NCRF(TeachingAssistant)= 1
+NCRF(Course)= 1
+NCRF(AttendenceManagementSystem)= 1
+Overall_NCRF(solution:1)= 6
+
+ANV(Admin)= 4
+ANV(Student)= 0
+ANV(Teacher)= 1
+ANV(TeachingAssistant)= 1
+ANV(Course)= 0
+ANV(AttendenceManagementSystem)= 0
+Overall_ANV(solution:1)= 6
+Overall_NIC(solution:1)= 9
+Overall_NFK(solution:1)= 5
+Eq.Classes: 1 / 1
+# ParetoOptimalSolutions: 1
+-----------------------------------------
+
+-----------------------------------------
+-----------------------------------------
+Solution #2 has been generated.
+Eq.Class #1
+-----------------------------------------
+Solution #3 has been generated.
+Eq.Class #2
+Solution #3 is a pareto Optimal Solution.
+
+TATI(Admin)= 1
+TATI(Student)= 1
+TATI(Teacher)= 1
+TATI(TeachingAssistant)= 1
+TATI(Course)= 1
+TATI(AttendenceManagementSystem)= 1
+Overall_TATI(solution:3)= 6
+
+NCT(Admin)= 1
+NCT(Student)= 2
+NCT(Teacher)= 1
+NCT(TeachingAssistant)= 1
+NCT(Course)= 2
+NCT(AttendenceManagementSystem)= 1
+Overall_NCT(solution:3)= 8
+
+NCRF(Admin)= 1
+NCRF(Student)= 1
+NCRF(Teacher)= 1
+NCRF(TeachingAssistant)= 1
+NCRF(Course)= 1
+NCRF(AttendenceManagementSystem)= 1
+Overall_NCRF(solution:3)= 6
+
+ANV(Admin)= 4
+ANV(Student)= 0
+ANV(Teacher)= 1
+ANV(TeachingAssistant)= 1
+ANV(Course)= 0
+ANV(AttendenceManagementSystem)= 0
+Overall_ANV(solution:3)= 6
+Overall_NIC(solution:3)= 8
+Overall_NFK(solution:3)= 6
+Eq.Classes: 2 / 3
+# ParetoOptimalSolutions: 2
+-----------------------------------------
+
+-----------------------------------------
+-----------------------------------------
+Solution #4 has been generated.
+Eq.Class #2
+-----------------------------------------
+Solution #5 has been generated.
+Eq.Class #3
+-----------------------------------------
+Solution #6 has been generated.
+Eq.Class #2
+-----------------------------------------
+Solution #7 has been generated.
+Eq.Class #2
+-----------------------------------------
+Solution #8 has been generated.
+Eq.Class #3
+-----------------------------------------
+Solution #9 has been generated.
+Eq.Class #3
+Solution #9 is a pareto Optimal Solution.
+
+TATI(Admin)= 1
+TATI(Student)= 1
+TATI(Teacher)= 1
+TATI(TeachingAssistant)= 1
+TATI(Course)= 1
+TATI(AttendenceManagementSystem)= 1
+Overall_TATI(solution:9)= 6
+
+NCT(Admin)= 1
+NCT(Student)= 1
+NCT(Teacher)= 1
+NCT(TeachingAssistant)= 1
+NCT(Course)= 2
+NCT(AttendenceManagementSystem)= 1
+Overall_NCT(solution:9)= 7
+
+NCRF(Admin)= 1
+NCRF(Student)= 1
+NCRF(Teacher)= 1
+NCRF(TeachingAssistant)= 1
+NCRF(Course)= 1
+NCRF(AttendenceManagementSystem)= 1
+Overall_NCRF(solution:9)= 6
+
+ANV(Admin)= 4
+ANV(Student)= 0
+ANV(Teacher)= 1
+ANV(TeachingAssistant)= 1
+ANV(Course)= 0
+ANV(AttendenceManagementSystem)= 0
+Overall_ANV(solution:9)= 6
+Overall_NIC(solution:9)= 7
+Overall_NFK(solution:9)= 7
+Eq.Classes: 3 / 9
+# ParetoOptimalSolutions: 3
+-----------------------------------------
+
+-----------------------------------------
+-----------------------------------------
+Solution #10 has been generated.
+Eq.Class #4
+-----------------------------------------
+Solution #11 has been generated.
+Eq.Class #4
+-----------------------------------------
+Solution #12 has been generated.
+Eq.Class #3
+-----------------------------------------
+Solution #13 has been generated.
+Eq.Class #3
+-----------------------------------------
+Solution #14 has been generated.
+Eq.Class #3
+-----------------------------------------
+Solution #15 has been generated.
+Eq.Class #4
+Solution #15 is a pareto Optimal Solution.
+
+TATI(Admin)= 1
+TATI(Student)= 1
+TATI(Teacher)= 1
+TATI(TeachingAssistant)= 1
+TATI(Course)= 1
+TATI(AttendenceManagementSystem)= 1
+Overall_TATI(solution:15)= 6
+
+NCT(Admin)= 1
+NCT(Student)= 1
+NCT(Teacher)= 1
+NCT(TeachingAssistant)= 1
+NCT(Course)= 1
+NCT(AttendenceManagementSystem)= 1
+Overall_NCT(solution:15)= 6
+
+NCRF(Admin)= 1
+NCRF(Student)= 1
+NCRF(Teacher)= 1
+NCRF(TeachingAssistant)= 1
+NCRF(Course)= 1
+NCRF(AttendenceManagementSystem)= 1
+Overall_NCRF(solution:15)= 6
+
+ANV(Admin)= 4
+ANV(Student)= 0
+ANV(Teacher)= 1
+ANV(TeachingAssistant)= 1
+ANV(Course)= 0
+ANV(AttendenceManagementSystem)= 0
+Overall_ANV(solution:15)= 6
+Overall_NIC(solution:15)= 6
+Overall_NFK(solution:15)= 8
+Eq.Classes: 4 / 15
+# ParetoOptimalSolutions: 4
+-----------------------------------------
+
+-----------------------------------------
+-----------------------------------------
+Solution #16 has been generated.
+Eq.Class #4
+
+-----------------------------------------
+# Eq.Classes: 4 / 17
+Current Time: 2023-04-02 03:10:28.548
+No more Satisfying solutions

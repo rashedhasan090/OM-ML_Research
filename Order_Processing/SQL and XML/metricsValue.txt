@@ -1,0 +1,695 @@
+Computing Satisfying Solutions ...
+Current Time: 2023-04-01 19:25:49.778
+-----------------------------------------
+Solution #1 has been generated.
+Eq.Class #1
+Solution #1 is a pareto Optimal Solution.
+
+TATI(Inventory)= 1
+TATI(Payment)= 1
+TATI(Management)= 1
+TATI(Products)= 1
+TATI(Customer)= 3
+TATI(Delivery)= 1
+TATI(Order)= 1
+Overall_TATI(solution:1)= 9
+
+NCT(Inventory)= 2
+NCT(Payment)= 1
+NCT(Management)= 2
+NCT(Products)= 2
+NCT(Customer)= 2
+NCT(Delivery)= 1
+NCT(Order)= 1
+Overall_NCT(solution:1)= 11
+
+NCRF(Inventory)= 1
+NCRF(Payment)= 1
+NCRF(Management)= 1
+NCRF(Products)= 1
+NCRF(Customer)= 6
+NCRF(Delivery)= 1
+NCRF(Order)= 1
+Overall_NCRF(solution:1)= 12
+
+ANV(Inventory)= 0
+ANV(Payment)= 0
+ANV(Management)= 0
+ANV(Products)= 0
+ANV(Customer)= 0
+ANV(Delivery)= 0
+ANV(Order)= 0
+Overall_ANV(solution:1)= 0
+Overall_NIC(solution:1)= 16
+Overall_NFK(solution:1)= 6
+Eq.Classes: 1 / 1
+# ParetoOptimalSolutions: 1
+-----------------------------------------
+
+-----------------------------------------
+-----------------------------------------
+Solution #2 has been generated.
+Eq.Class #1
+-----------------------------------------
+Solution #3 has been generated.
+Eq.Class #2
+Solution #3 is a pareto Optimal Solution.
+
+TATI(Inventory)= 1
+TATI(Payment)= 1
+TATI(Management)= 1
+TATI(Products)= 1
+TATI(Customer)= 3
+TATI(Delivery)= 1
+TATI(Order)= 1
+Overall_TATI(solution:3)= 9
+
+NCT(Inventory)= 2
+NCT(Payment)= 1
+NCT(Management)= 2
+NCT(Products)= 1
+NCT(Customer)= 2
+NCT(Delivery)= 1
+NCT(Order)= 1
+Overall_NCT(solution:3)= 10
+
+NCRF(Inventory)= 1
+NCRF(Payment)= 1
+NCRF(Management)= 1
+NCRF(Products)= 1
+NCRF(Customer)= 6
+NCRF(Delivery)= 1
+NCRF(Order)= 1
+Overall_NCRF(solution:3)= 12
+
+ANV(Inventory)= 0
+ANV(Payment)= 0
+ANV(Management)= 0
+ANV(Products)= 0
+ANV(Customer)= 0
+ANV(Delivery)= 0
+ANV(Order)= 0
+Overall_ANV(solution:3)= 0
+Overall_NIC(solution:3)= 15
+Overall_NFK(solution:3)= 7
+Eq.Classes: 2 / 3
+# ParetoOptimalSolutions: 2
+-----------------------------------------
+
+-----------------------------------------
+-----------------------------------------
+Solution #4 has been generated.
+Eq.Class #2
+-----------------------------------------
+Solution #5 has been generated.
+Eq.Class #3
+-----------------------------------------
+Solution #6 has been generated.
+Eq.Class #3
+-----------------------------------------
+Solution #7 has been generated.
+Eq.Class #3
+-----------------------------------------
+Solution #8 has been generated.
+Eq.Class #3
+-----------------------------------------
+Solution #9 has been generated.
+Eq.Class #3
+Solution #9 is a pareto Optimal Solution.
+
+TATI(Inventory)= 1
+TATI(Payment)= 1
+TATI(Management)= 1
+TATI(Products)= 1
+TATI(Customer)= 3
+TATI(Delivery)= 1
+TATI(Order)= 1
+Overall_TATI(solution:9)= 9
+
+NCT(Inventory)= 1
+NCT(Payment)= 1
+NCT(Management)= 2
+NCT(Products)= 1
+NCT(Customer)= 2
+NCT(Delivery)= 1
+NCT(Order)= 1
+Overall_NCT(solution:9)= 9
+
+NCRF(Inventory)= 1
+NCRF(Payment)= 1
+NCRF(Management)= 1
+NCRF(Products)= 1
+NCRF(Customer)= 6
+NCRF(Delivery)= 1
+NCRF(Order)= 1
+Overall_NCRF(solution:9)= 12
+
+ANV(Inventory)= 0
+ANV(Payment)= 0
+ANV(Management)= 0
+ANV(Products)= 0
+ANV(Customer)= 0
+ANV(Delivery)= 0
+ANV(Order)= 0
+Overall_ANV(solution:9)= 0
+Overall_NIC(solution:9)= 13
+Overall_NFK(solution:9)= 8
+Eq.Classes: 3 / 9
+# ParetoOptimalSolutions: 3
+-----------------------------------------
+
+-----------------------------------------
+-----------------------------------------
+Solution #10 has been generated.
+Eq.Class #4
+Solution #10 is a pareto Optimal Solution.
+
+TATI(Inventory)= 1
+TATI(Payment)= 1
+TATI(Management)= 1
+TATI(Products)= 1
+TATI(Customer)= 3
+TATI(Delivery)= 1
+TATI(Order)= 1
+Overall_TATI(solution:10)= 9
+
+NCT(Inventory)= 1
+NCT(Payment)= 1
+NCT(Management)= 2
+NCT(Products)= 2
+NCT(Customer)= 2
+NCT(Delivery)= 1
+NCT(Order)= 1
+Overall_NCT(solution:10)= 10
+
+NCRF(Inventory)= 1
+NCRF(Payment)= 1
+NCRF(Management)= 1
+NCRF(Products)= 1
+NCRF(Customer)= 6
+NCRF(Delivery)= 1
+NCRF(Order)= 1
+Overall_NCRF(solution:10)= 12
+
+ANV(Inventory)= 0
+ANV(Payment)= 0
+ANV(Management)= 0
+ANV(Products)= 0
+ANV(Customer)= 0
+ANV(Delivery)= 0
+ANV(Order)= 0
+Overall_ANV(solution:10)= 0
+Overall_NIC(solution:10)= 14
+Overall_NFK(solution:10)= 7
+Eq.Classes: 4 / 10
+# ParetoOptimalSolutions: 4
+-----------------------------------------
+
+-----------------------------------------
+-----------------------------------------
+Solution #11 has been generated.
+Eq.Class #5
+-----------------------------------------
+Solution #12 has been generated.
+Eq.Class #5
+-----------------------------------------
+Solution #13 has been generated.
+Eq.Class #4
+-----------------------------------------
+Solution #14 has been generated.
+Eq.Class #3
+-----------------------------------------
+Solution #15 has been generated.
+Eq.Class #5
+-----------------------------------------
+Solution #16 has been generated.
+Eq.Class #5
+-----------------------------------------
+Solution #17 has been generated.
+Eq.Class #5
+Solution #17 is a pareto Optimal Solution.
+
+TATI(Inventory)= 1
+TATI(Payment)= 1
+TATI(Management)= 1
+TATI(Products)= 1
+TATI(Customer)= 3
+TATI(Delivery)= 1
+TATI(Order)= 1
+Overall_TATI(solution:17)= 9
+
+NCT(Inventory)= 2
+NCT(Payment)= 1
+NCT(Management)= 1
+NCT(Products)= 1
+NCT(Customer)= 1
+NCT(Delivery)= 1
+NCT(Order)= 1
+Overall_NCT(solution:17)= 8
+
+NCRF(Inventory)= 1
+NCRF(Payment)= 1
+NCRF(Management)= 1
+NCRF(Products)= 1
+NCRF(Customer)= 8
+NCRF(Delivery)= 1
+NCRF(Order)= 1
+Overall_NCRF(solution:17)= 14
+
+ANV(Inventory)= 0
+ANV(Payment)= 0
+ANV(Management)= 0
+ANV(Products)= 0
+ANV(Customer)= 0
+ANV(Delivery)= 0
+ANV(Order)= 0
+Overall_ANV(solution:17)= 0
+Overall_NIC(solution:17)= 15
+Overall_NFK(solution:17)= 9
+Eq.Classes: 5 / 17
+# ParetoOptimalSolutions: 5
+-----------------------------------------
+
+-----------------------------------------
+-----------------------------------------
+Solution #18 has been generated.
+Eq.Class #6
+-----------------------------------------
+Solution #19 has been generated.
+Eq.Class #6
+-----------------------------------------
+Solution #20 has been generated.
+Eq.Class #6
+-----------------------------------------
+Solution #21 has been generated.
+Eq.Class #6
+-----------------------------------------
+Solution #22 has been generated.
+Eq.Class #6
+Solution #22 is a pareto Optimal Solution.
+
+TATI(Inventory)= 1
+TATI(Payment)= 1
+TATI(Management)= 1
+TATI(Products)= 1
+TATI(Customer)= 3
+TATI(Delivery)= 1
+TATI(Order)= 1
+Overall_TATI(solution:22)= 9
+
+NCT(Inventory)= 1
+NCT(Payment)= 1
+NCT(Management)= 2
+NCT(Products)= 1
+NCT(Customer)= 1
+NCT(Delivery)= 1
+NCT(Order)= 1
+Overall_NCT(solution:22)= 8
+
+NCRF(Inventory)= 1
+NCRF(Payment)= 1
+NCRF(Management)= 1
+NCRF(Products)= 1
+NCRF(Customer)= 6
+NCRF(Delivery)= 1
+NCRF(Order)= 1
+Overall_NCRF(solution:22)= 12
+
+ANV(Inventory)= 0
+ANV(Payment)= 0
+ANV(Management)= 0
+ANV(Products)= 0
+ANV(Customer)= 0
+ANV(Delivery)= 0
+ANV(Order)= 0
+Overall_ANV(solution:22)= 0
+Overall_NIC(solution:22)= 12
+Overall_NFK(solution:22)= 9
+Eq.Classes: 6 / 22
+# ParetoOptimalSolutions: 6
+-----------------------------------------
+
+-----------------------------------------
+-----------------------------------------
+Solution #23 has been generated.
+Eq.Class #7
+-----------------------------------------
+Solution #24 has been generated.
+Eq.Class #7
+-----------------------------------------
+Solution #25 has been generated.
+Eq.Class #7
+-----------------------------------------
+Solution #26 has been generated.
+Eq.Class #7
+-----------------------------------------
+Solution #27 has been generated.
+Eq.Class #7
+Solution #27 is a pareto Optimal Solution.
+
+TATI(Inventory)= 1
+TATI(Payment)= 1
+TATI(Management)= 1
+TATI(Products)= 1
+TATI(Customer)= 3
+TATI(Delivery)= 1
+TATI(Order)= 1
+Overall_TATI(solution:27)= 9
+
+NCT(Inventory)= 1
+NCT(Payment)= 1
+NCT(Management)= 1
+NCT(Products)= 1
+NCT(Customer)= 1
+NCT(Delivery)= 1
+NCT(Order)= 1
+Overall_NCT(solution:27)= 7
+
+NCRF(Inventory)= 1
+NCRF(Payment)= 1
+NCRF(Management)= 1
+NCRF(Products)= 1
+NCRF(Customer)= 8
+NCRF(Delivery)= 1
+NCRF(Order)= 1
+Overall_NCRF(solution:27)= 14
+
+ANV(Inventory)= 0
+ANV(Payment)= 0
+ANV(Management)= 0
+ANV(Products)= 0
+ANV(Customer)= 0
+ANV(Delivery)= 0
+ANV(Order)= 0
+Overall_ANV(solution:27)= 0
+Overall_NIC(solution:27)= 13
+Overall_NFK(solution:27)= 10
+Eq.Classes: 7 / 27
+# ParetoOptimalSolutions: 7
+-----------------------------------------
+
+-----------------------------------------
+-----------------------------------------
+Solution #28 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #29 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #30 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #31 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #32 has been generated.
+Eq.Class #5
+-----------------------------------------
+Solution #33 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #34 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #35 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #36 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #37 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #38 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #39 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #40 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #41 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #42 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #43 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #44 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #45 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #46 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #47 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #48 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #49 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #50 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #51 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #52 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #53 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #54 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #55 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #56 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #57 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #58 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #59 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #60 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #61 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #62 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #63 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #64 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #65 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #66 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #67 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #68 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #69 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #70 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #71 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #72 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #73 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #74 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #75 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #76 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #77 has been generated.
+Eq.Class #8
+Solution #77 is a pareto Optimal Solution.
+
+TATI(Inventory)= 1
+TATI(Payment)= 1
+TATI(Management)= 1
+TATI(Products)= 1
+TATI(Customer)= 3
+TATI(Delivery)= 1
+TATI(Order)= 1
+Overall_TATI(solution:77)= 9
+
+NCT(Inventory)= 1
+NCT(Payment)= 1
+NCT(Management)= 1
+NCT(Products)= 1
+NCT(Customer)= 1
+NCT(Delivery)= 1
+NCT(Order)= 1
+Overall_NCT(solution:77)= 7
+
+NCRF(Inventory)= 1
+NCRF(Payment)= 1
+NCRF(Management)= 1
+NCRF(Products)= 1
+NCRF(Customer)= 7
+NCRF(Delivery)= 1
+NCRF(Order)= 1
+Overall_NCRF(solution:77)= 13
+
+ANV(Inventory)= 0
+ANV(Payment)= 0
+ANV(Management)= 0
+ANV(Products)= 0
+ANV(Customer)= 0
+ANV(Delivery)= 0
+ANV(Order)= 0
+Overall_ANV(solution:77)= 0
+Overall_NIC(solution:77)= 12
+Overall_NFK(solution:77)= 10
+Eq.Classes: 8 / 77
+# ParetoOptimalSolutions: 8
+-----------------------------------------
+
+-----------------------------------------
+-----------------------------------------
+Solution #78 has been generated.
+Eq.Class #9
+-----------------------------------------
+Solution #79 has been generated.
+Eq.Class #6
+-----------------------------------------
+Solution #80 has been generated.
+Eq.Class #9
+-----------------------------------------
+Solution #81 has been generated.
+Eq.Class #9
+-----------------------------------------
+Solution #82 has been generated.
+Eq.Class #5
+-----------------------------------------
+Solution #83 has been generated.
+Eq.Class #5
+-----------------------------------------
+Solution #84 has been generated.
+Eq.Class #5
+-----------------------------------------
+Solution #85 has been generated.
+Eq.Class #9
+-----------------------------------------
+Solution #86 has been generated.
+Eq.Class #9
+-----------------------------------------
+Solution #87 has been generated.
+Eq.Class #7
+-----------------------------------------
+Solution #88 has been generated.
+Eq.Class #7
+-----------------------------------------
+Solution #89 has been generated.
+Eq.Class #7
+-----------------------------------------
+Solution #90 has been generated.
+Eq.Class #9
+-----------------------------------------
+Solution #91 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #92 has been generated.
+Eq.Class #7
+-----------------------------------------
+Solution #93 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #94 has been generated.
+Eq.Class #8
+-----------------------------------------
+Solution #95 has been generated.
+Eq.Class #7
+-----------------------------------------
+Solution #96 has been generated.
+Eq.Class #7
+-----------------------------------------
+Solution #97 has been generated.
+Eq.Class #7
+-----------------------------------------
+Solution #98 has been generated.
+Eq.Class #7
+-----------------------------------------
+Solution #99 has been generated.
+Eq.Class #7
+-----------------------------------------
+Solution #100 has been generated.
+Eq.Class #7
+-----------------------------------------
+Solution #101 has been generated.
+Eq.Class #7
+-----------------------------------------
+Solution #102 has been generated.
+Eq.Class #9
+-----------------------------------------
+Solution #103 has been generated.
+Eq.Class #5
+-----------------------------------------
+Solution #104 has been generated.
+Eq.Class #9
+-----------------------------------------
+Solution #105 has been generated.
+Eq.Class #5
+-----------------------------------------
+Solution #106 has been generated.
+Eq.Class #9
+-----------------------------------------
+Solution #107 has been generated.
+Eq.Class #9
+-----------------------------------------
+Solution #108 has been generated.
+Eq.Class #5
+-----------------------------------------
+Solution #109 has been generated.
+Eq.Class #5
+-----------------------------------------
+Solution #110 has been generated.
+Eq.Class #5
+-----------------------------------------
+Solution #111 has been generated.
+Eq.Class #5
+-----------------------------------------
+Solution #112 has been generated.
+Eq.Class #5
+
+-----------------------------------------
+# Eq.Classes: 8 / 113
+Current Time: 2023-04-01 19:27:06.877
+No more Satisfying solutions

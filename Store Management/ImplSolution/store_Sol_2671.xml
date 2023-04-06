@@ -1,0 +1,883 @@
+<alloy builddate="2008/10/27 23:45 EDT">
+
+<instance bitwidth="4" maxseq="7" command="Run mapping_run_store for 42" filename="">
+
+<sig label="univ" ID="0" builtin="yes">
+   <atom label="assertions/relationalModel/Table$0"/>
+   <atom label="assertions/relationalModel/Table$1"/>
+   <atom label="assertions/relationalModel/Table$2"/>
+   <atom label="assertions/relationalModel/Table$3"/>
+   <atom label="assertions/relationalModel/Table$4"/>
+   <atom label="assertions/relationalModel/Table$5"/>
+   <atom label="assertions/relationalModel/Table$6"/>
+   <atom label="assertions/relationalModel/Table$7"/>
+   <atom label="assertions/relationalModel/Table$8"/>
+   <atom label="assertions/relationalModel/Table$9"/>
+   <atom label="assertions/relationalModel/Table$10"/>
+   <atom label="assertions/relationalModel/Table$11"/>
+   <atom label="assertions/relationalModel/Table$12"/>
+   <atom label="assertions/relationalModel/Table$13"/>
+   <atom label="assertions/relationalModel/Field$0"/>
+   <atom label="assertions/relationalModel/Field$1"/>
+   <atom label="assertions/relationalModel/Field$2"/>
+   <atom label="assertions/relationalModel/Field$3"/>
+   <atom label="assertions/relationalModel/Field$4"/>
+   <atom label="assertions/relationalModel/Field$5"/>
+   <atom label="assertions/relationalModel/Field$6"/>
+   <atom label="assertions/relationalModel/Field$7"/>
+   <atom label="assertions/relationalModel/Field$8"/>
+   <atom label="assertions/relationalModel/Field$9"/>
+   <atom label="assertions/relationalModel/Field$10"/>
+   <atom label="assertions/relationalModel/Field$11"/>
+   <atom label="assertions/relationalModel/Field$12"/>
+   <atom label="assertions/relationalModel/Field$13"/>
+   <atom label="assertions/relationalModel/Field$14"/>
+   <atom label="assertions/relationalModel/Field$15"/>
+   <atom label="assertions/relationalModel/Field$16"/>
+   <atom label="assertions/relationalModel/Field$17"/>
+   <atom label="assertions/relationalModel/Field$18"/>
+   <atom label="assertions/relationalModel/Field$19"/>
+   <atom label="assertions/relationalModel/Field$20"/>
+   <atom label="assertions/relationalModel/Field$21"/>
+   <atom label="assertions/relationalModel/Field$22"/>
+   <atom label="store/StoreDatabase"/>
+   <atom label="store/User"/>
+   <atom label="store/Store"/>
+   <atom label="store/Stock"/>
+   <atom label="store/Owner"/>
+   <atom label="store/Customer"/>
+   <atom label="store/Staff"/>
+   <atom label="store/StoreManagementSystem"/>
+   <atom label="store/StoreDbId"/>
+   <atom label="store/UserId"/>
+   <atom label="store/StoreId"/>
+   <atom label="store/NoSoldProducts"/>
+   <atom label="store/NoReservedProducts"/>
+   <atom label="store/StoreType"/>
+   <atom label="store/StoreName"/>
+   <atom label="store/TotalAmount"/>
+   <atom label="store/StockId"/>
+   <atom label="store/CustomerId"/>
+   <atom label="store/TransactionId"/>
+   <atom label="store/ListOFStocks"/>
+   <atom label="store/UserName"/>
+   <atom label="store/Type"/>
+   <atom label="store/StockItems"/>
+   <atom label="store/StockDescription"/>
+   <atom label="store/ownerName"/>
+   <atom label="store/CustomerName"/>
+   <atom label="store/CustomerAddress"/>
+   <atom label="store/CustomerPhone"/>
+   <atom label="store/Dept"/>
+   <atom label="store/UserType"/>
+   <atom label="store/UserSMSAssociation"/>
+   <atom label="store/UserStockAssociation"/>
+   <atom label="store/SMSStoreAssociation"/>
+   <atom label="store/SMSStockAssociation"/>
+   <atom label="store/SMSCustomerAssociation"/>
+   <atom label="store/CustomerStoreDbAssociation"/>
+   <atom label="store/CustomerStockAssociation"/>
+   <atom label="store/StoreStoreDbAssociation"/>
+   <atom label="store/StockStoreDbAssociation"/>
+   <atom label="store/UserStoreAssociation"/>
+   <atom label="AssociationMappings/Declaration/No$0"/>
+   <atom label="AssociationMappings/Declaration/DType$0"/>
+   <atom label="AssociationMappings/Declaration/ONE"/>
+   <atom label="AssociationMappings/Declaration/MANY"/>
+   <atom label="ORMStrategies/UnionSubclassStrategy"/>
+   <atom label="ORMStrategies/JoinedSubclassStrategy"/>
+   <atom label="ORMStrategies/UnionSuperclassStrategy"/>
+   <atom label="AssociationMappings/ForeignKeyEmbeddingStrategy"/>
+   <atom label="AssociationMappings/OwnAssociationTableStrategy"/>
+   <atom label="AssociationMappings/MergingOneTableStrategy"/>
+   <atom label="AssociationMappings/AssociationMappingStrategies"/>
+   <atom label="-8"/>
+   <atom label="-7"/>
+   <atom label="-6"/>
+   <atom label="-5"/>
+   <atom label="-4"/>
+   <atom label="-3"/>
+   <atom label="-2"/>
+   <atom label="-1"/>
+   <atom label="0"/>
+   <atom label="1"/>
+   <atom label="2"/>
+   <atom label="3"/>
+   <atom label="4"/>
+   <atom label="5"/>
+   <atom label="6"/>
+   <atom label="7"/>
+</sig>
+
+<sig label="Int" ID="1" parentID="0" builtin="yes">
+   <atom label="-8"/>
+   <atom label="-7"/>
+   <atom label="-6"/>
+   <atom label="-5"/>
+   <atom label="-4"/>
+   <atom label="-3"/>
+   <atom label="-2"/>
+   <atom label="-1"/>
+   <atom label="0"/>
+   <atom label="1"/>
+   <atom label="2"/>
+   <atom label="3"/>
+   <atom label="4"/>
+   <atom label="5"/>
+   <atom label="6"/>
+   <atom label="7"/>
+</sig>
+
+<sig label="seq/Int" ID="2" parentID="1" builtin="yes">
+   <atom label="0"/>
+   <atom label="1"/>
+   <atom label="2"/>
+   <atom label="3"/>
+   <atom label="4"/>
+   <atom label="5"/>
+   <atom label="6"/>
+</sig>
+
+<sig label="fun/String" ID="3" parentID="0" builtin="yes">
+</sig>
+
+<sig label="assertions/relationalModel/Table" ID="4" parentID="0">
+   <atom label="assertions/relationalModel/Table$0"/>
+   <atom label="assertions/relationalModel/Table$1"/>
+   <atom label="assertions/relationalModel/Table$2"/>
+   <atom label="assertions/relationalModel/Table$3"/>
+   <atom label="assertions/relationalModel/Table$4"/>
+   <atom label="assertions/relationalModel/Table$5"/>
+   <atom label="assertions/relationalModel/Table$6"/>
+   <atom label="assertions/relationalModel/Table$7"/>
+   <atom label="assertions/relationalModel/Table$8"/>
+   <atom label="assertions/relationalModel/Table$9"/>
+   <atom label="assertions/relationalModel/Table$10"/>
+   <atom label="assertions/relationalModel/Table$11"/>
+   <atom label="assertions/relationalModel/Table$12"/>
+   <atom label="assertions/relationalModel/Table$13"/>
+</sig>
+
+<field label="fields" ID="5" parentID="4">
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$20"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$22"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="assertions/relationalModel/Field$20"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="assertions/relationalModel/Field$21"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="assertions/relationalModel/Field$15"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="assertions/relationalModel/Field$16"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="assertions/relationalModel/Field$17"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="assertions/relationalModel/Field$18"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="assertions/relationalModel/Field$19"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="assertions/relationalModel/Field$20"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$3"/> <atom label="assertions/relationalModel/Field$14"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$3"/> <atom label="assertions/relationalModel/Field$21"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="assertions/relationalModel/Field$13"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="assertions/relationalModel/Field$22"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$13"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$14"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="assertions/relationalModel/Field$21"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$7"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$7"/> <atom label="assertions/relationalModel/Field$20"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$8"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$8"/> <atom label="assertions/relationalModel/Field$13"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$9"/> <atom label="assertions/relationalModel/Field$11"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$9"/> <atom label="assertions/relationalModel/Field$22"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$10"/> <atom label="assertions/relationalModel/Field$7"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$10"/> <atom label="assertions/relationalModel/Field$8"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$10"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$10"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$10"/> <atom label="assertions/relationalModel/Field$14"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$10"/> <atom label="assertions/relationalModel/Field$22"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$11"/> <atom label="assertions/relationalModel/Field$3"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$11"/> <atom label="assertions/relationalModel/Field$4"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$11"/> <atom label="assertions/relationalModel/Field$5"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$11"/> <atom label="assertions/relationalModel/Field$13"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$12"/> <atom label="assertions/relationalModel/Field$1"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$12"/> <atom label="assertions/relationalModel/Field$4"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$12"/> <atom label="assertions/relationalModel/Field$10"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$12"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$13"/> <atom label="assertions/relationalModel/Field$0"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$13"/> <atom label="assertions/relationalModel/Field$2"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$13"/> <atom label="assertions/relationalModel/Field$6"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$13"/> <atom label="assertions/relationalModel/Field$10"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$13"/> <atom label="assertions/relationalModel/Field$21"/> </tuple>
+   <types> <type ID="4"/> <type ID="6"/> </types>
+</field>
+
+<field label="primaryKey" ID="7" parentID="4">
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$20"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$22"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="assertions/relationalModel/Field$20"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="assertions/relationalModel/Field$21"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="assertions/relationalModel/Field$20"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$3"/> <atom label="assertions/relationalModel/Field$14"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$3"/> <atom label="assertions/relationalModel/Field$21"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="assertions/relationalModel/Field$13"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="assertions/relationalModel/Field$22"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$13"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$14"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="assertions/relationalModel/Field$21"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$7"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$7"/> <atom label="assertions/relationalModel/Field$20"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$8"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$8"/> <atom label="assertions/relationalModel/Field$13"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$9"/> <atom label="assertions/relationalModel/Field$22"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$10"/> <atom label="assertions/relationalModel/Field$14"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$11"/> <atom label="assertions/relationalModel/Field$13"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$12"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$13"/> <atom label="assertions/relationalModel/Field$21"/> </tuple>
+   <types> <type ID="4"/> <type ID="6"/> </types>
+</field>
+
+<field label="foreignKey" ID="8" parentID="4">
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$20"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$22"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="assertions/relationalModel/Field$20"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="assertions/relationalModel/Field$21"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$3"/> <atom label="assertions/relationalModel/Field$14"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$3"/> <atom label="assertions/relationalModel/Field$21"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="assertions/relationalModel/Field$13"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="assertions/relationalModel/Field$22"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$13"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$14"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="assertions/relationalModel/Field$21"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$7"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$7"/> <atom label="assertions/relationalModel/Field$20"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$8"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$8"/> <atom label="assertions/relationalModel/Field$13"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$10"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$10"/> <atom label="assertions/relationalModel/Field$22"/> </tuple>
+   <types> <type ID="4"/> <type ID="6"/> </types>
+</field>
+
+<field label="tAssociate" ID="9" parentID="4">
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="store/StoreStoreDbAssociation"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="store/UserStoreAssociation"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="store/Store"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$3"/> <atom label="store/UserStockAssociation"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="store/CustomerStoreDbAssociation"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="store/CustomerStockAssociation"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="store/UserSMSAssociation"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$7"/> <atom label="store/SMSStoreAssociation"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$8"/> <atom label="store/SMSCustomerAssociation"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$9"/> <atom label="store/StoreDatabase"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$10"/> <atom label="store/Stock"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$11"/> <atom label="store/Customer"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$12"/> <atom label="store/StoreManagementSystem"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$13"/> <atom label="store/User"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$13"/> <atom label="store/Owner"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$13"/> <atom label="store/Staff"/> </tuple>
+   <types> <type ID="4"/> <type ID="10"/> </types>
+   <types> <type ID="4"/> <type ID="11"/> </types>
+</field>
+
+<sig label="assertions/relationalModel/Field" ID="6" parentID="0">
+   <atom label="assertions/relationalModel/Field$0"/>
+   <atom label="assertions/relationalModel/Field$1"/>
+   <atom label="assertions/relationalModel/Field$2"/>
+   <atom label="assertions/relationalModel/Field$3"/>
+   <atom label="assertions/relationalModel/Field$4"/>
+   <atom label="assertions/relationalModel/Field$5"/>
+   <atom label="assertions/relationalModel/Field$6"/>
+   <atom label="assertions/relationalModel/Field$7"/>
+   <atom label="assertions/relationalModel/Field$8"/>
+   <atom label="assertions/relationalModel/Field$9"/>
+   <atom label="assertions/relationalModel/Field$10"/>
+   <atom label="assertions/relationalModel/Field$11"/>
+   <atom label="assertions/relationalModel/Field$12"/>
+   <atom label="assertions/relationalModel/Field$13"/>
+   <atom label="assertions/relationalModel/Field$14"/>
+   <atom label="assertions/relationalModel/Field$15"/>
+   <atom label="assertions/relationalModel/Field$16"/>
+   <atom label="assertions/relationalModel/Field$17"/>
+   <atom label="assertions/relationalModel/Field$18"/>
+   <atom label="assertions/relationalModel/Field$19"/>
+   <atom label="assertions/relationalModel/Field$20"/>
+   <atom label="assertions/relationalModel/Field$21"/>
+   <atom label="assertions/relationalModel/Field$22"/>
+</sig>
+
+<field label="fAssociate" ID="12" parentID="6">
+   <tuple> <atom label="assertions/relationalModel/Field$0"/> <atom label="AssociationMappings/Declaration/DType$0"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$1"/> <atom label="store/UserType"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$2"/> <atom label="store/Dept"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$3"/> <atom label="store/CustomerPhone"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$4"/> <atom label="store/CustomerAddress"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$5"/> <atom label="store/CustomerName"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$6"/> <atom label="store/ownerName"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$7"/> <atom label="store/StockDescription"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$8"/> <atom label="store/StockItems"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$9"/> <atom label="store/Type"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$10"/> <atom label="store/UserName"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$11"/> <atom label="store/ListOFStocks"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$12"/> <atom label="store/TransactionId"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$13"/> <atom label="store/CustomerId"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$14"/> <atom label="store/StockId"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$15"/> <atom label="store/TotalAmount"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$16"/> <atom label="store/StoreName"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$17"/> <atom label="store/StoreType"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$18"/> <atom label="store/NoReservedProducts"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$19"/> <atom label="store/NoSoldProducts"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$20"/> <atom label="store/StoreId"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$21"/> <atom label="store/UserId"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$22"/> <atom label="store/StoreDbId"/> </tuple>
+   <types> <type ID="6"/> <type ID="13"/> </types>
+</field>
+
+<sig label="AssociationMappings/Declaration/needHandle" ID="13" parentID="0" abstract="yes">
+   <atom label="store/StoreDatabase"/>
+   <atom label="store/User"/>
+   <atom label="store/Store"/>
+   <atom label="store/Stock"/>
+   <atom label="store/Owner"/>
+   <atom label="store/Customer"/>
+   <atom label="store/Staff"/>
+   <atom label="store/StoreManagementSystem"/>
+   <atom label="store/StoreDbId"/>
+   <atom label="store/UserId"/>
+   <atom label="store/StoreId"/>
+   <atom label="store/NoSoldProducts"/>
+   <atom label="store/NoReservedProducts"/>
+   <atom label="store/StoreType"/>
+   <atom label="store/StoreName"/>
+   <atom label="store/TotalAmount"/>
+   <atom label="store/StockId"/>
+   <atom label="store/CustomerId"/>
+   <atom label="store/TransactionId"/>
+   <atom label="store/ListOFStocks"/>
+   <atom label="store/UserName"/>
+   <atom label="store/Type"/>
+   <atom label="store/StockItems"/>
+   <atom label="store/StockDescription"/>
+   <atom label="store/ownerName"/>
+   <atom label="store/CustomerName"/>
+   <atom label="store/CustomerAddress"/>
+   <atom label="store/CustomerPhone"/>
+   <atom label="store/Dept"/>
+   <atom label="store/UserType"/>
+   <atom label="store/UserSMSAssociation"/>
+   <atom label="store/UserStockAssociation"/>
+   <atom label="store/SMSStoreAssociation"/>
+   <atom label="store/SMSStockAssociation"/>
+   <atom label="store/SMSCustomerAssociation"/>
+   <atom label="store/CustomerStoreDbAssociation"/>
+   <atom label="store/CustomerStockAssociation"/>
+   <atom label="store/StoreStoreDbAssociation"/>
+   <atom label="store/StockStoreDbAssociation"/>
+   <atom label="store/UserStoreAssociation"/>
+   <atom label="AssociationMappings/Declaration/No$0"/>
+   <atom label="AssociationMappings/Declaration/DType$0"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Attribute" ID="14" parentID="13" abstract="yes">
+   <atom label="store/StoreDatabase"/>
+   <atom label="store/User"/>
+   <atom label="store/Store"/>
+   <atom label="store/Stock"/>
+   <atom label="store/Owner"/>
+   <atom label="store/Customer"/>
+   <atom label="store/Staff"/>
+   <atom label="store/StoreManagementSystem"/>
+   <atom label="store/StoreDbId"/>
+   <atom label="store/UserId"/>
+   <atom label="store/StoreId"/>
+   <atom label="store/NoSoldProducts"/>
+   <atom label="store/NoReservedProducts"/>
+   <atom label="store/StoreType"/>
+   <atom label="store/StoreName"/>
+   <atom label="store/TotalAmount"/>
+   <atom label="store/StockId"/>
+   <atom label="store/CustomerId"/>
+   <atom label="store/TransactionId"/>
+   <atom label="store/ListOFStocks"/>
+   <atom label="store/UserName"/>
+   <atom label="store/Type"/>
+   <atom label="store/StockItems"/>
+   <atom label="store/StockDescription"/>
+   <atom label="store/ownerName"/>
+   <atom label="store/CustomerName"/>
+   <atom label="store/CustomerAddress"/>
+   <atom label="store/CustomerPhone"/>
+   <atom label="store/Dept"/>
+   <atom label="store/UserType"/>
+   <atom label="AssociationMappings/Declaration/No$0"/>
+   <atom label="AssociationMappings/Declaration/DType$0"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Class" ID="10" parentID="14" abstract="yes">
+   <atom label="store/StoreDatabase"/>
+   <atom label="store/User"/>
+   <atom label="store/Store"/>
+   <atom label="store/Stock"/>
+   <atom label="store/Owner"/>
+   <atom label="store/Customer"/>
+   <atom label="store/Staff"/>
+   <atom label="store/StoreManagementSystem"/>
+</sig>
+
+<field label="attrSet" ID="15" parentID="10">
+   <tuple> <atom label="store/StoreDatabase"/> <atom label="store/StoreDbId"/> </tuple>
+   <tuple> <atom label="store/StoreDatabase"/> <atom label="store/ListOFStocks"/> </tuple>
+   <tuple> <atom label="store/User"/> <atom label="store/UserId"/> </tuple>
+   <tuple> <atom label="store/User"/> <atom label="store/UserName"/> </tuple>
+   <tuple> <atom label="store/Store"/> <atom label="store/StoreId"/> </tuple>
+   <tuple> <atom label="store/Store"/> <atom label="store/NoSoldProducts"/> </tuple>
+   <tuple> <atom label="store/Store"/> <atom label="store/NoReservedProducts"/> </tuple>
+   <tuple> <atom label="store/Store"/> <atom label="store/StoreType"/> </tuple>
+   <tuple> <atom label="store/Store"/> <atom label="store/StoreName"/> </tuple>
+   <tuple> <atom label="store/Store"/> <atom label="store/TotalAmount"/> </tuple>
+   <tuple> <atom label="store/Stock"/> <atom label="store/StockId"/> </tuple>
+   <tuple> <atom label="store/Stock"/> <atom label="store/Type"/> </tuple>
+   <tuple> <atom label="store/Stock"/> <atom label="store/StockItems"/> </tuple>
+   <tuple> <atom label="store/Stock"/> <atom label="store/StockDescription"/> </tuple>
+   <tuple> <atom label="store/Owner"/> <atom label="store/ownerName"/> </tuple>
+   <tuple> <atom label="store/Customer"/> <atom label="store/CustomerId"/> </tuple>
+   <tuple> <atom label="store/Customer"/> <atom label="store/CustomerName"/> </tuple>
+   <tuple> <atom label="store/Customer"/> <atom label="store/CustomerAddress"/> </tuple>
+   <tuple> <atom label="store/Customer"/> <atom label="store/CustomerPhone"/> </tuple>
+   <tuple> <atom label="store/Staff"/> <atom label="store/Dept"/> </tuple>
+   <tuple> <atom label="store/StoreManagementSystem"/> <atom label="store/TransactionId"/> </tuple>
+   <tuple> <atom label="store/StoreManagementSystem"/> <atom label="store/UserName"/> </tuple>
+   <tuple> <atom label="store/StoreManagementSystem"/> <atom label="store/CustomerAddress"/> </tuple>
+   <tuple> <atom label="store/StoreManagementSystem"/> <atom label="store/UserType"/> </tuple>
+   <types> <type ID="10"/> <type ID="14"/> </types>
+</field>
+
+<field label="id" ID="16" parentID="10">
+   <tuple> <atom label="store/StoreDatabase"/> <atom label="store/StoreDbId"/> </tuple>
+   <tuple> <atom label="store/User"/> <atom label="store/UserId"/> </tuple>
+   <tuple> <atom label="store/Store"/> <atom label="store/StoreId"/> </tuple>
+   <tuple> <atom label="store/Stock"/> <atom label="store/StockId"/> </tuple>
+   <tuple> <atom label="store/Owner"/> <atom label="store/UserId"/> </tuple>
+   <tuple> <atom label="store/Customer"/> <atom label="store/CustomerId"/> </tuple>
+   <tuple> <atom label="store/Staff"/> <atom label="store/UserId"/> </tuple>
+   <tuple> <atom label="store/StoreManagementSystem"/> <atom label="store/TransactionId"/> </tuple>
+   <types> <type ID="10"/> <type ID="14"/> </types>
+</field>
+
+<field label="parent" ID="17" parentID="10">
+   <tuple> <atom label="store/Owner"/> <atom label="store/User"/> </tuple>
+   <tuple> <atom label="store/Staff"/> <atom label="store/User"/> </tuple>
+   <types> <type ID="10"/> <type ID="10"/> </types>
+</field>
+
+<field label="isAbstract" ID="18" parentID="10">
+   <tuple> <atom label="store/StoreDatabase"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="store/User"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="store/Store"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="store/Stock"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="store/Owner"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="store/Customer"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="store/Staff"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="store/StoreManagementSystem"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <types> <type ID="10"/> <type ID="19"/> </types>
+</field>
+
+<sig label="store/StoreDatabase" ID="20" parentID="10" one="yes">
+   <atom label="store/StoreDatabase"/>
+</sig>
+
+<sig label="store/User" ID="21" parentID="10" one="yes">
+   <atom label="store/User"/>
+</sig>
+
+<sig label="store/Store" ID="22" parentID="10" one="yes">
+   <atom label="store/Store"/>
+</sig>
+
+<sig label="store/Stock" ID="23" parentID="10" one="yes">
+   <atom label="store/Stock"/>
+</sig>
+
+<sig label="store/Owner" ID="24" parentID="10" one="yes">
+   <atom label="store/Owner"/>
+</sig>
+
+<sig label="store/Customer" ID="25" parentID="10" one="yes">
+   <atom label="store/Customer"/>
+</sig>
+
+<sig label="store/Staff" ID="26" parentID="10" one="yes">
+   <atom label="store/Staff"/>
+</sig>
+
+<sig label="store/StoreManagementSystem" ID="27" parentID="10" one="yes">
+   <atom label="store/StoreManagementSystem"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Type" ID="28" parentID="14" abstract="yes">
+   <atom label="store/StoreDbId"/>
+   <atom label="store/UserId"/>
+   <atom label="store/StoreId"/>
+   <atom label="store/NoSoldProducts"/>
+   <atom label="store/NoReservedProducts"/>
+   <atom label="store/StoreType"/>
+   <atom label="store/StoreName"/>
+   <atom label="store/TotalAmount"/>
+   <atom label="store/StockId"/>
+   <atom label="store/CustomerId"/>
+   <atom label="store/TransactionId"/>
+   <atom label="store/ListOFStocks"/>
+   <atom label="store/UserName"/>
+   <atom label="store/Type"/>
+   <atom label="store/StockItems"/>
+   <atom label="store/StockDescription"/>
+   <atom label="store/ownerName"/>
+   <atom label="store/CustomerName"/>
+   <atom label="store/CustomerAddress"/>
+   <atom label="store/CustomerPhone"/>
+   <atom label="store/Dept"/>
+   <atom label="store/UserType"/>
+   <atom label="AssociationMappings/Declaration/No$0"/>
+   <atom label="AssociationMappings/Declaration/DType$0"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Integer" ID="29" parentID="28">
+   <atom label="store/StoreDbId"/>
+   <atom label="store/UserId"/>
+   <atom label="store/StoreId"/>
+   <atom label="store/NoSoldProducts"/>
+   <atom label="store/NoReservedProducts"/>
+   <atom label="store/StoreType"/>
+   <atom label="store/StoreName"/>
+   <atom label="store/TotalAmount"/>
+   <atom label="store/StockId"/>
+   <atom label="store/CustomerId"/>
+   <atom label="store/TransactionId"/>
+</sig>
+
+<sig label="store/StoreDbId" ID="30" parentID="29" one="yes">
+   <atom label="store/StoreDbId"/>
+</sig>
+
+<sig label="store/UserId" ID="31" parentID="29" one="yes">
+   <atom label="store/UserId"/>
+</sig>
+
+<sig label="store/StoreId" ID="32" parentID="29" one="yes">
+   <atom label="store/StoreId"/>
+</sig>
+
+<sig label="store/NoSoldProducts" ID="33" parentID="29" one="yes">
+   <atom label="store/NoSoldProducts"/>
+</sig>
+
+<sig label="store/NoReservedProducts" ID="34" parentID="29" one="yes">
+   <atom label="store/NoReservedProducts"/>
+</sig>
+
+<sig label="store/StoreType" ID="35" parentID="29" one="yes">
+   <atom label="store/StoreType"/>
+</sig>
+
+<sig label="store/StoreName" ID="36" parentID="29" one="yes">
+   <atom label="store/StoreName"/>
+</sig>
+
+<sig label="store/TotalAmount" ID="37" parentID="29" one="yes">
+   <atom label="store/TotalAmount"/>
+</sig>
+
+<sig label="store/StockId" ID="38" parentID="29" one="yes">
+   <atom label="store/StockId"/>
+</sig>
+
+<sig label="store/CustomerId" ID="39" parentID="29" one="yes">
+   <atom label="store/CustomerId"/>
+</sig>
+
+<sig label="store/TransactionId" ID="40" parentID="29" one="yes">
+   <atom label="store/TransactionId"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Real" ID="41" parentID="28">
+</sig>
+
+<sig label="AssociationMappings/Declaration/string" ID="42" parentID="28">
+   <atom label="store/ListOFStocks"/>
+   <atom label="store/UserName"/>
+   <atom label="store/Type"/>
+   <atom label="store/StockItems"/>
+   <atom label="store/StockDescription"/>
+   <atom label="store/ownerName"/>
+   <atom label="store/CustomerName"/>
+   <atom label="store/CustomerAddress"/>
+   <atom label="store/CustomerPhone"/>
+   <atom label="store/Dept"/>
+   <atom label="store/UserType"/>
+</sig>
+
+<sig label="store/ListOFStocks" ID="43" parentID="42" one="yes">
+   <atom label="store/ListOFStocks"/>
+</sig>
+
+<sig label="store/UserName" ID="44" parentID="42" one="yes">
+   <atom label="store/UserName"/>
+</sig>
+
+<sig label="store/Type" ID="45" parentID="42" one="yes">
+   <atom label="store/Type"/>
+</sig>
+
+<sig label="store/StockItems" ID="46" parentID="42" one="yes">
+   <atom label="store/StockItems"/>
+</sig>
+
+<sig label="store/StockDescription" ID="47" parentID="42" one="yes">
+   <atom label="store/StockDescription"/>
+</sig>
+
+<sig label="store/ownerName" ID="48" parentID="42" one="yes">
+   <atom label="store/ownerName"/>
+</sig>
+
+<sig label="store/CustomerName" ID="49" parentID="42" one="yes">
+   <atom label="store/CustomerName"/>
+</sig>
+
+<sig label="store/CustomerAddress" ID="50" parentID="42" one="yes">
+   <atom label="store/CustomerAddress"/>
+</sig>
+
+<sig label="store/CustomerPhone" ID="51" parentID="42" one="yes">
+   <atom label="store/CustomerPhone"/>
+</sig>
+
+<sig label="store/Dept" ID="52" parentID="42" one="yes">
+   <atom label="store/Dept"/>
+</sig>
+
+<sig label="store/UserType" ID="53" parentID="42" one="yes">
+   <atom label="store/UserType"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Bool" ID="19" parentID="28">
+   <atom label="AssociationMappings/Declaration/No$0"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Yes" ID="54" parentID="19">
+</sig>
+
+<sig label="AssociationMappings/Declaration/No" ID="55" parentID="19">
+   <atom label="AssociationMappings/Declaration/No$0"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/DType" ID="56" parentID="28">
+   <atom label="AssociationMappings/Declaration/DType$0"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Longblob" ID="57" parentID="28">
+</sig>
+
+<sig label="AssociationMappings/Declaration/Time" ID="58" parentID="28">
+</sig>
+
+<sig label="AssociationMappings/Declaration/Association" ID="11" parentID="13" abstract="yes">
+   <atom label="store/UserSMSAssociation"/>
+   <atom label="store/UserStockAssociation"/>
+   <atom label="store/SMSStoreAssociation"/>
+   <atom label="store/SMSStockAssociation"/>
+   <atom label="store/SMSCustomerAssociation"/>
+   <atom label="store/CustomerStoreDbAssociation"/>
+   <atom label="store/CustomerStockAssociation"/>
+   <atom label="store/StoreStoreDbAssociation"/>
+   <atom label="store/StockStoreDbAssociation"/>
+   <atom label="store/UserStoreAssociation"/>
+</sig>
+
+<field label="src" ID="59" parentID="11">
+   <tuple> <atom label="store/UserSMSAssociation"/> <atom label="store/StoreManagementSystem"/> </tuple>
+   <tuple> <atom label="store/UserStockAssociation"/> <atom label="store/User"/> </tuple>
+   <tuple> <atom label="store/SMSStoreAssociation"/> <atom label="store/StoreManagementSystem"/> </tuple>
+   <tuple> <atom label="store/SMSStockAssociation"/> <atom label="store/StoreManagementSystem"/> </tuple>
+   <tuple> <atom label="store/SMSCustomerAssociation"/> <atom label="store/StoreManagementSystem"/> </tuple>
+   <tuple> <atom label="store/CustomerStoreDbAssociation"/> <atom label="store/Customer"/> </tuple>
+   <tuple> <atom label="store/CustomerStockAssociation"/> <atom label="store/Customer"/> </tuple>
+   <tuple> <atom label="store/StoreStoreDbAssociation"/> <atom label="store/StoreDatabase"/> </tuple>
+   <tuple> <atom label="store/StockStoreDbAssociation"/> <atom label="store/StoreDatabase"/> </tuple>
+   <tuple> <atom label="store/UserStoreAssociation"/> <atom label="store/User"/> </tuple>
+   <types> <type ID="11"/> <type ID="10"/> </types>
+</field>
+
+<field label="dst" ID="60" parentID="11">
+   <tuple> <atom label="store/UserSMSAssociation"/> <atom label="store/User"/> </tuple>
+   <tuple> <atom label="store/UserStockAssociation"/> <atom label="store/Stock"/> </tuple>
+   <tuple> <atom label="store/SMSStoreAssociation"/> <atom label="store/Store"/> </tuple>
+   <tuple> <atom label="store/SMSStockAssociation"/> <atom label="store/Stock"/> </tuple>
+   <tuple> <atom label="store/SMSCustomerAssociation"/> <atom label="store/Customer"/> </tuple>
+   <tuple> <atom label="store/CustomerStoreDbAssociation"/> <atom label="store/StoreDatabase"/> </tuple>
+   <tuple> <atom label="store/CustomerStockAssociation"/> <atom label="store/Stock"/> </tuple>
+   <tuple> <atom label="store/StoreStoreDbAssociation"/> <atom label="store/Store"/> </tuple>
+   <tuple> <atom label="store/StockStoreDbAssociation"/> <atom label="store/Stock"/> </tuple>
+   <tuple> <atom label="store/UserStoreAssociation"/> <atom label="store/Store"/> </tuple>
+   <types> <type ID="11"/> <type ID="10"/> </types>
+</field>
+
+<field label="src_multiplicity" ID="61" parentID="11">
+   <tuple> <atom label="store/UserSMSAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <tuple> <atom label="store/UserStockAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="store/SMSStoreAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <tuple> <atom label="store/SMSStockAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <tuple> <atom label="store/SMSCustomerAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <tuple> <atom label="store/CustomerStoreDbAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <tuple> <atom label="store/CustomerStockAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <tuple> <atom label="store/StoreStoreDbAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <tuple> <atom label="store/StockStoreDbAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <tuple> <atom label="store/UserStoreAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <types> <type ID="11"/> <type ID="62"/> </types>
+</field>
+
+<field label="dst_multiplicity" ID="63" parentID="11">
+   <tuple> <atom label="store/UserSMSAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="store/UserStockAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="store/SMSStoreAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="store/SMSStockAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="store/SMSCustomerAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <tuple> <atom label="store/CustomerStoreDbAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <tuple> <atom label="store/CustomerStockAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="store/StoreStoreDbAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="store/StockStoreDbAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="store/UserStoreAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <types> <type ID="11"/> <type ID="62"/> </types>
+</field>
+
+<sig label="store/UserSMSAssociation" ID="64" parentID="11" one="yes">
+   <atom label="store/UserSMSAssociation"/>
+</sig>
+
+<sig label="store/UserStockAssociation" ID="65" parentID="11" one="yes">
+   <atom label="store/UserStockAssociation"/>
+</sig>
+
+<sig label="store/SMSStoreAssociation" ID="66" parentID="11" one="yes">
+   <atom label="store/SMSStoreAssociation"/>
+</sig>
+
+<sig label="store/SMSStockAssociation" ID="67" parentID="11" one="yes">
+   <atom label="store/SMSStockAssociation"/>
+</sig>
+
+<sig label="store/SMSCustomerAssociation" ID="68" parentID="11" one="yes">
+   <atom label="store/SMSCustomerAssociation"/>
+</sig>
+
+<sig label="store/CustomerStoreDbAssociation" ID="69" parentID="11" one="yes">
+   <atom label="store/CustomerStoreDbAssociation"/>
+</sig>
+
+<sig label="store/CustomerStockAssociation" ID="70" parentID="11" one="yes">
+   <atom label="store/CustomerStockAssociation"/>
+</sig>
+
+<sig label="store/StoreStoreDbAssociation" ID="71" parentID="11" one="yes">
+   <atom label="store/StoreStoreDbAssociation"/>
+</sig>
+
+<sig label="store/StockStoreDbAssociation" ID="72" parentID="11" one="yes">
+   <atom label="store/StockStoreDbAssociation"/>
+</sig>
+
+<sig label="store/UserStoreAssociation" ID="73" parentID="11" one="yes">
+   <atom label="store/UserStoreAssociation"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Multiplicity_State" ID="62" parentID="0" abstract="yes">
+   <atom label="AssociationMappings/Declaration/ONE"/>
+   <atom label="AssociationMappings/Declaration/MANY"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/ONE" ID="74" parentID="62" one="yes">
+   <atom label="AssociationMappings/Declaration/ONE"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/MANY" ID="75" parentID="62" one="yes">
+   <atom label="AssociationMappings/Declaration/MANY"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Strategy" ID="76" parentID="0" abstract="yes">
+   <atom label="ORMStrategies/UnionSubclassStrategy"/>
+   <atom label="ORMStrategies/JoinedSubclassStrategy"/>
+   <atom label="ORMStrategies/UnionSuperclassStrategy"/>
+   <atom label="AssociationMappings/ForeignKeyEmbeddingStrategy"/>
+   <atom label="AssociationMappings/OwnAssociationTableStrategy"/>
+   <atom label="AssociationMappings/MergingOneTableStrategy"/>
+</sig>
+
+<field label="assignees" ID="77" parentID="76">
+   <tuple> <atom label="ORMStrategies/UnionSubclassStrategy"/> <atom label="store/StoreDatabase"/> </tuple>
+   <tuple> <atom label="ORMStrategies/UnionSubclassStrategy"/> <atom label="store/Store"/> </tuple>
+   <tuple> <atom label="ORMStrategies/UnionSubclassStrategy"/> <atom label="store/Customer"/> </tuple>
+   <tuple> <atom label="ORMStrategies/UnionSubclassStrategy"/> <atom label="store/StoreManagementSystem"/> </tuple>
+   <tuple> <atom label="ORMStrategies/UnionSuperclassStrategy"/> <atom label="store/User"/> </tuple>
+   <tuple> <atom label="ORMStrategies/UnionSuperclassStrategy"/> <atom label="store/Owner"/> </tuple>
+   <tuple> <atom label="ORMStrategies/UnionSuperclassStrategy"/> <atom label="store/Staff"/> </tuple>
+   <tuple> <atom label="AssociationMappings/ForeignKeyEmbeddingStrategy"/> <atom label="store/SMSStockAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/ForeignKeyEmbeddingStrategy"/> <atom label="store/StockStoreDbAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/OwnAssociationTableStrategy"/> <atom label="store/UserSMSAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/OwnAssociationTableStrategy"/> <atom label="store/UserStockAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/OwnAssociationTableStrategy"/> <atom label="store/SMSStoreAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/OwnAssociationTableStrategy"/> <atom label="store/SMSCustomerAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/OwnAssociationTableStrategy"/> <atom label="store/CustomerStoreDbAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/OwnAssociationTableStrategy"/> <atom label="store/CustomerStockAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/OwnAssociationTableStrategy"/> <atom label="store/StoreStoreDbAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/OwnAssociationTableStrategy"/> <atom label="store/UserStoreAssociation"/> </tuple>
+   <types> <type ID="76"/> <type ID="10"/> </types>
+   <types> <type ID="76"/> <type ID="11"/> </types>
+</field>
+
+<sig label="ORMStrategies/UnionSubclassStrategy" ID="78" parentID="76" one="yes">
+   <atom label="ORMStrategies/UnionSubclassStrategy"/>
+</sig>
+
+<sig label="ORMStrategies/JoinedSubclassStrategy" ID="79" parentID="76" one="yes">
+   <atom label="ORMStrategies/JoinedSubclassStrategy"/>
+</sig>
+
+<sig label="ORMStrategies/UnionSuperclassStrategy" ID="80" parentID="76" one="yes">
+   <atom label="ORMStrategies/UnionSuperclassStrategy"/>
+</sig>
+
+<sig label="AssociationMappings/ForeignKeyEmbeddingStrategy" ID="81" parentID="76" one="yes">
+   <atom label="AssociationMappings/ForeignKeyEmbeddingStrategy"/>
+</sig>
+
+<sig label="AssociationMappings/OwnAssociationTableStrategy" ID="82" parentID="76" one="yes">
+   <atom label="AssociationMappings/OwnAssociationTableStrategy"/>
+</sig>
+
+<sig label="AssociationMappings/MergingOneTableStrategy" ID="83" parentID="76" one="yes">
+   <atom label="AssociationMappings/MergingOneTableStrategy"/>
+</sig>
+
+<sig label="AssociationMappings/AssociationMappingStrategies" ID="84" parentID="0" one="yes">
+   <atom label="AssociationMappings/AssociationMappingStrategies"/>
+</sig>
+
+<field label="FKE" ID="85" parentID="84">
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="store/SMSStockAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="store/StockStoreDbAssociation"/> </tuple>
+   <types> <type ID="84"/> <type ID="11"/> </types>
+</field>
+
+<field label="OAT" ID="86" parentID="84">
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="store/UserSMSAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="store/UserStockAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="store/SMSStoreAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="store/SMSCustomerAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="store/CustomerStoreDbAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="store/CustomerStockAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="store/StoreStoreDbAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="store/UserStoreAssociation"/> </tuple>
+   <types> <type ID="84"/> <type ID="11"/> </types>
+</field>
+
+<field label="MOT" ID="87" parentID="84">
+   <types> <type ID="84"/> <type ID="11"/> </types>
+</field>
+
+</instance>
+
+</alloy>
