@@ -1,0 +1,22 @@
+Table Name: class1_name
+Table Name: class01_name
+Table Name class2_name
+Mapping Strategy for class1_name : map_str2
+Mapping Strategy for class4_name : map_str2
+Mapping Strategy for class6_name : map_str2
+Mapping Strategy for class7_name : map_str2
+Mapping Strategy for class9_name : map_str2
+Mapping Strategy for class10_name : map_str2
+Mapping Strategy for class11_name : map_str2
+Mapping Strategy for class12_name : map_str2
+Mapping Strategy for class14_name : map_str2
+Mapping Strategy for class3_name : map_str3
+Mapping Strategy for class11_name : map_str3
+Association Strategy for assoc1 : assoc_str1
+Association Strategy for assoc2 : assoc_str1
+Association Strategy for assoc3 : assoc_str1
+Association Strategy for assoc6 : assoc_str1
+Association Strategy for assoc4 : assoc_str2
+Association Strategy for assoc5 : assoc_str2
+Association Strategy for assoc7 : assoc_str2
+Association Strategy for assoc8 : assoc_str2
