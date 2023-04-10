@@ -1,4 +1,4 @@
-module Library
+module traffic_control
 open Declaration
 
 one sig GIS extends Class{}{

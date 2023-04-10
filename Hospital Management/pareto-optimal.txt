@@ -1,0 +1,195 @@
+  22:20:10.702
+Solution #1 is a pareto Optimal Solution.
+  22:25:14.436
+Solution #3 is a pareto Optimal Solution.
+  22:25:36.103
+Solution #4 is a pareto Optimal Solution.
+  22:25:52.818
+Solution #5 is a pareto Optimal Solution.
+  22:25:55.225
+Solution #8 is a pareto Optimal Solution.
+  22:26:23.841
+Solution #14 is a pareto Optimal Solution.
+  22:27:54.008
+Solution #20 is a pareto Optimal Solution.
+  22:30:34.286
+Solution #29 is a pareto Optimal Solution.
+  22:33:11.462
+Solution #37 is a pareto Optimal Solution.
+  22:33:55.804
+Solution #42 is a pareto Optimal Solution.
+  22:34:23.043
+Solution #46 is a pareto Optimal Solution.
+  22:34:44.583
+Solution #47 is a pareto Optimal Solution.
+  22:34:58.421
+Solution #51 is a pareto Optimal Solution.
+  22:35:27.661
+Solution #53 is a pareto Optimal Solution.
+  22:35:45.515
+Solution #57 is a pareto Optimal Solution.
+  22:35:56.071
+Solution #68 is a pareto Optimal Solution.
+  22:36:12.592
+Solution #102 is a pareto Optimal Solution.
+  22:37:05.872
+Solution #109 is a pareto Optimal Solution.
+  22:37:12.450
+Solution #115 is a pareto Optimal Solution.
+  22:37:23.696
+Solution #118 is a pareto Optimal Solution.
+  22:37:28.171
+Solution #142 is a pareto Optimal Solution.
+  22:38:13.405
+Solution #147 is a pareto Optimal Solution.
+  22:38:20.222
+Solution #155 is a pareto Optimal Solution.
+  22:38:29.085
+Solution #170 is a pareto Optimal Solution.
+  22:38:57.290
+Solution #174 is a pareto Optimal Solution.
+  22:39:01.841
+Solution #185 is a pareto Optimal Solution.
+  22:39:14.035
+Solution #193 is a pareto Optimal Solution.
+  22:39:28.301
+Solution #194 is a pareto Optimal Solution.
+  22:39:29.381
+Solution #195 is a pareto Optimal Solution.
+  22:39:30.899
+Solution #205 is a pareto Optimal Solution.
+  22:39:38.390
+Solution #208 is a pareto Optimal Solution.
+  22:39:42.252
+Solution #209 is a pareto Optimal Solution.
+  22:39:43.522
+Solution #424 is a pareto Optimal Solution.
+  22:42:29.229
+Solution #455 is a pareto Optimal Solution.
+  22:42:56.884
+Solution #474 is a pareto Optimal Solution.
+  22:43:10.369
+Solution #528 is a pareto Optimal Solution.
+  22:43:42.979
+Solution #540 is a pareto Optimal Solution.
+  22:43:52.855
+Solution #546 is a pareto Optimal Solution.
+  22:43:55.881
+Solution #554 is a pareto Optimal Solution.
+  22:43:59.031
+Solution #564 is a pareto Optimal Solution.
+  22:44:02.086
+Solution #579 is a pareto Optimal Solution.
+  22:44:07.233
+Solution #594 is a pareto Optimal Solution.
+  22:44:13.006
+Solution #606 is a pareto Optimal Solution.
+  22:44:23.413
+Solution #613 is a pareto Optimal Solution.
+  22:44:25.521
+Solution #661 is a pareto Optimal Solution.
+  22:44:43.790
+Solution #678 is a pareto Optimal Solution.
+  22:44:52.346
+Solution #682 is a pareto Optimal Solution.
+  22:44:53.943
+Solution #684 is a pareto Optimal Solution.
+  22:44:54.493
+Solution #695 is a pareto Optimal Solution.
+  22:44:57.706
+Solution #701 is a pareto Optimal Solution.
+  22:44:59.482
+Solution #710 is a pareto Optimal Solution.
+  22:45:02.104
+Solution #726 is a pareto Optimal Solution.
+  22:45:07.120
+Solution #742 is a pareto Optimal Solution.
+  22:45:12.046
+Solution #790 is a pareto Optimal Solution.
+  22:45:26.726
+Solution #806 is a pareto Optimal Solution.
+  22:45:32.874
+Solution #811 is a pareto Optimal Solution.
+  22:45:34.447
+Solution #823 is a pareto Optimal Solution.
+  22:45:37.859
+Solution #837 is a pareto Optimal Solution.
+  22:45:42.021
+Solution #853 is a pareto Optimal Solution.
+  22:45:46.706
+Solution #869 is a pareto Optimal Solution.
+  22:45:51.464
+Solution #916 is a pareto Optimal Solution.
+  22:46:06.203
+Solution #932 is a pareto Optimal Solution.
+  22:46:11.189
+Solution #933 is a pareto Optimal Solution.
+  22:46:11.481
+Solution #1013 is a pareto Optimal Solution.
+  22:47:03.936
+Solution #1287 is a pareto Optimal Solution.
+  22:49:41.420
+Solution #1307 is a pareto Optimal Solution.
+  22:49:49.866
+Solution #1376 is a pareto Optimal Solution.
+  22:50:21.331
+Solution #1428 is a pareto Optimal Solution.
+  22:50:38.895
+Solution #1504 is a pareto Optimal Solution.
+  22:51:08.499
+Solution #1510 is a pareto Optimal Solution.
+  22:51:13.621
+Solution #1544 is a pareto Optimal Solution.
+  22:51:24.595
+Solution #1545 is a pareto Optimal Solution.
+  22:51:24.880
+Solution #1565 is a pareto Optimal Solution.
+  22:51:32.652
+Solution #1631 is a pareto Optimal Solution.
+  22:51:54.300
+Solution #1758 is a pareto Optimal Solution.
+  22:52:34.475
+Solution #1797 is a pareto Optimal Solution.
+  22:52:47.896
+Solution #1798 is a pareto Optimal Solution.
+  22:52:48.166
+Solution #1818 is a pareto Optimal Solution.
+  22:52:55.871
+Solution #1882 is a pareto Optimal Solution.
+  22:53:15.667
+Solution #2010 is a pareto Optimal Solution.
+  22:53:57.830
+Solution #2561 is a pareto Optimal Solution.
+  22:56:53.001
+Solution #2562 is a pareto Optimal Solution.
+  22:56:53.372
+Solution #2648 is a pareto Optimal Solution.
+  22:57:21.346
+Solution #2774 is a pareto Optimal Solution.
+  22:57:58.850
+Solution #3439 is a pareto Optimal Solution.
+  23:01:19.570
+Solution #3454 is a pareto Optimal Solution.
+  23:01:24.274
+Solution #3514 is a pareto Optimal Solution.
+  23:01:41.908
+Solution #5180 is a pareto Optimal Solution.
+  23:10:06.024
+Solution #5336 is a pareto Optimal Solution.
+  23:10:55.869
+Solution #5352 is a pareto Optimal Solution.
+  23:11:00.908
+Solution #5417 is a pareto Optimal Solution.
+  23:11:22.325
+Solution #5433 is a pareto Optimal Solution.
+  23:11:26.980
+Solution #6065 is a pareto Optimal Solution.
+  23:14:53.544
+Solution #6557 is a pareto Optimal Solution.
+  23:17:34.314
+Solution #14849 is a pareto Optimal Solution.
+ 2023-04-01 00:00:18.002
+Solution #15061 is a pareto Optimal Solution.
+ 2023-04-01 00:01:23.167
+Solution #15793 is a pareto Optimal Solution.
+ 2023-04-01 00:05:13.553
