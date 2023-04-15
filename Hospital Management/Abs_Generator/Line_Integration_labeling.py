@@ -8,11 +8,11 @@ Lines3 = file3.readlines()
 
 count = 0
 
-with open('unlabeled-set-not-pareto.txt', 'w') as f:
+with open('labeled-set-not-pareto.txt', 'w') as f:
     for i in range(len(Lines)):
         count += 1
 
-        a = (f'{Lines[i]},{Lines2[i]},{Lines3[i]}')
+        a = (f'{Lines[i]},{Lines2[i]},{Lines3[i]},NP')
         result = "".join(line.strip() for line in a.splitlines())
         f.write(result)
         f.write('\n')
