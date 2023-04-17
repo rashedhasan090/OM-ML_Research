@@ -1,5 +1,5 @@
 file1 = open('OM_multiply_NP.txt', 'r')
-file2 = open('NP-Mapping.txt', 'r')
+file2 = open('NP-mapping.txt', 'r')
 file3 = open('NP-schema.txt', 'r')
 Lines =  file1.readlines()
 Lines2 = file2.readlines()
