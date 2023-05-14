@@ -2,7 +2,7 @@ import os
 import pandas as pd
 
 # Set the directory path containing the XLSX files
-directory = "/Users/rashedhasan/Desktop/UNL/Research/Object relational mapping/Step 5 - Abstraction/OM-Solution_Mapping/OM-ML_Research/Combined_datasets/13-OM-datasets"
+directory = "/Users/rashedhasan/Desktop/UNL/Research/Object relational mapping/Step 5 - Abstraction/OM-Solution_Mapping/OM-ML_Research/Combined_datasets/14-OM-datasets/P_labels_oversample_80%_total_dataset/13_OM_80"
 
 # Initialize an empty DataFrame to store combined data
 combined_data = pd.DataFrame()
@@ -23,4 +23,4 @@ for filename in os.listdir(directory):
         combined_data = pd.concat([combined_data, df[['OM_Regular', 'OM_Prediction']]], axis=0)
 
 # Write the combined data to an XLSX file
-combined_data.to_excel("14_OM_auth.xlsx", index=False)
+combined_data.to_excel("13_OM_80.xlsx", index=False)
