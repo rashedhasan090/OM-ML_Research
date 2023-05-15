@@ -2,7 +2,7 @@ import os
 import pandas as pd
 
 # Set the directory path containing the XLSX files
-directory = "/Users/rashedhasan/Desktop/UNL/Research/Object relational mapping/Step 5 - Abstraction/OM-Solution_Mapping/OM-ML_Research/Combined_datasets/13-OM-datasets/P_labels_oversample_50%_total_dataset "
+directory = "/Users/rashedhasan/Desktop/UNL/Research/Object relational mapping/Step 5 - Abstraction/OM-Solution_Mapping/OM-ML_Research/Combined_datasets/14-OM-datasets/P_labels_oversample_60%_total_dataset/separate testset"
 
 # Initialize an empty DataFrame to store combined data
 combined_data = pd.DataFrame()
