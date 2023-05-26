@@ -25,7 +25,7 @@ def replace_strings_in_excel(input_file, output_file, replacements):
 
 # Example usage
 input_file = "12_OM_60.xlsx"
-output_file = "12_OM_60_label.xlsx"
+output_file = "12_OM_60_label2.xlsx"
 replacements = {
     r"ONDELETECASCADEONUPDATECASCADE": " ON DELETE CASCADE ON UPDATE CASCADE ",
     r"CREATETABLE": "CREATE TABLE ",
@@ -48,6 +48,9 @@ replacements = {
     r"src_multiplicity": " src_multiplicity ",
     r"PRIMARYKEY" : " PRIMARY KEY ",
     r"MappingStrategyofTable": " Mapping Strategy of Table "
+    r"extendsAssociation" : "extends Association"
+    r"Nonoparent" : "No no parent"
+    r"Declarationone" : "Declaration one"
 
 }
 
