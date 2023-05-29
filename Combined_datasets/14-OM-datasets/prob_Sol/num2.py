@@ -40,7 +40,7 @@ class BooleanFormula:
             operand1 = self._eliminate_implication_recursively(['¬', subformula[1]])
             operand2 = self._eliminate_implication_recursively(subformula[2])
             return ['∨', operand1, operand2]
-        elif subformula[0] == '∧' or subformula[0] == '∨':
+        elif subformula[0] == '∧' \or subformula[0] == '∨':
             operator = subformula[0]
             operand1 = self._eliminate_implication_recursively(subformula[1])
             operand2 = self._eliminate_implication_recursively(subformula[2])
