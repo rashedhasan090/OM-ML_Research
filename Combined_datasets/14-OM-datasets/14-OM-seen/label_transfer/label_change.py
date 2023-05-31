@@ -1,10 +1,10 @@
 import pandas as pd
 
 # Specify the path to the original Excel file
-original_file_path = "/Users/rashedhasan/Desktop/UNL/Research/Object relational mapping/Step 5 - Abstraction/OM-Solution_Mapping/OM-ML_Research/Combined_datasets/14-OM-datasets/P_labels_oversample_70%_total_dataset/10_OM_70/new_labeling/10_OM_70.xlsx"
+original_file_path = "/Users/rashedhasan/Desktop/UNL/Research/Object relational mapping/Step 5 - Abstraction/OM-Solution_Mapping/OM-ML_Research/Combined_datasets/14-OM-datasets/14-OM-seen/label_transfer/14_OM_space.xlsx"
 
 # Specify the path for the new Excel file with modifications
-modified_file_path = "/Users/rashedhasan/Desktop/UNL/Research/Object relational mapping/Step 5 - Abstraction/OM-Solution_Mapping/OM-ML_Research/Combined_datasets/14-OM-datasets/P_labels_oversample_70%_total_dataset/10_OM_70/new_labeling/10_OM_70_label.xlsx"
+modified_file_path = "/Users/rashedhasan/Desktop/UNL/Research/Object relational mapping/Step 5 - Abstraction/OM-Solution_Mapping/OM-ML_Research/Combined_datasets/14-OM-datasets/14-OM-seen/label_transfer/14_OM_label.xlsx"
 
 # Load the original Excel file into a DataFrame
 df = pd.read_excel(original_file_path)
