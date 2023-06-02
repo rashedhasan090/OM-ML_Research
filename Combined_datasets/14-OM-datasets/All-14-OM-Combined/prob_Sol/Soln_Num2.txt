@@ -1,0 +1,124 @@
+sig Variable {}
+
+abstract sig Formula {}
+
+one sig True, False extends Formula {}
+
+sig Negation extends Formula {
+    child: Formula
+}
+
+sig Implication extends Formula {
+    left: Formula,
+    right: Formula
+}
+
+sig Disjunction extends Formula {
+    left: Formula,
+    right: Formula
+}
+
+sig Conjunction extends Formula {
+    left: Formula,
+    right: Formula
+}
+
+pred CNFTransformation(formula: Formula, cnf: set[Formula]) {
+    formula in cnf or (
+        formula = True or
+        formula = False or
+        formula in Variable
+    )
+
+    // Transformation rules
+    fact {
+        all f: Formula | (f in cnf) => (
+            f in Variable or
+            f = True or
+            f = False or
+            one nf: Negation | nf.child = f in cnf or
+            one imp: Implication | imp.left = f in cnf or imp.right = f in cnf or
+            one dis: Disjunction | dis.left = f in cnf or dis.right = f in cnf or
+            one con: Conjunction | con.left = f in cnf or con.right = f in cnf
+        )
+    }
+
+    // Transformation rules for negation
+    fact {
+        all nf: Negation | (
+            nf in cnf implies (
+                nf.child in cnf or
+                one imp: Implication | imp.left = nf.child or imp.right = nf.child or
+                one dis: Disjunction | dis.left = nf.child or dis.right = nf.child or
+                one con: Conjunction | con.left = nf.child or con.right = nf.child
+            )
+        )
+    }
+
+    // Transformation rules for implication
+    fact {
+        all imp: Implication | (
+            imp in cnf implies (
+                imp.left in cnf or imp.right in cnf or
+                one dis: Disjunction | dis.left = imp.left or dis.right = imp.left or
+                one con: Conjunction | con.left = imp.left or con.right = imp.left
+            )
+        )
+    }
+
+    // Transformation rules for disjunction
+    fact {
+        all dis: Disjunction | (
+            dis in cnf implies (
+                dis.left in cnf or dis.right in cnf or
+                one con: Conjunction | con.left = dis.left or con.right = dis.left or
+                one con: Conjunction | con.left = dis.right or con.right = dis.right
+            )
+        )
+    }
+
+    // Transformation rules for conjunction
+    fact {
+        all con: Conjunction | (
+            con in cnf implies (
+                con.left in cnf or con.right in cnf or
+                one dis: Disjunction | dis.left = con.left or dis.right = con.left or
+                one dis: Disjunction | dis.left = con.right or dis.right = con.right
+            )
+        )
+    }
+}
+
+fact {
+    // Example formula: (p^q)_(~q^r)
+    // Represented as: u = v_w; w = p^q; x = ~q^r
+    // Expanded CNF: ~u \/ v \/ w; u \/ ~v; u \/ ~w; ~w \/ p; ~w \/ q; ~p \/ ~q \/ w; ~x \/ ~q; ~x \/ r; q \/ ~r \/ x
+    let p = True + 1
+    let q = True + 2
+    let r = True + 3
+
+    // Create the initial formula
+    let formula = (p & q) | (~q & r)
+
+    // Define an empty set to store the CNF clauses
+    let cnf = {}
+
+    // Call the CNFTransformation predicate to transform the formula to CNF
+    CNFTransformation[formula, cnf]
+
+    // Print the CNF clauses
+    run {
+        // Print the original formula
+        println["Original Formula: " + formula]
+
+        // Print the CNF clauses
+        println["CNF Clauses:"]
+        for f: Formula | f in cnf {
+            println[f]
+        }
+    }
+}
+
+pred show {}
+
+run show for 3

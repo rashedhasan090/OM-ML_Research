@@ -1,0 +1,14 @@
+In this Alloy specification, we define the following sigs:
+
+Literal: Represents a single literal.
+Clause: Represents a clause consisting of a set of literals.
+Proof: Represents a resolution proof containing a set of clauses and a set of resolution steps.
+The Soundness predicate is defined to check the soundness of a proof. It iterates over each resolution step c and ensures that there exist two clauses c1 and c2 in the proof such that their union equals c and one is a subset of the other.
+
+The Unsatisfiable predicate is defined to check if the input clause set is unsatisfiable. It searches for a proof p that satisfies the conditions: the set of clauses in the proof p.clauses equals the input clause set, the resolution steps p.resolutionSteps are contained within the input clause set, and there are no empty clauses in p.clauses.
+
+In the run block, you can specify your input clause set by populating the inputClauseSet set with your desired clauses. Each clause should be represented using the Clause signature and its literals.
+
+Finally, the check Soundness for 4 command is used to verify the soundness of the Soundness predicate. You can adjust the number 4 to control the scope of the check.
+
+To use this specification, you can run it in an Alloy Analyzer tool and observe the results. If the assertion Unsatisfiable[inputClauseSet] holds, it indicates that the original input clause set is unsatisfiable.

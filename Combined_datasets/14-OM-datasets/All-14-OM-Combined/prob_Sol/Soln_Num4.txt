@@ -1,0 +1,70 @@
+abstract sig Atom {}
+
+sig Clause {
+    literals: set Literal
+}
+
+sig Literal {
+    atom: one Atom,
+    negated: lone Literal
+}
+
+fun ~[l: Literal]: Literal {
+    some nl: Literal | nl.negated = l
+}
+
+pred InterpolantConstruction {
+    // Input Clause Sets
+    let K1 = {
+        some c: Clause | c.literals = {
+            some l: Literal | l.atom in {a, e} and l.negated in {~a, ~e}
+        }
+    } |
+    let K2 = {
+        some c: Clause | c.literals = {
+            some l: Literal | l.atom in {~b, ~c, d, ~d, ~e} and l.negated in {}
+        }
+    } |
+    // Shared Atoms
+    let sharedAtoms = {b, c, e} |
+    // Resolution Steps
+    let gamma1 = {
+        some c: Clause | c.literals = {
+            some l: Literal | l.atom in {a, e} and l.negated in {~a, ~b, ~c, d, ~d, ~e}
+        }
+    } |
+    let gamma2 = {
+        some c: Clause | c.literals = {
+            some l: Literal | l.atom in {~b, ~c, d, ~d, ~e} and l.negated in {~a, ~b, ~c, d, ~d, ~e}
+        }
+    } |
+    let gamma3 = {
+        some c: Clause | c.literals = {
+            some l: Literal | l.atom in {~b, ~c, d, ~d, ~e} and l.negated in {a, ~b, ~c, d, ~d, ~e}
+        }
+    } |
+    let gamma4 = {
+        some c: Clause | c.literals = {
+            some l: Literal | l.atom in {~b, ~c, d, ~d, ~e} and l.negated in {(e ∩ ~b)}
+        }
+    } |
+    let gamma5 = {
+        some c: Clause | c.literals = {
+            some l: Literal | l.atom in {~b, ~c, d, ~d, ~e} and l.negated in {(e ∩ ~b) ∪ (e ∩ c)}
+        }
+    } |
+    // Construct Interpolants
+    let Igamma1 = (e ∩ sharedAtoms) |
+    let Igamma2 = (b ∩ sharedAtoms) |
+    let Igamma3 = (c ∩ sharedAtoms) |
+    let Igamma4 = ((e ∩ ~b) ∩ sharedAtoms) |
+    let Igamma5 = (((e ∩ ~b) ∩ (e ∩ c)) ∩ sharedAtoms) |
+    // Final Interpolant
+    let I = Igamma1 ∩ Igamma2 ∩ Igamma3 ∩ Igamma4 ∩ Igamma5 {
+        some clause: Clause | clause.literals = I
+    }
+} {
+    // Ensure soundness: K1 ⊗ I ⊢ I𝛾 and K2 ⊗ I ⊢ ~I𝛾
+    all clause: gamma1, gamma2, gamma3, gamma4, gamma5 |
+        (K1 + ~clause) & ~I in clause
+    all clause: gamma1, gamma2, gamma3, gamma4, gamma5 |

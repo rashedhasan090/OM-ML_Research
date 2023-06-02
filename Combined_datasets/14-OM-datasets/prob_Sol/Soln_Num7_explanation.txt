@@ -1,7 +1,0 @@
-Explanation:
-
-We define a signature Record that represents a record with fields a, b, and c, each of type UInt32.
-The function join[P, Q: Record] takes two arrays P and Q of type Record and returns a set of records. It selects all the records r for which there exist records p in P and q in Q such that the value of b in p is equal to the value of b in q, and r is formed by combining the fields a and b from p and the field c from q.
-The predicate JoinVerification[P, Q: Record] checks the correctness of the join operation. It asserts that for every record r, r belongs to the result of the join operation if and only if there exist records p in P and q in Q that satisfy the join condition mentioned above.
-The run command executes the JoinVerification predicate for a small instance of 4 records. It ensures that the join operation holds true for this instance.
-By running this Alloy model, you can verify that the join operation correctly combines the records from arrays P and Q based on the common value of the field b.

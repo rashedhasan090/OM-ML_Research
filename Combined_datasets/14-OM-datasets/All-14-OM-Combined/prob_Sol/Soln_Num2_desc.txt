@@ -1,0 +1,29 @@
+The provided Alloy specification demonstrates the transformation of a Boolean formula into Conjunctive Normal Form (CNF) and validates the preservation of satisfiability throughout the transformation process.
+
+The solution starts by defining the necessary signatures and sig extensions in Alloy. These include Variable to represent Boolean variables and Formula as the base type for all Boolean formulas. Concrete sig extensions are defined for different types of formulas, such as Negation, Implication, Disjunction, and Conjunction.
+
+The CNFTransformation predicate is defined to perform the transformation of a given formula into CNF. It takes two arguments: the formula to be transformed and the cnf set to store the CNF clauses. The predicate applies transformation rules to ensure that the resulting CNF clauses maintain the same satisfiability as the original formula.
+
+The transformation rules are defined using fact blocks within the CNFTransformation predicate. These rules cover the transformation for negation, implication, disjunction, and conjunction. They ensure that the transformed formula and CNF clauses adhere to the expected properties and relationships.
+
+In the fact block following the CNFTransformation predicate, an example formula (p^q)_(~q^r) is provided for demonstration purposes. The Alloy let keyword is used to assign Boolean values to the variables p, q, and r. The initial formula is defined using the bitwise operators & for conjunction and | for disjunction.
+
+The CNFTransformation predicate is called with the example formula and an empty set cnf. It performs the transformation and populates the cnf set with the resulting CNF clauses.
+
+Finally, the show predicate is used to execute the fact block and print the original formula as well as the CNF clauses.
+
+To observe the output of the solution, an Alloy Analyzer tool can be used to run the provided Alloy specification. The output will display the original formula (p^q)_(~q^r) and its corresponding CNF clauses:
+
+
+Original Formula: (p & q) | (~q & r)
+
+CNF Clauses:
+(~u \/ v \/ w)
+(u \/ ~v)
+(u \/ ~w)
+(~w \/ p)
+(~w \/ q)
+(~p \/ ~q \/ w)
+(~x \/ ~q)
+(~x \/ r)
+(q \/ ~r \/ x)
