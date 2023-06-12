@@ -1,0 +1,658 @@
+<alloy builddate="2008/10/27 23:45 EDT">
+
+<instance bitwidth="4" maxseq="7" command="Run mapping_run_CreditCardProcess for 29" filename="">
+
+<sig label="univ" ID="0" builtin="yes">
+   <atom label="assertions/relationalModel/Table$0"/>
+   <atom label="assertions/relationalModel/Table$1"/>
+   <atom label="assertions/relationalModel/Table$2"/>
+   <atom label="assertions/relationalModel/Table$3"/>
+   <atom label="assertions/relationalModel/Table$4"/>
+   <atom label="assertions/relationalModel/Table$5"/>
+   <atom label="assertions/relationalModel/Table$6"/>
+   <atom label="assertions/relationalModel/Table$7"/>
+   <atom label="assertions/relationalModel/Table$8"/>
+   <atom label="assertions/relationalModel/Table$9"/>
+   <atom label="assertions/relationalModel/Field$0"/>
+   <atom label="assertions/relationalModel/Field$1"/>
+   <atom label="assertions/relationalModel/Field$2"/>
+   <atom label="assertions/relationalModel/Field$3"/>
+   <atom label="assertions/relationalModel/Field$4"/>
+   <atom label="assertions/relationalModel/Field$5"/>
+   <atom label="assertions/relationalModel/Field$6"/>
+   <atom label="assertions/relationalModel/Field$7"/>
+   <atom label="assertions/relationalModel/Field$8"/>
+   <atom label="assertions/relationalModel/Field$9"/>
+   <atom label="assertions/relationalModel/Field$10"/>
+   <atom label="assertions/relationalModel/Field$11"/>
+   <atom label="assertions/relationalModel/Field$12"/>
+   <atom label="assertions/relationalModel/Field$13"/>
+   <atom label="assertions/relationalModel/Field$14"/>
+   <atom label="CreditCardProcess/Bankreq"/>
+   <atom label="CreditCardProcess/CreditCardSys"/>
+   <atom label="CreditCardProcess/Customer"/>
+   <atom label="CreditCardProcess/CardMaker"/>
+   <atom label="CreditCardProcess/CreditCard"/>
+   <atom label="CreditCardProcess/ProcessStaff"/>
+   <atom label="CreditCardProcess/CreditCardInfo"/>
+   <atom label="CreditCardProcess/InstructionCode"/>
+   <atom label="CreditCardProcess/SysId"/>
+   <atom label="CreditCardProcess/CustomerId"/>
+   <atom label="CreditCardProcess/CustomerPhoneNo"/>
+   <atom label="CreditCardProcess/TaxpayerId"/>
+   <atom label="CreditCardProcess/EquipmentId"/>
+   <atom label="CreditCardProcess/CreditCardId"/>
+   <atom label="CreditCardProcess/StaffId"/>
+   <atom label="CreditCardProcess/CustomerCredentials"/>
+   <atom label="CreditCardProcess/Info"/>
+   <atom label="CreditCardProcess/CustomerName"/>
+   <atom label="CreditCardProcess/CustomerAddress"/>
+   <atom label="CreditCardProcess/AcquireDate"/>
+   <atom label="CreditCardProcess/StaffName"/>
+   <atom label="CreditCardProcess/ClientList"/>
+   <atom label="CreditCardProcess/ProcessStaffCardMakerAssociation"/>
+   <atom label="CreditCardProcess/ProcessStaffCustomerAssociation"/>
+   <atom label="CreditCardProcess/CustomerCardMakerAssociation"/>
+   <atom label="CreditCardProcess/CustomerCreditCardAssociation"/>
+   <atom label="CreditCardProcess/CustomerBankreqAssociation"/>
+   <atom label="AssociationMappings/Declaration/No$0"/>
+   <atom label="AssociationMappings/Declaration/ONE"/>
+   <atom label="AssociationMappings/Declaration/MANY"/>
+   <atom label="ORMStrategies/UnionSubclassStrategy"/>
+   <atom label="ORMStrategies/JoinedSubclassStrategy"/>
+   <atom label="ORMStrategies/UnionSuperclassStrategy"/>
+   <atom label="AssociationMappings/ForeignKeyEmbeddingStrategy"/>
+   <atom label="AssociationMappings/OwnAssociationTableStrategy"/>
+   <atom label="AssociationMappings/MergingOneTableStrategy"/>
+   <atom label="AssociationMappings/AssociationMappingStrategies"/>
+   <atom label="-8"/>
+   <atom label="-7"/>
+   <atom label="-6"/>
+   <atom label="-5"/>
+   <atom label="-4"/>
+   <atom label="-3"/>
+   <atom label="-2"/>
+   <atom label="-1"/>
+   <atom label="0"/>
+   <atom label="1"/>
+   <atom label="2"/>
+   <atom label="3"/>
+   <atom label="4"/>
+   <atom label="5"/>
+   <atom label="6"/>
+   <atom label="7"/>
+</sig>
+
+<sig label="Int" ID="1" parentID="0" builtin="yes">
+   <atom label="-8"/>
+   <atom label="-7"/>
+   <atom label="-6"/>
+   <atom label="-5"/>
+   <atom label="-4"/>
+   <atom label="-3"/>
+   <atom label="-2"/>
+   <atom label="-1"/>
+   <atom label="0"/>
+   <atom label="1"/>
+   <atom label="2"/>
+   <atom label="3"/>
+   <atom label="4"/>
+   <atom label="5"/>
+   <atom label="6"/>
+   <atom label="7"/>
+</sig>
+
+<sig label="seq/Int" ID="2" parentID="1" builtin="yes">
+   <atom label="0"/>
+   <atom label="1"/>
+   <atom label="2"/>
+   <atom label="3"/>
+   <atom label="4"/>
+   <atom label="5"/>
+   <atom label="6"/>
+</sig>
+
+<sig label="fun/String" ID="3" parentID="0" builtin="yes">
+</sig>
+
+<sig label="assertions/relationalModel/Table" ID="4" parentID="0">
+   <atom label="assertions/relationalModel/Table$0"/>
+   <atom label="assertions/relationalModel/Table$1"/>
+   <atom label="assertions/relationalModel/Table$2"/>
+   <atom label="assertions/relationalModel/Table$3"/>
+   <atom label="assertions/relationalModel/Table$4"/>
+   <atom label="assertions/relationalModel/Table$5"/>
+   <atom label="assertions/relationalModel/Table$6"/>
+   <atom label="assertions/relationalModel/Table$7"/>
+   <atom label="assertions/relationalModel/Table$8"/>
+   <atom label="assertions/relationalModel/Table$9"/>
+</sig>
+
+<field label="fields" ID="5" parentID="4">
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="assertions/relationalModel/Field$8"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="assertions/relationalModel/Field$8"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$3"/> <atom label="assertions/relationalModel/Field$8"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$3"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$3"/> <atom label="assertions/relationalModel/Field$13"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="assertions/relationalModel/Field$7"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$6"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$8"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="assertions/relationalModel/Field$5"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="assertions/relationalModel/Field$14"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$7"/> <atom label="assertions/relationalModel/Field$3"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$7"/> <atom label="assertions/relationalModel/Field$4"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$7"/> <atom label="assertions/relationalModel/Field$7"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$7"/> <atom label="assertions/relationalModel/Field$10"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$7"/> <atom label="assertions/relationalModel/Field$11"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$7"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$8"/> <atom label="assertions/relationalModel/Field$2"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$8"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$9"/> <atom label="assertions/relationalModel/Field$0"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$9"/> <atom label="assertions/relationalModel/Field$1"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$9"/> <atom label="assertions/relationalModel/Field$7"/> </tuple>
+   <types> <type ID="4"/> <type ID="6"/> </types>
+</field>
+
+<field label="primaryKey" ID="7" parentID="4">
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="assertions/relationalModel/Field$8"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="assertions/relationalModel/Field$8"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$3"/> <atom label="assertions/relationalModel/Field$8"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="assertions/relationalModel/Field$7"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="assertions/relationalModel/Field$8"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="assertions/relationalModel/Field$14"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$7"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$8"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$9"/> <atom label="assertions/relationalModel/Field$7"/> </tuple>
+   <types> <type ID="4"/> <type ID="6"/> </types>
+</field>
+
+<field label="foreignKey" ID="8" parentID="4">
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="assertions/relationalModel/Field$8"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="assertions/relationalModel/Field$7"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="assertions/relationalModel/Field$9"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="assertions/relationalModel/Field$12"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$7"/> <atom label="assertions/relationalModel/Field$7"/> </tuple>
+   <types> <type ID="4"/> <type ID="6"/> </types>
+</field>
+
+<field label="tAssociate" ID="9" parentID="4">
+   <tuple> <atom label="assertions/relationalModel/Table$0"/> <atom label="CreditCardProcess/CustomerCardMakerAssociation"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$1"/> <atom label="CreditCardProcess/CustomerCreditCardAssociation"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$2"/> <atom label="CreditCardProcess/CreditCard"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$3"/> <atom label="CreditCardProcess/CreditCardSys"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$4"/> <atom label="CreditCardProcess/ProcessStaffCardMakerAssociation"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$5"/> <atom label="CreditCardProcess/CreditCardInfo"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$6"/> <atom label="CreditCardProcess/Bankreq"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$7"/> <atom label="CreditCardProcess/Customer"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$8"/> <atom label="CreditCardProcess/CardMaker"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Table$9"/> <atom label="CreditCardProcess/ProcessStaff"/> </tuple>
+   <types> <type ID="4"/> <type ID="10"/> </types>
+   <types> <type ID="4"/> <type ID="11"/> </types>
+</field>
+
+<sig label="assertions/relationalModel/Field" ID="6" parentID="0">
+   <atom label="assertions/relationalModel/Field$0"/>
+   <atom label="assertions/relationalModel/Field$1"/>
+   <atom label="assertions/relationalModel/Field$2"/>
+   <atom label="assertions/relationalModel/Field$3"/>
+   <atom label="assertions/relationalModel/Field$4"/>
+   <atom label="assertions/relationalModel/Field$5"/>
+   <atom label="assertions/relationalModel/Field$6"/>
+   <atom label="assertions/relationalModel/Field$7"/>
+   <atom label="assertions/relationalModel/Field$8"/>
+   <atom label="assertions/relationalModel/Field$9"/>
+   <atom label="assertions/relationalModel/Field$10"/>
+   <atom label="assertions/relationalModel/Field$11"/>
+   <atom label="assertions/relationalModel/Field$12"/>
+   <atom label="assertions/relationalModel/Field$13"/>
+   <atom label="assertions/relationalModel/Field$14"/>
+</sig>
+
+<field label="fAssociate" ID="12" parentID="6">
+   <tuple> <atom label="assertions/relationalModel/Field$0"/> <atom label="CreditCardProcess/ClientList"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$1"/> <atom label="CreditCardProcess/StaffName"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$2"/> <atom label="CreditCardProcess/AcquireDate"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$3"/> <atom label="CreditCardProcess/CustomerAddress"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$4"/> <atom label="CreditCardProcess/CustomerName"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$5"/> <atom label="CreditCardProcess/Info"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$6"/> <atom label="CreditCardProcess/CustomerCredentials"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$7"/> <atom label="CreditCardProcess/StaffId"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$8"/> <atom label="CreditCardProcess/CreditCardId"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$9"/> <atom label="CreditCardProcess/EquipmentId"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$10"/> <atom label="CreditCardProcess/TaxpayerId"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$11"/> <atom label="CreditCardProcess/CustomerPhoneNo"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$12"/> <atom label="CreditCardProcess/CustomerId"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$13"/> <atom label="CreditCardProcess/SysId"/> </tuple>
+   <tuple> <atom label="assertions/relationalModel/Field$14"/> <atom label="CreditCardProcess/InstructionCode"/> </tuple>
+   <types> <type ID="6"/> <type ID="13"/> </types>
+</field>
+
+<sig label="AssociationMappings/Declaration/needHandle" ID="13" parentID="0" abstract="yes">
+   <atom label="CreditCardProcess/Bankreq"/>
+   <atom label="CreditCardProcess/CreditCardSys"/>
+   <atom label="CreditCardProcess/Customer"/>
+   <atom label="CreditCardProcess/CardMaker"/>
+   <atom label="CreditCardProcess/CreditCard"/>
+   <atom label="CreditCardProcess/ProcessStaff"/>
+   <atom label="CreditCardProcess/CreditCardInfo"/>
+   <atom label="CreditCardProcess/InstructionCode"/>
+   <atom label="CreditCardProcess/SysId"/>
+   <atom label="CreditCardProcess/CustomerId"/>
+   <atom label="CreditCardProcess/CustomerPhoneNo"/>
+   <atom label="CreditCardProcess/TaxpayerId"/>
+   <atom label="CreditCardProcess/EquipmentId"/>
+   <atom label="CreditCardProcess/CreditCardId"/>
+   <atom label="CreditCardProcess/StaffId"/>
+   <atom label="CreditCardProcess/CustomerCredentials"/>
+   <atom label="CreditCardProcess/Info"/>
+   <atom label="CreditCardProcess/CustomerName"/>
+   <atom label="CreditCardProcess/CustomerAddress"/>
+   <atom label="CreditCardProcess/AcquireDate"/>
+   <atom label="CreditCardProcess/StaffName"/>
+   <atom label="CreditCardProcess/ClientList"/>
+   <atom label="CreditCardProcess/ProcessStaffCardMakerAssociation"/>
+   <atom label="CreditCardProcess/ProcessStaffCustomerAssociation"/>
+   <atom label="CreditCardProcess/CustomerCardMakerAssociation"/>
+   <atom label="CreditCardProcess/CustomerCreditCardAssociation"/>
+   <atom label="CreditCardProcess/CustomerBankreqAssociation"/>
+   <atom label="AssociationMappings/Declaration/No$0"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Attribute" ID="14" parentID="13" abstract="yes">
+   <atom label="CreditCardProcess/Bankreq"/>
+   <atom label="CreditCardProcess/CreditCardSys"/>
+   <atom label="CreditCardProcess/Customer"/>
+   <atom label="CreditCardProcess/CardMaker"/>
+   <atom label="CreditCardProcess/CreditCard"/>
+   <atom label="CreditCardProcess/ProcessStaff"/>
+   <atom label="CreditCardProcess/CreditCardInfo"/>
+   <atom label="CreditCardProcess/InstructionCode"/>
+   <atom label="CreditCardProcess/SysId"/>
+   <atom label="CreditCardProcess/CustomerId"/>
+   <atom label="CreditCardProcess/CustomerPhoneNo"/>
+   <atom label="CreditCardProcess/TaxpayerId"/>
+   <atom label="CreditCardProcess/EquipmentId"/>
+   <atom label="CreditCardProcess/CreditCardId"/>
+   <atom label="CreditCardProcess/StaffId"/>
+   <atom label="CreditCardProcess/CustomerCredentials"/>
+   <atom label="CreditCardProcess/Info"/>
+   <atom label="CreditCardProcess/CustomerName"/>
+   <atom label="CreditCardProcess/CustomerAddress"/>
+   <atom label="CreditCardProcess/AcquireDate"/>
+   <atom label="CreditCardProcess/StaffName"/>
+   <atom label="CreditCardProcess/ClientList"/>
+   <atom label="AssociationMappings/Declaration/No$0"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Class" ID="10" parentID="14" abstract="yes">
+   <atom label="CreditCardProcess/Bankreq"/>
+   <atom label="CreditCardProcess/CreditCardSys"/>
+   <atom label="CreditCardProcess/Customer"/>
+   <atom label="CreditCardProcess/CardMaker"/>
+   <atom label="CreditCardProcess/CreditCard"/>
+   <atom label="CreditCardProcess/ProcessStaff"/>
+   <atom label="CreditCardProcess/CreditCardInfo"/>
+</sig>
+
+<field label="attrSet" ID="15" parentID="10">
+   <tuple> <atom label="CreditCardProcess/Bankreq"/> <atom label="CreditCardProcess/InstructionCode"/> </tuple>
+   <tuple> <atom label="CreditCardProcess/Bankreq"/> <atom label="CreditCardProcess/Info"/> </tuple>
+   <tuple> <atom label="CreditCardProcess/CreditCardSys"/> <atom label="CreditCardProcess/SysId"/> </tuple>
+   <tuple> <atom label="CreditCardProcess/Customer"/> <atom label="CreditCardProcess/CustomerId"/> </tuple>
+   <tuple> <atom label="CreditCardProcess/Customer"/> <atom label="CreditCardProcess/CustomerPhoneNo"/> </tuple>
+   <tuple> <atom label="CreditCardProcess/Customer"/> <atom label="CreditCardProcess/TaxpayerId"/> </tuple>
+   <tuple> <atom label="CreditCardProcess/Customer"/> <atom label="CreditCardProcess/CustomerName"/> </tuple>
+   <tuple> <atom label="CreditCardProcess/Customer"/> <atom label="CreditCardProcess/CustomerAddress"/> </tuple>
+   <tuple> <atom label="CreditCardProcess/CardMaker"/> <atom label="CreditCardProcess/EquipmentId"/> </tuple>
+   <tuple> <atom label="CreditCardProcess/CardMaker"/> <atom label="CreditCardProcess/AcquireDate"/> </tuple>
+   <tuple> <atom label="CreditCardProcess/CreditCard"/> <atom label="CreditCardProcess/CustomerId"/> </tuple>
+   <tuple> <atom label="CreditCardProcess/CreditCard"/> <atom label="CreditCardProcess/CreditCardId"/> </tuple>
+   <tuple> <atom label="CreditCardProcess/ProcessStaff"/> <atom label="CreditCardProcess/StaffId"/> </tuple>
+   <tuple> <atom label="CreditCardProcess/ProcessStaff"/> <atom label="CreditCardProcess/StaffName"/> </tuple>
+   <tuple> <atom label="CreditCardProcess/ProcessStaff"/> <atom label="CreditCardProcess/ClientList"/> </tuple>
+   <tuple> <atom label="CreditCardProcess/CreditCardInfo"/> <atom label="CreditCardProcess/CustomerCredentials"/> </tuple>
+   <types> <type ID="10"/> <type ID="14"/> </types>
+</field>
+
+<field label="id" ID="16" parentID="10">
+   <tuple> <atom label="CreditCardProcess/Bankreq"/> <atom label="CreditCardProcess/InstructionCode"/> </tuple>
+   <tuple> <atom label="CreditCardProcess/CreditCardSys"/> <atom label="CreditCardProcess/CreditCardId"/> </tuple>
+   <tuple> <atom label="CreditCardProcess/Customer"/> <atom label="CreditCardProcess/CustomerId"/> </tuple>
+   <tuple> <atom label="CreditCardProcess/CardMaker"/> <atom label="CreditCardProcess/EquipmentId"/> </tuple>
+   <tuple> <atom label="CreditCardProcess/CreditCard"/> <atom label="CreditCardProcess/CreditCardId"/> </tuple>
+   <tuple> <atom label="CreditCardProcess/ProcessStaff"/> <atom label="CreditCardProcess/StaffId"/> </tuple>
+   <tuple> <atom label="CreditCardProcess/CreditCardInfo"/> <atom label="CreditCardProcess/CreditCardId"/> </tuple>
+   <types> <type ID="10"/> <type ID="14"/> </types>
+</field>
+
+<field label="parent" ID="17" parentID="10">
+   <tuple> <atom label="CreditCardProcess/CreditCardSys"/> <atom label="CreditCardProcess/CreditCard"/> </tuple>
+   <tuple> <atom label="CreditCardProcess/CreditCardInfo"/> <atom label="CreditCardProcess/CreditCard"/> </tuple>
+   <types> <type ID="10"/> <type ID="10"/> </types>
+</field>
+
+<field label="isAbstract" ID="18" parentID="10">
+   <tuple> <atom label="CreditCardProcess/Bankreq"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="CreditCardProcess/CreditCardSys"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="CreditCardProcess/Customer"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="CreditCardProcess/CardMaker"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="CreditCardProcess/CreditCard"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="CreditCardProcess/ProcessStaff"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <tuple> <atom label="CreditCardProcess/CreditCardInfo"/> <atom label="AssociationMappings/Declaration/No$0"/> </tuple>
+   <types> <type ID="10"/> <type ID="19"/> </types>
+</field>
+
+<sig label="CreditCardProcess/Bankreq" ID="20" parentID="10" one="yes">
+   <atom label="CreditCardProcess/Bankreq"/>
+</sig>
+
+<sig label="CreditCardProcess/CreditCardSys" ID="21" parentID="10" one="yes">
+   <atom label="CreditCardProcess/CreditCardSys"/>
+</sig>
+
+<sig label="CreditCardProcess/Customer" ID="22" parentID="10" one="yes">
+   <atom label="CreditCardProcess/Customer"/>
+</sig>
+
+<sig label="CreditCardProcess/CardMaker" ID="23" parentID="10" one="yes">
+   <atom label="CreditCardProcess/CardMaker"/>
+</sig>
+
+<sig label="CreditCardProcess/CreditCard" ID="24" parentID="10" one="yes">
+   <atom label="CreditCardProcess/CreditCard"/>
+</sig>
+
+<sig label="CreditCardProcess/ProcessStaff" ID="25" parentID="10" one="yes">
+   <atom label="CreditCardProcess/ProcessStaff"/>
+</sig>
+
+<sig label="CreditCardProcess/CreditCardInfo" ID="26" parentID="10" one="yes">
+   <atom label="CreditCardProcess/CreditCardInfo"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Type" ID="27" parentID="14" abstract="yes">
+   <atom label="CreditCardProcess/InstructionCode"/>
+   <atom label="CreditCardProcess/SysId"/>
+   <atom label="CreditCardProcess/CustomerId"/>
+   <atom label="CreditCardProcess/CustomerPhoneNo"/>
+   <atom label="CreditCardProcess/TaxpayerId"/>
+   <atom label="CreditCardProcess/EquipmentId"/>
+   <atom label="CreditCardProcess/CreditCardId"/>
+   <atom label="CreditCardProcess/StaffId"/>
+   <atom label="CreditCardProcess/CustomerCredentials"/>
+   <atom label="CreditCardProcess/Info"/>
+   <atom label="CreditCardProcess/CustomerName"/>
+   <atom label="CreditCardProcess/CustomerAddress"/>
+   <atom label="CreditCardProcess/AcquireDate"/>
+   <atom label="CreditCardProcess/StaffName"/>
+   <atom label="CreditCardProcess/ClientList"/>
+   <atom label="AssociationMappings/Declaration/No$0"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Integer" ID="28" parentID="27">
+   <atom label="CreditCardProcess/InstructionCode"/>
+   <atom label="CreditCardProcess/SysId"/>
+   <atom label="CreditCardProcess/CustomerId"/>
+   <atom label="CreditCardProcess/CustomerPhoneNo"/>
+   <atom label="CreditCardProcess/TaxpayerId"/>
+   <atom label="CreditCardProcess/EquipmentId"/>
+   <atom label="CreditCardProcess/CreditCardId"/>
+   <atom label="CreditCardProcess/StaffId"/>
+   <atom label="CreditCardProcess/CustomerCredentials"/>
+</sig>
+
+<sig label="CreditCardProcess/InstructionCode" ID="29" parentID="28" one="yes">
+   <atom label="CreditCardProcess/InstructionCode"/>
+</sig>
+
+<sig label="CreditCardProcess/SysId" ID="30" parentID="28" one="yes">
+   <atom label="CreditCardProcess/SysId"/>
+</sig>
+
+<sig label="CreditCardProcess/CustomerId" ID="31" parentID="28" one="yes">
+   <atom label="CreditCardProcess/CustomerId"/>
+</sig>
+
+<sig label="CreditCardProcess/CustomerPhoneNo" ID="32" parentID="28" one="yes">
+   <atom label="CreditCardProcess/CustomerPhoneNo"/>
+</sig>
+
+<sig label="CreditCardProcess/TaxpayerId" ID="33" parentID="28" one="yes">
+   <atom label="CreditCardProcess/TaxpayerId"/>
+</sig>
+
+<sig label="CreditCardProcess/EquipmentId" ID="34" parentID="28" one="yes">
+   <atom label="CreditCardProcess/EquipmentId"/>
+</sig>
+
+<sig label="CreditCardProcess/CreditCardId" ID="35" parentID="28" one="yes">
+   <atom label="CreditCardProcess/CreditCardId"/>
+</sig>
+
+<sig label="CreditCardProcess/StaffId" ID="36" parentID="28" one="yes">
+   <atom label="CreditCardProcess/StaffId"/>
+</sig>
+
+<sig label="CreditCardProcess/CustomerCredentials" ID="37" parentID="28" one="yes">
+   <atom label="CreditCardProcess/CustomerCredentials"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Real" ID="38" parentID="27">
+</sig>
+
+<sig label="AssociationMappings/Declaration/string" ID="39" parentID="27">
+   <atom label="CreditCardProcess/Info"/>
+   <atom label="CreditCardProcess/CustomerName"/>
+   <atom label="CreditCardProcess/CustomerAddress"/>
+   <atom label="CreditCardProcess/AcquireDate"/>
+   <atom label="CreditCardProcess/StaffName"/>
+   <atom label="CreditCardProcess/ClientList"/>
+</sig>
+
+<sig label="CreditCardProcess/Info" ID="40" parentID="39" one="yes">
+   <atom label="CreditCardProcess/Info"/>
+</sig>
+
+<sig label="CreditCardProcess/CustomerName" ID="41" parentID="39" one="yes">
+   <atom label="CreditCardProcess/CustomerName"/>
+</sig>
+
+<sig label="CreditCardProcess/CustomerAddress" ID="42" parentID="39" one="yes">
+   <atom label="CreditCardProcess/CustomerAddress"/>
+</sig>
+
+<sig label="CreditCardProcess/AcquireDate" ID="43" parentID="39" one="yes">
+   <atom label="CreditCardProcess/AcquireDate"/>
+</sig>
+
+<sig label="CreditCardProcess/StaffName" ID="44" parentID="39" one="yes">
+   <atom label="CreditCardProcess/StaffName"/>
+</sig>
+
+<sig label="CreditCardProcess/ClientList" ID="45" parentID="39" one="yes">
+   <atom label="CreditCardProcess/ClientList"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Bool" ID="19" parentID="27">
+   <atom label="AssociationMappings/Declaration/No$0"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Yes" ID="46" parentID="19">
+</sig>
+
+<sig label="AssociationMappings/Declaration/No" ID="47" parentID="19">
+   <atom label="AssociationMappings/Declaration/No$0"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/DType" ID="48" parentID="27">
+</sig>
+
+<sig label="AssociationMappings/Declaration/Longblob" ID="49" parentID="27">
+</sig>
+
+<sig label="AssociationMappings/Declaration/Time" ID="50" parentID="27">
+</sig>
+
+<sig label="AssociationMappings/Declaration/Association" ID="11" parentID="13" abstract="yes">
+   <atom label="CreditCardProcess/ProcessStaffCardMakerAssociation"/>
+   <atom label="CreditCardProcess/ProcessStaffCustomerAssociation"/>
+   <atom label="CreditCardProcess/CustomerCardMakerAssociation"/>
+   <atom label="CreditCardProcess/CustomerCreditCardAssociation"/>
+   <atom label="CreditCardProcess/CustomerBankreqAssociation"/>
+</sig>
+
+<field label="src" ID="51" parentID="11">
+   <tuple> <atom label="CreditCardProcess/ProcessStaffCardMakerAssociation"/> <atom label="CreditCardProcess/ProcessStaff"/> </tuple>
+   <tuple> <atom label="CreditCardProcess/ProcessStaffCustomerAssociation"/> <atom label="CreditCardProcess/ProcessStaff"/> </tuple>
+   <tuple> <atom label="CreditCardProcess/CustomerCardMakerAssociation"/> <atom label="CreditCardProcess/Customer"/> </tuple>
+   <tuple> <atom label="CreditCardProcess/CustomerCreditCardAssociation"/> <atom label="CreditCardProcess/Customer"/> </tuple>
+   <tuple> <atom label="CreditCardProcess/CustomerBankreqAssociation"/> <atom label="CreditCardProcess/Customer"/> </tuple>
+   <types> <type ID="11"/> <type ID="10"/> </types>
+</field>
+
+<field label="dst" ID="52" parentID="11">
+   <tuple> <atom label="CreditCardProcess/ProcessStaffCardMakerAssociation"/> <atom label="CreditCardProcess/CardMaker"/> </tuple>
+   <tuple> <atom label="CreditCardProcess/ProcessStaffCustomerAssociation"/> <atom label="CreditCardProcess/Customer"/> </tuple>
+   <tuple> <atom label="CreditCardProcess/CustomerCardMakerAssociation"/> <atom label="CreditCardProcess/CardMaker"/> </tuple>
+   <tuple> <atom label="CreditCardProcess/CustomerCreditCardAssociation"/> <atom label="CreditCardProcess/CreditCard"/> </tuple>
+   <tuple> <atom label="CreditCardProcess/CustomerBankreqAssociation"/> <atom label="CreditCardProcess/Bankreq"/> </tuple>
+   <types> <type ID="11"/> <type ID="10"/> </types>
+</field>
+
+<field label="src_multiplicity" ID="53" parentID="11">
+   <tuple> <atom label="CreditCardProcess/ProcessStaffCardMakerAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <tuple> <atom label="CreditCardProcess/ProcessStaffCustomerAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <tuple> <atom label="CreditCardProcess/CustomerCardMakerAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="CreditCardProcess/CustomerCreditCardAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <tuple> <atom label="CreditCardProcess/CustomerBankreqAssociation"/> <atom label="AssociationMappings/Declaration/ONE"/> </tuple>
+   <types> <type ID="11"/> <type ID="54"/> </types>
+</field>
+
+<field label="dst_multiplicity" ID="55" parentID="11">
+   <tuple> <atom label="CreditCardProcess/ProcessStaffCardMakerAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="CreditCardProcess/ProcessStaffCustomerAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="CreditCardProcess/CustomerCardMakerAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="CreditCardProcess/CustomerCreditCardAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <tuple> <atom label="CreditCardProcess/CustomerBankreqAssociation"/> <atom label="AssociationMappings/Declaration/MANY"/> </tuple>
+   <types> <type ID="11"/> <type ID="54"/> </types>
+</field>
+
+<sig label="CreditCardProcess/ProcessStaffCardMakerAssociation" ID="56" parentID="11" one="yes">
+   <atom label="CreditCardProcess/ProcessStaffCardMakerAssociation"/>
+</sig>
+
+<sig label="CreditCardProcess/ProcessStaffCustomerAssociation" ID="57" parentID="11" one="yes">
+   <atom label="CreditCardProcess/ProcessStaffCustomerAssociation"/>
+</sig>
+
+<sig label="CreditCardProcess/CustomerCardMakerAssociation" ID="58" parentID="11" one="yes">
+   <atom label="CreditCardProcess/CustomerCardMakerAssociation"/>
+</sig>
+
+<sig label="CreditCardProcess/CustomerCreditCardAssociation" ID="59" parentID="11" one="yes">
+   <atom label="CreditCardProcess/CustomerCreditCardAssociation"/>
+</sig>
+
+<sig label="CreditCardProcess/CustomerBankreqAssociation" ID="60" parentID="11" one="yes">
+   <atom label="CreditCardProcess/CustomerBankreqAssociation"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Multiplicity_State" ID="54" parentID="0" abstract="yes">
+   <atom label="AssociationMappings/Declaration/ONE"/>
+   <atom label="AssociationMappings/Declaration/MANY"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/ONE" ID="61" parentID="54" one="yes">
+   <atom label="AssociationMappings/Declaration/ONE"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/MANY" ID="62" parentID="54" one="yes">
+   <atom label="AssociationMappings/Declaration/MANY"/>
+</sig>
+
+<sig label="AssociationMappings/Declaration/Strategy" ID="63" parentID="0" abstract="yes">
+   <atom label="ORMStrategies/UnionSubclassStrategy"/>
+   <atom label="ORMStrategies/JoinedSubclassStrategy"/>
+   <atom label="ORMStrategies/UnionSuperclassStrategy"/>
+   <atom label="AssociationMappings/ForeignKeyEmbeddingStrategy"/>
+   <atom label="AssociationMappings/OwnAssociationTableStrategy"/>
+   <atom label="AssociationMappings/MergingOneTableStrategy"/>
+</sig>
+
+<field label="assignees" ID="64" parentID="63">
+   <tuple> <atom label="ORMStrategies/UnionSubclassStrategy"/> <atom label="CreditCardProcess/CreditCardSys"/> </tuple>
+   <tuple> <atom label="ORMStrategies/UnionSubclassStrategy"/> <atom label="CreditCardProcess/CardMaker"/> </tuple>
+   <tuple> <atom label="ORMStrategies/UnionSubclassStrategy"/> <atom label="CreditCardProcess/CreditCard"/> </tuple>
+   <tuple> <atom label="ORMStrategies/UnionSubclassStrategy"/> <atom label="CreditCardProcess/ProcessStaff"/> </tuple>
+   <tuple> <atom label="ORMStrategies/UnionSubclassStrategy"/> <atom label="CreditCardProcess/CreditCardInfo"/> </tuple>
+   <tuple> <atom label="AssociationMappings/ForeignKeyEmbeddingStrategy"/> <atom label="CreditCardProcess/ProcessStaffCustomerAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/ForeignKeyEmbeddingStrategy"/> <atom label="CreditCardProcess/CustomerBankreqAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/OwnAssociationTableStrategy"/> <atom label="CreditCardProcess/ProcessStaffCardMakerAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/OwnAssociationTableStrategy"/> <atom label="CreditCardProcess/CustomerCardMakerAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/OwnAssociationTableStrategy"/> <atom label="CreditCardProcess/CustomerCreditCardAssociation"/> </tuple>
+   <types> <type ID="63"/> <type ID="10"/> </types>
+   <types> <type ID="63"/> <type ID="11"/> </types>
+</field>
+
+<sig label="ORMStrategies/UnionSubclassStrategy" ID="65" parentID="63" one="yes">
+   <atom label="ORMStrategies/UnionSubclassStrategy"/>
+</sig>
+
+<sig label="ORMStrategies/JoinedSubclassStrategy" ID="66" parentID="63" one="yes">
+   <atom label="ORMStrategies/JoinedSubclassStrategy"/>
+</sig>
+
+<sig label="ORMStrategies/UnionSuperclassStrategy" ID="67" parentID="63" one="yes">
+   <atom label="ORMStrategies/UnionSuperclassStrategy"/>
+</sig>
+
+<sig label="AssociationMappings/ForeignKeyEmbeddingStrategy" ID="68" parentID="63" one="yes">
+   <atom label="AssociationMappings/ForeignKeyEmbeddingStrategy"/>
+</sig>
+
+<sig label="AssociationMappings/OwnAssociationTableStrategy" ID="69" parentID="63" one="yes">
+   <atom label="AssociationMappings/OwnAssociationTableStrategy"/>
+</sig>
+
+<sig label="AssociationMappings/MergingOneTableStrategy" ID="70" parentID="63" one="yes">
+   <atom label="AssociationMappings/MergingOneTableStrategy"/>
+</sig>
+
+<sig label="AssociationMappings/AssociationMappingStrategies" ID="71" parentID="0" one="yes">
+   <atom label="AssociationMappings/AssociationMappingStrategies"/>
+</sig>
+
+<field label="FKE" ID="72" parentID="71">
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="CreditCardProcess/ProcessStaffCustomerAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="CreditCardProcess/CustomerBankreqAssociation"/> </tuple>
+   <types> <type ID="71"/> <type ID="11"/> </types>
+</field>
+
+<field label="OAT" ID="73" parentID="71">
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="CreditCardProcess/ProcessStaffCardMakerAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="CreditCardProcess/CustomerCardMakerAssociation"/> </tuple>
+   <tuple> <atom label="AssociationMappings/AssociationMappingStrategies"/> <atom label="CreditCardProcess/CustomerCreditCardAssociation"/> </tuple>
+   <types> <type ID="71"/> <type ID="11"/> </types>
+</field>
+
+<field label="MOT" ID="74" parentID="71">
+   <types> <type ID="71"/> <type ID="11"/> </types>
+</field>
+
+</instance>
+
+</alloy>

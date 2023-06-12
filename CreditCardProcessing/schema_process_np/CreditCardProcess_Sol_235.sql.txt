@@ -1,0 +1,98 @@
+
+USE OM_name:0;
+
+
+
+CREATE TABLE `assoc4` (
+`c5_at1` c5_at1_type NOT NULL,
+`c3_at1` c3_at1_type NOT NULL,
+KEY `FK_assoc4_c5_at1_idx` (`c5_at1`),
+KEY `FK_assoc4_c3_at1_idx` (`c3_at1`),
+PRIMARY KEY (`c5_at1`,`c3_at1`)
+
+
+
+CREATE TABLE `class1_name` (
+`c1_at2` c1_at2_type(64),
+`c3_at1` c3_at1_type,
+`c1_at1` c1_at1_type NOT NULL,
+KEY `FK_class1_name_c3_at1_idx` (`c3_at1`),
+PRIMARY KEY (`c1_at1`)
+
+
+
+CREATE TABLE `class2_name` (
+`c5_at1` c5_at1_type NOT NULL,
+`c2_at1` c2_at1_type,
+KEY `FK_class2_name_c5_at1_idx` (`c5_at1`),
+PRIMARY KEY (`c5_at1`)
+
+
+
+CREATE TABLE `class6_name` (`c6_at3` c6_at3_type(64),
+`c2_at2` c2_at2_type(64),
+`c6_at1_0` c6_at1_type NOT NULL,
+PRIMARY KEY (`c6_at1_0`)
+
+
+
+CREATE TABLE `class4_name` (
+`c4_at2` c4_at2_type(64),
+`c6_at1_0` c6_at1_type,
+`c4_at1` c4_at1_type NOT NULL,
+FK_class4_name_c6_at1_0_idx` (`c6_at1_0`),
+PRIMARY KEY (`c4_at1`)
+
+
+
+CREATE TABLE `class3_name` (
+`c3_at3` c3_at3_type(64),
+`c3_at2` c3_at2_type(64),
+`c3_at5` c3_at5_type,
+`c3_at4` c3_at4_type,
+`c3_at1` c3_at1_type NOT NULL,
+PRIMARY KEY (`c3_at1`)
+
+
+
+CREATE TABLE `assoc3` (
+`c4_at1` c4_at1_type NOT NULL,
+`c3_at1` c3_at1_type NOT NULL,
+KEY `FK_assoc3_c4_at1_idx` (`c4_at1`),
+KEY `FK_assoc3_c3_at1_idx` (`c3_at1`),
+PRIMARY KEY (`c4_at1`,`c3_at1`)
+
+
+
+CREATE TABLE `class7_name` (
+`c7_at1` c7_at1_type,
+`c5_at1` c5_at1_type NOT NULL,
+KEY `FK_class7_name_c5_at1_idx` (`c5_at1`),
+PRIMARY KEY (`c5_at1`)
+
+
+
+CREATE TABLE `class5_name` (
+`c5_at1` c5_at1_type NOT NULL,
+`c3_at1` c3_at1_type,
+PRIMARY KEY (`c5_at1`)
+
+
+
+CREATE TABLE `assoc2` (
+`c6_at1_0` c6_at1_type NOT NULL,
+`c3_at1` c3_at1_type NOT NULL,
+ALTER TABLE `assoc4`
+ADD CONSTRAINT `FK_assoc4_c5_at1` FOREIGN KEY (`c5_at1`) REFERENCES `class5_name` (`c5_at1`) ON DELETE CASCADE ON UPDATE CASCADE,
+ADD CONSTRAINT `FK_assoc4_c3_at1` FOREIGN KEY (`c3_at1`) REFERENCES `class3_name` (`c3_at1`) ON DELETE CASCADE ON UPDATE CASCADE,
+ADD CONSTRAINT `FK_class1_name_c3_at1` FOREIGN KEY (`c3_at1`) REFERENCES `class3_name` (`c3_at1`) ON DELETE CASCADE ON UPDATE CASCADE,
+ALTER TABLE `class2_name`
+ADD CONSTRAINT `FK_class2_name_c5_at1` FOREIGN KEY (`c5_at1`) REFERENCES `class5_name` (`c5_at1`) ON DELETE CASCADE ON UPDATE CASCADE;
+ALTER TABLE `class4_name`
+ADD CONSTRAINT `FK_class4_name_c6_at1_0` FOREIGN KEY (`c6_at1_0`) REFERENCES `class6_name` (`c6_at1_0`) ON DELETE CASCADE ON UPDATE CASCADE;
+ALTER TABLE `assoc3`
+ADD CONSTRAINT `FK_assoc3_c4_at1` FOREIGN KEY (`c4_at1`) REFERENCES `class4_name` (`c4_at1`) ON DELETE CASCADE ON UPDATE CASCADE,
+ADD CONSTRAINT `FK_assoc3_c3_at1` FOREIGN KEY (`c3_at1`) REFERENCES `class3_name` (`c3_at1`) ON DELETE CASCADE ON UPDATE CASCADE,
+ALTER TABLE `class7_name`
+ADD CONSTRAINT `FK_class7_name_c5_at1` FOREIGN KEY (`c5_at1`) REFERENCES `class5_name` (`c5_at1`) ON DELETE CASCADE ON UPDATE CASCADE;
+ALTER TABLE `assoc2`
