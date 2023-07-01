@@ -1,0 +1,8 @@
+training set P  6026
+
+training set NP 20443
+
+
+testing set P 48
+
+testing set NP 4622

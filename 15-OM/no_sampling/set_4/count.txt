@@ -1,0 +1,8 @@
+training set P  431
+
+training set NP 26039
+
+
+testing set P 0
+
+testing set NP 4670 

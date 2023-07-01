@@ -1,0 +1,7 @@
+training set P  21173
+training set NP 5296
+
+
+testing set P 2600
+
+testing set NP 2070

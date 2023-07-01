@@ -1,0 +1,8 @@
+training set P  5675
+
+training set NP 20794
+
+
+testing set P 295
+
+testing set NP 4375

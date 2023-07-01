@@ -1,0 +1,8 @@
+training set P  5327
+
+training set NP 21142
+
+
+testing set P 643
+
+testing set NP 4027

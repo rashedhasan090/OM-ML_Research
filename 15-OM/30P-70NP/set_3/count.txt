@@ -1,0 +1,8 @@
+training set P  7430
+
+training set NP 19039
+
+
+testing set P 1600
+
+testing set NP 3070

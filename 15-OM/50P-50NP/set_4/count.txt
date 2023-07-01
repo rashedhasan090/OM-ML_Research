@@ -1,0 +1,12 @@
+
+
+training set P  12386
+
+training set NP 14083
+
+
+
+
+testing set P 933
+
+testing set NP 3738

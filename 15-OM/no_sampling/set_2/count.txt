@@ -1,0 +1,8 @@
+training set P  459
+
+training set NP 26190
+
+
+testing set P 115
+
+testing set NP 4555 

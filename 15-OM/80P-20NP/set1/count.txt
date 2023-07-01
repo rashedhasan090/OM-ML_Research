@@ -1,0 +1,8 @@
+training set P  20923
+
+training set NP 5546
+
+
+testing set P 1820
+
+testing set NP 2850

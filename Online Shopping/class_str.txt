@@ -1,0 +1,125 @@
+class:
+
+Web User
+
+Attributes:
+
+login_id : String
+Password: String
+
+
+class:
+
+Customer
+
+Attributes:
+
+customer_id : Integer
+Address: string
+Phone: String
+Email: String
+
+Relation:
+Web User to Customer: 0 to 1 relation
+Customer to Web User: 1 to 1 relation
+
+class:
+
+Account
+
+Attributes:
+
+id : Integer
+billing_address : String
+Status: String
+Opening Date: String
+Closing Date: String
+
+Relation:
+
+Account to Customer: 1 to 1 relation
+
+
+
+class:
+
+Payment
+
+Attributes:
+
+id: Integer
+Payment_date: String
+Total: Integer
+Details: String
+
+Relation:
+
+Account to Payment: 1 to Many relation
+Payment to Account: 0 to Many relation
+
+
+
+
+class:
+
+Order
+
+Attributes:
+
+OrderId : Integer
+OrderDate: String
+ShipppingDate: String
+ShippingAddress: String
+OrderStatus: String
+Total: Integer
+
+Relation:
+
+Account to Order: 1 to Many relation
+Order to Payment: 1 to Many relation
+
+
+class:
+
+LineItem
+
+Attributes:
+
+Quantity: Integer
+Price: Integer
+
+Relation:
+
+Order to Line Item: 1 to Many
+
+
+class:
+
+Product
+
+Attributes:
+
+ProductId: Integer
+ProductName: String
+ProductSupplier: String
+
+Relation:
+Product to LineItem: 1 to Many
+
+
+class:
+
+ShoppingCart
+
+
+Attributes:
+
+CreatedDate: String
+
+
+
+Relation:
+
+ShoppingCart to LineItem: 1 to Many
+ShoppingCart to Account: 1 to 1
+ShoppingCart to WebUser: 1 to 1

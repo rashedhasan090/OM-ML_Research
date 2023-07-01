@@ -1,0 +1,8 @@
+training set P  304
+
+training set NP 26164 
+
+
+testing set P 24
+
+testing set NP 4646 
